@@ -1,4 +1,4 @@
-#### status of [pelias.mapzen.com](http://pelias.mapzen.com): [![Build Status](https://travis-ci.org/pelias/fuzzy-tests.png)](https://travis-ci.org/pelias/fuzzy-tests)
+[![Build Status](https://travis-ci.org/pelias/fuzzy-tests.png)](https://travis-ci.org/pelias/fuzzy-tests)
 
 # Fuzzy tests
 
