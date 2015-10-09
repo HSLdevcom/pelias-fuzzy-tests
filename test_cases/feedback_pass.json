@@ -6,7 +6,7 @@
       "id": "1426636804303:0",
       "user": "feedback-app",
       "in": {
-        "input": "asiasf"
+        "text": "asiasf"
       },
       "expected": {
         "properties": [
@@ -31,7 +31,7 @@
       "id": "1426636804303:1",
       "user": "feedback-app",
       "in": {
-        "input": "서울시청"
+        "text": "서울시청"
       },
       "expected": {
         "properties": [
@@ -55,7 +55,7 @@
       "id": "1426636804303:2",
       "user": "feedback-app",
       "in": {
-        "input": "1200 New Jersey Ave SE, Washington, DC 20590"
+        "text": "1200 New Jersey Ave SE, Washington, DC 20590"
       },
       "expected": {
         "properties": [
@@ -81,7 +81,7 @@
       "id": "1426636804303:3",
       "user": "feedback-app",
       "in": {
-        "input": "yankee stadium"
+        "text": "yankee stadium"
       },
       "expected": {
         "properties": [
@@ -97,7 +97,7 @@
       "id": "1426636804303:4",
       "user": "feedback-app",
       "in": {
-        "input": "sheldonville post office"
+        "text": "sheldonville post office"
       },
       "expected": {
         "properties": [
@@ -174,7 +174,7 @@
       "id": "1426636804303:5",
       "user": "feedback-app",
       "in": {
-        "input": "lickdale pa usa"
+        "text": "lickdale pa usa"
       },
       "expected": {
         "properties": [
@@ -209,7 +209,7 @@
       "id": "1426636804303:6",
       "user": "feedback-app",
       "in": {
-        "input": "ono, pennsylvania, usa"
+        "text": "ono, pennsylvania, usa"
       },
       "expected": {
         "properties": [
@@ -233,7 +233,7 @@
       "id": "1426636804303:7",
       "user": "feedback-app",
       "in": {
-        "input": "291 woodrow lane port deposit md"
+        "text": "291 woodrow lane port deposit md"
       },
       "expected": {
         "properties": [
@@ -256,7 +256,7 @@
       "id": "1426636804303:8",
       "user": "feedback-app",
       "in": {
-        "input": "AT&T Park"
+        "text": "AT&T Park"
       },
       "expected": {
         "properties": [
@@ -329,7 +329,7 @@
       "id": "1426636804303:9",
       "user": "feedback-app",
       "in": {
-        "input": "urnäsch, ch"
+        "text": "urnäsch, ch"
       },
       "expected": {
         "properties": [
@@ -384,7 +384,7 @@
       "id": "1426636804303:10",
       "user": "feedback-app",
       "in": {
-        "input": "Carleton College"
+        "text": "Carleton College"
       },
       "expected": {
         "properties": [
@@ -434,7 +434,7 @@
       "id": "1426636804303:11",
       "user": "feedback-app",
       "in": {
-        "input": "eek ak"
+        "text": "eek ak"
       },
       "expected": {
         "properties": [
@@ -458,7 +458,7 @@
       "id": "1426636804303:12",
       "user": "feedback-app",
       "in": {
-        "input": "City Hall, San Francisco"
+        "text": "City Hall, San Francisco"
       },
       "expected": {
         "properties": [
@@ -508,7 +508,7 @@
       "id": "1426636804303:13",
       "user": "feedback-app",
       "in": {
-        "input": "1288 Pear Ave, Mountain View, CA"
+        "text": "1288 Pear Ave, Mountain View, CA"
       },
       "expected": {
         "properties": [
@@ -533,7 +533,7 @@
       "id": "1426636804303:14",
       "user": "feedback-app",
       "in": {
-        "input": "cloud gate"
+        "text": "cloud gate"
       },
       "expected": {
         "properties": [
@@ -559,7 +559,7 @@
       "id": "1426636804303:15",
       "user": "feedback-app",
       "in": {
-        "input": "1355 Market St., San Francisco"
+        "text": "1355 Market St., San Francisco"
       },
       "expected": {
         "properties": [
@@ -597,7 +597,7 @@
       "id": "1426636804303:16",
       "user": "feedback-app",
       "in": {
-        "input": "568 Broadway New York"
+        "text": "568 Broadway New York"
       },
       "expected": {
         "properties": [
@@ -623,7 +623,7 @@
       "id": "1426636804303:17",
       "user": "feedback-app",
       "in": {
-        "input": "cafe regular"
+        "text": "cafe regular"
       },
       "expected": {
         "properties": [
@@ -649,7 +649,7 @@
       "id": "1426636804303:18",
       "user": "feedback-app",
       "in": {
-        "input": "275 Brannan St San Francisco"
+        "text": "275 Brannan St San Francisco"
       },
       "expected": {
         "properties": [
@@ -674,7 +674,7 @@
       "id": "1426636804303:19",
       "user": "feedback-app",
       "in": {
-        "input": "155 9th St SF"
+        "text": "155 9th St SF"
       },
       "expected": {
         "properties": [
@@ -699,7 +699,7 @@
       "id": "1426636804303:20",
       "user": "feedback-app",
       "in": {
-        "input": "louvre"
+        "text": "louvre"
       },
       "expected": {
         "properties": [
@@ -726,7 +726,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "Brooklyn Museum"
+        "text": "Brooklyn Museum"
       },
       "expected": {
         "properties": [
@@ -751,7 +751,7 @@
       "id": "1426636804303:22",
       "user": "feedback-app",
       "in": {
-        "input": "Cornell University"
+        "text": "Cornell University"
       },
       "expected": {
         "properties": [
@@ -777,7 +777,7 @@
       "id": "1426636804303:23",
       "user": "feedback-app",
       "in": {
-        "input": "Ithaca farmers market"
+        "text": "Ithaca farmers market"
       },
       "expected": {
         "properties": [
@@ -803,7 +803,7 @@
       "id": "1426636804303:24",
       "user": "feedback-app",
       "in": {
-        "input": "65c dana st"
+        "text": "65c dana st"
       },
       "expected": {
         "properties": [
@@ -830,7 +830,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "park slope"
+        "text": "park slope"
       },
       "expected": {
         "properties": [
@@ -854,7 +854,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "slope park"
+        "text": "slope park"
       },
       "expected": {
         "properties": [
@@ -881,7 +881,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "jj byrne playground"
+        "text": "jj byrne playground"
       },
       "expected": {
         "properties": [
@@ -907,7 +907,7 @@
       "id": "1426636804303:28",
       "user": "feedback-app",
       "in": {
-        "input": "one canada square"
+        "text": "one canada square"
       },
       "expected": {
         "properties": [
@@ -930,7 +930,7 @@
       "id": "1426636804303:29",
       "user": "feedback-app",
       "in": {
-        "input": "space needle"
+        "text": "space needle"
       },
       "expected": {
         "properties": [
@@ -955,7 +955,7 @@
       "id": "1426636804303:31",
       "user": "feedback-app",
       "in": {
-        "input": "volterrano"
+        "text": "volterrano"
       },
       "expected": {
         "properties": [
@@ -978,7 +978,7 @@
       "id": "1426636804303:32",
       "user": "feedback-app",
       "in": {
-        "input": "code for america"
+        "text": "code for america"
       },
       "expected": {
         "properties": [
@@ -1003,7 +1003,7 @@
       "id": "1426636804303:33",
       "user": "feedback-app",
       "in": {
-        "input": "st. francis fountain"
+        "text": "st. francis fountain"
       },
       "expected": {
         "properties": [
@@ -1039,7 +1039,7 @@
       "id": "1426636804303:34",
       "user": "feedback-app",
       "in": {
-        "input": "3107 Hyde, Oakland"
+        "text": "3107 Hyde, Oakland"
       },
       "expected": {
         "properties": [
@@ -1064,7 +1064,7 @@
       "id": "1426636804303:35",
       "user": "feedback-app",
       "in": {
-        "input": "2633 Telegraph"
+        "text": "2633 Telegraph"
       },
       "expected": {
         "properties": [
@@ -1089,7 +1089,7 @@
       "id": "1426636804303:36",
       "user": "feedback-app",
       "in": {
-        "input": "961 Andover Way, Los Altos"
+        "text": "961 Andover Way, Los Altos"
       },
       "expected": {
         "properties": [
@@ -1114,7 +1114,7 @@
       "id": "1426636804303:37",
       "user": "feedback-app",
       "in": {
-        "input": "lambeau field"
+        "text": "lambeau field"
       },
       "expected": {
         "properties": [
@@ -1140,7 +1140,7 @@
       "id": "1426636804303:38",
       "user": "feedback-app",
       "in": {
-        "input": "1710 Drew, Houston"
+        "text": "1710 Drew, Houston"
       },
       "expected": {
         "properties": [
@@ -1165,7 +1165,7 @@
       "id": "1426636804303:39",
       "user": "feedback-app",
       "in": {
-        "input": "asia"
+        "text": "asia"
       },
       "expected": {
         "properties": [
@@ -1183,7 +1183,7 @@
       "id": "1426636804303:40",
       "user": "feedback-app",
       "in": {
-        "input": "golden gate park"
+        "text": "golden gate park"
       },
       "expected": {
         "properties": [
@@ -1206,7 +1206,7 @@
       "id": "1426636804303:41",
       "user": "feedback-app",
       "in": {
-        "input": "precita park"
+        "text": "precita park"
       },
       "expected": {
         "properties": [
@@ -1231,7 +1231,7 @@
       "id": "1426636804303:42",
       "user": "feedback-app",
       "in": {
-        "input": "aquatic park"
+        "text": "aquatic park"
       },
       "expected": {
         "properties": [
@@ -1256,7 +1256,7 @@
       "id": "1426636804303:43",
       "user": "feedback-app",
       "in": {
-        "input": "transamerica pyramid"
+        "text": "transamerica pyramid"
       },
       "expected": {
         "properties": [
@@ -1281,7 +1281,7 @@
       "id": "1426636804303:45",
       "user": "feedback-app",
       "in": {
-        "input": "22nd street caltrain"
+        "text": "22nd street caltrain"
       },
       "expected": {
         "properties": [
@@ -1307,7 +1307,7 @@
       "id": "1426636804303:46",
       "user": "feedback-app",
       "in": {
-        "input": "UCSF Mission Bay"
+        "text": "UCSF Mission Bay"
       },
       "expected": {
         "properties": [
@@ -1332,7 +1332,7 @@
       "id": "1426636804303:47",
       "user": "feedback-app",
       "in": {
-        "input": "Cowboys Stadium"
+        "text": "Cowboys Stadium"
       },
       "expected": {
         "properties": [
@@ -1356,7 +1356,7 @@
       "id": "1426636804303:48",
       "user": "feedback-app",
       "in": {
-        "input": "san quentin"
+        "text": "san quentin"
       },
       "expected": {
         "properties": [
@@ -1391,7 +1391,7 @@
       "id": "1426636804303:49",
       "user": "feedback-app",
       "in": {
-        "input": "melt shop"
+        "text": "melt shop"
       },
       "expected": {
         "properties": [
@@ -1417,7 +1417,7 @@
       "id": "1426636804303:50",
       "user": "feedback-app",
       "in": {
-        "input": "66 lafayette ave, brooklyn"
+        "text": "66 lafayette ave, brooklyn"
       },
       "expected": {
         "properties": [
@@ -1456,7 +1456,7 @@
       "id": "1426636804303:52",
       "user": "feedback-app",
       "in": {
-        "input": "Nestldown"
+        "text": "Nestldown"
       },
       "expected": {
         "properties": [
@@ -1479,7 +1479,7 @@
       "id": "1426636804303:53",
       "user": "feedback-app",
       "in": {
-        "input": "UIC"
+        "text": "UIC"
       },
       "expected": {
         "properties": [
@@ -1519,7 +1519,7 @@
       "id": "1426636804303:54",
       "user": "feedback-app",
       "in": {
-        "input": "SF Ferry Building"
+        "text": "SF Ferry Building"
       },
       "expected": {
         "properties": [
@@ -1557,7 +1557,7 @@
       "id": "1426636804303:55",
       "user": "feedback-app",
       "in": {
-        "input": "266 washington ave brooklyn"
+        "text": "266 washington ave brooklyn"
       },
       "expected": {
         "properties": [
@@ -1582,7 +1582,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "721 broadway"
+        "text": "721 broadway"
       },
       "expected": {
         "properties": [
@@ -1606,7 +1606,7 @@
       "id": "1426636804303:57",
       "user": "feedback-app",
       "in": {
-        "input": "perugia airport"
+        "text": "perugia airport"
       },
       "expected": {
         "properties": [
@@ -1629,7 +1629,7 @@
       "id": "1426636804303:58",
       "user": "feedback-app",
       "in": {
-        "input": "fiumicino airport"
+        "text": "fiumicino airport"
       },
       "expected": {
         "properties": [
@@ -1652,7 +1652,7 @@
       "id": "1426636804303:59",
       "user": "feedback-app",
       "in": {
-        "input": "dulles airport"
+        "text": "dulles airport"
       },
       "expected": {
         "properties": [
@@ -1676,7 +1676,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "madison square park"
+        "text": "madison square park"
       },
       "expected": {
         "properties": [
@@ -1702,7 +1702,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "madison square garden"
+        "text": "madison square garden"
       },
       "expected": {
         "properties": [
@@ -1729,7 +1729,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "flatiron hall"
+        "text": "flatiron hall"
       },
       "expected": {
         "properties": [
@@ -1756,7 +1756,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "koreatown ny"
+        "text": "koreatown ny"
       },
       "expected": {
         "properties": [
@@ -1793,7 +1793,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "astoria park ny"
+        "text": "astoria park ny"
       },
       "expected": {
         "properties": [
@@ -1820,7 +1820,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "brooklyn bridge"
+        "text": "brooklyn bridge"
       },
       "expected": {
         "properties": [
@@ -1846,7 +1846,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "washington square park"
+        "text": "washington square park"
       },
       "expected": {
         "properties": [
@@ -1873,7 +1873,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "brooklyn bridge park"
+        "text": "brooklyn bridge park"
       },
       "expected": {
         "properties": [
@@ -1928,7 +1928,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "manhattan bridge"
+        "text": "manhattan bridge"
       },
       "expected": {
         "properties": [
@@ -1954,7 +1954,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "empire state building"
+        "text": "empire state building"
       },
       "expected": {
         "properties": [
@@ -1995,7 +1995,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "chrysler building"
+        "text": "chrysler building"
       },
       "expected": {
         "properties": [
@@ -2047,7 +2047,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "rockefeller center"
+        "text": "rockefeller center"
       },
       "expected": {
         "properties": [
@@ -2087,7 +2087,7 @@
       "id": "1426636804303:73",
       "user": "feedback-app",
       "in": {
-        "input": "doylestown"
+        "text": "doylestown"
       },
       "expected": {
         "properties": [
@@ -2113,7 +2113,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "times square"
+        "text": "times square"
       },
       "expected": {
         "properties": [
@@ -2140,7 +2140,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "11 times square"
+        "text": "11 times square"
       },
       "expected": {
         "properties": [
@@ -2167,7 +2167,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "bombay sandwich co"
+        "text": "bombay sandwich co"
       },
       "expected": {
         "properties": [
@@ -2194,7 +2194,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "flatiron building, new york"
+        "text": "flatiron building, new york"
       },
       "expected": {
         "properties": [
@@ -2220,7 +2220,7 @@
       "id": "1426636804303:78",
       "user": "feedback-app",
       "in": {
-        "input": "stamford metro station connecticut"
+        "text": "stamford metro station connecticut"
       },
       "expected": {
         "properties": [
@@ -2247,7 +2247,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "momoya"
+        "text": "momoya"
       },
       "expected": {
         "properties": [
@@ -2274,7 +2274,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "479 grand st"
+        "text": "479 grand st"
       },
       "expected": {
         "properties": [
@@ -2299,7 +2299,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "69 west 9th st"
+        "text": "69 west 9th st"
       },
       "expected": {
         "properties": [
@@ -2325,7 +2325,7 @@
       "id": "1426636804303:82",
       "user": "feedback-app",
       "in": {
-        "input": "rajiv chowk"
+        "text": "rajiv chowk"
       },
       "expected": {
         "properties": [
@@ -2349,7 +2349,7 @@
       "id": "1426636804303:83",
       "user": "feedback-app",
       "in": {
-        "input": "taj mahal hotel new delhi"
+        "text": "taj mahal hotel new delhi"
       },
       "expected": {
         "properties": [
@@ -2371,7 +2371,7 @@
       "id": "1426636804303:84",
       "user": "feedback-app",
       "in": {
-        "input": "taj mansingh new delhi"
+        "text": "taj mansingh new delhi"
       },
       "expected": {
         "properties": [
@@ -2395,7 +2395,7 @@
       "id": "1426636804303:85",
       "user": "feedback-app",
       "in": {
-        "input": "princeton junction"
+        "text": "princeton junction"
       },
       "expected": {
         "properties": [
@@ -2420,7 +2420,7 @@
       "id": "1426636804303:86",
       "user": "feedback-app",
       "in": {
-        "input": "toluca lake ca"
+        "text": "toluca lake ca"
       },
       "expected": {
         "properties": [
@@ -2443,7 +2443,7 @@
       "id": "1426636804303:87",
       "user": "feedback-app",
       "in": {
-        "input": "4636 Cahuenga Blvd, Toluca Lake, CA 91602"
+        "text": "4636 Cahuenga Blvd, Toluca Lake, CA 91602"
       },
       "expected": {
         "properties": [
@@ -2468,7 +2468,7 @@
       "id": "1426636804303:88",
       "user": "feedback-app",
       "in": {
-        "input": "Exploratorium"
+        "text": "Exploratorium"
       },
       "expected": {
         "properties": [
@@ -2493,7 +2493,7 @@
       "id": "1426636804303:89",
       "user": "feedback-app",
       "in": {
-        "input": "Facebook"
+        "text": "Facebook"
       },
       "expected": {
         "properties": [
@@ -2518,7 +2518,7 @@
       "id": "1426636804303:89",
       "user": "feedback-app",
       "in": {
-        "input": "Facebook HQ, CA"
+        "text": "Facebook HQ, CA"
       },
       "expected": {
         "properties": [
@@ -2544,7 +2544,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "penn station new york"
+        "text": "penn station new york"
       },
       "expected": {
         "properties": [
@@ -2570,7 +2570,7 @@
       "id": "1426636804303:91",
       "user": "feedback-app",
       "in": {
-        "input": "Boston Convention Center"
+        "text": "Boston Convention Center"
       },
       "expected": {
         "properties": [
@@ -2596,7 +2596,7 @@
       "id": "1426636804303:92",
       "user": "feedback-app",
       "in": {
-        "input": "822 Union St, Brooklyn, NY"
+        "text": "822 Union St, Brooklyn, NY"
       },
       "expected": {
         "properties": [
@@ -2623,7 +2623,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "astoria, queens"
+        "text": "astoria, queens"
       },
       "expected": {
         "properties": [
@@ -2644,7 +2644,7 @@
       "id": "1426636804303:94",
       "user": "feedback-app",
       "in": {
-        "input": "1 infinite loop, Cupertino"
+        "text": "1 infinite loop, Cupertino"
       },
       "expected": {
         "properties": [
@@ -2683,7 +2683,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "Samsung Accelerator"
+        "text": "Samsung Accelerator"
       },
       "expected": {
         "properties": [
@@ -2709,7 +2709,7 @@
       "id": "1426636804303:96",
       "user": "feedback-app",
       "in": {
-        "input": "1827 Berkeley Way"
+        "text": "1827 Berkeley Way"
       },
       "expected": {
         "properties": [
@@ -2734,7 +2734,7 @@
       "id": "1426636804303:97",
       "user": "feedback-app",
       "in": {
-        "input": "1900 Chapala St"
+        "text": "1900 Chapala St"
       },
       "expected": {
         "properties": [
@@ -2758,7 +2758,7 @@
       "id": "1426636804303:98",
       "user": "feedback-app",
       "in": {
-        "input": "128 Lorton Ave."
+        "text": "128 Lorton Ave."
       },
       "expected": {
         "properties": [
@@ -2784,7 +2784,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "Ace Hotel, NYC"
+        "text": "Ace Hotel, NYC"
       },
       "expected": {
         "properties": [
@@ -2811,7 +2811,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "318 19th street"
+        "text": "318 19th street"
       },
       "expected": {
         "properties": [
@@ -2837,7 +2837,7 @@
       "id": "1426636804303:102",
       "user": "feedback-app",
       "in": {
-        "input": "54 Tiffany Ave"
+        "text": "54 Tiffany Ave"
       },
       "expected": {
         "properties": [
@@ -2863,7 +2863,7 @@
       "id": "1426636804303:103",
       "user": "feedback-app",
       "in": {
-        "input": "Himeji-shi, Japan"
+        "text": "Himeji-shi, Japan"
       },
       "expected": {
         "properties": [
@@ -2894,7 +2894,7 @@
       "id": "1426636804303:104",
       "user": "feedback-app",
       "in": {
-        "input": "himeji castle"
+        "text": "himeji castle"
       },
       "expected": {
         "properties": [
@@ -2916,7 +2916,7 @@
       "id": "1426636804303:105",
       "user": "feedback-app",
       "in": {
-        "input": "north pole"
+        "text": "north pole"
       },
       "expected": {
         "properties": [
@@ -2940,7 +2940,7 @@
       "id": "1426636804303:106",
       "user": "feedback-app",
       "in": {
-        "input": "Dhahran"
+        "text": "Dhahran"
       },
       "expected": {
         "properties": [
@@ -2962,7 +2962,7 @@
       "id": "1426636804303:107",
       "user": "feedback-app",
       "in": {
-        "input": "Traben-Trarbach"
+        "text": "Traben-Trarbach"
       },
       "expected": {
         "properties": [
@@ -2983,7 +2983,7 @@
       "id": "1426636804303:108",
       "user": "feedback-app",
       "in": {
-        "input": "Pepe's Pizza New Haven CT"
+        "text": "Pepe's Pizza New Haven CT"
       },
       "expected": {
         "properties": [
@@ -3009,7 +3009,7 @@
       "id": "1426636804303:109",
       "user": "feedback-app",
       "in": {
-        "input": "112 Castellow Ct Grafton"
+        "text": "112 Castellow Ct Grafton"
       },
       "expected": {
         "properties": [
@@ -3033,7 +3033,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "flatiron district"
+        "text": "flatiron district"
       },
       "expected": {
         "properties": [
@@ -3065,7 +3065,7 @@
       "id": "1426636804303:111",
       "user": "feedback-app",
       "in": {
-        "input": "soho"
+        "text": "soho"
       },
       "expected": {
         "properties": [
@@ -3087,7 +3087,7 @@
       "id": "1426636804303:112",
       "user": "feedback-app",
       "in": {
-        "input": "dfw"
+        "text": "dfw"
       },
       "expected": {
         "properties": [
@@ -3111,7 +3111,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "101 saint marks pl"
+        "text": "101 saint marks pl"
       },
       "expected": {
         "properties": [
@@ -3152,7 +3152,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "flatiron building"
+        "text": "flatiron building"
       },
       "expected": {
         "properties": [
@@ -3179,7 +3179,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "flatiron"
+        "text": "flatiron"
       },
       "expected": {
         "properties": [
@@ -3202,7 +3202,7 @@
       "id": "1426636804303:116",
       "user": "feedback-app",
       "in": {
-        "input": "port deposit md"
+        "text": "port deposit md"
       },
       "expected": {
         "properties": [
@@ -3226,7 +3226,7 @@
       "id": "1426636804303:117",
       "user": "feedback-app",
       "in": {
-        "input": "backfin blues port deposit md"
+        "text": "backfin blues port deposit md"
       },
       "expected": {
         "properties": [
@@ -3251,7 +3251,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "130 dean street brooklyn ny"
+        "text": "130 dean street brooklyn ny"
       },
       "expected": {
         "properties": [
@@ -3275,7 +3275,7 @@
       "id": "1426636804303:119",
       "user": "feedback-app",
       "in": {
-        "input": "brooklyn inn"
+        "text": "brooklyn inn"
       },
       "expected": {
         "properties": [
@@ -3301,7 +3301,7 @@
       "id": "1426636804303:120",
       "user": "feedback-app",
       "in": {
-        "input": "bascom hall"
+        "text": "bascom hall"
       },
       "expected": {
         "properties": [
@@ -3326,7 +3326,7 @@
       "id": "1426636804303:121",
       "user": "feedback-app",
       "in": {
-        "input": "golden gate bridge"
+        "text": "golden gate bridge"
       },
       "expected": {
         "properties": [
@@ -3351,7 +3351,7 @@
       "id": "1426636804303:122",
       "user": "feedback-app",
       "in": {
-        "input": "20 montezuma street"
+        "text": "20 montezuma street"
       },
       "expected": {
         "properties": [
@@ -3376,7 +3376,7 @@
       "id": "1426636804303:123",
       "user": "feedback-app",
       "in": {
-        "input": "little griddle"
+        "text": "little griddle"
       },
       "expected": {
         "properties": [
@@ -3401,7 +3401,7 @@
       "id": "1426636804303:124",
       "user": "feedback-app",
       "in": {
-        "input": "pork store cafe"
+        "text": "pork store cafe"
       },
       "expected": {
         "properties": [
@@ -3426,7 +3426,7 @@
       "id": "1426636804303:126",
       "user": "feedback-app",
       "in": {
-        "input": "haslital, ch"
+        "text": "haslital, ch"
       },
       "expected": {
         "properties": [
@@ -3449,7 +3449,7 @@
       "id": "1427414405152:0",
       "user": "feedback-app",
       "in": {
-        "input": "Berlin"
+        "text": "Berlin"
       },
       "expected": {
         "properties": [
@@ -3479,7 +3479,7 @@
       "id": "1427414405152:1",
       "user": "feedback-app",
       "in": {
-        "input": "florence"
+        "text": "florence"
       },
       "expected": {
         "properties": [
@@ -3503,7 +3503,7 @@
       "id": "1427414405152:2",
       "user": "feedback-app",
       "in": {
-        "input": "stamford amtrak station"
+        "text": "stamford amtrak station"
       },
       "expected": {
         "properties": [
@@ -3527,7 +3527,7 @@
       "id": "1427414405152:5",
       "user": "feedback-app",
       "in": {
-        "input": "san francisco"
+        "text": "san francisco"
       },
       "expected": {
         "properties": [
@@ -3551,7 +3551,7 @@
       "id": "1427414405152:6",
       "user": "feedback-app",
       "in": {
-        "input": "Lake Cayuga, ny"
+        "text": "Lake Cayuga, ny"
       },
       "expected": {
         "properties": [
@@ -3574,7 +3574,7 @@
       "id": "1427414405152:7",
       "user": "feedback-app",
       "in": {
-        "input": "9 Earlshall drive, flat bush, auckland 2016, new zealand"
+        "text": "9 Earlshall drive, flat bush, auckland 2016, new zealand"
       },
       "expected": {
         "properties": [
@@ -3598,7 +3598,7 @@
       "id": "1431043206881:0",
       "user": "feedback-app",
       "in": {
-        "input": "Dhaka, Dhaka, Bangladesh"
+        "text": "Dhaka, Dhaka, Bangladesh"
       },
       "expected": {
         "properties": [
@@ -3620,7 +3620,7 @@
       "id": "1431043206881:1",
       "user": "feedback-app",
       "in": {
-        "input": "Tbilisi, Republic of Georgia, Georgia"
+        "text": "Tbilisi, Republic of Georgia, Georgia"
       },
       "expected": {
         "properties": [
@@ -3659,7 +3659,7 @@
       "id": "1431043206881:2",
       "user": "feedback-app",
       "in": {
-        "input": "Suva, Fiji"
+        "text": "Suva, Fiji"
       },
       "expected": {
         "properties": [
@@ -3689,7 +3689,7 @@
       "id": "1431043206881:3",
       "user": "feedback-app",
       "in": {
-        "input": "Dili, Dili, Timor leste"
+        "text": "Dili, Dili, Timor leste"
       },
       "expected": {
         "properties": [
@@ -3710,7 +3710,7 @@
       "id": "1431043206881:4",
       "user": "feedback-app",
       "in": {
-        "input": "Washington, District of Columbia, USA"
+        "text": "Washington, District of Columbia, USA"
       },
       "expected": {
         "properties": [
@@ -3733,7 +3733,7 @@
       "id": "1431043206881:5",
       "user": "feedback-app",
       "in": {
-        "input": "Silver Spring, Maryland, USA"
+        "text": "Silver Spring, Maryland, USA"
       },
       "expected": {
         "properties": [
@@ -3794,7 +3794,7 @@
       "id": "1431043206881:6",
       "user": "feedback-app",
       "in": {
-        "input": "Markdorf, Germany"
+        "text": "Markdorf, Germany"
       },
       "expected": {
         "properties": [
@@ -3828,7 +3828,7 @@
       "id": "1431043206881:7",
       "user": "feedback-app",
       "in": {
-        "input": "manteca, ca, united states"
+        "text": "manteca, ca, united states"
       },
       "expected": {
         "properties": [
@@ -3852,7 +3852,7 @@
       "id": "1431043206881:8",
       "user": "feedback-app",
       "in": {
-        "input": "Buenos Aires, Buenos Aires, Argentina"
+        "text": "Buenos Aires, Buenos Aires, Argentina"
       },
       "expected": {
         "properties": [
@@ -3907,7 +3907,7 @@
       "id": "1435017604203:0",
       "user": "feedback-app",
       "in": {
-        "input": "20 Broad St, ny"
+        "text": "20 Broad St, ny"
       },
       "expected": {
         "properties": [
@@ -3936,7 +3936,7 @@
       "id": "1432771203570:0",
       "user": "feedback-app",
       "in": {
-        "input": "483A 28th Street, San Francisco, CA"
+        "text": "483A 28th Street, San Francisco, CA"
       },
       "expected": {
         "properties": [
@@ -3966,7 +3966,7 @@
       "id": "1432771203570:1",
       "user": "feedback-app",
       "in": {
-        "input": "485 28th Street, San Francisco, CA"
+        "text": "485 28th Street, San Francisco, CA"
       },
       "expected": {
         "properties": [
