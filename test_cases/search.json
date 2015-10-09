@@ -152,19 +152,6 @@
       }
     },
     {
-      "id": "1425586777012:0",
-      "user": "feedback-app",
-      "type": "dev",
-      "in": {
-        "input": "union sq"
-      },
-      "expected": {
-        "properties": [
-          null
-        ]
-      }
-    },
-    {
       "id": "1425586777012:2",
       "status": "pass",
       "user": "feedback-app",
