@@ -6,21 +6,22 @@
       "id": "1426636804303:0",
       "user": "feedback-app",
       "in": {
-        "input": "asiasf"
+        "text": "asiasf"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "AsiaSF",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Civic Center",
-            "text": "AsiaSF, San Francisco, CA"
+            "neighbourhood": "Civic Center",
+            "label": "AsiaSF, San Francisco, CA",
+            "source": "osm"
           }
         ]
       },
@@ -30,20 +31,21 @@
       "id": "1426636804303:1",
       "user": "feedback-app",
       "in": {
-        "input": "서울시청"
+        "text": "서울시청"
       },
       "expected": {
         "properties": [
           {
-            "text": "31 세종대로 서울시청 본관동, Seoul",
-            "neighborhood": "사직동",
+            "label": "31 세종대로 서울시청 본관동, Seoul",
+            "neighbourhood": "사직동",
             "locality": "Seoul",
-            "layer": "openaddresses",
+            "type": "address",
             "name": "31 세종대로 서울시청 본관동",
-            "alpha3": "KOR",
-            "admin0": "South Korea",
-            "admin1": "Seoul",
-            "admin2": "종로구"
+            "country_a": "KOR",
+            "country": "South Korea",
+            "region": "Seoul",
+            "county": "종로구",
+            "source": "oa"
           }
         ]
       },
@@ -53,21 +55,22 @@
       "id": "1426636804303:2",
       "user": "feedback-app",
       "in": {
-        "input": "1200 New Jersey Ave SE, Washington, DC 20590"
+        "text": "1200 New Jersey Ave SE, Washington, DC 20590"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmaddress",
+            "type": "address",
             "name": "1200 New Jersey Avenue Southeast",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "District of Columbia",
-            "admin1_abbr": "DC",
-            "admin2": "District of Columbia",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "District of Columbia",
+            "region_a": "DC",
+            "county": "District of Columbia",
             "locality": "Washington",
-            "neighborhood": "Near Southeast",
-            "text": "1200 New Jersey Avenue Southeast, Washington, DC"
+            "neighbourhood": "Near Southeast",
+            "label": "1200 New Jersey Avenue Southeast, Washington, DC",
+            "source": "osm"
           }
         ],
         "priorityThresh": 2
@@ -78,10 +81,14 @@
       "id": "1426636804303:3",
       "user": "feedback-app",
       "in": {
-        "input": "yankee stadium"
+        "text": "yankee stadium"
       },
       "expected": {
-        "properties": [ { "text": "Yankee Stadium, Bronx, NY" } ],
+        "properties": [
+          {
+            "label": "Yankee Stadium, Bronx, NY"
+          }
+        ],
         "priorityThresh": 1
       },
       "status": "pass"
@@ -90,69 +97,74 @@
       "id": "1426636804303:4",
       "user": "feedback-app",
       "in": {
-        "input": "sheldonville post office"
+        "text": "sheldonville post office"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Sheldonville Post Office",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Massachusetts",
-            "admin1_abbr": "MA",
-            "admin2": "Norfolk County",
-            "local_admin": "Wrentham",
-            "neighborhood": "West Wrentham",
-            "text": "Sheldonville Post Office, Wrentham, MA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Massachusetts",
+            "region_a": "MA",
+            "county": "Norfolk County",
+            "localadmin": "Wrentham",
+            "neighbourhood": "West Wrentham",
+            "label": "Sheldonville Post Office, Wrentham, MA",
+            "source": "osm"
           },
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Sheldonville Post Office",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Massachusetts",
-            "admin1_abbr": "MA",
-            "admin2": "Norfolk County",
-            "local_admin": "Wrentham",
-            "neighborhood": "West Wrentham",
-            "text": "Sheldonville Post Office, Wrentham, MA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Massachusetts",
+            "region_a": "MA",
+            "county": "Norfolk County",
+            "localadmin": "Wrentham",
+            "neighbourhood": "West Wrentham",
+            "label": "Sheldonville Post Office, Wrentham, MA",
+            "source": "osm"
           },
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Sheldonville Post Office",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Massachusetts",
-            "admin1_abbr": "MA",
-            "admin2": "Norfolk County",
-            "local_admin": "Wrentham",
-            "neighborhood": "West Wrentham",
-            "text": "Sheldonville Post Office, Wrentham, MA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Massachusetts",
+            "region_a": "MA",
+            "county": "Norfolk County",
+            "localadmin": "Wrentham",
+            "neighbourhood": "West Wrentham",
+            "label": "Sheldonville Post Office, Wrentham, MA",
+            "source": "osm"
           },
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Sheldonville Post Office",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Massachusetts",
-            "admin1_abbr": "MA",
-            "admin2": "Norfolk County",
-            "local_admin": "Wrentham",
-            "neighborhood": "West Wrentham",
-            "text": "Sheldonville Post Office, Wrentham, MA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Massachusetts",
+            "region_a": "MA",
+            "county": "Norfolk County",
+            "localadmin": "Wrentham",
+            "neighbourhood": "West Wrentham",
+            "label": "Sheldonville Post Office, Wrentham, MA",
+            "source": "osm"
           },
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Sheldonville Post Office",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Massachusetts",
-            "admin1_abbr": "MA",
-            "admin2": "Norfolk County",
-            "local_admin": "Wrentham",
-            "neighborhood": "West Wrentham",
-            "text": "Sheldonville Post Office, Wrentham, MA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Massachusetts",
+            "region_a": "MA",
+            "county": "Norfolk County",
+            "localadmin": "Wrentham",
+            "neighbourhood": "West Wrentham",
+            "label": "Sheldonville Post Office, Wrentham, MA",
+            "source": "osm"
           }
         ]
       },
@@ -162,30 +174,32 @@
       "id": "1426636804303:5",
       "user": "feedback-app",
       "in": {
-        "input": "lickdale pa usa"
+        "text": "lickdale pa usa"
       },
       "expected": {
         "properties": [
           {
-            "layer": "neighborhood",
+            "type": "neighbourhood",
             "name": "Lickdale",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Pennsylvania",
-            "admin1_abbr": "PA",
-            "admin2": "Lebanon County",
-            "text": "Lickdale, Lebanon County, PA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Pennsylvania",
+            "region_a": "PA",
+            "county": "Lebanon County",
+            "label": "Lickdale, Lebanon County, PA",
+            "source": "qs"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Lickdale",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Pennsylvania",
-            "admin2": "Lebanon County",
-            "local_admin": "Union",
-            "text": "Lickdale, Union, PA",
-            "admin1_abbr": "PA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Pennsylvania",
+            "county": "Lebanon County",
+            "localadmin": "Union",
+            "label": "Lickdale, Union, PA",
+            "region_a": "PA",
+            "source": "gn"
           }
         ]
       },
@@ -195,20 +209,21 @@
       "id": "1426636804303:6",
       "user": "feedback-app",
       "in": {
-        "input": "ono, pennsylvania, usa"
+        "text": "ono, pennsylvania, usa"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Ono",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Pennsylvania",
-            "admin2": "Lebanon County",
-            "local_admin": "East Hanover",
-            "text": "Ono, East Hanover, PA",
-            "admin1_abbr": "PA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Pennsylvania",
+            "county": "Lebanon County",
+            "localadmin": "East Hanover",
+            "label": "Ono, East Hanover, PA",
+            "region_a": "PA",
+            "source": "gn"
           }
         ]
       },
@@ -218,19 +233,20 @@
       "id": "1426636804303:7",
       "user": "feedback-app",
       "in": {
-        "input": "291 woodrow lane port deposit md"
+        "text": "291 woodrow lane port deposit md"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "291 Woodrow Lane",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Maryland",
-            "admin2": "Cecil County",
-            "text": "291 Woodrow Lane, Cecil County, MD",
-            "admin1_abbr": "MD"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Maryland",
+            "county": "Cecil County",
+            "label": "291 Woodrow Lane, Cecil County, MD",
+            "region_a": "MD",
+            "source": "oa"
           }
         ]
       },
@@ -240,65 +256,70 @@
       "id": "1426636804303:8",
       "user": "feedback-app",
       "in": {
-        "input": "AT&T Park"
+        "text": "AT&T Park"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "AT&T Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Mission Bay",
-            "text": "AT&T Park, San Francisco, CA"
+            "neighbourhood": "Mission Bay",
+            "label": "AT&T Park, San Francisco, CA",
+            "source": "osm"
           },
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "AT&T Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Mission Bay",
-            "text": "AT&T Park, San Francisco, CA"
+            "neighbourhood": "Mission Bay",
+            "label": "AT&T Park, San Francisco, CA",
+            "source": "osm"
           },
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "AT&T Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Mission Bay",
-            "text": "AT&T Park, San Francisco, CA"
+            "neighbourhood": "Mission Bay",
+            "label": "AT&T Park, San Francisco, CA",
+            "source": "osm"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "AT&T Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "San Francisco County",
-            "text": "AT&T Park, San Francisco, CA",
-            "admin1_abbr": "CA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "San Francisco County",
+            "label": "AT&T Park, San Francisco, CA",
+            "region_a": "CA",
+            "source": "gn"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "AT&T Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "San Francisco County",
-            "text": "AT&T Park, San Francisco, CA",
-            "admin1_abbr": "CA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "San Francisco County",
+            "label": "AT&T Park, San Francisco, CA",
+            "region_a": "CA",
+            "source": "gn"
           }
         ]
       },
@@ -308,48 +329,52 @@
       "id": "1426636804303:9",
       "user": "feedback-app",
       "in": {
-        "input": "urnäsch, ch"
+        "text": "urnäsch, ch"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Urnäsch",
-            "alpha3": "CHE",
-            "admin0": "Switzerland",
-            "admin1": "Appenzell Ausserrhoden",
-            "admin2": "Bezirk Hinterland",
+            "country_a": "CHE",
+            "country": "Switzerland",
+            "region": "Appenzell Ausserrhoden",
+            "county": "Bezirk Hinterland",
             "locality": "UrnÃ¤sch",
-            "local_admin": "Urnäsch",
-            "text": "Urnäsch, Appenzell Ausserrhoden"
+            "localadmin": "Urnäsch",
+            "label": "Urnäsch, Appenzell Ausserrhoden",
+            "source": "gn"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Urnäsch",
-            "alpha3": "CHE",
-            "admin0": "Switzerland",
-            "admin1": "Appenzell Ausserrhoden",
-            "admin2": "Bezirk Hinterland",
-            "local_admin": "Urnäsch",
-            "text": "Urnäsch, Appenzell Ausserrhoden"
+            "country_a": "CHE",
+            "country": "Switzerland",
+            "region": "Appenzell Ausserrhoden",
+            "county": "Bezirk Hinterland",
+            "localadmin": "Urnäsch",
+            "label": "Urnäsch, Appenzell Ausserrhoden",
+            "source": "gn"
           },
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Urnäsch",
-            "alpha3": "CHE",
-            "admin0": "Switzerland",
-            "local_admin": "Urnäsch",
+            "country_a": "CHE",
+            "country": "Switzerland",
+            "localadmin": "Urnäsch",
             "locality": "UrnÃ¤sch",
-            "text": "Urnäsch, Switzerland"
+            "label": "Urnäsch, Switzerland",
+            "source": "osm"
           },
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Urnäsch",
-            "alpha3": "CHE",
-            "admin0": "Switzerland",
-            "local_admin": "Urnäsch",
+            "country_a": "CHE",
+            "country": "Switzerland",
+            "localadmin": "Urnäsch",
             "locality": "UrnÃ¤sch",
-            "text": "Urnäsch, Switzerland"
+            "label": "Urnäsch, Switzerland",
+            "source": "osm"
           }
         ]
       },
@@ -359,44 +384,47 @@
       "id": "1426636804303:10",
       "user": "feedback-app",
       "in": {
-        "input": "Carleton College"
+        "text": "Carleton College"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Carleton College",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Minnesota",
-            "admin1_abbr": "MN",
-            "admin2": "Dakota County",
-            "local_admin": "Waterford",
-            "text": "Carleton College, Waterford, MN"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Minnesota",
+            "region_a": "MN",
+            "county": "Dakota County",
+            "localadmin": "Waterford",
+            "label": "Carleton College, Waterford, MN",
+            "source": "osm"
           },
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Carleton College",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Minnesota",
-            "admin1_abbr": "MN",
-            "admin2": "Rice County",
-            "local_admin": "Northfield",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Minnesota",
+            "region_a": "MN",
+            "county": "Rice County",
+            "localadmin": "Northfield",
             "locality": "Northfield",
-            "text": "Carleton College, Northfield, MN"
+            "label": "Carleton College, Northfield, MN",
+            "source": "osm"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Carleton College",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Minnesota",
-            "admin2": "Rice County",
-            "local_admin": "Northfield",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Minnesota",
+            "county": "Rice County",
+            "localadmin": "Northfield",
             "locality": "Northfield",
-            "text": "Carleton College, Northfield, MN",
-            "admin1_abbr": "MN"
+            "label": "Carleton College, Northfield, MN",
+            "region_a": "MN",
+            "source": "gn"
           }
         ]
       },
@@ -406,20 +434,21 @@
       "id": "1426636804303:11",
       "user": "feedback-app",
       "in": {
-        "input": "eek ak"
+        "text": "eek ak"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Eek",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Alaska",
-            "admin2": "Bethel Census Area",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Alaska",
+            "county": "Bethel Census Area",
             "locality": "Eek",
-            "text": "Eek, AK",
-            "admin1_abbr": "AK"
+            "label": "Eek, AK",
+            "region_a": "AK",
+            "source": "gn"
           }
         ]
       },
@@ -429,44 +458,47 @@
       "id": "1426636804303:12",
       "user": "feedback-app",
       "in": {
-        "input": "City Hall, San Francisco"
+        "text": "City Hall, San Francisco"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "San Francisco City Hall",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Opera Plaza",
-            "text": "San Francisco City Hall, San Francisco, CA"
+            "neighbourhood": "Opera Plaza",
+            "label": "San Francisco City Hall, San Francisco, CA",
+            "source": "osm"
           },
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "San Francisco City Hall",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Opera Plaza",
-            "text": "San Francisco City Hall, San Francisco, CA"
+            "neighbourhood": "Opera Plaza",
+            "label": "San Francisco City Hall, San Francisco, CA",
+            "source": "osm"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "San Francisco City Hall",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "text": "San Francisco City Hall, San Francisco, CA",
-            "admin1_abbr": "CA"
+            "label": "San Francisco City Hall, San Francisco, CA",
+            "region_a": "CA",
+            "source": "gn"
           }
         ]
       },
@@ -476,21 +508,22 @@
       "id": "1426636804303:13",
       "user": "feedback-app",
       "in": {
-        "input": "1288 Pear Ave, Mountain View, CA"
+        "text": "1288 Pear Ave, Mountain View, CA"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "1288 Pear Avenue",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "Santa Clara County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "Santa Clara County",
             "locality": "Mountain View",
-            "neighborhood": "Charleston Terrace",
-            "text": "1288 Pear Avenue, Mountain View, CA",
-            "admin1_abbr": "CA"
+            "neighbourhood": "Charleston Terrace",
+            "label": "1288 Pear Avenue, Mountain View, CA",
+            "region_a": "CA",
+            "source": "oa"
           }
         ]
       },
@@ -500,22 +533,23 @@
       "id": "1426636804303:14",
       "user": "feedback-app",
       "in": {
-        "input": "cloud gate"
+        "text": "cloud gate"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Cloud Gate",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Illinois",
-            "admin1_abbr": "IL",
-            "admin2": "Cook County",
-            "local_admin": "Chicago",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Illinois",
+            "region_a": "IL",
+            "county": "Cook County",
+            "localadmin": "Chicago",
             "locality": "Chicago",
-            "neighborhood": "Fort Dearborn Addition",
-            "text": "Cloud Gate, Chicago, IL"
+            "neighbourhood": "Fort Dearborn Addition",
+            "label": "Cloud Gate, Chicago, IL",
+            "source": "osm"
           }
         ]
       },
@@ -525,33 +559,35 @@
       "id": "1426636804303:15",
       "user": "feedback-app",
       "in": {
-        "input": "1355 Market St., San Francisco"
+        "text": "1355 Market St., San Francisco"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "1355 Market Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Civic Center",
-            "text": "1355 Market Street, San Francisco, CA",
-            "admin1_abbr": "CA"
+            "neighbourhood": "Civic Center",
+            "label": "1355 Market Street, San Francisco, CA",
+            "region_a": "CA",
+            "source": "oa"
           },
           {
-            "layer": "osmaddress",
+            "type": "address",
             "name": "1355 Market Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Civic Center",
-            "text": "1355 Market Street, San Francisco, CA"
+            "neighbourhood": "Civic Center",
+            "label": "1355 Market Street, San Francisco, CA",
+            "source": "osm"
           }
         ]
       },
@@ -561,22 +597,23 @@
       "id": "1426636804303:16",
       "user": "feedback-app",
       "in": {
-        "input": "568 Broadway New York"
+        "text": "568 Broadway New York"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "568 Broadway",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Nolita",
-            "text": "568 Broadway, Manhattan, NY",
-            "admin1_abbr": "NY"
+            "neighbourhood": "Nolita",
+            "label": "568 Broadway, Manhattan, NY",
+            "region_a": "NY",
+            "source": "oa"
           }
         ]
       },
@@ -586,22 +623,23 @@
       "id": "1426636804303:17",
       "user": "feedback-app",
       "in": {
-        "input": "cafe regular"
+        "text": "cafe regular"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Cafe Regular du Nord",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
             "locality": "New York",
-            "neighborhood": "Park Slope",
-            "text": "Cafe Regular du Nord, Brooklyn, NY"
+            "neighbourhood": "Park Slope",
+            "label": "Cafe Regular du Nord, Brooklyn, NY",
+            "source": "osm"
           }
         ]
       },
@@ -611,21 +649,22 @@
       "id": "1426636804303:18",
       "user": "feedback-app",
       "in": {
-        "input": "275 Brannan St San Francisco"
+        "text": "275 Brannan St San Francisco"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "275 Brannan Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "South Beach",
-            "text": "275 Brannan Street, San Francisco, CA",
-            "admin1_abbr": "CA"
+            "neighbourhood": "South Beach",
+            "label": "275 Brannan Street, San Francisco, CA",
+            "region_a": "CA",
+            "source": "oa"
           }
         ]
       },
@@ -635,21 +674,22 @@
       "id": "1426636804303:19",
       "user": "feedback-app",
       "in": {
-        "input": "155 9th St SF"
+        "text": "155 9th St SF"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmaddress",
+            "type": "address",
             "name": "155 9th",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Civic Center",
-            "text": "155 9th, San Francisco, CA"
+            "neighbourhood": "Civic Center",
+            "label": "155 9th, San Francisco, CA",
+            "source": "osm"
           }
         ]
       },
@@ -659,21 +699,22 @@
       "id": "1426636804303:20",
       "user": "feedback-app",
       "in": {
-        "input": "louvre"
+        "text": "louvre"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Le Louvre",
-            "alpha3": "FRA",
-            "admin0": "France",
-            "admin1": "Paris",
-            "admin2": "Paris-1er-Arrondissement",
-            "local_admin": "Paris-1er-Arrondissement",
+            "country_a": "FRA",
+            "country": "France",
+            "region": "Paris",
+            "county": "Paris-1er-Arrondissement",
+            "localadmin": "Paris-1er-Arrondissement",
             "locality": "Paris",
-            "neighborhood": "Quartier Saint-germain-l'auxerrois",
-            "text": "Le Louvre, Paris-1er-Arrondissement, Paris"
+            "neighbourhood": "Quartier Saint-germain-l'auxerrois",
+            "label": "Le Louvre, Paris-1er-Arrondissement, Paris",
+            "source": "osm"
           }
         ],
         "priorityThresh": 7
@@ -685,21 +726,22 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "Brooklyn Museum"
+        "text": "Brooklyn Museum"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Brooklyn Museum of Art",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
             "locality": "New York",
-            "text": "Brooklyn Museum of Art, Brooklyn, NY"
+            "label": "Brooklyn Museum of Art, Brooklyn, NY",
+            "source": "osm"
           }
         ]
       },
@@ -709,22 +751,23 @@
       "id": "1426636804303:22",
       "user": "feedback-app",
       "in": {
-        "input": "Cornell University"
+        "text": "Cornell University"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Cornell University",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Tompkins County",
-            "local_admin": "Ithaca",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Tompkins County",
+            "localadmin": "Ithaca",
             "locality": "Ithaca",
-            "neighborhood": "East Ithaca",
-            "text": "Cornell University, Ithaca, NY"
+            "neighbourhood": "East Ithaca",
+            "label": "Cornell University, Ithaca, NY",
+            "source": "osm"
           }
         ]
       },
@@ -734,22 +777,23 @@
       "id": "1426636804303:23",
       "user": "feedback-app",
       "in": {
-        "input": "Ithaca farmers market"
+        "text": "Ithaca farmers market"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Ithaca Farmers' Market",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Tompkins County",
-            "local_admin": "Ithaca",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Tompkins County",
+            "localadmin": "Ithaca",
             "locality": "Ithaca",
-            "neighborhood": "Fall Creek",
-            "text": "Ithaca Farmers' Market, Ithaca, NY"
+            "neighbourhood": "Fall Creek",
+            "label": "Ithaca Farmers' Market, Ithaca, NY",
+            "source": "osm"
           }
         ]
       },
@@ -759,22 +803,23 @@
       "id": "1426636804303:24",
       "user": "feedback-app",
       "in": {
-        "input": "65c dana st"
+        "text": "65c dana st"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Cambridge St @ Dana St",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Massachusetts",
-            "admin1_abbr": "MA",
-            "admin2": "Middlesex County",
-            "local_admin": "Cambridge",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Massachusetts",
+            "region_a": "MA",
+            "county": "Middlesex County",
+            "localadmin": "Cambridge",
             "locality": "Cambridge",
-            "neighborhood": "Mid Cambridge",
-            "text": "Cambridge St @ Dana St, Cambridge, MA"
+            "neighbourhood": "Mid Cambridge",
+            "label": "Cambridge St @ Dana St, Cambridge, MA",
+            "source": "osm"
           }
         ]
       },
@@ -785,19 +830,20 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "park slope"
+        "text": "park slope"
       },
       "expected": {
         "properties": [
           {
-            "layer": "neighborhood",
+            "type": "neighbourhood",
             "name": "Park Slope",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "Kings County",
-            "text": "Park Slope, Kings County, NY",
-            "admin1_abbr": "NY"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "county": "Kings County",
+            "label": "Park Slope, Kings County, NY",
+            "region_a": "NY",
+            "source": "qs"
           }
         ]
       },
@@ -808,22 +854,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "slope park"
+        "text": "slope park"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Slope Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
             "locality": "New York",
-            "neighborhood": "South Slope",
-            "text": "Slope Park, Brooklyn, NY"
+            "neighbourhood": "South Slope",
+            "label": "Slope Park, Brooklyn, NY",
+            "source": "osm"
           }
         ]
       },
@@ -834,22 +881,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "jj byrne playground"
+        "text": "jj byrne playground"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "J.J. Byrne Playground",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
             "locality": "New York",
-            "neighborhood": "Park Slope",
-            "text": "J.J. Byrne Playground, Brooklyn, NY"
+            "neighbourhood": "Park Slope",
+            "label": "J.J. Byrne Playground, Brooklyn, NY",
+            "source": "osm"
           }
         ]
       },
@@ -859,19 +907,20 @@
       "id": "1426636804303:28",
       "user": "feedback-app",
       "in": {
-        "input": "one canada square"
+        "text": "one canada square"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "One Canada Square",
-            "alpha3": "GBR",
-            "admin0": "United Kingdom",
-            "admin1": "Tower Hamlets",
-            "admin2": "Greater London",
-            "neighborhood": "Canary Wharf",
-            "text": "One Canada Square, Canary Wharf, Greater London"
+            "country_a": "GBR",
+            "country": "United Kingdom",
+            "region": "Tower Hamlets",
+            "county": "Greater London",
+            "neighbourhood": "Canary Wharf",
+            "label": "One Canada Square, Canary Wharf, Greater London",
+            "source": "osm"
           }
         ]
       },
@@ -881,21 +930,22 @@
       "id": "1426636804303:29",
       "user": "feedback-app",
       "in": {
-        "input": "space needle"
+        "text": "space needle"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Space Needle",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Washington",
-            "admin1_abbr": "WA",
-            "admin2": "King County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Washington",
+            "region_a": "WA",
+            "county": "King County",
             "locality": "Seattle",
-            "neighborhood": "Belltown",
-            "text": "Space Needle, Seattle, WA"
+            "neighbourhood": "Belltown",
+            "label": "Space Needle, Seattle, WA",
+            "source": "osm"
           }
         ]
       },
@@ -905,19 +955,20 @@
       "id": "1426636804303:31",
       "user": "feedback-app",
       "in": {
-        "input": "volterrano"
+        "text": "volterrano"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Volterrano",
-            "alpha3": "ITA",
-            "admin0": "Italy",
-            "admin1": "Umbria",
-            "admin2": "Provincia di Perugia",
-            "local_admin": "Città di Castello",
-            "text": "Volterrano, Città di Castello, Umbria"
+            "country_a": "ITA",
+            "country": "Italy",
+            "region": "Umbria",
+            "county": "Provincia di Perugia",
+            "localadmin": "Città di Castello",
+            "label": "Volterrano, Città di Castello, Umbria",
+            "source": "gn"
           }
         ]
       },
@@ -927,21 +978,22 @@
       "id": "1426636804303:32",
       "user": "feedback-app",
       "in": {
-        "input": "code for america"
+        "text": "code for america"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Code for America",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Civic Center",
-            "text": "Code for America, San Francisco, CA"
+            "neighbourhood": "Civic Center",
+            "label": "Code for America, San Francisco, CA",
+            "source": "osm"
           }
         ]
       },
@@ -951,31 +1003,33 @@
       "id": "1426636804303:33",
       "user": "feedback-app",
       "in": {
-        "input": "st. francis fountain"
+        "text": "st. francis fountain"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "St Francis Fountain",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "text": "St Francis Fountain, San Francisco, CA"
+            "label": "St Francis Fountain, San Francisco, CA",
+            "source": "osm"
           },
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "St Francis Fountain",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "text": "St Francis Fountain, San Francisco, CA"
+            "label": "St Francis Fountain, San Francisco, CA",
+            "source": "osm"
           }
         ]
       },
@@ -985,21 +1039,22 @@
       "id": "1426636804303:34",
       "user": "feedback-app",
       "in": {
-        "input": "3107 Hyde, Oakland"
+        "text": "3107 Hyde, Oakland"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "3107 Hyde Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "Alameda County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "Alameda County",
             "locality": "Oakland",
-            "neighborhood": "Patten",
-            "text": "3107 Hyde Street, Oakland, CA",
-            "admin1_abbr": "CA"
+            "neighbourhood": "Patten",
+            "label": "3107 Hyde Street, Oakland, CA",
+            "region_a": "CA",
+            "source": "oa"
           }
         ]
       },
@@ -1009,21 +1064,22 @@
       "id": "1426636804303:35",
       "user": "feedback-app",
       "in": {
-        "input": "2633 Telegraph"
+        "text": "2633 Telegraph"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "2633 Telegraph Avenue",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "Alameda County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "Alameda County",
             "locality": "Oakland",
-            "neighborhood": "Northgate",
-            "text": "2633 Telegraph Avenue, Oakland, CA",
-            "admin1_abbr": "CA"
+            "neighbourhood": "Northgate",
+            "label": "2633 Telegraph Avenue, Oakland, CA",
+            "region_a": "CA",
+            "source": "oa"
           }
         ]
       },
@@ -1033,21 +1089,22 @@
       "id": "1426636804303:36",
       "user": "feedback-app",
       "in": {
-        "input": "961 Andover Way, Los Altos"
+        "text": "961 Andover Way, Los Altos"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "961 Andover Way",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "Santa Clara County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "Santa Clara County",
             "locality": "Los Altos",
-            "neighborhood": "The Highlands",
-            "text": "961 Andover Way, Los Altos, CA",
-            "admin1_abbr": "CA"
+            "neighbourhood": "The Highlands",
+            "label": "961 Andover Way, Los Altos, CA",
+            "region_a": "CA",
+            "source": "oa"
           }
         ]
       },
@@ -1057,22 +1114,23 @@
       "id": "1426636804303:37",
       "user": "feedback-app",
       "in": {
-        "input": "lambeau field"
+        "text": "lambeau field"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Lambeau Field",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Wisconsin",
-            "admin1_abbr": "WI",
-            "admin2": "Brown County",
-            "local_admin": "Green Bay",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Wisconsin",
+            "region_a": "WI",
+            "county": "Brown County",
+            "localadmin": "Green Bay",
             "locality": "Green Bay",
-            "neighborhood": "Lombardi",
-            "text": "Lambeau Field, Green Bay, WI"
+            "neighbourhood": "Lombardi",
+            "label": "Lambeau Field, Green Bay, WI",
+            "source": "osm"
           }
         ]
       },
@@ -1082,21 +1140,22 @@
       "id": "1426636804303:38",
       "user": "feedback-app",
       "in": {
-        "input": "1710 Drew, Houston"
+        "text": "1710 Drew, Houston"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "1710 Drew Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Texas",
-            "admin2": "Harris County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Texas",
+            "county": "Harris County",
             "locality": "Houston",
-            "neighborhood": "Midtown",
-            "text": "1710 Drew Street, Houston, TX",
-            "admin1_abbr": "TX"
+            "neighbourhood": "Midtown",
+            "label": "1710 Drew Street, Houston, TX",
+            "region_a": "TX",
+            "source": "oa"
           }
         ]
       },
@@ -1106,14 +1165,15 @@
       "id": "1426636804303:39",
       "user": "feedback-app",
       "in": {
-        "input": "asia"
+        "text": "asia"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Asia",
-            "text": "Asia"
+            "label": "Asia",
+            "source": "gn"
           }
         ]
       },
@@ -1123,19 +1183,20 @@
       "id": "1426636804303:40",
       "user": "feedback-app",
       "in": {
-        "input": "golden gate park"
+        "text": "golden gate park"
       },
       "expected": {
         "properties": [
           {
-            "layer": "neighborhood",
+            "type": "neighbourhood",
             "name": "Golden Gate Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "San Francisco County",
-            "text": "Golden Gate Park, San Francisco County, CA",
-            "admin1_abbr": "CA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "San Francisco County",
+            "label": "Golden Gate Park, San Francisco County, CA",
+            "region_a": "CA",
+            "source": "qs"
           }
         ]
       },
@@ -1145,21 +1206,22 @@
       "id": "1426636804303:41",
       "user": "feedback-app",
       "in": {
-        "input": "precita park"
+        "text": "precita park"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Precita Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Bernal Heights",
-            "text": "Precita Park, San Francisco, CA"
+            "neighbourhood": "Bernal Heights",
+            "label": "Precita Park, San Francisco, CA",
+            "source": "osm"
           }
         ]
       },
@@ -1169,21 +1231,22 @@
       "id": "1426636804303:42",
       "user": "feedback-app",
       "in": {
-        "input": "aquatic park"
+        "text": "aquatic park"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Aquatic Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Russian Hill",
-            "text": "Aquatic Park, San Francisco, CA"
+            "neighbourhood": "Russian Hill",
+            "label": "Aquatic Park, San Francisco, CA",
+            "source": "osm"
           }
         ]
       },
@@ -1193,21 +1256,22 @@
       "id": "1426636804303:43",
       "user": "feedback-app",
       "in": {
-        "input": "transamerica pyramid"
+        "text": "transamerica pyramid"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Transamerica Pyramid",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Jackson Square",
-            "text": "Transamerica Pyramid, San Francisco, CA"
+            "neighbourhood": "Jackson Square",
+            "label": "Transamerica Pyramid, San Francisco, CA",
+            "source": "osm"
           }
         ]
       },
@@ -1217,21 +1281,22 @@
       "id": "1426636804303:45",
       "user": "feedback-app",
       "in": {
-        "input": "22nd street caltrain"
+        "text": "22nd street caltrain"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "22nd Street Caltrain Station",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Dogpatch",
-            "text": "22nd Street Caltrain Station, San Francisco, CA"
+            "neighbourhood": "Dogpatch",
+            "label": "22nd Street Caltrain Station, San Francisco, CA",
+            "source": "osm"
           }
         ],
         "priorityThresh": 1
@@ -1242,21 +1307,22 @@
       "id": "1426636804303:46",
       "user": "feedback-app",
       "in": {
-        "input": "UCSF Mission Bay"
+        "text": "UCSF Mission Bay"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "UCSF Mission Bay",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Mission Bay",
-            "text": "UCSF Mission Bay, San Francisco, CA"
+            "neighbourhood": "Mission Bay",
+            "label": "UCSF Mission Bay, San Francisco, CA",
+            "source": "osm"
           }
         ]
       },
@@ -1266,20 +1332,21 @@
       "id": "1426636804303:47",
       "user": "feedback-app",
       "in": {
-        "input": "Cowboys Stadium"
+        "text": "Cowboys Stadium"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Cowboys Stadium",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Texas",
-            "admin2": "Tarrant County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Texas",
+            "county": "Tarrant County",
             "locality": "Arlington",
-            "text": "Cowboys Stadium, Arlington, TX",
-            "admin1_abbr": "TX"
+            "label": "Cowboys Stadium, Arlington, TX",
+            "region_a": "TX",
+            "source": "gn"
           }
         ]
       },
@@ -1289,30 +1356,32 @@
       "id": "1426636804303:48",
       "user": "feedback-app",
       "in": {
-        "input": "san quentin"
+        "text": "san quentin"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "San Quentin",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "Marin County",
-            "text": "San Quentin, Marin County, CA",
-            "admin1_abbr": "CA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "Marin County",
+            "label": "San Quentin, Marin County, CA",
+            "region_a": "CA",
+            "source": "gn"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "San Quentin State Prison",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "Marin County",
-            "neighborhood": "East Larkspur",
-            "text": "San Quentin State Prison, East Larkspur, CA",
-            "admin1_abbr": "CA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "Marin County",
+            "neighbourhood": "East Larkspur",
+            "label": "San Quentin State Prison, East Larkspur, CA",
+            "region_a": "CA",
+            "source": "gn"
           }
         ]
       },
@@ -1322,22 +1391,23 @@
       "id": "1426636804303:49",
       "user": "feedback-app",
       "in": {
-        "input": "melt shop"
+        "text": "melt shop"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Melt Shop",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "City Hall Area",
-            "text": "Melt Shop, Manhattan, NY"
+            "neighbourhood": "City Hall Area",
+            "label": "Melt Shop, Manhattan, NY",
+            "source": "osm"
           }
         ]
       },
@@ -1347,38 +1417,36 @@
       "id": "1426636804303:50",
       "user": "feedback-app",
       "in": {
-        "input": "66 lafayette ave, brooklyn"
+        "text": "66 lafayette ave, brooklyn"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "66 Lafayette Avenue",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
             "locality": "New York",
-            "neighborhood": "Fort Greene",
-            "category": [ ],
-            "address": {
-              "number": "66",
-              "street": "Lafayette Avenue"
-            },
-            "text": "66 Lafayette Avenue, Brooklyn, NY"
+            "neighbourhood": "Fort Greene",
+            "category": [],
+            "housenumber": "66",
+            "street": "Lafayette Avenue",
+            "label": "66 Lafayette Avenue, Brooklyn, NY",
+            "source": "oa"
           },
           {
-            "layer": "osmaddress",
+            "type": "address",
             "name": "66 Lafayette Avenue",
-            "category": [ ],
-            "address": {
-              "zip": "11217",
-              "number": "66",
-              "street": "Lafayette Avenue"
-            },
-            "text": "66 Lafayette Avenue, Brooklyn, NY"
+            "category": [],
+            "postalcode": "11217",
+            "housenumber": "66",
+            "street": "Lafayette Avenue",
+            "label": "66 Lafayette Avenue, Brooklyn, NY",
+            "source": "osm"
           }
         ]
       },
@@ -1388,19 +1456,20 @@
       "id": "1426636804303:52",
       "user": "feedback-app",
       "in": {
-        "input": "Nestldown"
+        "text": "Nestldown"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Nestldown",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "Santa Clara County",
-            "text": "Nestldown, Santa Clara County, CA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "Santa Clara County",
+            "label": "Nestldown, Santa Clara County, CA",
+            "source": "osm"
           }
         ]
       },
@@ -1410,35 +1479,37 @@
       "id": "1426636804303:53",
       "user": "feedback-app",
       "in": {
-        "input": "UIC"
+        "text": "UIC"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "UIC",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Illinois",
-            "admin1_abbr": "IL",
-            "admin2": "Cook County",
-            "local_admin": "Chicago",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Illinois",
+            "region_a": "IL",
+            "county": "Cook County",
+            "localadmin": "Chicago",
             "locality": "Chicago",
-            "neighborhood": "Greektown",
-            "text": "UIC, Chicago, IL"
+            "neighbourhood": "Greektown",
+            "label": "UIC, Chicago, IL",
+            "source": "osm"
           },
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "UIC",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Illinois",
-            "admin1_abbr": "IL",
-            "admin2": "Cook County",
-            "local_admin": "Chicago",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Illinois",
+            "region_a": "IL",
+            "county": "Cook County",
+            "localadmin": "Chicago",
             "locality": "Chicago",
-            "neighborhood": "Greektown",
-            "text": "UIC, Chicago, IL"
+            "neighbourhood": "Greektown",
+            "label": "UIC, Chicago, IL",
+            "source": "osm"
           }
         ]
       },
@@ -1448,33 +1519,35 @@
       "id": "1426636804303:54",
       "user": "feedback-app",
       "in": {
-        "input": "SF Ferry Building"
+        "text": "SF Ferry Building"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Ferry Building",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Financial District",
-            "text": "Ferry Building, San Francisco, CA"
+            "neighbourhood": "Financial District",
+            "label": "Ferry Building, San Francisco, CA",
+            "source": "osm"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Ferry Building",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Financial District",
-            "text": "Ferry Building, San Francisco, CA",
-            "admin1_abbr": "CA"
+            "neighbourhood": "Financial District",
+            "label": "Ferry Building, San Francisco, CA",
+            "region_a": "CA",
+            "source": "gn"
           }
         ]
       },
@@ -1484,21 +1557,21 @@
       "id": "1426636804303:55",
       "user": "feedback-app",
       "in": {
-        "input": "266 washington ave brooklyn"
+        "text": "266 washington ave brooklyn"
       },
       "expected": {
         "properties": [
           {
             "name": "266 Brooklyn Avenue",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
             "locality": "New York",
-            "neighborhood": "Crown Heights",
-            "text": "266 Brooklyn Avenue, Brooklyn, NY",
-            "admin1_abbr": "NY"
+            "neighbourhood": "Crown Heights",
+            "label": "266 Brooklyn Avenue, Brooklyn, NY",
+            "region_a": "NY"
           }
         ]
       },
@@ -1509,21 +1582,21 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "721 broadway"
+        "text": "721 broadway"
       },
       "expected": {
         "properties": [
           {
             "name": "721 Broadway",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "NoHo",
-            "text": "721 Broadway, Manhattan, NY",
-            "admin1_abbr": "NY"
+            "neighbourhood": "NoHo",
+            "label": "721 Broadway, Manhattan, NY",
+            "region_a": "NY"
           }
         ]
       },
@@ -1533,19 +1606,20 @@
       "id": "1426636804303:57",
       "user": "feedback-app",
       "in": {
-        "input": "perugia airport"
+        "text": "perugia airport"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
-            "alpha3": "ITA",
-            "admin0": "Italy",
-            "admin1": "Umbria",
-            "admin2": "Provincia di Perugia",
-            "local_admin": "Perugia",
-            "text": "Perugia San Francesco d'Assisi – Umbria International Airport, Perugia, Umbria"
+            "country_a": "ITA",
+            "country": "Italy",
+            "region": "Umbria",
+            "county": "Provincia di Perugia",
+            "localadmin": "Perugia",
+            "label": "Perugia San Francesco d'Assisi – Umbria International Airport, Perugia, Umbria",
+            "source": "gn"
           }
         ]
       },
@@ -1555,19 +1629,20 @@
       "id": "1426636804303:58",
       "user": "feedback-app",
       "in": {
-        "input": "fiumicino airport"
+        "text": "fiumicino airport"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Leonardo da Vinci–Fiumicino Airport",
-            "alpha3": "ITA",
-            "admin0": "Italy",
-            "admin1": "Latium",
-            "admin2": "Provincia di Roma",
-            "local_admin": "Fiumicino",
-            "text": "Leonardo da Vinci–Fiumicino Airport, Fiumicino, Latium"
+            "country_a": "ITA",
+            "country": "Italy",
+            "region": "Latium",
+            "county": "Provincia di Roma",
+            "localadmin": "Fiumicino",
+            "label": "Leonardo da Vinci–Fiumicino Airport, Fiumicino, Latium",
+            "source": "gn"
           }
         ]
       },
@@ -1577,19 +1652,20 @@
       "id": "1426636804303:59",
       "user": "feedback-app",
       "in": {
-        "input": "dulles airport"
+        "text": "dulles airport"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Washington Dulles International Airport",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Virginia",
-            "admin2": "Loudoun County",
-            "text": "Washington Dulles International Airport, Loudoun County, VA",
-            "admin1_abbr": "VA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Virginia",
+            "county": "Loudoun County",
+            "label": "Washington Dulles International Airport, Loudoun County, VA",
+            "region_a": "VA",
+            "source": "gn"
           }
         ]
       },
@@ -1600,21 +1676,22 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "madison square park"
+        "text": "madison square park"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Madison Square Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "text": "Madison Square Park, Manhattan, NY",
-            "admin1_abbr": "NY"
+            "label": "Madison Square Park, Manhattan, NY",
+            "region_a": "NY",
+            "source": "gn"
           }
         ]
       },
@@ -1625,22 +1702,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "madison square garden"
+        "text": "madison square garden"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Madison Square Garden",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Garment District",
-            "text": "Madison Square Garden, Manhattan, NY"
+            "neighbourhood": "Garment District",
+            "label": "Madison Square Garden, Manhattan, NY",
+            "source": "osm"
           }
         ]
       },
@@ -1651,22 +1729,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "flatiron hall"
+        "text": "flatiron hall"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Flatiron Hall",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Flatiron District",
-            "text": "Flatiron Hall, Manhattan, NY"
+            "neighbourhood": "Flatiron District",
+            "label": "Flatiron Hall, Manhattan, NY",
+            "source": "osm"
           }
         ]
       },
@@ -1677,31 +1756,33 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "koreatown ny"
+        "text": "koreatown ny"
       },
       "expected": {
         "properties": [
           {
-            "layer": "neighborhood",
+            "type": "neighbourhood",
             "name": "Koreatown",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "text": "Koreatown, New York County, NY",
-            "admin1_abbr": "NY"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "county": "New York County",
+            "label": "Koreatown, New York County, NY",
+            "region_a": "NY",
+            "source": "qs"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Koreatown",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "text": "Koreatown, Manhattan, NY",
-            "admin1_abbr": "NY"
+            "label": "Koreatown, Manhattan, NY",
+            "region_a": "NY",
+            "source": "gn"
           }
         ]
       },
@@ -1712,22 +1793,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "astoria park ny"
+        "text": "astoria park ny"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Astoria Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "Queens County",
-            "neighborhood": "Steinway",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "county": "Queens County",
+            "neighbourhood": "Steinway",
             "locality": "New York",
-            "local_admin": "Queens",
-            "text": "Astoria Park, Queens, NY",
-            "admin1_abbr": "NY"
+            "localadmin": "Queens",
+            "label": "Astoria Park, Queens, NY",
+            "region_a": "NY",
+            "source": "gn"
           }
         ]
       },
@@ -1738,21 +1820,22 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "brooklyn bridge"
+        "text": "brooklyn bridge"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Brooklyn Bridge",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "county": "New York County",
             "locality": "New York",
-            "local_admin": "Manhattan",
-            "text": "Brooklyn Bridge, Manhattan, NY",
-            "admin1_abbr": "NY"
+            "localadmin": "Manhattan",
+            "label": "Brooklyn Bridge, Manhattan, NY",
+            "region_a": "NY",
+            "source": "gn"
           }
         ]
       },
@@ -1763,22 +1846,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "washington square park"
+        "text": "washington square park"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Washington Square Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "NoHo",
-            "text": "Washington Square Park, Manhattan, NY"
+            "neighbourhood": "NoHo",
+            "label": "Washington Square Park, Manhattan, NY",
+            "source": "osm"
           }
         ]
       },
@@ -1789,48 +1873,51 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "brooklyn bridge park"
+        "text": "brooklyn bridge park"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Brooklyn Bridge Park/DUMBO",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Fulton Ferry",
-            "text": "Brooklyn Bridge Park/DUMBO, Manhattan, NY"
+            "neighbourhood": "Fulton Ferry",
+            "label": "Brooklyn Bridge Park/DUMBO, Manhattan, NY",
+            "source": "osm"
           },
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Brooklyn Bridge Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
             "locality": "New York",
-            "neighborhood": "DUMBO",
-            "text": "Brooklyn Bridge Park, Brooklyn, NY"
+            "neighbourhood": "DUMBO",
+            "label": "Brooklyn Bridge Park, Brooklyn, NY",
+            "source": "osm"
           },
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Brooklyn Bridge Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Brooklyn Heights",
-            "text": "Brooklyn Bridge Park, Manhattan, NY"
+            "neighbourhood": "Brooklyn Heights",
+            "label": "Brooklyn Bridge Park, Manhattan, NY",
+            "source": "osm"
           }
         ]
       },
@@ -1841,21 +1928,22 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "manhattan bridge"
+        "text": "manhattan bridge"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Manhattan Bridge",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "county": "New York County",
             "locality": "New York",
-            "local_admin": "Manhattan",
-            "text": "Manhattan Bridge, Manhattan, NY",
-            "admin1_abbr": "NY"
+            "localadmin": "Manhattan",
+            "label": "Manhattan Bridge, Manhattan, NY",
+            "region_a": "NY",
+            "source": "gn"
           }
         ]
       },
@@ -1866,35 +1954,37 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "empire state building"
+        "text": "empire state building"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Empire State Building",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Koreatown",
-            "text": "Empire State Building, Manhattan, NY"
+            "neighbourhood": "Koreatown",
+            "label": "Empire State Building, Manhattan, NY",
+            "source": "osm"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Empire State Building",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Koreatown",
-            "text": "Empire State Building, Manhattan, NY",
-            "admin1_abbr": "NY"
+            "neighbourhood": "Koreatown",
+            "label": "Empire State Building, Manhattan, NY",
+            "region_a": "NY",
+            "source": "gn"
           }
         ]
       },
@@ -1905,45 +1995,48 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "chrysler building"
+        "text": "chrysler building"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Chrysler Building",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Murray Hill",
-            "text": "Chrysler Building, Manhattan, NY"
+            "neighbourhood": "Murray Hill",
+            "label": "Chrysler Building, Manhattan, NY",
+            "source": "osm"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Chrysler Building",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "text": "Chrysler Building, Manhattan, NY",
-            "admin1_abbr": "NY"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "county": "New York County",
+            "label": "Chrysler Building, Manhattan, NY",
+            "region_a": "NY",
+            "source": "gn"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Chrysler Building",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Murray Hill",
-            "text": "Chrysler Building, Manhattan, NY",
-            "admin1_abbr": "NY"
+            "neighbourhood": "Murray Hill",
+            "label": "Chrysler Building, Manhattan, NY",
+            "region_a": "NY",
+            "source": "gn"
           }
         ]
       },
@@ -1954,35 +2047,37 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "rockefeller center"
+        "text": "rockefeller center"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Rockefeller Center",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Theatre District",
-            "text": "Rockefeller Center, Manhattan, NY"
+            "neighbourhood": "Theatre District",
+            "label": "Rockefeller Center, Manhattan, NY",
+            "source": "osm"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Rockefeller Center",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Theatre District",
-            "text": "Rockefeller Center, Manhattan, NY",
-            "admin1_abbr": "NY"
+            "neighbourhood": "Theatre District",
+            "label": "Rockefeller Center, Manhattan, NY",
+            "region_a": "NY",
+            "source": "gn"
           }
         ]
       },
@@ -1992,21 +2087,22 @@
       "id": "1426636804303:73",
       "user": "feedback-app",
       "in": {
-        "input": "doylestown"
+        "text": "doylestown"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Doylestown",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Pennsylvania",
-            "admin2": "Bucks County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Pennsylvania",
+            "county": "Bucks County",
             "locality": "Doylestown",
-            "local_admin": "Doylestown",
-            "text": "Doylestown, PA",
-            "admin1_abbr": "PA"
+            "localadmin": "Doylestown",
+            "label": "Doylestown, PA",
+            "region_a": "PA",
+            "source": "gn"
           }
         ]
       },
@@ -2017,22 +2113,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "times square"
+        "text": "times square"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Times Square",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Theatre District",
-            "text": "Times Square, Manhattan, NY"
+            "neighbourhood": "Theatre District",
+            "label": "Times Square, Manhattan, NY",
+            "source": "osm"
           }
         ]
       },
@@ -2043,22 +2140,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "11 times square"
+        "text": "11 times square"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "11 Times Square",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Midtown West",
-            "text": "11 Times Square, Manhattan, NY"
+            "neighbourhood": "Midtown West",
+            "label": "11 Times Square, Manhattan, NY",
+            "source": "osm"
           }
         ]
       },
@@ -2069,22 +2167,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "bombay sandwich co"
+        "text": "bombay sandwich co"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Bombay Sandwich Co",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Flatiron District",
-            "text": "Bombay Sandwich Co, Manhattan, NY"
+            "neighbourhood": "Flatiron District",
+            "label": "Bombay Sandwich Co, Manhattan, NY",
+            "source": "osm"
           }
         ]
       },
@@ -2095,22 +2194,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "flatiron building, new york"
+        "text": "flatiron building, new york"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Flatiron Building",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Flatiron District",
-            "text": "Flatiron Building, Manhattan, NY"
+            "neighbourhood": "Flatiron District",
+            "label": "Flatiron Building, Manhattan, NY",
+            "source": "osm"
           }
         ]
       },
@@ -2120,22 +2220,23 @@
       "id": "1426636804303:78",
       "user": "feedback-app",
       "in": {
-        "input": "stamford metro station connecticut"
+        "text": "stamford metro station connecticut"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Stamford Station",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Connecticut",
-            "admin2": "Fairfield County",
-            "neighborhood": "Downtown Stamford",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Connecticut",
+            "county": "Fairfield County",
+            "neighbourhood": "Downtown Stamford",
             "locality": "Stamford",
-            "local_admin": "Stamford",
-            "text": "Stamford Station, Stamford, CT",
-            "admin1_abbr": "CT"
+            "localadmin": "Stamford",
+            "label": "Stamford Station, Stamford, CT",
+            "region_a": "CT",
+            "source": "gn"
           }
         ]
       },
@@ -2146,22 +2247,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "momoya"
+        "text": "momoya"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Momoya",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Upper West Side",
-            "text": "Momoya, Manhattan, NY"
+            "neighbourhood": "Upper West Side",
+            "label": "Momoya, Manhattan, NY",
+            "source": "osm"
           }
         ]
       },
@@ -2172,21 +2274,21 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "479 grand st"
+        "text": "479 grand st"
       },
       "expected": {
         "properties": [
           {
             "name": "479 Grand Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
             "locality": "New York",
-            "neighborhood": "South Williamsburg",
-            "text": "479 Grand Street, Brooklyn, NY"
+            "neighbourhood": "South Williamsburg",
+            "label": "479 Grand Street, Brooklyn, NY"
           }
         ]
       },
@@ -2197,22 +2299,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "69 west 9th st"
+        "text": "69 west 9th st"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmaddress",
+            "type": "address",
             "name": "69 West 9th Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "West Village",
-            "text": "69 West 9th Street, Manhattan, NY"
+            "neighbourhood": "West Village",
+            "label": "69 West 9th Street, Manhattan, NY",
+            "source": "osm"
           }
         ]
       },
@@ -2222,20 +2325,21 @@
       "id": "1426636804303:82",
       "user": "feedback-app",
       "in": {
-        "input": "rajiv chowk"
+        "text": "rajiv chowk"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Rajiv Chowk",
-            "alpha3": "IND",
-            "admin0": "India",
-            "admin1": "Delhi",
-            "admin2": "New Delhi",
+            "country_a": "IND",
+            "country": "India",
+            "region": "Delhi",
+            "county": "New Delhi",
             "locality": "New Delhi",
-            "neighborhood": "Connaught Place",
-            "text": "Rajiv Chowk, New Delhi, Delhi"
+            "neighbourhood": "Connaught Place",
+            "label": "Rajiv Chowk, New Delhi, Delhi",
+            "source": "osm"
           }
         ]
       },
@@ -2245,18 +2349,19 @@
       "id": "1426636804303:83",
       "user": "feedback-app",
       "in": {
-        "input": "taj mahal hotel new delhi"
+        "text": "taj mahal hotel new delhi"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Taj Mahal New Delhi",
-            "alpha3": "IND",
-            "admin0": "India",
-            "admin1": "NCT",
-            "admin2": "New Delhi",
-            "text": "Taj Mahal New Delhi, New Delhi, NCT"
+            "country_a": "IND",
+            "country": "India",
+            "region": "NCT",
+            "county": "New Delhi",
+            "label": "Taj Mahal New Delhi, New Delhi, NCT",
+            "source": "gn"
           }
         ]
       },
@@ -2266,20 +2371,21 @@
       "id": "1426636804303:84",
       "user": "feedback-app",
       "in": {
-        "input": "taj mansingh new delhi"
+        "text": "taj mansingh new delhi"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Taj Palace New Delhi",
-            "alpha3": "IND",
-            "admin0": "India",
-            "admin1": "NCT",
-            "admin2": "South West Delhi",
-            "neighborhood": "Dhaula Kuan",
+            "country_a": "IND",
+            "country": "India",
+            "region": "NCT",
+            "county": "South West Delhi",
+            "neighbourhood": "Dhaula Kuan",
             "locality": "New Delhi",
-            "text": "Taj Palace New Delhi, New Delhi, NCT"
+            "label": "Taj Palace New Delhi, New Delhi, NCT",
+            "source": "gn"
           }
         ]
       },
@@ -2289,21 +2395,22 @@
       "id": "1426636804303:85",
       "user": "feedback-app",
       "in": {
-        "input": "princeton junction"
+        "text": "princeton junction"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Princeton Junction",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New Jersey",
-            "admin2": "Mercer County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New Jersey",
+            "county": "Mercer County",
             "locality": "Princeton Junction",
-            "local_admin": "West Windsor",
-            "text": "Princeton Junction, West Windsor, NJ",
-            "admin1_abbr": "NJ"
+            "localadmin": "West Windsor",
+            "label": "Princeton Junction, West Windsor, NJ",
+            "region_a": "NJ",
+            "source": "gn"
           }
         ]
       },
@@ -2313,19 +2420,20 @@
       "id": "1426636804303:86",
       "user": "feedback-app",
       "in": {
-        "input": "toluca lake ca"
+        "text": "toluca lake ca"
       },
       "expected": {
         "properties": [
           {
-            "layer": "neighborhood",
+            "type": "neighbourhood",
             "name": "Toluca Lake",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "Los Angeles County",
-            "text": "Toluca Lake, Los Angeles County, CA",
-            "admin1_abbr": "CA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "Los Angeles County",
+            "label": "Toluca Lake, Los Angeles County, CA",
+            "region_a": "CA",
+            "source": "qs"
           }
         ]
       },
@@ -2335,21 +2443,22 @@
       "id": "1426636804303:87",
       "user": "feedback-app",
       "in": {
-        "input": "4636 Cahuenga Blvd, Toluca Lake, CA 91602"
+        "text": "4636 Cahuenga Blvd, Toluca Lake, CA 91602"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "4636 North Cahuenga Boulevard",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "Los Angeles County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "Los Angeles County",
             "locality": "Los Angeles",
-            "neighborhood": "Toluca Lake",
-            "text": "4636 North Cahuenga Boulevard, Los Angeles, CA",
-            "admin1_abbr": "CA"
+            "neighbourhood": "Toluca Lake",
+            "label": "4636 North Cahuenga Boulevard, Los Angeles, CA",
+            "region_a": "CA",
+            "source": "oa"
           }
         ]
       },
@@ -2359,21 +2468,22 @@
       "id": "1426636804303:88",
       "user": "feedback-app",
       "in": {
-        "input": "Exploratorium"
+        "text": "Exploratorium"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Exploratorium",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Jackson Square",
-            "text": "Exploratorium, San Francisco, CA"
+            "neighbourhood": "Jackson Square",
+            "label": "Exploratorium, San Francisco, CA",
+            "source": "osm"
           }
         ]
       },
@@ -2383,21 +2493,22 @@
       "id": "1426636804303:89",
       "user": "feedback-app",
       "in": {
-        "input": "Facebook"
+        "text": "Facebook"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Facebook HQ",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Mateo County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Mateo County",
             "locality": "Menlo Park",
-            "neighborhood": "Henderson",
-            "text": "Facebook HQ, Menlo Park, CA"
+            "neighbourhood": "Henderson",
+            "label": "Facebook HQ, Menlo Park, CA",
+            "source": "osm"
           }
         ]
       },
@@ -2407,21 +2518,22 @@
       "id": "1426636804303:89",
       "user": "feedback-app",
       "in": {
-        "input": "Facebook HQ, CA"
+        "text": "Facebook HQ, CA"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Facebook HQ",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Mateo County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Mateo County",
             "locality": "Menlo Park",
-            "neighborhood": "Henderson",
-            "text": "Facebook HQ, Menlo Park, CA"
+            "neighbourhood": "Henderson",
+            "label": "Facebook HQ, Menlo Park, CA",
+            "source": "osm"
           }
         ]
       },
@@ -2432,22 +2544,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "penn station new york"
+        "text": "penn station new york"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "New York Penn Station",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Garment District",
-            "text": "New York Penn Station, Manhattan, NY"
+            "neighbourhood": "Garment District",
+            "label": "New York Penn Station, Manhattan, NY",
+            "source": "osm"
           }
         ]
       },
@@ -2457,22 +2570,23 @@
       "id": "1426636804303:91",
       "user": "feedback-app",
       "in": {
-        "input": "Boston Convention Center"
+        "text": "Boston Convention Center"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Boston Convention & Exhibition Center",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Massachusetts",
-            "admin1_abbr": "MA",
-            "admin2": "Suffolk County",
-            "local_admin": "Boston",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Massachusetts",
+            "region_a": "MA",
+            "county": "Suffolk County",
+            "localadmin": "Boston",
             "locality": "Boston",
-            "neighborhood": "Fort Point",
-            "text": "Boston Convention & Exhibition Center, Boston, MA"
+            "neighbourhood": "Fort Point",
+            "label": "Boston Convention & Exhibition Center, Boston, MA",
+            "source": "osm"
           }
         ]
       },
@@ -2482,22 +2596,23 @@
       "id": "1426636804303:92",
       "user": "feedback-app",
       "in": {
-        "input": "822 Union St, Brooklyn, NY"
+        "text": "822 Union St, Brooklyn, NY"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmaddress",
+            "type": "address",
             "name": "822 Union Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
             "locality": "New York",
-            "neighborhood": "Park Slope",
-            "text": "822 Union Street, Brooklyn, NY"
+            "neighbourhood": "Park Slope",
+            "label": "822 Union Street, Brooklyn, NY",
+            "source": "osm"
           }
         ]
       },
@@ -2508,18 +2623,18 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "astoria, queens"
+        "text": "astoria, queens"
       },
       "expected": {
         "properties": [
           {
             "name": "Astoria",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "Queens County",
-            "text": "Astoria, Queens County, NY",
-            "admin1_abbr": "NY"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "county": "Queens County",
+            "label": "Astoria, Queens County, NY",
+            "region_a": "NY"
           }
         ]
       },
@@ -2529,33 +2644,35 @@
       "id": "1426636804303:94",
       "user": "feedback-app",
       "in": {
-        "input": "1 infinite loop, Cupertino"
+        "text": "1 infinite loop, Cupertino"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Infinite Loop 1",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "Santa Clara County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "Santa Clara County",
             "locality": "Cupertino",
-            "neighborhood": "Monta Vista",
-            "text": "Infinite Loop 1, Cupertino, CA"
+            "neighbourhood": "Monta Vista",
+            "label": "Infinite Loop 1, Cupertino, CA",
+            "source": "osm"
           },
           {
-            "layer": "osmaddress",
+            "type": "address",
             "name": "1 Infinite Loop",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "Santa Clara County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "Santa Clara County",
             "locality": "Cupertino",
-            "neighborhood": "Monta Vista",
-            "text": "1 Infinite Loop, Cupertino, CA"
+            "neighbourhood": "Monta Vista",
+            "label": "1 Infinite Loop, Cupertino, CA",
+            "source": "osm"
           }
         ]
       },
@@ -2566,22 +2683,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "Samsung Accelerator"
+        "text": "Samsung Accelerator"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Samsung Accelerator",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Flatiron District",
-            "text": "Samsung Accelerator, Manhattan, NY"
+            "neighbourhood": "Flatiron District",
+            "label": "Samsung Accelerator, Manhattan, NY",
+            "source": "osm"
           }
         ]
       },
@@ -2591,21 +2709,22 @@
       "id": "1426636804303:96",
       "user": "feedback-app",
       "in": {
-        "input": "1827 Berkeley Way"
+        "text": "1827 Berkeley Way"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmaddress",
+            "type": "address",
             "name": "1827 Berkeley Way",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "Alameda County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "Alameda County",
             "locality": "Berkeley",
-            "neighborhood": "Downtown",
-            "text": "1827 Berkeley Way, Berkeley, CA"
+            "neighbourhood": "Downtown",
+            "label": "1827 Berkeley Way, Berkeley, CA",
+            "source": "osm"
           }
         ]
       },
@@ -2615,20 +2734,21 @@
       "id": "1426636804303:97",
       "user": "feedback-app",
       "in": {
-        "input": "1900 Chapala St"
+        "text": "1900 Chapala St"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "1900 Chapala Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "Santa Barbara County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "Santa Barbara County",
             "locality": "Santa Barbara",
-            "text": "1900 Chapala Street, Santa Barbara, CA",
-            "admin1_abbr": "CA"
+            "label": "1900 Chapala Street, Santa Barbara, CA",
+            "region_a": "CA",
+            "source": "oa"
           }
         ]
       },
@@ -2638,21 +2758,22 @@
       "id": "1426636804303:98",
       "user": "feedback-app",
       "in": {
-        "input": "128 Lorton Ave."
+        "text": "128 Lorton Ave."
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "128 Lorton Avenue",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "San Mateo County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "San Mateo County",
             "locality": "Burlingame",
-            "neighborhood": "Downtown Burlingame",
-            "text": "128 Lorton Avenue, Burlingame, CA",
-            "admin1_abbr": "CA"
+            "neighbourhood": "Downtown Burlingame",
+            "label": "128 Lorton Avenue, Burlingame, CA",
+            "region_a": "CA",
+            "source": "oa"
           }
         ]
       },
@@ -2663,22 +2784,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "Ace Hotel, NYC"
+        "text": "Ace Hotel, NYC"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Ace Hotel",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Flatiron District",
-            "text": "Ace Hotel, Manhattan, NY"
+            "neighbourhood": "Flatiron District",
+            "label": "Ace Hotel, Manhattan, NY",
+            "source": "osm"
           }
         ]
       },
@@ -2689,22 +2811,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "318 19th street"
+        "text": "318 19th street"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmaddress",
+            "type": "address",
             "name": "318 19th Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
             "locality": "New York",
-            "neighborhood": "Windsor Teraace",
-            "text": "318 19th Street, Brooklyn, NY"
+            "neighbourhood": "Windsor Teraace",
+            "label": "318 19th Street, Brooklyn, NY",
+            "source": "osm"
           }
         ]
       },
@@ -2714,21 +2837,22 @@
       "id": "1426636804303:102",
       "user": "feedback-app",
       "in": {
-        "input": "54 Tiffany Ave"
+        "text": "54 Tiffany Ave"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "54 Tiffany Avenue",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Transmission",
-            "text": "54 Tiffany Avenue, San Francisco, CA",
-            "admin1_abbr": "CA"
+            "neighbourhood": "Transmission",
+            "label": "54 Tiffany Avenue, San Francisco, CA",
+            "region_a": "CA",
+            "source": "oa"
           }
         ],
         "priorityThresh": 3
@@ -2739,26 +2863,28 @@
       "id": "1426636804303:103",
       "user": "feedback-app",
       "in": {
-        "input": "Himeji-shi, Japan"
+        "text": "Himeji-shi, Japan"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Himeji Shi",
-            "alpha3": "JPN",
-            "admin0": "Japan",
-            "admin1": "Hyōgo",
-            "admin2": "Himeji Shi",
-            "text": "Himeji Shi, Hyōgo"
+            "country_a": "JPN",
+            "country": "Japan",
+            "region": "Hyōgo",
+            "county": "Himeji Shi",
+            "label": "Himeji Shi, Hyōgo",
+            "source": "gn"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Himeji",
-            "alpha3": "JPN",
-            "admin0": "Japan",
-            "admin1": "Hyōgo",
-            "text": "Himeji, Hyōgo"
+            "country_a": "JPN",
+            "country": "Japan",
+            "region": "Hyōgo",
+            "label": "Himeji, Hyōgo",
+            "source": "gn"
           }
         ]
       },
@@ -2768,18 +2894,19 @@
       "id": "1426636804303:104",
       "user": "feedback-app",
       "in": {
-        "input": "himeji castle"
+        "text": "himeji castle"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Himeji castle",
-            "alpha3": "JPN",
-            "admin0": "Japan",
-            "admin1": "Hyōgo",
+            "country_a": "JPN",
+            "country": "Japan",
+            "region": "Hyōgo",
             "locality": "Himeji",
-            "text": "Himeji castle, Himeji, Hyōgo"
+            "label": "Himeji castle, Himeji, Hyōgo",
+            "source": "gn"
           }
         ]
       },
@@ -2789,20 +2916,21 @@
       "id": "1426636804303:105",
       "user": "feedback-app",
       "in": {
-        "input": "north pole"
+        "text": "north pole"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "North Pole",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Alaska",
-            "admin2": "Fairbanks North Star Borough",
-            "text": "North Pole, AK",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Alaska",
+            "county": "Fairbanks North Star Borough",
+            "label": "North Pole, AK",
             "locality": "North Pole",
-            "admin1_abbr": "AK"
+            "region_a": "AK",
+            "source": "gn"
           }
         ]
       },
@@ -2812,18 +2940,19 @@
       "id": "1426636804303:106",
       "user": "feedback-app",
       "in": {
-        "input": "Dhahran"
+        "text": "Dhahran"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Dhahran",
-            "alpha3": "SAU",
-            "admin0": "Saudi Arabia",
-            "admin1": "Eastern Province",
-            "admin2": "الدمام",
-            "text": "Dhahran, الدمام, Eastern Province"
+            "country_a": "SAU",
+            "country": "Saudi Arabia",
+            "region": "Eastern Province",
+            "county": "الدمام",
+            "label": "Dhahran, الدمام, Eastern Province",
+            "source": "gn"
           }
         ]
       },
@@ -2833,17 +2962,18 @@
       "id": "1426636804303:107",
       "user": "feedback-app",
       "in": {
-        "input": "Traben-Trarbach"
+        "text": "Traben-Trarbach"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Traben-Trarbach",
-            "alpha3": "DEU",
-            "admin0": "Germany",
-            "admin1": "Rheinland-Pfalz",
-            "text": "Traben-Trarbach, Rheinland-Pfalz"
+            "country_a": "DEU",
+            "country": "Germany",
+            "region": "Rheinland-Pfalz",
+            "label": "Traben-Trarbach, Rheinland-Pfalz",
+            "source": "gn"
           }
         ]
       },
@@ -2853,22 +2983,23 @@
       "id": "1426636804303:108",
       "user": "feedback-app",
       "in": {
-        "input": "Pepe's Pizza New Haven CT"
+        "text": "Pepe's Pizza New Haven CT"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Pepe's Pizza",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Connecticut",
-            "admin1_abbr": "CT",
-            "admin2": "New Haven County",
-            "local_admin": "New Haven",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Connecticut",
+            "region_a": "CT",
+            "county": "New Haven County",
+            "localadmin": "New Haven",
             "locality": "New Haven",
-            "neighborhood": "Mill River",
-            "text": "Pepe's Pizza, New Haven, CT"
+            "neighbourhood": "Mill River",
+            "label": "Pepe's Pizza, New Haven, CT",
+            "source": "osm"
           }
         ]
       },
@@ -2878,19 +3009,20 @@
       "id": "1426636804303:109",
       "user": "feedback-app",
       "in": {
-        "input": "112 Castellow Ct Grafton"
+        "text": "112 Castellow Ct Grafton"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "112 Castellow Court",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Virginia",
-            "admin2": "York County",
-            "text": "112 Castellow Court, York County, VA",
-            "admin1_abbr": "VA"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Virginia",
+            "county": "York County",
+            "label": "112 Castellow Court, York County, VA",
+            "region_a": "VA",
+            "source": "oa"
           }
         ]
       },
@@ -2901,28 +3033,29 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "flatiron district"
+        "text": "flatiron district"
       },
       "expected": {
         "properties": [
           {
             "name": "Flatiron District",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "text": "Flatiron District, New York County, NY"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "label": "Flatiron District, New York County, NY"
           },
           {
-            "layer": "neighborhood",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
+            "type": "neighbourhood",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
             "name": "Flatiron",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "text": "Flatiron, New York County, NY"
+            "region_a": "NY",
+            "county": "New York County",
+            "label": "Flatiron, New York County, NY",
+            "source": "qs"
           }
         ]
       },
@@ -2932,18 +3065,19 @@
       "id": "1426636804303:111",
       "user": "feedback-app",
       "in": {
-        "input": "soho"
+        "text": "soho"
       },
       "expected": {
         "properties": [
           {
-            "layer": "neighborhood",
+            "type": "neighbourhood",
             "name": "Soho",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "text": "Soho, New York County, NY"
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "label": "Soho, New York County, NY",
+            "source": "qs"
           }
         ]
       },
@@ -2953,19 +3087,20 @@
       "id": "1426636804303:112",
       "user": "feedback-app",
       "in": {
-        "input": "dfw"
+        "text": "dfw"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "DFW",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Texas",
-            "admin1_abbr": "TX",
-            "admin2": "Dallas County",
-            "text": "DFW, Dallas, TX"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Texas",
+            "region_a": "TX",
+            "county": "Dallas County",
+            "label": "DFW, Dallas, TX",
+            "source": "osm"
           }
         ]
       },
@@ -2976,35 +3111,37 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "101 saint marks pl"
+        "text": "101 saint marks pl"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "101 Saint Marks Place",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "East Village",
-            "text": "101 Saint Marks Place, Manhattan, NY",
-            "admin1_abbr": "NY"
+            "neighbourhood": "East Village",
+            "label": "101 Saint Marks Place, Manhattan, NY",
+            "region_a": "NY",
+            "source": "oa"
           },
           {
-            "layer": "osmaddress",
+            "type": "address",
             "name": "101 Saint Marks Place",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "East Village",
-            "text": "101 Saint Marks Place, Manhattan, NY"
+            "neighbourhood": "East Village",
+            "label": "101 Saint Marks Place, Manhattan, NY",
+            "source": "osm"
           }
         ]
       },
@@ -3015,22 +3152,23 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "flatiron building"
+        "text": "flatiron building"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Flatiron Building",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Flatiron District",
-            "text": "Flatiron Building, Manhattan, NY"
+            "neighbourhood": "Flatiron District",
+            "label": "Flatiron Building, Manhattan, NY",
+            "source": "osm"
           }
         ]
       },
@@ -3041,19 +3179,20 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "flatiron"
+        "text": "flatiron"
       },
       "expected": {
         "properties": [
           {
-            "layer": "neighborhood",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
+            "type": "neighbourhood",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
             "name": "Flatiron",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "text": "Flatiron, New York County, NY"
+            "region_a": "NY",
+            "county": "New York County",
+            "label": "Flatiron, New York County, NY",
+            "source": "qs"
           }
         ]
       },
@@ -3063,20 +3202,21 @@
       "id": "1426636804303:116",
       "user": "feedback-app",
       "in": {
-        "input": "port deposit md"
+        "text": "port deposit md"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Port Deposit",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Maryland",
-            "admin2": "Cecil County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Maryland",
+            "county": "Cecil County",
             "locality": "Port Deposit",
-            "text": "Port Deposit, MD",
-            "admin1_abbr": "MD"
+            "label": "Port Deposit, MD",
+            "region_a": "MD",
+            "source": "gn"
           }
         ]
       },
@@ -3086,20 +3226,21 @@
       "id": "1426636804303:117",
       "user": "feedback-app",
       "in": {
-        "input": "backfin blues port deposit md"
+        "text": "backfin blues port deposit md"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Backfin Blues",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Maryland",
-            "admin1_abbr": "MD",
-            "admin2": "Cecil County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Maryland",
+            "region_a": "MD",
+            "county": "Cecil County",
             "locality": "Port Deposit",
-            "text": "Backfin Blues, Port Deposit, MD"
+            "label": "Backfin Blues, Port Deposit, MD",
+            "source": "osm"
           }
         ]
       },
@@ -3110,21 +3251,21 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "130 dean street brooklyn ny"
+        "text": "130 dean street brooklyn ny"
       },
       "expected": {
         "properties": [
           {
             "name": "130 Dean Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
             "locality": "New York",
-            "neighborhood": "Boerum Hill",
-            "text": "130 Dean Street, Brooklyn, NY"
+            "neighbourhood": "Boerum Hill",
+            "label": "130 Dean Street, Brooklyn, NY"
           }
         ]
       },
@@ -3134,22 +3275,23 @@
       "id": "1426636804303:119",
       "user": "feedback-app",
       "in": {
-        "input": "brooklyn inn"
+        "text": "brooklyn inn"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "The Brooklyn Inn",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
             "locality": "New York",
-            "neighborhood": "Boerum Hill",
-            "text": "The Brooklyn Inn, Brooklyn, NY"
+            "neighbourhood": "Boerum Hill",
+            "label": "The Brooklyn Inn, Brooklyn, NY",
+            "source": "osm"
           }
         ]
       },
@@ -3159,21 +3301,22 @@
       "id": "1426636804303:120",
       "user": "feedback-app",
       "in": {
-        "input": "bascom hall"
+        "text": "bascom hall"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Bascom Hall",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Wisconsin",
-            "admin1_abbr": "WI",
-            "admin2": "Dane County",
-            "local_admin": "Madison",
-            "neighborhood": "South Campus",
-            "text": "Bascom Hall, Madison, WI"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Wisconsin",
+            "region_a": "WI",
+            "county": "Dane County",
+            "localadmin": "Madison",
+            "neighbourhood": "South Campus",
+            "label": "Bascom Hall, Madison, WI",
+            "source": "osm"
           }
         ]
       },
@@ -3183,21 +3326,22 @@
       "id": "1426636804303:121",
       "user": "feedback-app",
       "in": {
-        "input": "golden gate bridge"
+        "text": "golden gate bridge"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Golden Gate Bridge",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Fort Winfield Scott",
-            "text": "Golden Gate Bridge, San Francisco, CA"
+            "neighbourhood": "Fort Winfield Scott",
+            "label": "Golden Gate Bridge, San Francisco, CA",
+            "source": "osm"
           }
         ]
       },
@@ -3207,21 +3351,22 @@
       "id": "1426636804303:122",
       "user": "feedback-app",
       "in": {
-        "input": "20 montezuma street"
+        "text": "20 montezuma street"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "20 Montezuma Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Transmission",
-            "text": "20 Montezuma Street, San Francisco, CA",
-            "admin1_abbr": "CA"
+            "neighbourhood": "Transmission",
+            "label": "20 Montezuma Street, San Francisco, CA",
+            "region_a": "CA",
+            "source": "oa"
           }
         ]
       },
@@ -3231,21 +3376,22 @@
       "id": "1426636804303:123",
       "user": "feedback-app",
       "in": {
-        "input": "little griddle"
+        "text": "little griddle"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Little Griddle",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Civic Center",
-            "text": "Little Griddle, San Francisco, CA"
+            "neighbourhood": "Civic Center",
+            "label": "Little Griddle, San Francisco, CA",
+            "source": "osm"
           }
         ]
       },
@@ -3255,21 +3401,22 @@
       "id": "1426636804303:124",
       "user": "feedback-app",
       "in": {
-        "input": "pork store cafe"
+        "text": "pork store cafe"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Pork Store Cafe Valencia",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Mission Dolores",
-            "text": "Pork Store Cafe Valencia, San Francisco, CA"
+            "neighbourhood": "Mission Dolores",
+            "label": "Pork Store Cafe Valencia, San Francisco, CA",
+            "source": "osm"
           }
         ]
       },
@@ -3279,19 +3426,20 @@
       "id": "1426636804303:126",
       "user": "feedback-app",
       "in": {
-        "input": "haslital, ch"
+        "text": "haslital, ch"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Haslital",
-            "alpha3": "CHE",
-            "admin0": "Switzerland",
-            "admin1": "Bern",
-            "admin2": "Interlaken-Oberhasli",
-            "local_admin": "Innertkirchen",
-            "text": "Haslital, Innertkirchen, Bern"
+            "country_a": "CHE",
+            "country": "Switzerland",
+            "region": "Bern",
+            "county": "Interlaken-Oberhasli",
+            "localadmin": "Innertkirchen",
+            "label": "Haslital, Innertkirchen, Bern",
+            "source": "gn"
           }
         ]
       },
@@ -3301,25 +3449,27 @@
       "id": "1427414405152:0",
       "user": "feedback-app",
       "in": {
-        "input": "Berlin"
+        "text": "Berlin"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Berlin",
-            "alpha3": "DEU",
-            "admin0": "Germany",
-            "admin1": "Berlin",
-            "text": "Berlin"
+            "country_a": "DEU",
+            "country": "Germany",
+            "region": "Berlin",
+            "label": "Berlin",
+            "source": "gn"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Berlin",
-            "alpha3": "DEU",
-            "admin0": "Germany",
-            "admin1": "Berlin",
-            "text": "Berlin"
+            "country_a": "DEU",
+            "country": "Germany",
+            "region": "Berlin",
+            "label": "Berlin",
+            "source": "gn"
           }
         ]
       },
@@ -3329,20 +3479,21 @@
       "id": "1427414405152:1",
       "user": "feedback-app",
       "in": {
-        "input": "florence"
+        "text": "florence"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Florence",
-            "alpha3": "ITA",
-            "admin0": "Italy",
-            "admin1": "Tuscany",
-            "admin2": "Province of Florence",
+            "country_a": "ITA",
+            "country": "Italy",
+            "region": "Tuscany",
+            "county": "Province of Florence",
             "locality": "Firenze",
-            "local_admin": "Firenze",
-            "text": "Florence, Firenze, Tuscany"
+            "localadmin": "Firenze",
+            "label": "Florence, Firenze, Tuscany",
+            "source": "gn"
           }
         ]
       },
@@ -3352,20 +3503,21 @@
       "id": "1427414405152:2",
       "user": "feedback-app",
       "in": {
-        "input": "stamford amtrak station"
+        "text": "stamford amtrak station"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Stamford Amtrak Station",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Connecticut",
-            "admin2": "Fairfield County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Connecticut",
+            "county": "Fairfield County",
             "locality": "Stamford",
-            "local_admin": "Stamford",
-            "text": "Stamford Amtrak Station, Stamford, CT"
+            "localadmin": "Stamford",
+            "label": "Stamford Amtrak Station, Stamford, CT",
+            "source": "gn"
           }
         ]
       },
@@ -3375,20 +3527,21 @@
       "id": "1427414405152:5",
       "user": "feedback-app",
       "in": {
-        "input": "san francisco"
+        "text": "san francisco"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "San Francisco",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "text": "San Francisco, CA"
+            "label": "San Francisco, CA",
+            "source": "gn"
           }
         ]
       },
@@ -3398,19 +3551,20 @@
       "id": "1427414405152:6",
       "user": "feedback-app",
       "in": {
-        "input": "Lake Cayuga, ny"
+        "text": "Lake Cayuga, ny"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Cayuga Lake",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Tompkins County",
-            "text": "Cayuga Lake, Tompkins County, NY"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Tompkins County",
+            "label": "Cayuga Lake, Tompkins County, NY",
+            "source": "gn"
           }
         ]
       },
@@ -3420,20 +3574,21 @@
       "id": "1427414405152:7",
       "user": "feedback-app",
       "in": {
-        "input": "9 Earlshall drive, flat bush, auckland 2016, new zealand"
+        "text": "9 Earlshall drive, flat bush, auckland 2016, new zealand"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "9 Earlshall Drive",
-            "alpha3": "NZL",
-            "admin0": "New Zealand",
-            "admin1": "Auckland Region",
-            "admin2": "Auckland",
+            "country_a": "NZL",
+            "country": "New Zealand",
+            "region": "Auckland Region",
+            "county": "Auckland",
             "locality": "East Tamaki Heights",
-            "neighborhood": "East Tamaki",
-            "text": "9 Earlshall Drive, East Tamaki Heights, Auckland Region"
+            "neighbourhood": "East Tamaki",
+            "label": "9 Earlshall Drive, East Tamaki Heights, Auckland Region",
+            "source": "oa"
           }
         ]
       },
@@ -3443,18 +3598,19 @@
       "id": "1431043206881:0",
       "user": "feedback-app",
       "in": {
-        "input": "Dhaka, Dhaka, Bangladesh"
+        "text": "Dhaka, Dhaka, Bangladesh"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Dhaka",
-            "alpha3": "BGD",
-            "admin0": "Bangladesh",
-            "admin1": "Dhaka",
-            "admin2": "Dhaka",
-            "text": "Dhaka"
+            "country_a": "BGD",
+            "country": "Bangladesh",
+            "region": "Dhaka",
+            "county": "Dhaka",
+            "label": "Dhaka",
+            "source": "gn"
           }
         ]
       },
@@ -3464,33 +3620,36 @@
       "id": "1431043206881:1",
       "user": "feedback-app",
       "in": {
-        "input": "Tbilisi, Republic of Georgia, Georgia"
+        "text": "Tbilisi, Republic of Georgia, Georgia"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Tbilisi",
-            "alpha3": "GEO",
-            "admin0": "Georgia",
-            "admin1": "T'bilisi",
-            "text": "Tbilisi, T'bilisi"
+            "country_a": "GEO",
+            "country": "Georgia",
+            "region": "T'bilisi",
+            "label": "Tbilisi, T'bilisi",
+            "source": "gn"
           },
           {
-            "layer": "admin1",
+            "type": "region",
             "name": "Tbilisi",
-            "alpha3": "GEO",
-            "admin0": "Georgia",
-            "admin1": "Tbilisi",
-            "text": "Tbilisi"
+            "country_a": "GEO",
+            "country": "Georgia",
+            "region": "Tbilisi",
+            "label": "Tbilisi",
+            "source": "qs"
           },
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Tbilisi",
-            "alpha3": "GEO",
-            "admin0": "Georgia",
-            "admin1": "Tbilisi",
-            "text": "Tbilisi"
+            "country_a": "GEO",
+            "country": "Georgia",
+            "region": "Tbilisi",
+            "label": "Tbilisi",
+            "source": "osm"
           }
         ]
       },
@@ -3500,25 +3659,27 @@
       "id": "1431043206881:2",
       "user": "feedback-app",
       "in": {
-        "input": "Suva, Fiji"
+        "text": "Suva, Fiji"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Suva",
-            "alpha3": "FJI",
-            "admin0": "Fiji",
-            "admin1": "Central",
-            "text": "Suva, Central"
+            "country_a": "FJI",
+            "country": "Fiji",
+            "region": "Central",
+            "label": "Suva, Central",
+            "source": "gn"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Suva",
-            "alpha3": "FJI",
-            "admin0": "Fiji",
-            "admin1": "Central",
-            "text": "Suva, Central"
+            "country_a": "FJI",
+            "country": "Fiji",
+            "region": "Central",
+            "label": "Suva, Central",
+            "source": "gn"
           }
         ]
       },
@@ -3528,17 +3689,18 @@
       "id": "1431043206881:3",
       "user": "feedback-app",
       "in": {
-        "input": "Dili, Dili, Timor leste"
+        "text": "Dili, Dili, Timor leste"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Dili",
-            "alpha3": "TLS",
-            "admin0": "East Timor",
-            "admin1": "Díli",
-            "text": "Dili, Díli"
+            "country_a": "TLS",
+            "country": "East Timor",
+            "region": "Díli",
+            "label": "Dili, Díli",
+            "source": "gn"
           }
         ]
       },
@@ -3548,19 +3710,20 @@
       "id": "1431043206881:4",
       "user": "feedback-app",
       "in": {
-        "input": "Washington, District of Columbia, USA"
+        "text": "Washington, District of Columbia, USA"
       },
       "expected": {
         "properties": [
           {
-            "layer": "locality",
+            "type": "locality",
             "name": "Washington",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "District of Columbia",
-            "admin1_abbr": "DC",
-            "admin2": "District of Columbia",
-            "text": "Washington, District of Columbia, DC"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "District of Columbia",
+            "region_a": "DC",
+            "county": "District of Columbia",
+            "label": "Washington, District of Columbia, DC",
+            "source": "qs"
           }
         ]
       },
@@ -3570,54 +3733,58 @@
       "id": "1431043206881:5",
       "user": "feedback-app",
       "in": {
-        "input": "Silver Spring, Maryland, USA"
+        "text": "Silver Spring, Maryland, USA"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Silver Spring",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Maryland",
-            "admin1_abbr": "MD",
-            "admin2": "Montgomery County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Maryland",
+            "region_a": "MD",
+            "county": "Montgomery County",
             "locality": "Silver Spring",
-            "text": "Silver Spring, MD"
+            "label": "Silver Spring, MD",
+            "source": "gn"
           },
           {
-            "layer": "locality",
+            "type": "locality",
             "name": "Silver Spring",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Maryland",
-            "admin1_abbr": "MD",
-            "admin2": "Montgomery County",
-            "text": "Silver Spring, Montgomery County, MD"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Maryland",
+            "region_a": "MD",
+            "county": "Montgomery County",
+            "label": "Silver Spring, Montgomery County, MD",
+            "source": "qs"
           },
           {
-            "layer": "osmway",
+            "type": "venue",
             "name": "Silver Spring",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Maryland",
-            "admin1_abbr": "MD",
-            "admin2": "Montgomery County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Maryland",
+            "region_a": "MD",
+            "county": "Montgomery County",
             "locality": "Silver Spring",
-            "neighborhood": "Blair Portal",
-            "text": "Silver Spring, MD"
+            "neighbourhood": "Blair Portal",
+            "label": "Silver Spring, MD",
+            "source": "osm"
           },
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Silver Spring",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Maryland",
-            "admin1_abbr": "MD",
-            "admin2": "Montgomery County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Maryland",
+            "region_a": "MD",
+            "county": "Montgomery County",
             "locality": "Silver Spring",
-            "neighborhood": "North Gate",
-            "text": "Silver Spring, MD"
+            "neighbourhood": "North Gate",
+            "label": "Silver Spring, MD",
+            "source": "osm"
           }
         ]
       },
@@ -3627,29 +3794,31 @@
       "id": "1431043206881:6",
       "user": "feedback-app",
       "in": {
-        "input": "Markdorf, Germany"
+        "text": "Markdorf, Germany"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Markdorf",
-            "alpha3": "DEU",
-            "admin0": "Germany",
-            "admin1": "Baden-Württemberg",
-            "admin2": "Tübingen Region",
+            "country_a": "DEU",
+            "country": "Germany",
+            "region": "Baden-Württemberg",
+            "county": "Tübingen Region",
             "locality": "Markdorf",
-            "text": "Markdorf, Baden-Württemberg"
+            "label": "Markdorf, Baden-Württemberg",
+            "source": "gn"
           },
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Markdorf",
-            "alpha3": "DEU",
-            "admin0": "Germany",
-            "admin1": "Baden-Württemberg",
-            "admin2": "Tübingen Region",
+            "country_a": "DEU",
+            "country": "Germany",
+            "region": "Baden-Württemberg",
+            "county": "Tübingen Region",
             "locality": "Markdorf",
-            "text": "Markdorf, Baden-Württemberg"
+            "label": "Markdorf, Baden-Württemberg",
+            "source": "gn"
           }
         ]
       },
@@ -3659,20 +3828,21 @@
       "id": "1431043206881:7",
       "user": "feedback-app",
       "in": {
-        "input": "manteca, ca, united states"
+        "text": "manteca, ca, united states"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Manteca",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Joaquin County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Joaquin County",
             "locality": "Manteca",
-            "text": "Manteca, CA"
+            "label": "Manteca, CA",
+            "source": "gn"
           }
         ]
       },
@@ -3682,48 +3852,52 @@
       "id": "1431043206881:8",
       "user": "feedback-app",
       "in": {
-        "input": "Buenos Aires, Buenos Aires, Argentina"
+        "text": "Buenos Aires, Buenos Aires, Argentina"
       },
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Buenos Aires",
-            "alpha3": "ARG",
-            "admin0": "Argentina",
-            "admin1": "Buenos Aires F.D.",
-            "admin2": "Ciudad de Buenos Aires",
-            "text": "Buenos Aires, Ciudad de Buenos Aires, Buenos Aires F.D."
+            "country_a": "ARG",
+            "country": "Argentina",
+            "region": "Buenos Aires F.D.",
+            "county": "Ciudad de Buenos Aires",
+            "label": "Buenos Aires, Ciudad de Buenos Aires, Buenos Aires F.D.",
+            "source": "gn"
           },
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Buenos Aires",
-            "alpha3": "ARG",
-            "admin0": "Argentina",
-            "admin1": "Ciudad de Buenos Aires",
-            "admin2": "Ciudad de Buenos Aires",
-            "neighborhood": "Barracas",
-            "text": "Buenos Aires, Barracas, Ciudad de Buenos Aires"
+            "country_a": "ARG",
+            "country": "Argentina",
+            "region": "Ciudad de Buenos Aires",
+            "county": "Ciudad de Buenos Aires",
+            "neighbourhood": "Barracas",
+            "label": "Buenos Aires, Barracas, Ciudad de Buenos Aires",
+            "source": "osm"
           },
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Buenos Aires",
-            "alpha3": "ARG",
-            "admin0": "Argentina",
-            "admin1": "Ciudad de Buenos Aires",
-            "admin2": "Ciudad de Buenos Aires",
-            "neighborhood": "Barracas",
-            "text": "Buenos Aires, Barracas, Ciudad de Buenos Aires"
+            "country_a": "ARG",
+            "country": "Argentina",
+            "region": "Ciudad de Buenos Aires",
+            "county": "Ciudad de Buenos Aires",
+            "neighbourhood": "Barracas",
+            "label": "Buenos Aires, Barracas, Ciudad de Buenos Aires",
+            "source": "osm"
           },
           {
-            "layer": "osmnode",
+            "type": "venue",
             "name": "Buenos Aires",
-            "alpha3": "ARG",
-            "admin0": "Argentina",
-            "admin1": "Ciudad de Buenos Aires",
-            "admin2": "Ciudad de Buenos Aires",
-            "neighborhood": "Barracas",
-            "text": "Buenos Aires, Barracas, Ciudad de Buenos Aires"
+            "country_a": "ARG",
+            "country": "Argentina",
+            "region": "Ciudad de Buenos Aires",
+            "county": "Ciudad de Buenos Aires",
+            "neighbourhood": "Barracas",
+            "label": "Buenos Aires, Barracas, Ciudad de Buenos Aires",
+            "source": "osm"
           }
         ]
       },
@@ -3733,27 +3907,26 @@
       "id": "1435017604203:0",
       "user": "feedback-app",
       "in": {
-        "input": "20 Broad St, ny"
+        "text": "20 Broad St, ny"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
+            "type": "address",
             "name": "20 Broad Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Financial District",
+            "neighbourhood": "Financial District",
             "category": [],
-            "address": {
-              "number": "20",
-              "street": "Broad Street"
-            },
-            "text": "20 Broad Street, Manhattan, NY"
+            "housenumber": "20",
+            "street": "Broad Street",
+            "label": "20 Broad Street, Manhattan, NY",
+            "source": "oa"
           }
         ]
       },
@@ -3763,27 +3936,26 @@
       "id": "1432771203570:0",
       "user": "feedback-app",
       "in": {
-        "input": "483A 28th Street, San Francisco, CA"
+        "text": "483A 28th Street, San Francisco, CA"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmaddress",
+            "type": "address",
             "name": "483A 28th Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Noe Valley",
+            "neighbourhood": "Noe Valley",
             "category": [],
-            "address": {
-              "zip": "94131",
-              "number": "483A",
-              "street": "28th Street"
-            },
-            "text": "483A 28th Street, San Francisco, CA"
+            "postalcode": "94131",
+            "housenumber": "483A",
+            "street": "28th Street",
+            "label": "483A 28th Street, San Francisco, CA",
+            "source": "osm"
           }
         ],
         "priorityThresh": 1
@@ -3794,27 +3966,26 @@
       "id": "1432771203570:1",
       "user": "feedback-app",
       "in": {
-        "input": "485 28th Street, San Francisco, CA"
+        "text": "485 28th Street, San Francisco, CA"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmaddress",
+            "type": "address",
             "name": "485 28th Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Noe Valley",
+            "neighbourhood": "Noe Valley",
             "category": [],
-            "address": {
-              "zip": "94131",
-              "number": "483;485",
-              "street": "28th Street"
-            },
-            "text": "485 28th Street, San Francisco, CA"
+            "postalcode": "94131",
+            "housenumber": "483;485",
+            "street": "28th Street",
+            "label": "485 28th Street, San Francisco, CA",
+            "source": "osm"
           }
         ],
         "priorityThresh": 1

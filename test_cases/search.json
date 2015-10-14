@@ -8,7 +8,7 @@
       "user": "Randy",
       "type": "dev",
       "in": {
-        "input": "brooklyn"
+        "text": "brooklyn"
       },
       "expected": {
         "properties": [
@@ -22,7 +22,7 @@
       "user": "Randy",
       "type": "dev",
       "in": {
-        "input": "brooklyn, ny"
+        "text": "brooklyn, ny"
       },
       "expected": {
         "properties": [
@@ -36,7 +36,7 @@
       "user": "Randy",
       "type": "dev",
       "in": {
-        "input": "new york"
+        "text": "new york"
       },
       "expected": {
         "properties": [
@@ -50,19 +50,19 @@
       "user": "Diana",
       "type": "dev",
       "in": {
-        "input": "philadelphia"
+        "text": "philadelphia"
       },
       "expected": {
         "properties": [
           {
-            "text": "Philadelphia, PA",
+            "label": "Philadelphia, PA",
             "name": "Philadelphia",
-            "admin1": "Pennsylvania",
-            "admin0": "United States",
+            "region": "Pennsylvania",
+            "country": "United States",
             "locality": "Philadelphia",
-            "local_admin": "Philadelphia",
-            "admin1_abbr": "PA",
-            "admin2": "Philadelphia County"
+            "localadmin": "Philadelphia",
+            "region_a": "PA",
+            "county": "Philadelphia County"
           }
         ]
       }
@@ -73,7 +73,7 @@
       "type": "dev",
       "user": "Randy",
       "in": {
-        "input": "new york, new york"
+        "text": "new york, new york"
       },
       "expected": {
         "properties": [
@@ -87,16 +87,16 @@
       "type": "dev",
       "user": "Randy",
       "in": {
-        "input": "130 dean street brooklyn, ny"
+        "text": "130 dean street brooklyn, ny"
       },
       "expected": {
         "priorityThresh": 1,
         "properties": [
           {
-            "text": "130 Dean Street, Brooklyn, NY",
+            "label": "130 Dean Street, Brooklyn, NY",
             "name": "130 Dean Street",
-            "admin0": "United States",
-            "admin1": "New York"
+            "country": "United States",
+            "region": "New York"
           }
         ]
       }
@@ -107,7 +107,7 @@
       "type": "dev",
       "user": "Randy",
       "in": {
-        "input": "billerica"
+        "text": "billerica"
       },
       "expected": {
         "priorityThresh": 1,
@@ -122,7 +122,7 @@
       "type": "dev",
       "user": "Randy",
       "in": {
-        "input": "billerica, ma"
+        "text": "billerica, ma"
       },
       "expected": {
         "priorityThresh": 1,
@@ -136,31 +136,18 @@
       "status": "pass",
       "user": "Randy",
       "in": {
-        "input": "15 call street billerica, ma"
+        "text": "15 call street billerica, ma"
       },
       "expected": {
         "priorityThresh": 1,
         "properties": [
           {
             "name": "15 Call Street",
-            "admin0": "United States",
-            "admin1": "Massachusetts",
-            "admin2": "Middlesex County",
-            "text": "15 Call Street, Billerica, MA"
+            "country": "United States",
+            "region": "Massachusetts",
+            "county": "Middlesex County",
+            "label": "15 Call Street, Billerica, MA"
           }
-        ]
-      }
-    },
-    {
-      "id": "1425586777012:0",
-      "user": "feedback-app",
-      "type": "dev",
-      "in": {
-        "input": "union sq"
-      },
-      "expected": {
-        "properties": [
-          null
         ]
       }
     },
@@ -170,21 +157,22 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "portland"
+        "text": "portland"
       },
       "expected": {
         "priorityThresh": 1,
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Portland",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Oregon",
-            "admin1_abbr": "OR",
-            "admin2": "Multnomah County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Oregon",
+            "region_a": "OR",
+            "county": "Multnomah County",
             "locality": "Portland",
-            "text": "Portland, OR"
+            "label": "Portland, OR",
+            "source": "gn"
           }
         ]
       }
@@ -194,19 +182,20 @@
       "status": "pass",
       "user": "feedback-app",
       "in": {
-        "input": "paris"
+        "text": "paris"
       },
       "expected": {
         "priorityThresh": 2,
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Paris",
-            "alpha3": "FRA",
-            "admin0": "France",
-            "admin1": "Île-de-France",
-            "admin2": "Paris",
-            "text": "Paris, Île-de-France"
+            "country_a": "FRA",
+            "country": "France",
+            "region": "Île-de-France",
+            "county": "Paris",
+            "label": "Paris, Île-de-France",
+            "source": "gn"
           }
         ]
       }
@@ -216,16 +205,16 @@
       "status": "pass",
       "user": "feedback-app",
       "in": {
-        "input": "france"
+        "text": "france"
       },
       "expected": {
         "priorityThresh": 1,
         "properties": [
           {
             "name": "France",
-            "admin0": "France",
-            "alpha3": "FRA",
-            "text": "France"
+            "country": "France",
+            "country_a": "FRA",
+            "label": "France"
           }
         ]
       }
@@ -236,20 +225,21 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "prospect park"
+        "text": "prospect park"
       },
       "expected": {
         "priorityThresh": 5,
         "properties": [
           {
-            "layer": "neighborhood",
+            "type": "neighbourhood",
             "name": "Prospect Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "text": "Prospect Park, Kings County, New York"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "label": "Prospect Park, Kings County, New York",
+            "source": "qs"
           }
         ]
       }
@@ -260,19 +250,20 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "london"
+        "text": "london"
       },
       "expected": {
         "priorityThresh": 1,
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "London",
-            "alpha3": "GBR",
-            "admin0": "United Kingdom",
-            "admin1": "England",
-            "admin2": "Greater London",
-            "text": "London, Greater London"
+            "country_a": "GBR",
+            "country": "United Kingdom",
+            "region": "England",
+            "county": "Greater London",
+            "label": "London, Greater London",
+            "source": "gn"
           }
         ]
       }
@@ -283,32 +274,32 @@
       "user": "hkrishna",
       "type": "dev",
       "in": {
-        "input": "chelsea, new york"
+        "text": "chelsea, new york"
       },
       "expected": {
         "priorityThresh": 2,
         "properties": [
           {
             "name": "Chelsea",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
             "locality": "New York",
-            "local_admin": "Manhattan",
-            "text": "Chelsea, Manhattan, NY"
+            "localadmin": "Manhattan",
+            "label": "Chelsea, Manhattan, NY"
           },
           {
-            "layer": "neighborhood",
+            "type": "neighbourhood",
             "name": "Chelsea",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "text": "Chelsea, New York County, NY"
-
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "label": "Chelsea, New York County, NY",
+            "source": "qs"
           }
         ]
       }
@@ -319,21 +310,21 @@
       "type": "dev",
       "user": "hkrishna",
       "in": {
-        "input": "soho, new york"
+        "text": "soho, new york"
       },
       "expected": {
         "priorityThresh": 2,
         "properties": [
           {
             "name": "SoHo",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "text": "SoHo, Manhattan, NY"
+            "label": "SoHo, Manhattan, NY"
           }
         ]
       }
@@ -343,20 +334,21 @@
       "status": "pass",
       "user": "feedback-app",
       "in": {
-        "input": "perugia airport"
+        "text": "perugia airport"
       },
       "expected": {
         "priorityThresh": 1,
         "properties": [
           {
-            "layer": "geoname",
+            "type": "???",
             "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
-            "alpha3": "ITA",
-            "admin0": "Italy",
-            "admin1": "Umbria",
-            "admin2": "Provincia di Perugia",
-            "local_admin": "Perugia",
-            "text": "Perugia San Francesco d'Assisi – Umbria International Airport, Perugia, Umbria"
+            "country_a": "ITA",
+            "country": "Italy",
+            "region": "Umbria",
+            "county": "Provincia di Perugia",
+            "localadmin": "Perugia",
+            "label": "Perugia San Francesco d'Assisi – Umbria International Airport, Perugia, Umbria",
+            "source": "gn"
           }
         ]
       }
@@ -367,20 +359,20 @@
       "user": "hkrishna",
       "type": "dev",
       "in": {
-        "input": "london bridge"
+        "text": "london bridge"
       },
       "expected": {
         "priorityThresh": 8,
         "properties": [
           {
-            "admin0": "United Kingdom",
-            "admin1": "Southwark",
-            "admin2": "Greater London",
+            "country": "United Kingdom",
+            "region": "Southwark",
+            "county": "Greater London",
             "locality": "London",
-            "alpha3": "GBR",
+            "country_a": "GBR",
             "name": "London Bridge",
-            "neighborhood": "Bankside",
-            "text": "London Bridge, Bankside, Greater London"
+            "neighbourhood": "Bankside",
+            "label": "London Bridge, Bankside, Greater London"
           }
         ]
       }
@@ -391,20 +383,20 @@
       "user": "hkrishna",
       "type": "dev",
       "in": {
-        "input": "london bridge"
+        "text": "london bridge"
       },
       "expected": {
         "priorityThresh": 8,
         "properties": [
           {
-            "admin0": "United Kingdom",
-            "admin1": "Southwark",
-            "admin2": "Greater London",
+            "country": "United Kingdom",
+            "region": "Southwark",
+            "county": "Greater London",
             "locality": "London",
-            "alpha3": "GBR",
+            "country_a": "GBR",
             "name": "London Bridge",
-            "neighborhood": "Bankside",
-            "text": "London Bridge, Bankside, Greater London"
+            "neighbourhood": "Bankside",
+            "label": "London Bridge, Bankside, Greater London"
           }
         ]
       }
@@ -415,22 +407,22 @@
       "type": "dev",
       "user": "hkrishna",
       "in": {
-        "input": "101 saint marks pl, new york"
+        "text": "101 saint marks pl, new york"
       },
       "expected": {
         "priorityThresh": 3,
         "properties": [
           {
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "alpha3": "USA",
-            "local_admin": "Manhattan",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "country_a": "USA",
+            "localadmin": "Manhattan",
             "locality": "New York",
             "name": "101 Saint Marks Place",
-            "neighborhood": "East Village",
-            "text": "101 Saint Marks Place, Manhattan, NY"
+            "neighbourhood": "East Village",
+            "label": "101 Saint Marks Place, Manhattan, NY"
           }
         ]
       }
@@ -441,21 +433,21 @@
       "type": "dev",
       "user": "hkrishna",
       "in": {
-        "input": "wall street, NY"
+        "text": "wall street, NY"
       },
       "expected": {
         "priorityThresh": 3,
         "properties": [
           {
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "alpha3": "USA",
-            "local_admin": "Manhattan",
+            "country": "United States",
+            "region": "New York",
+            "county": "New York County",
+            "country_a": "USA",
+            "localadmin": "Manhattan",
             "locality": "New York",
             "name": "Wall Street",
-            "neighborhood": "Financial District",
-            "text": "Wall Street, Manhattan, New York"
+            "neighbourhood": "Financial District",
+            "label": "Wall Street, Manhattan, New York"
           }
         ]
       }
@@ -466,21 +458,21 @@
       "type": "dev",
       "user": "hkrishna",
       "in": {
-        "input": "wall street"
+        "text": "wall street"
       },
       "expected": {
         "priorityThresh": 3,
         "properties": [
           {
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "alpha3": "USA",
-            "local_admin": "Manhattan",
+            "country": "United States",
+            "region": "New York",
+            "county": "New York County",
+            "country_a": "USA",
+            "localadmin": "Manhattan",
             "locality": "New York",
             "name": "Wall Street",
-            "neighborhood": "Financial District",
-            "text": "Wall Street, Manhattan, New York"
+            "neighbourhood": "Financial District",
+            "label": "Wall Street, Manhattan, New York"
           }
         ]
       }
@@ -491,39 +483,41 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "newark airport"
+        "text": "newark airport"
       },
       "expected": {
         "priorityThresh": 2,
-        "properties": [{
-          "name": "Newark Liberty International Airport",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New Jersey",
-          "admin1_abbr": "NJ",
-          "admin2": "Essex County",
-          "local_admin": "Newark",
-          "locality": "Newark",
-          "neighborhood": "Dayton",
-          "text": "Newark Liberty International Airport, Newark, NJ"
-        }]
+        "properties": [
+          {
+            "name": "Newark Liberty International Airport",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New Jersey",
+            "region_a": "NJ",
+            "county": "Essex County",
+            "localadmin": "Newark",
+            "locality": "Newark",
+            "neighbourhood": "Dayton",
+            "label": "Newark Liberty International Airport, Newark, NJ"
+          }
+        ]
       }
     },
     {
       "id": "1427414405152:3",
       "user": "sevko",
       "in": {
-        "input": "7 Simon-Dach-Straße"
+        "text": "7 Simon-Dach-Straße"
       },
       "expected": {
         "properties": [
           {
             "name": "7 Simon-Dach-Straße",
-            "alpha3": "DEU",
-            "admin1": "Bayern",
-            "admin2": "Erlangen-Hoechstadt",
+            "country_a": "DEU",
+            "region": "Bayern",
+            "county": "Erlangen-Hoechstadt",
             "locality": "Uttenreuth",
-            "text": "7 Simon-Dach-Straße, Uttenreuth, Bayern"
+            "label": "7 Simon-Dach-Straße, Uttenreuth, Bayern"
           }
         ],
         "priorityThresh": 1
@@ -534,18 +528,18 @@
       "id": "1427414405152:3",
       "user": "sevko",
       "in": {
-        "input": "Simon-Dach-Straße"
+        "text": "Simon-Dach-Straße"
       },
       "expected": {
         "properties": [
           {
             "name": "Simon-Dach-Straße",
-            "alpha3": "DEU",
-            "admin1": "Berlin",
-            "admin2": "Berlin",
+            "country_a": "DEU",
+            "region": "Berlin",
+            "county": "Berlin",
             "locality": "Berlin",
-            "neighborhood": "Friedrichsberg",
-            "text": "Simon-Dach-Straße, Berlin"
+            "neighbourhood": "Friedrichsberg",
+            "label": "Simon-Dach-Straße, Berlin"
           }
         ],
         "priorityThresh": 1
