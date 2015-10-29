@@ -9,7 +9,18 @@
         "text": "seattle, wa"
       },
       "expected": {
-        "properties": "Seattle, King County, Washington, United States of America"
+        "properties": [
+          {
+            "name": "Seattle",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Washington",
+            "region_a": "WA",
+            "county": "King County",
+            "locality": "Seattle",
+            "label": "Seattle, King County, WA"
+          }
+        ]
       }
     },
     {
@@ -19,7 +30,16 @@
         "text": "gasworks park"
       },
       "expected": {
-        "properties": "Gasworks Park, Raploch Street, Raploch, Fairholm, South Lanarkshire, Scotland, United Kingdom"
+        "properties": [
+          {
+            "name": "Gasworks Park",
+            "country_a": "GBR",
+            "country": "United Kingdom",
+            "region": "South Lanarkshire",
+            "locality": "Larkhall",
+            "label": "Gasworks Park, Larkhall, United Kingdom"
+          }
+        ]
       }
     },
     {
@@ -29,7 +49,23 @@
         "text": "30 rock"
       },
       "expected": {
-        "properties": "30 Rockefeller Plaza, 30, Rockefeller Plaza, Diamond District, Manhattan, New York County, New York City, New York, 10020, United States of America"
+        "properties": [
+          {
+            "name": "30 Rockefeller Plaza",
+            "housenumber": "30",
+            "street": "Rockefeller Plaza",
+            "postalcode": "10020",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "neighbourhood": "Theatre District",
+            "label": "30 Rockefeller Plaza, Manhattan, NY"
+          }
+        ]
       }
     },
     {
@@ -39,7 +75,22 @@
         "text": "2511 Hill Court, Berkeley, CA"
       },
       "expected": {
-        "properties": "2511, Hill Court, Northside, Berkeley, Alameda County, California, 94708, United States of America"
+        "properties": [
+          {
+            "name": "2511 Hill Court",
+            "housenumber": "2511",
+            "street": "Hill Court",
+            "postalcode": "94708",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "Alameda County",
+            "locality": "Berkeley",
+            "neighbourhood": "North Berkeley Hills",
+            "label": "2511 Hill Court, Berkeley, CA"
+          }
+        ]
       }
     },
     {
@@ -59,7 +110,22 @@
         "text": "1 Centerpoint Blvd, New Castle, DE"
       },
       "expected": {
-        "properties": "1, Centerpoint Boulevard, New Castle, New Castle County, Delaware, 19720, United States of America"
+        "properties": [
+          {
+            "name": "1 Centerpoint Boulevard",
+            "housenumber": "1",
+            "street": "Centerpoint Boulevard",
+            "postalcode": "19720",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Delaware",
+            "region_a": "DE",
+            "county": "New Castle County",
+            "locality": "New Castle",
+            "neighbourhood": "Dobbinsville",
+            "label": "1 Centerpoint Boulevard, New Castle, DE"
+          }
+        ]
       }
     },
     {
@@ -69,7 +135,17 @@
         "text": "BWI"
       },
       "expected": {
-        "properties": "Baltimore-Washington International/Thurgood Marshall Airport, Fuel Farm Road, Shipley Heights, Homeland Park, Anne Arundel County, Maryland, 21090, United States of America"
+        "properties": [
+          {
+            "name": "Baltimore-Washington International/Thurgood Marshall Airport",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Maryland",
+            "region_a": "MD",
+            "county": "Anne Arundel County",
+            "label": "Baltimore-Washington International/Thurgood Marshall Airport, Anne Arundel County, MD"
+          }
+        ]
       }
     },
     {
@@ -79,7 +155,22 @@
         "text": "15 call street north billerica, ma"
       },
       "expected": {
-        "properties": "15, Call Street, Billerica, Middlesex County, Massachusetts, 01862, United States of America"
+        "properties": [
+          {
+            "name": "15 Call Street",
+            "housenumber": "15",
+            "street": "Call Street",
+            "postalcode": "01821",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Massachusetts",
+            "region_a": "MA",
+            "county": "Middlesex County",
+            "localadmin": "Billerica",
+            "neighbourhood": "South Lowell",
+            "label": "15 Call Street, Billerica, MA"
+          }
+        ]
       }
     },
     {
@@ -89,7 +180,18 @@
         "text": "IAH"
       },
       "expected": {
-        "properties": "George Bush Intercontinental Airport - Houston, South Terminal Road, Houston, Harris County, Texas, 77205, United States of America"
+        "properties": [
+          {
+            "name": "George Bush Intercontinental Airport - Houston",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Texas",
+            "region_a": "TX",
+            "county": "Harris County",
+            "locality": "Houston",
+            "label": "George Bush Intercontinental Airport - Houston, Houston, TX"
+          }
+        ]
       }
     },
     {
@@ -99,7 +201,21 @@
         "text": "55 acorn road wrentham"
       },
       "expected": {
-        "properties": "55, Acorn Road, Wrentham, Norfolk County, Massachusetts, 02093, United States of America"
+        "properties": [
+          {
+            "name": "55 Acorn Road",
+            "housenumber": "55",
+            "street": "Acorn Road",
+            "postalcode": "02093",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Massachusetts",
+            "region_a": "MA",
+            "county": "Norfolk County",
+            "localadmin": "Wrentham",
+            "label": "55 Acorn Road, Wrentham, MA"
+          }
+        ]
       }
     },
     {
@@ -139,7 +255,17 @@
         "text": "fco airport"
       },
       "expected": {
-        "properties": "Leonardo da Vinci Airport, Via delle Idrovore di Fiumicino, Fregene, Fiumicino, Rome, Lazio, 00054, Italy"
+        "properties": [
+          {
+            "name": "Leonardo Da Vinci Rome Airport",
+            "country_a": "ITA",
+            "country": "Italy",
+            "region": "Latium",
+            "county": "Provincia di Roma",
+            "localadmin": "Fiumicino",
+            "label": "Leonardo Da Vinci Rome Airport, Fiumicino, Italy"
+          }
+        ]
       }
     },
     {
@@ -149,7 +275,19 @@
         "text": "flr airport"
       },
       "expected": {
-        "properties": "Aeroporto Firenze Amerigo Vespucci, Autostrada Firenze-Mare, Brozzi, Florence, FI, Tuscany, 50129, Italy"
+        "properties": [
+          {
+            "name": "Aeroporto Firenze Amerigo Vespucci",
+            "country_a": "ITA",
+            "country": "Italy",
+            "region": "FIRENZE",
+            "county": "Firenze",
+            "localadmin": "Firenze",
+            "locality": "Firenze",
+            "neighbourhood": "Novoli",
+            "label": "Aeroporto Firenze Amerigo Vespucci, Firenze, Italy"
+          }
+        ]
       }
     },
     {
@@ -159,7 +297,21 @@
         "text": "511 Brinkerhoff Ave, Santa Barbara"
       },
       "expected": {
-        "properties": "511, Brinkerhoff Avenue, Santa Barbara, Santa Barbara County, California, 93101, United States of America"
+        "properties": [
+          {
+            "name": "511 Brinkerhoff Avenue",
+            "housenumber": "511",
+            "street": "Brinkerhoff Avenue",
+            "postalcode": "93101",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "Santa Barbara County",
+            "locality": "Santa Barbara",
+            "label": "511 Brinkerhoff Avenue, Santa Barbara, CA"
+          }
+        ]
       }
     },
     {
@@ -169,7 +321,17 @@
         "text": "iad airport"
       },
       "expected": {
-        "properties": "Washington Dulles International Airport, Propeller Court, Carters, Loudoun County, Virginia, 20166, United States of America"
+        "properties": [
+          {
+            "name": "Washington Dulles International Airport",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Virginia",
+            "region_a": "VA",
+            "county": "Loudoun County",
+            "label": "Washington Dulles International Airport, Loudoun County, VA"
+          }
+        ]
       }
     },
     {
@@ -179,7 +341,20 @@
         "text": "bos airport"
       },
       "expected": {
-        "properties": "Logan International Airport, Logan Airport Terminal B, Jeffries Point, East Boston, Boston, Suffolk County, Massachusetts, 02128, United States of America"
+        "properties": [
+          {
+            "name": "Logan International Airport",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Massachusetts",
+            "region_a": "MA",
+            "county": "Suffolk County",
+            "localadmin": "Boston",
+            "locality": "Boston",
+            "neighbourhood": "East Boston",
+            "label": "Logan International Airport, Boston, MA"
+          }
+        ]
       }
     },
     {
@@ -189,7 +364,21 @@
         "text": "macys herald square"
       },
       "expected": {
-        "properties": "Macy's Herald Square, West 35th Street, Koreatown, Manhattan, New York, New York City, New York, 10001, United States of America"
+        "properties": [
+          {
+            "name": "Macy's Herald Square",
+            "postalcode": "10001",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "neighbourhood": "Koreatown",
+            "label": "Macy's Herald Square, Manhattan, NY"
+          }
+        ]
       }
     },
     {
@@ -199,7 +388,19 @@
         "text": "triborough bridge"
       },
       "expected": {
-        "properties": "Robert F. Kennedy Bridge, Manhattan, New York County, New York City, New York, 11102, United States of America"
+        "properties": [
+          {
+            "name": "Robert F Kennedy Memorial Bridge",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "label": "Robert F Kennedy Memorial Bridge, Manhattan, NY"
+          }
+        ]
       }
     },
     {
@@ -219,7 +420,16 @@
         "text": "india gate new delhi"
       },
       "expected": {
-        "properties": "India Gate, Rajpath, New Delhi, Delhi, 110001, India"
+        "properties": [
+          {
+            "name": "India Gate",
+            "country_a": "IND",
+            "country": "India",
+            "region": "Delhi",
+            "county": "New Delhi",
+            "label": "India Gate, New Delhi, India"
+          }
+        ]
       }
     },
     {
@@ -229,7 +439,22 @@
         "text": "1000 flower street glendale ca 91201"
       },
       "expected": {
-        "properties": "1000, Flower Street, Glendale, Los Angeles County, California, 91201, United States of America"
+        "properties": [
+          {
+            "name": "1000 South Flower Street",
+            "housenumber": "1000",
+            "street": "South  Flower Street",
+            "postalcode": "90015",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "Los Angeles County",
+            "locality": "Los Angeles",
+            "neighbourhood": "Downtown Los Angeles",
+            "label": "1000 South Flower Street, Los Angeles, CA"
+          }
+        ]
       }
     },
     {
@@ -239,7 +464,21 @@
         "text": "339 W Main St, Cheshire, CT 06410"
       },
       "expected": {
-        "properties": "339, West Main Street, Cheshire, New Haven County, Connecticut, 06410, United States of America"
+        "properties": [
+          {
+            "name": "339 West Main Street",
+            "housenumber": "339",
+            "street": "West Main Street",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Connecticut",
+            "region_a": "CT",
+            "county": "Hartford County",
+            "localadmin": "Avon",
+            "neighbourhood": "West Avon",
+            "label": "339 West Main Street, Avon, CT"
+          }
+        ]
       }
     },
     {
@@ -259,7 +498,22 @@
         "text": "207 s 42nd st Philadelphia, PA 19104"
       },
       "expected": {
-        "properties": "207, South 42nd Street, Southwest Schuylkill, Philadelphia, Philadelphia County, Pennsylvania, 19104, United States of America"
+        "properties": [
+          {
+            "name": "207 South 42nd Street",
+            "housenumber": "207",
+            "street": "South 42nd Street",
+            "postalcode": "40212",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Kentucky",
+            "region_a": "KY",
+            "county": "Jefferson County",
+            "locality": "Louisville/Jefferson County metro government (balance)",
+            "neighbourhood": "Shawnee",
+            "label": "207 South 42nd Street, Louisville/Jefferson County metro government (balance), KY"
+          }
+        ]
       }
     },
     {
@@ -289,7 +543,21 @@
         "text": "367 Addison Avenue, Palo Alto"
       },
       "expected": {
-        "properties": "367, Addison Avenue, University South, Palo Alto, Santa Clara County, California, 94301, United States of America"
+        "properties": [
+          {
+            "name": "367 Addison Avenue",
+            "housenumber": "367",
+            "street": "Addison Avenue",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "Santa Clara County",
+            "locality": "Palo Alto",
+            "neighbourhood": "Professorville",
+            "label": "367 Addison Avenue, Palo Alto, CA"
+          }
+        ]
       }
     },
     {
@@ -309,7 +577,21 @@
         "text": "631 Chickasaw Dr Sumter SC"
       },
       "expected": {
-        "properties": "631, Chickasaw Drive, Sumter, Sumter County, South Carolina, 29150, United States of America"
+        "properties": [
+          {
+            "name": "631 Chickasaw Drive",
+            "housenumber": "631",
+            "street": "Chickasaw Drive",
+            "postalcode": "29150",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "South Carolina",
+            "region_a": "SC",
+            "county": "Sumter County",
+            "locality": "Sumter",
+            "label": "631 Chickasaw Drive, Sumter, SC"
+          }
+        ]
       }
     },
     {
@@ -319,7 +601,17 @@
         "text": "iad"
       },
       "expected": {
-        "properties": "Washington Dulles International Airport, Propeller Court, Carters, Loudoun County, Virginia, 20166, United States of America"
+        "properties": [
+          {
+            "name": "Washington Dulles International Airport",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Virginia",
+            "region_a": "VA",
+            "county": "Loudoun County",
+            "label": "Washington Dulles International Airport, Loudoun County, VA"
+          }
+        ]
       }
     },
     {
@@ -329,7 +621,19 @@
         "text": "flr"
       },
       "expected": {
-        "properties": "Aeroporto Firenze Amerigo Vespucci, Autostrada Firenze-Mare, Brozzi, Florence, FI, Tuscany, 50129, Italy"
+        "properties": [
+          {
+            "name": "Aeroporto Firenze Amerigo Vespucci",
+            "country_a": "ITA",
+            "country": "Italy",
+            "region": "FIRENZE",
+            "county": "Firenze",
+            "localadmin": "Firenze",
+            "locality": "Firenze",
+            "neighbourhood": "Novoli",
+            "label": "Aeroporto Firenze Amerigo Vespucci, Firenze, Italy"
+          }
+        ]
       }
     },
     {
@@ -349,7 +653,21 @@
         "text": "10118 jonestown rd, grantville, pa, usa"
       },
       "expected": {
-        "properties": "10118, Jonestown Road, East Hanover, Lebanon County, Pennsylvanien, 17028, Vereinigte Staaten von Amerika"
+        "properties": [
+          {
+            "name": "10118 Jonestown Road",
+            "housenumber": "10118",
+            "street": "Jonestown Road",
+            "postalcode": "17028",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Pennsylvania",
+            "region_a": "PA",
+            "county": "Lebanon County",
+            "localadmin": "East Hanover",
+            "label": "10118 Jonestown Road, East Hanover, PA"
+          }
+        ]
       }
     },
     {
@@ -359,7 +677,19 @@
         "text": "pdx"
       },
       "expected": {
-        "properties": "Portland International Airport, Portland Airport MAX Platform, Portland, Multnomah County, Oregon, 97218, United States of America"
+        "properties": [
+          {
+            "name": "Portland International Airport",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Oregon",
+            "region_a": "OR",
+            "county": "Multnomah County",
+            "locality": "Portland",
+            "neighbourhood": "NE Portland",
+            "label": "Portland International Airport, Portland, OR"
+          }
+        ]
       }
     },
     {
@@ -369,7 +699,20 @@
         "text": "JFK airport"
       },
       "expected": {
-        "properties": "John F. Kennedy International Airport, Pedestrian path from Terminal 4 to Terminal 5, Bayswater, Queens County, New York City, New York, 11010, United States of America"
+        "properties": [
+          {
+            "name": "John F Kennedy International Airport",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Queens County",
+            "localadmin": "Queens",
+            "locality": "New York",
+            "neighbourhood": "Brookville",
+            "label": "John F Kennedy International Airport, Queens, NY"
+          }
+        ]
       }
     },
     {
@@ -379,7 +722,20 @@
         "text": "EWR airport"
       },
       "expected": {
-        "properties": "Newark Liberty International Airport, Express Road, Newark, Essex County, New Jersey, 07114, United States of America"
+        "properties": [
+          {
+            "name": "Newark Liberty International Airport",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New Jersey",
+            "region_a": "NJ",
+            "county": "Essex County",
+            "localadmin": "Newark",
+            "locality": "Newark",
+            "neighbourhood": "Dayton",
+            "label": "Newark Liberty International Airport, Newark, NJ"
+          }
+        ]
       }
     },
     {
@@ -389,7 +745,18 @@
         "text": "dub"
       },
       "expected": {
-        "properties": "Dublin Airport, Naul Road, Swords, Fingal, County Dublin, Leinster, Ireland"
+        "properties": [
+          {
+            "name": "Dublin Airport",
+            "street": "Swords Road",
+            "country_a": "IRL",
+            "country": "Ireland",
+            "region": "Fingal",
+            "locality": "Dublin",
+            "neighbourhood": "Clonshag Br.",
+            "label": "Dublin Airport, Dublin, Ireland"
+          }
+        ]
       }
     },
     {
@@ -409,7 +776,19 @@
         "text": "nyc"
       },
       "expected": {
-        "properties": "New York City, New York, United States of America"
+        "properties": [
+          {
+            "name": "New York City",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "label": "New York City, Manhattan, NY"
+          }
+        ]
       }
     },
     {
@@ -419,7 +798,19 @@
         "text": "nueva york"
       },
       "expected": {
-        "properties": "New York City, New York, United States of America"
+        "properties": [
+          {
+            "name": "New York City",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "label": "New York City, Manhattan, NY"
+          }
+        ]
       }
     },
     {
@@ -429,7 +820,23 @@
         "text": "MoMa"
       },
       "expected": {
-        "properties": "Museum of Modern Art, 11, West 53rd Street, Diamond District, Manhattan, New York, New York City, New York, 10019, United States of America"
+        "properties": [
+          {
+            "name": "11 West 53rd Street",
+            "housenumber": "11",
+            "street": "West 53rd Street",
+            "postalcode": "10019",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "neighbourhood": "Midtown",
+            "label": "11 West 53rd Street, Manhattan, NY"
+          }
+        ]
       }
     },
     {
@@ -449,7 +856,23 @@
         "text": "301 Commons Park S, Stamford, CT 06902"
       },
       "expected": {
-        "properties": "Postmark Apartments, 301, Commons Park South, Stamford, Fairfield County, Connecticut, 06902, United States of America"
+        "properties": [
+          {
+            "name": "Postmark Apartments",
+            "housenumber": "301",
+            "street": "Commons Park South",
+            "postalcode": "06902",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Connecticut",
+            "region_a": "CT",
+            "county": "Fairfield County",
+            "localadmin": "Stamford",
+            "locality": "Stamford",
+            "neighbourhood": "South End",
+            "label": "Postmark Apartments, Stamford, CT"
+          }
+        ]
       }
     },
     {
@@ -459,7 +882,18 @@
         "text": "94015"
       },
       "expected": {
-        "properties": "Daly City, San Mateo County, California, 94015, United States of America"
+        "properties": [
+          {
+            "name": "Daly City",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Mateo County",
+            "locality": "Daly City",
+            "label": "Daly City, San Mateo County, CA"
+          }
+        ]
       }
     }
   ]
