@@ -503,15 +503,16 @@
             "name": "207 South 42nd Street",
             "housenumber": "207",
             "street": "South 42nd Street",
-            "postalcode": "40212",
+            "postalcode": "19104",
             "country_a": "USA",
             "country": "United States",
-            "region": "Kentucky",
-            "region_a": "KY",
-            "county": "Jefferson County",
-            "locality": "Louisville/Jefferson County metro government (balance)",
-            "neighbourhood": "Shawnee",
-            "label": "207 South 42nd Street, Louisville/Jefferson County metro government (balance), KY"
+            "region": "Pennsylvania",
+            "region_a": "PA",
+            "county": "Philadelphia County",
+            "localadmin": "Philadelphia",
+            "locality": "Philadelphia",
+            "neighbourhood": "Spruce Hill",
+            "label": "207 South 42nd Street, Philadelphia, PA"
           }
         ]
       }
