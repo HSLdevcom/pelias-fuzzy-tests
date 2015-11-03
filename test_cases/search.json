@@ -378,30 +378,6 @@
       }
     },
     {
-      "id": 13,
-      "status": "pass",
-      "user": "hkrishna",
-      "type": "dev",
-      "in": {
-        "text": "london bridge"
-      },
-      "expected": {
-        "priorityThresh": 8,
-        "properties": [
-          {
-            "country": "United Kingdom",
-            "region": "Southwark",
-            "county": "Greater London",
-            "locality": "London",
-            "country_a": "GBR",
-            "name": "London Bridge",
-            "neighbourhood": "Bankside",
-            "label": "London Bridge, Bankside, Greater London"
-          }
-        ]
-      }
-    },
-    {
       "id": 15,
       "status": "pass",
       "type": "dev",
