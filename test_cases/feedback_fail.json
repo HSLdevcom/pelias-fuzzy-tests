@@ -847,7 +847,18 @@
         "text": "taj mahal"
       },
       "expected": {
-        "properties": "Taj Mahal, Taj East Gate Road, Taj Ganj, Agra, Uttar Pradesh, 282001, India"
+        "properties": [
+          {
+            "name": "Taj Mahal",
+            "country_a": "IND",
+            "country": "India",
+            "region": "Uttar Pradesh",
+            "county": "Agra",
+            "locality": "Ägra",
+            "neighbourhood": "Nagla Kachhpura",
+            "label": "Taj Mahal, Ägra, India"
+          }
+        ]
       }
     },
     {
