@@ -1,0 +1,120 @@
+{
+  "name": "11a Ricarda-Huch-Straße, Bremen, Germany",
+  "description": "A single address with letter in housenumber, and multiple duplicate street names elsewhere in Germany",
+  "priorityThresh": 5,
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "11a Ricarda-Huch-Straße Bremen DE"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "name": "11a Ricarda-Huch-Straße",
+            "housenumber": "11a",
+            "street": "Ricarda-Huch-Straße",
+            "postalcode": "28215",
+            "country_a": "DEU",
+            "country": "Germany",
+            "region": "Bremen",
+            "county": "Bremen",
+            "locality": "Bremen",
+            "neighbourhood": "Stadthalle",
+            "label": "11a Ricarda-Huch-Straße, Bremen, Germany"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "description": "from the center of Bremen",
+      "user": "Julian",
+      "in": {
+        "text": "11a Ricarda-Huch-Straße Bremen DE",
+        "focus.point.lat": 53.0715,
+        "focus.point.lon": 8.8157
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "name": "11a Ricarda-Huch-Straße",
+            "housenumber": "11a",
+            "street": "Ricarda-Huch-Straße",
+            "postalcode": "28215",
+            "country_a": "DEU",
+            "country": "Germany",
+            "region": "Bremen",
+            "county": "Bremen",
+            "locality": "Bremen",
+            "neighbourhood": "Stadthalle",
+            "label": "11a Ricarda-Huch-Straße, Bremen, Germany"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "description": "from Langenfeld, Rineland, Germany, about 300km away. It has an 11a Ricarda-Huch-Straße too",
+      "user": "Julian",
+      "in": {
+        "text": "11a Ricarda-Huch-Straße Bremen DE",
+        "focus.point.lat": 51.1113,
+        "focus.point.lon": 6.9640
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "name": "11a Ricarda-Huch-Straße",
+            "housenumber": "11a",
+            "street": "Ricarda-Huch-Straße",
+            "postalcode": "28215",
+            "country_a": "DEU",
+            "country": "Germany",
+            "region": "Bremen",
+            "county": "Bremen",
+            "locality": "Bremen",
+            "neighbourhood": "Stadthalle",
+            "label": "11a Ricarda-Huch-Straße, Bremen, Germany"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "description": "from Schwarzenbek, Germany, about 150km away. It also has its own Ricarda-Huch-Straße",
+      "user": "Julian",
+      "in": {
+        "text": "11a Ricarda-Huch-Straße Bremen DE",
+        "focus.point.lat": 53.5043,
+        "focus.point.lon": 10.4841
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "name": "11a Ricarda-Huch-Straße",
+            "housenumber": "11a",
+            "street": "Ricarda-Huch-Straße",
+            "postalcode": "28215",
+            "country_a": "DEU",
+            "country": "Germany",
+            "region": "Bremen",
+            "county": "Bremen",
+            "locality": "Bremen",
+            "neighbourhood": "Stadthalle",
+            "label": "11a Ricarda-Huch-Straße, Bremen, Germany"
+          }
+        ]
+      }
+    }
+  ]
+}
