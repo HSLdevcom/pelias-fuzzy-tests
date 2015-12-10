@@ -100,7 +100,22 @@
         "text": "1065 La Avenida St., Mountain View, CA"
       },
       "expected": {
-        "properties": "1065, La Avenida Street, Mountain View, Santa Clara County, California, 94043, United States of America"
+        "properties": [
+          {
+            "name": "1065 Lane Avenida Avenue",
+            "housenumber": "1065",
+            "street": "Lane Avenida Avenue",
+            "postalcode": "94043",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "Santa Clara County",
+            "locality": "Mountain View",
+            "neighbourhood": "Mountain View South",
+            "label": "1065 Lane Avenida Avenue, Mountain View, CA"
+          }
+        ]
       }
     },
     {
@@ -847,7 +862,18 @@
         "text": "taj mahal"
       },
       "expected": {
-        "properties": "Taj Mahal, Taj East Gate Road, Taj Ganj, Agra, Uttar Pradesh, 282001, India"
+        "properties": [
+          {
+            "name": "Taj Mahal",
+            "country_a": "IND",
+            "country": "India",
+            "region": "Uttar Pradesh",
+            "county": "Agra",
+            "locality": "Ägra",
+            "neighbourhood": "Nagla Kachhpura",
+            "label": "Taj Mahal, Ägra, India"
+          }
+        ]
       }
     },
     {
