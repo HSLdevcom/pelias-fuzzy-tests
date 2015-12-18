@@ -1,0 +1,3713 @@
+{
+  "name": "San Francisco Schools",
+  "description": "",
+  "priorityThresh": 2,
+  "source": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/San-Francisco-Public-Schools-Points/sert-rabb",
+  "normalizers": {
+    "name": [
+      "toUpperCase",
+      "removeOrdinals",
+      "stripPunctuation",
+      "abbreviateDirectionals",
+      "abbreviateStreetSuffixes"
+    ]
+  },
+  "tests": [
+    {
+      "id": 0,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Ulloa Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Ulloa Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.737330348339761",
+          "lon": "-122.49938854722032"
+        }
+      }
+    },
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "FRANCISCO MIDDLE SCHOOL, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "FRANCISCO MIDDLE SCHOOL",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.804360261986673",
+          "lon": "-122.41102161796293"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Yick Wo Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Yick Wo Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.801899587598072",
+          "lon": "-122.416596535829285"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Garfield Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Garfield Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.801935036586244",
+          "lon": "-122.406532023339665"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Parker, Jean Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Parker, Jean Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.797643232030012",
+          "lon": "-122.411053119398488"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Spring Valley Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Spring Valley Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.794020021343776",
+          "lon": "-122.418800119931959"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Chinese Education Center Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Chinese Education Center Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.79476824429188",
+          "lon": "-122.404057793333081"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Marina Middle School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Marina Middle School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.801679935112055",
+          "lon": "-122.436046865993376"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Tule Elk Park Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Tule Elk Park Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.799363271009469",
+          "lon": "-122.434561481923694"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Sherman Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Sherman Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.797801593649332",
+          "lon": "-122.426117966874045"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Redding Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Redding Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.789577548480914",
+          "lon": "-122.419243391372575"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Gateway High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Gateway High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.783151007073585",
+          "lon": "-122.437496981383674"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "HARVEY MILK CHILDREN CENTER, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "HARVEY MILK CHILDREN CENTER",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.783687589424908",
+          "lon": "-122.420040113166522"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Creative Arts Charter School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Creative Arts Charter School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.779346573066341",
+          "lon": "-122.43592717931017"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "LAGUNA GOLDEN GATE CHILD CARE CENTER,  PRE-K SCHOOL, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "LAGUNA GOLDEN GATE CHILD CARE CENTER,  PRE-K SCHOOL",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.780627662962139",
+          "lon": "-122.427315059354783"
+        }
+      }
+    },
+    {
+      "id": 15,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Muir, John Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Muir, John Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.773723696304479",
+          "lon": "-122.428787223817451"
+        }
+      }
+    },
+    {
+      "id": 16,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Cobb, Dr. William L. Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Cobb, Dr. William L. Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.787701836253049",
+          "lon": "-122.439626575980299"
+        }
+      }
+    },
+    {
+      "id": 17,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Roosevelt, Theodore Middle School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Roosevelt, Theodore Middle School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.782285288309509",
+          "lon": "-122.458356148546457"
+        }
+      }
+    },
+    {
+      "id": 18,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Wallenberg, Raoul High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Wallenberg, Raoul High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.779848107725229",
+          "lon": "-122.446757490427558"
+        }
+      }
+    },
+    {
+      "id": 19,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "New Traditions Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "New Traditions Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.773885427884323",
+          "lon": "-122.450266898172359"
+        }
+      }
+    },
+    {
+      "id": 20,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Grattan Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Grattan Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.763697666080098",
+          "lon": "-122.45044870085836"
+        }
+      }
+    },
+    {
+      "id": 21,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Alamo Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Alamo Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.783000781499176",
+          "lon": "-122.482263386246061"
+        }
+      }
+    },
+    {
+      "id": 22,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Sutro Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Sutro Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.783603441386987",
+          "lon": "-122.47145160709907"
+        }
+      }
+    },
+    {
+      "id": 23,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Peabody, George Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Peabody, George Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.783854467336766",
+          "lon": "-122.465024612692858"
+        }
+      }
+    },
+    {
+      "id": 24,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Presidio Middle School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Presidio Middle School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.780864737072868",
+          "lon": "-122.489627111416112"
+        }
+      }
+    },
+    {
+      "id": 25,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Washington, George High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Washington, George High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.777877679884995",
+          "lon": "-122.491022973277254"
+        }
+      }
+    },
+    {
+      "id": 26,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Lafayette Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Lafayette Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.777056095197693",
+          "lon": "-122.496876076570402"
+        }
+      }
+    },
+    {
+      "id": 27,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "S.F. County Special Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "S.F. County Special Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.775523848652384",
+          "lon": "-122.483868099113153"
+        }
+      }
+    },
+    {
+      "id": 28,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Argonne Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Argonne Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.775336971328471",
+          "lon": "-122.476328855557909"
+        }
+      }
+    },
+    {
+      "id": 29,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "McCoppin, Frank Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "McCoppin, Frank Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.776304678097347",
+          "lon": "-122.464232033795739"
+        }
+      }
+    },
+    {
+      "id": 30,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Argonne Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Argonne Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.773969510499107",
+          "lon": "-122.474056963184935"
+        }
+      }
+    },
+    {
+      "id": 31,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "PCC/Big Picture San Francisco, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "PCC/Big Picture San Francisco",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.763218816886003",
+          "lon": "-122.463851641038303"
+        }
+      }
+    },
+    {
+      "id": 32,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Jefferson Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Jefferson Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.763293929824982",
+          "lon": "-122.47681453890732"
+        }
+      }
+    },
+    {
+      "id": 33,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Jefferson Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Jefferson Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.762319942700465",
+          "lon": "-122.483167248052013"
+        }
+      }
+    },
+    {
+      "id": 34,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Walden House, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Walden House",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.76138560140587",
+          "lon": "-122.502232261613017"
+        }
+      }
+    },
+    {
+      "id": 35,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Lawton Alternative School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Lawton Alternative School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.7580507635709",
+          "lon": "-122.489098242550938"
+        }
+      }
+    },
+    {
+      "id": 36,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Key, Francis Scott Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Key, Francis Scott Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.758097706014951",
+          "lon": "-122.501999530705987"
+        }
+      }
+    },
+    {
+      "id": 37,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Giannini, A. P. Middle School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Giannini, A. P. Middle School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.75061591675491",
+          "lon": "-122.497214201903205"
+        }
+      }
+    },
+    {
+      "id": 38,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Stevenson, Robert Louis Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Stevenson, Robert Louis Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.748844414163464",
+          "lon": "-122.492756088604239"
+        }
+      }
+    },
+    {
+      "id": 39,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Hoover, Herbert Middle School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Hoover, Herbert Middle School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.745743851452268",
+          "lon": "-122.468826018499129"
+        }
+      }
+    },
+    {
+      "id": 40,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Feinstein, Dianne Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Feinstein, Dianne Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.739685845132819",
+          "lon": "-122.481366399387852"
+        }
+      }
+    },
+    {
+      "id": 41,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "McKinley Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "McKinley Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.766971843844935",
+          "lon": "-122.436454853606691"
+        }
+      }
+    },
+    {
+      "id": 42,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Alvarado Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Alvarado Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.753714732369531",
+          "lon": "-122.438161765138631"
+        }
+      }
+    },
+    {
+      "id": 43,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Miraloma Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Miraloma Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.739125701664257",
+          "lon": "-122.45013700207771"
+        }
+      }
+    },
+    {
+      "id": 44,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "West Portal Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "West Portal Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.742816063895766",
+          "lon": "-122.464388982257276"
+        }
+      }
+    },
+    {
+      "id": 45,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Sunnyside Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Sunnyside Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.730287839144331",
+          "lon": "-122.448233626144656"
+        }
+      }
+    },
+    {
+      "id": 46,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Sloat, Commodore Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Sloat, Commodore Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.731670343161881",
+          "lon": "-122.470569140055019"
+        }
+      }
+    },
+    {
+      "id": 47,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Marshall Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Marshall Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.766455230710108",
+          "lon": "-122.419007472719159"
+        }
+      }
+    },
+    {
+      "id": 48,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Sanchez Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Sanchez Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.763460073442907",
+          "lon": "-122.430500027371508"
+        }
+      }
+    },
+    {
+      "id": 49,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Everett Middle School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Everett Middle School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.763613101117492",
+          "lon": "-122.428977324524354"
+        }
+      }
+    },
+    {
+      "id": 50,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Log Cabin Ranch County School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Log Cabin Ranch County School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.304851024079341",
+          "lon": "-122.256858309422114"
+        }
+      }
+    },
+    {
+      "id": 51,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Mission High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Mission High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.761774298556766",
+          "lon": "-122.42711267589425"
+        }
+      }
+    },
+    {
+      "id": 52,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Edison Charter K-8, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Edison Charter K-8",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.754436242369202",
+          "lon": "-122.42626571008762"
+        }
+      }
+    },
+    {
+      "id": 53,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Buena Vista/Horace Mann, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Buena Vista/Horace Mann",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.753072851039768",
+          "lon": "-122.420297049116897"
+        }
+      }
+    },
+    {
+      "id": 54,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Carmichael, Bessie (6-8 Campus), San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Carmichael, Bessie (6-8 Campus)",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.780554883432032",
+          "lon": "-122.400479160189818"
+        }
+      }
+    },
+    {
+      "id": 55,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Carmichael, Bessie (K-5 Campus), San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Carmichael, Bessie (K-5 Campus)",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.7761045760153",
+          "lon": "-122.406688002792052"
+        }
+      }
+    },
+    {
+      "id": 56,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Downtown High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Downtown High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.761363305095799",
+          "lon": "-122.403875454342241"
+        }
+      }
+    },
+    {
+      "id": 57,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Webster, Daniel Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Webster, Daniel Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.76057845488161",
+          "lon": "-122.395972857969284"
+        }
+      }
+    },
+    {
+      "id": 58,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Bryant Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Bryant Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.751580555789744",
+          "lon": "-122.40481955125523"
+        }
+      }
+    },
+    {
+      "id": 59,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Starr King Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Starr King Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.753238519566622",
+          "lon": "-122.399211135741808"
+        }
+      }
+    },
+    {
+      "id": 60,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Bryant Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Bryant Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.751631002229011",
+          "lon": "-122.404700682339467"
+        }
+      }
+    },
+    {
+      "id": 61,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "POTRERO NURSERY, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "POTRERO NURSERY",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.752042535290741",
+          "lon": "-122.395998165885004"
+        }
+      }
+    },
+    {
+      "id": 62,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Harte, Bret Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Harte, Bret Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.71828275905137",
+          "lon": "-122.388893800417321"
+        }
+      }
+    },
+    {
+      "id": 63,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Havard, Leola M. Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Havard, Leola M. Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.734050140589659",
+          "lon": "-122.388815664895588"
+        }
+      }
+    },
+    {
+      "id": 64,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Marshall, Thurgood High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Marshall, Thurgood High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.735731534653837",
+          "lon": "-122.401465089848443"
+        }
+      }
+    },
+    {
+      "id": 65,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Drew, Dr. Charles R. Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Drew, Dr. Charles R. Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.731322072312324",
+          "lon": "-122.393995378229903"
+        }
+      }
+    },
+    {
+      "id": 66,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Revere, Paul School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Revere, Paul School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.737262983538592",
+          "lon": "-122.413158423927413"
+        }
+      }
+    },
+    {
+      "id": 67,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Serra, Junipero Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Serra, Junipero Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.736984523616371",
+          "lon": "-122.421498162566536"
+        }
+      }
+    },
+    {
+      "id": 68,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Hillcrest Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Hillcrest Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.728822311440233",
+          "lon": "-122.418862256081695"
+        }
+      }
+    },
+    {
+      "id": 69,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "King, Dr. Martin Luther, Jr. Middle School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "King, Dr. Martin Luther, Jr. Middle School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.727702988310334",
+          "lon": "-122.405467761765223"
+        }
+      }
+    },
+    {
+      "id": 70,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Taylor, E. R. Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Taylor, E. R. Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.727679748812598",
+          "lon": "-122.407465824033324"
+        }
+      }
+    },
+    {
+      "id": 71,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Excelsior Monroe Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Excelsior Monroe Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.725642489831181",
+          "lon": "-122.430476495432529"
+        }
+      }
+    },
+    {
+      "id": 72,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "S.F. COMMUNITY SCHOOL, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "S.F. COMMUNITY SCHOOL",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.726104566450054",
+          "lon": "-122.432133597657227"
+        }
+      }
+    },
+    {
+      "id": 73,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Jordan, June High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Jordan, June High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.719240499357511",
+          "lon": "-122.425252762071665"
+        }
+      }
+    },
+    {
+      "id": 74,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Cleveland Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Cleveland Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.720630165963868",
+          "lon": "-122.428880084953832"
+        }
+      }
+    },
+    {
+      "id": 75,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Burton, Phillip and Sala High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Burton, Phillip and Sala High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.721545277685273",
+          "lon": "-122.406552265689868"
+        }
+      }
+    },
+    {
+      "id": 76,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "El Dorado Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "El Dorado Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.718421982658818",
+          "lon": "-122.407296073499452"
+        }
+      }
+    },
+    {
+      "id": 77,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Visitacion Valley Middle School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Visitacion Valley Middle School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.715651564585073",
+          "lon": "-122.41240776604829"
+        }
+      }
+    },
+    {
+      "id": 78,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Visitacion Valley Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Visitacion Valley Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.712525001486057",
+          "lon": "-122.410274976510323"
+        }
+      }
+    },
+    {
+      "id": 79,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "McLaren, John Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "McLaren, John Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.713651110905694",
+          "lon": "-122.423185597875261"
+        }
+      }
+    },
+    {
+      "id": 80,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Excelsior Guadalupe Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Excelsior Guadalupe Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.710134561734293",
+          "lon": "-122.434499725032978"
+        }
+      }
+    },
+    {
+      "id": 81,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Longfellow Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Longfellow Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.710234816977561",
+          "lon": "-122.4471261637635"
+        }
+      }
+    },
+    {
+      "id": 82,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Rodriguez, Zaida T. Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Rodriguez, Zaida T. Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.750148267567781",
+          "lon": "-122.419171180032748"
+        }
+      }
+    },
+    {
+      "id": 83,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Lick, James Middle School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Lick, James Middle School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.749544304387662",
+          "lon": "-122.432155251352995"
+        }
+      }
+    },
+    {
+      "id": 84,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Mission Education Center Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Mission Education Center Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.742204099522397",
+          "lon": "-122.431435842303799"
+        }
+      }
+    },
+    {
+      "id": 85,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Fairmount Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Fairmount Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.740459575657688",
+          "lon": "-122.425008988554055"
+        }
+      }
+    },
+    {
+      "id": 86,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Glen Park Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Glen Park Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.733096562521794",
+          "lon": "-122.435786588214881"
+        }
+      }
+    },
+    {
+      "id": 87,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Balboa High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Balboa High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.722170715515738",
+          "lon": "-122.440800363495157"
+        }
+      }
+    },
+    {
+      "id": 88,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Denman, James Middle School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Denman, James Middle School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.721537821506878",
+          "lon": "-122.44287337450487"
+        }
+      }
+    },
+    {
+      "id": 89,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "San Miguel Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "San Miguel Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.721491333630787",
+          "lon": "-122.444858016901307"
+        }
+      }
+    },
+    {
+      "id": 90,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Ortega, Jose Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Ortega, Jose Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.716378990476706",
+          "lon": "-122.466294061750432"
+        }
+      }
+    },
+    {
+      "id": 91,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Sheridan Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Sheridan Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.71447598671228",
+          "lon": "-122.459629414854632"
+        }
+      }
+    },
+    {
+      "id": 92,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Lakeshore Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Lakeshore Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.730050693982712",
+          "lon": "-122.486008574126913"
+        }
+      }
+    },
+    {
+      "id": 93,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "LOWELL HIGH SCHOOL, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "LOWELL HIGH SCHOOL",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.730623529271753",
+          "lon": "-122.483402007480422"
+        }
+      }
+    },
+    {
+      "id": 94,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Hilltop Special Services Center, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Hilltop Special Services Center",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.750432483880559",
+          "lon": "-122.409396553864482"
+        }
+      }
+    },
+    {
+      "id": 95,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Gateway Middle School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Gateway Middle School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.792805019599797",
+          "lon": "-122.433438255606546"
+        }
+      }
+    },
+    {
+      "id": 96,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Lilienthal, Claire (3-8 Winfield Scott Campus), San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Lilienthal, Claire (3-8 Winfield Scott Campus)",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.803218931625651",
+          "lon": "-122.443197557484737"
+        }
+      }
+    },
+    {
+      "id": 97,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Wells, Ida B. High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Wells, Ida B. High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.774986386073657",
+          "lon": "-122.434036880476569"
+        }
+      }
+    },
+    {
+      "id": 98,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Chinese Immersion School at DeAvila, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Chinese Immersion School at DeAvila",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.769733971552206",
+          "lon": "-122.444348481353799"
+        }
+      }
+    },
+    {
+      "id": 99,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "APTOS MIDDLE SCHOOL, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "APTOS MIDDLE SCHOOL",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.729694311363701",
+          "lon": "-122.466018194208047"
+        }
+      }
+    },
+    {
+      "id": 100,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Lincoln, Abraham High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Lincoln, Abraham High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.74655970359106",
+          "lon": "-122.480295351112431"
+        }
+      }
+    },
+    {
+      "id": 101,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "SUNSET ELEMENTARY SCHOOL, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "SUNSET ELEMENTARY SCHOOL",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.750593173125161",
+          "lon": "-122.49952278493268"
+        }
+      }
+    },
+    {
+      "id": 102,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Chin, John Yehall Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Chin, John Yehall Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.798610993525301",
+          "lon": "-122.403217476998037"
+        }
+      }
+    },
+    {
+      "id": 103,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Stockton, Commodore Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Stockton, Commodore Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.795045280888708",
+          "lon": "-122.409086414414034"
+        }
+      }
+    },
+    {
+      "id": 104,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Lau, Gordon J. Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Lau, Gordon J. Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.794078537425499",
+          "lon": "-122.408925076442799"
+        }
+      }
+    },
+    {
+      "id": 105,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Galileo High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Galileo High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.803748346211265",
+          "lon": "-122.424479268908442"
+        }
+      }
+    },
+    {
+      "id": 106,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Parks, Rosa Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Parks, Rosa Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.78349340332894",
+          "lon": "-122.430011539837039"
+        }
+      }
+    },
+    {
+      "id": 107,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Civic Center Secondary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Civic Center Secondary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.78031379026465",
+          "lon": "-122.422877857872209"
+        }
+      }
+    },
+    {
+      "id": 108,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Lilienthal, Claire (K-2 Madison Campus), San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Lilienthal, Claire (K-2 Madison Campus)",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.787225552373599",
+          "lon": "-122.458067403937264"
+        }
+      }
+    },
+    {
+      "id": 109,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Yu, Alice Fong Alternative School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Yu, Alice Fong Alternative School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.758910483352537",
+          "lon": "-122.469711433378379"
+        }
+      }
+    },
+    {
+      "id": 110,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Noriega Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Noriega Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.753849632634719",
+          "lon": "-122.503658919573695"
+        }
+      }
+    },
+    {
+      "id": 111,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Independence High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Independence High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.743402257209418",
+          "lon": "-122.499896951115602"
+        }
+      }
+    },
+    {
+      "id": 112,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Clarendon Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Clarendon Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.753757315994207",
+          "lon": "-122.456323215348064"
+        }
+      }
+    },
+    {
+      "id": 113,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "HARVEY MILK CIVIL RIGHTS ACADEMY, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "HARVEY MILK CIVIL RIGHTS ACADEMY",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.758979676814157",
+          "lon": "-122.436455121484073"
+        }
+      }
+    },
+    {
+      "id": 114,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Rooftop (5-8 Mayeda Campus), San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Rooftop (5-8 Mayeda Campus)",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.757408304107976",
+          "lon": "-122.444489629735173"
+        }
+      }
+    },
+    {
+      "id": 115,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Rooftop (K-4 Burnett Campus), San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Rooftop (K-4 Burnett Campus)",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.754995209811071",
+          "lon": "-122.443916923825981"
+        }
+      }
+    },
+    {
+      "id": 116,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Moscone, George Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Moscone, George Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.756999357324467",
+          "lon": "-122.412562228671121"
+        }
+      }
+    },
+    {
+      "id": 117,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Mahler, Theresa S. Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Mahler, Theresa S. Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.755273529397599",
+          "lon": "-122.428096636170068"
+        }
+      }
+    },
+    {
+      "id": 118,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Chavez, Cesar Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Chavez, Cesar Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.754898980043009",
+          "lon": "-122.41509206763304"
+        }
+      }
+    },
+    {
+      "id": 119,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "International Studies Academy, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "International Studies Academy",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.76182550083589",
+          "lon": "-122.400804971452303"
+        }
+      }
+    },
+    {
+      "id": 120,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Malcolm X Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Malcolm X Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.734205645224804",
+          "lon": "-122.381101910715699"
+        }
+      }
+    },
+    {
+      "id": 121,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Metropolitan Arts and Tech, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Metropolitan Arts and Tech",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.732121884205192",
+          "lon": "-122.382241441035205"
+        }
+      }
+    },
+    {
+      "id": 122,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Flynn, Leonard Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Flynn, Leonard Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.747737591884132",
+          "lon": "-122.411965331924165"
+        }
+      }
+    },
+    {
+      "id": 123,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Asawa, Ruth - San Francisco School of the Arts (SOTA), San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Asawa, Ruth - San Francisco School of the Arts (SOTA)",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.745431364362616",
+          "lon": "-122.448666797638978"
+        }
+      }
+    },
+    {
+      "id": 124,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Carver, Dr. George Washington Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Carver, Dr. George Washington Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.731842709542732",
+          "lon": "-122.385570419914046"
+        }
+      }
+    },
+    {
+      "id": 125,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Five Keys Charter, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Five Keys Charter",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.777153188374697",
+          "lon": "-122.402180053048696"
+        }
+      }
+    },
+    {
+      "id": 126,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Tenderloin Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Tenderloin Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.781854504030754",
+          "lon": "-122.419950518298222"
+        }
+      }
+    },
+    {
+      "id": 127,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "O'Connell, John High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "O'Connell, John High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.759517187573714",
+          "lon": "-122.41421483879941"
+        }
+      }
+    },
+    {
+      "id": 128,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Academy of Arts and Sciences, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Academy of Arts and Sciences",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.745158476849312",
+          "lon": "-122.449484655626577"
+        }
+      }
+    },
+    {
+      "id": 129,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "S. F. International High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "S. F. International High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.755245841257441",
+          "lon": "-122.408639663586769"
+        }
+      }
+    },
+    {
+      "id": 130,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Carmichael, Bessie Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Carmichael, Bessie Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.776573409718729",
+          "lon": "-122.406786778456237"
+        }
+      }
+    },
+    {
+      "id": 131,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Chavez, Cesar Preschool, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Chavez, Cesar Preschool",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.754762525214332",
+          "lon": "-122.415083043899486"
+        }
+      }
+    },
+    {
+      "id": 132,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Cobb, Dr. William Preschool, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Cobb, Dr. William Preschool",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.78799211655376",
+          "lon": "-122.439153774166726"
+        }
+      }
+    },
+    {
+      "id": 133,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Drew, Dr. Charles Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Drew, Dr. Charles Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.731767600882947",
+          "lon": "-122.393880161010415"
+        }
+      }
+    },
+    {
+      "id": 134,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Sanchez Preschool, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Sanchez Preschool",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.763167673753358",
+          "lon": "-122.430498995732876"
+        }
+      }
+    },
+    {
+      "id": 135,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Flynn, Leonard Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Flynn, Leonard Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.748043423742892",
+          "lon": "-122.411946771673328"
+        }
+      }
+    },
+    {
+      "id": 136,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Garfield Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Garfield Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.801902063755776",
+          "lon": "-122.406797142215126"
+        }
+      }
+    },
+    {
+      "id": 137,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Grattan Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Grattan Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.763498112537846",
+          "lon": "-122.450397054472703"
+        }
+      }
+    },
+    {
+      "id": 138,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Guadalupe Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Guadalupe Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.710314627867056",
+          "lon": "-122.434116553735564"
+        }
+      }
+    },
+    {
+      "id": 139,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Harte, Bret Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Harte, Bret Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.718196863605662",
+          "lon": "-122.389803668778924"
+        }
+      }
+    },
+    {
+      "id": 140,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Key, Francis Scott Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Key, Francis Scott Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.757834789340571",
+          "lon": "-122.50227342567274"
+        }
+      }
+    },
+    {
+      "id": 141,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Taylor, E.R. Preschool, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Taylor, E.R. Preschool",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.72741283759327",
+          "lon": "-122.40735999833727"
+        }
+      }
+    },
+    {
+      "id": 142,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Las Americas Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Las Americas Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.757122459446741",
+          "lon": "-122.413247516469241"
+        }
+      }
+    },
+    {
+      "id": 143,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Lau, Gordon J. Preschool, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Lau, Gordon J. Preschool",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.794153290086399",
+          "lon": "-122.40858959637481"
+        }
+      }
+    },
+    {
+      "id": 144,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "McCoppin, Frank Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "McCoppin, Frank Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.776441771935787",
+          "lon": "-122.464238185819809"
+        }
+      }
+    },
+    {
+      "id": 145,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Monroe Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Monroe Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.725512566642635",
+          "lon": "-122.430289417220322"
+        }
+      }
+    },
+    {
+      "id": 146,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Muir, John Preschool, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Muir, John Preschool",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.773609646572929",
+          "lon": "-122.428774140273148"
+        }
+      }
+    },
+    {
+      "id": 147,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Parker, Jean Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Parker, Jean Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.79751749227939",
+          "lon": "-122.411201199122559"
+        }
+      }
+    },
+    {
+      "id": 148,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Redding Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Redding Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.789491416166911",
+          "lon": "-122.419395950369577"
+        }
+      }
+    },
+    {
+      "id": 149,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "S. F. Montessori Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "S. F. Montessori Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.792775532800967",
+          "lon": "-122.433635827423828"
+        }
+      }
+    },
+    {
+      "id": 150,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "S. F. Public Montessori Elementary School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "S. F. Public Montessori Elementary School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.792735707421834",
+          "lon": "-122.433934969543884"
+        }
+      }
+    },
+    {
+      "id": 151,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Serra, Junipero Early Education School (1), San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Serra, Junipero Early Education School (1)",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.736840528789649",
+          "lon": "-122.421511537399923"
+        }
+      }
+    },
+    {
+      "id": 152,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Serra, Junipero Early Education School (2), San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Serra, Junipero Early Education School (2)",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.738458257775655",
+          "lon": "-122.422599170131292"
+        }
+      }
+    },
+    {
+      "id": 153,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Spring Valley Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Spring Valley Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.793901170495822",
+          "lon": "-122.418873256218959"
+        }
+      }
+    },
+    {
+      "id": 154,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Starr King Preschool, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Starr King Preschool",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.753042895288715",
+          "lon": "-122.399154923780642"
+        }
+      }
+    },
+    {
+      "id": 155,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Sutro Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Sutro Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.783481295609306",
+          "lon": "-122.471401205813777"
+        }
+      }
+    },
+    {
+      "id": 156,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Tenderloin Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Tenderloin Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.781717357469716",
+          "lon": "-122.420013627365421"
+        }
+      }
+    },
+    {
+      "id": 157,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Webster, Daniel Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Webster, Daniel Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.760393790842244",
+          "lon": "-122.395976591717812"
+        }
+      }
+    },
+    {
+      "id": 158,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Weill, Raphael Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Weill, Raphael Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.783282587526642",
+          "lon": "-122.429772936471153"
+        }
+      }
+    },
+    {
+      "id": 159,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Woodside Learning Center, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Woodside Learning Center",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.745926540794464",
+          "lon": "-122.452505133314119"
+        }
+      }
+    },
+    {
+      "id": 160,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Jefferson Out Of School (OST) Program, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Jefferson Out Of School (OST) Program",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.762478823917675",
+          "lon": "-122.396202220770817"
+        }
+      }
+    },
+    {
+      "id": 161,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "KIPP Bayview Academy, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "KIPP Bayview Academy",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.719342809692435",
+          "lon": "-122.396362835542078"
+        }
+      }
+    },
+    {
+      "id": 162,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "KIPP SF Bay Academy, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "KIPP SF Bay Academy",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.782998548834186",
+          "lon": "-122.437466479315844"
+        }
+      }
+    },
+    {
+      "id": 163,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Larkin Street Youth Services, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Larkin Street Youth Services",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.78802326027094",
+          "lon": "-122.4192013435691"
+        }
+      }
+    },
+    {
+      "id": 164,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Leadership Charter High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Leadership Charter High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.721438847897993",
+          "lon": "-122.443262370280593"
+        }
+      }
+    },
+    {
+      "id": 165,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Life Learning Academy Charter School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Life Learning Academy Charter School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.825297858396056",
+          "lon": "-122.367929112799345"
+        }
+      }
+    },
+    {
+      "id": 166,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "Presidio Early Education School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Presidio Early Education School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.797816549287333",
+          "lon": "-122.460933306173743"
+        }
+      }
+    },
+    {
+      "id": 167,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "City Arts and Tech High School, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "City Arts and Tech High School",
+            "locality": "San Francisco",
+            "country_a": "USA",
+            "region": "California"
+          }
+        ],
+        "coordinates": {
+          "lat": "37.718885865596683",
+          "lon": "-122.425107572915607"
+        }
+      }
+    }
+  ]
+}
