@@ -1,0 +1,163 @@
+{
+  "name": "Region tests",
+  "description": "Test finding a region with a common starting word ('new')",
+  "priorityThresh": 3,
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "New Mexico"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "New Mexico",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "description": "Tests finding a region with no country",
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "Girona"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Girona",
+            "country_a": "ESP"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "description": "Tests finding a region with a country",
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "Girona Spain"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Girona",
+            "country_a": "ESP"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "description": "Tests finding a region with a country, comma separated",
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "Girona, Spain"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Girona",
+            "country_a": "ESP"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "description": "Tests finding a region with a country ISO-3166 code, comma separated",
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "Girona, ESP"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Girona",
+            "country_a": "ESP"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "description": "Tests finding a region with a state (that doesn't begin with its common abbreviation), comma separated",
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "Clarkston, Georgia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Clarkston",
+            "region_a": "GA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "description": "Tests finding a region with a state (that doesn't begin with its common abbreviation), comma separated",
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "Clarkston, GA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Clarkston",
+            "region_a": "GA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "description": "Tests finding a region with a state (that doesn't begin with its common abbreviation), no comma",
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "Clarkston GA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Clarkston",
+            "region_a": "GA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "description": "Tests finding a region with a state (that doesn't begin with its common abbreviation), no comma",
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "Clarkston Georgia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Clarkston",
+            "region_a": "GA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    }
+  ]
+}
