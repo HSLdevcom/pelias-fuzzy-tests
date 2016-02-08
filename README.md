@@ -1,4 +1,4 @@
-# acceptance tests
+# fuzzy tests
 
 This repository contains digitransit specific Pelias API tests.
 
