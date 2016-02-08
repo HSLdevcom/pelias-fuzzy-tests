@@ -1,0 +1,39 @@
+{
+  "name": "pelias-fuzzy-tests",
+  "version": "0.0.0",
+  "description": "Fuzzy tests for Pelias Geocoder API with digitransit data",
+  "keywords": [
+    "tests",
+    "api"
+  ],
+  "author": "HSLdevcom",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/pelias-fuzzy-tester/bin/fuzzy-tester",
+    "lint": "jshint .",
+    "validate": "npm ls"
+  },
+  "dependencies": {
+    "pelias-fuzzy-tester": "0.5.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.6.3",
+    "precommit-hook": "3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HSLdevcom/pelias-fuzzy-tests"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HSLdevcom/pelias-fuzzy-tests/issues"
+  },
+  "pre-commit": [
+    "lint",
+    "validate"
+  ],
+  "homepage": "https://github.com/HSLdevcom/fuzzy-tests",
+  "engines" : {
+    "npm" : "~2.0.0"
+  }
+}
