@@ -12,12 +12,13 @@ You will need to have `npm` version `2.0` or higher installed.
 $ npm install
 ```
 
-You will also need the digitransit-specific branch of the Pelias fuzzy tester. Clone the repository from
-[pelias-fuzzy-tester](https://github.com/pelias-fuzzy-tester) and run `npm install` in the created directory.
-Then use `npm link` command to link the fuzzy test project to use the custom tester (see npm documentation
-how to link local packages).
+You will also need the digitransit-specific branch of the Pelias fuzzy tester. 
 
-You'll may want to change the geocoding endpoints for your local pelias instance in the local pelias.json config file as follows:
+1. Clone the repository from [pelias-fuzzy-tester](https://github.com/hsldevcom/pelias-fuzzy-tester) 
+2. run `npm install` in the created directory.
+3. run `npm link` command in ?? directory (CLARIFY THIS!)
+4. run `npm link xxx` command in ?? directory (CLARIFY THIS!)
+5. Create pelias-fuzzy-tester/pelias.json config file as follows:
 
 ```javascript
 {
@@ -30,9 +31,7 @@ You'll may want to change the geocoding endpoints for your local pelias instance
   }
 }
 ```
-
-Once you've saved that config file somewhere, let's say `/etc/config.json` for example. You'll need to set the
-environment variable `PELIAS_CONFIG` to the path at which the file can be found. So do something like this, but
+6. Set environment variable `PELIAS_CONFIG` to the path at which the file can be found. So do something like this, but
 with your path.
 
 ```bash
