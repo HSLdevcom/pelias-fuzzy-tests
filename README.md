@@ -14,11 +14,11 @@ $ npm install
 
 You will also need the digitransit-specific branch of the Pelias fuzzy tester. 
 
-1. Clone the repository from [pelias-fuzzy-tester](https://github.com/hsldevcom/pelias-fuzzy-tester) 
-2. run `npm install` in the created directory.
-3. run `npm link` command in ?? directory (CLARIFY THIS!)
-4. run `npm link xxx` command in ?? directory (CLARIFY THIS!)
-5. Create pelias-fuzzy-tester/pelias.json config file as follows:
+- Clone the repository from [pelias-fuzzy-tester](https://github.com/hsldevcom/pelias-fuzzy-tester) 
+- run `npm install` in the created directory.
+- run `npm link` command in ?? directory (CLARIFY THIS!)
+- run `npm link xxx` command in ?? directory (CLARIFY THIS!)
+- Create pelias-fuzzy-tester/pelias.json config file as follows:
 ```javascript
 {
   "acceptance-tests": {
@@ -30,7 +30,7 @@ You will also need the digitransit-specific branch of the Pelias fuzzy tester.
   }
 }
 ```
-6. Set environment variable `PELIAS_CONFIG` to the path at which the file can be found. So do something like this, but
+- Set environment variable `PELIAS_CONFIG` to the path at which the file can be found. So do something like this, but
 with your path.
 
 ```bash
