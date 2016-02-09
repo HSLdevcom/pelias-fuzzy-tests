@@ -19,7 +19,6 @@ You will also need the digitransit-specific branch of the Pelias fuzzy tester.
 3. run `npm link` command in ?? directory (CLARIFY THIS!)
 4. run `npm link xxx` command in ?? directory (CLARIFY THIS!)
 5. Create pelias-fuzzy-tester/pelias.json config file as follows:
-
 ```javascript
 {
   "acceptance-tests": {
