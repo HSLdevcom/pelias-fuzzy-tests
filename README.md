@@ -79,4 +79,4 @@ $ npm test -- -e dev -o json
 ## Test Case Files
 
 For a full description of what can go in tests, see the
-[pelias-fuzzy-tester](https://github.com/HSLdevcom/pelias-fuzzy-tester) documentation
+[fuzzy-tester](https://github.com/HSLdevcom/fuzzy-tester) documentation
