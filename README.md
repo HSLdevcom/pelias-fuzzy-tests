@@ -8,21 +8,23 @@ You will need to have `npm` version `2.0` or higher installed.
 
 ## Setup
 
+Install the npm package as usual:
+
 ```bash
 $ npm install
 ```
 
 You will also need the digitransit-specific branch of the Pelias fuzzy tester.
 
-- Clone the repository from [pelias-fuzzy-tester](https://github.com/hsldevcom/pelias-fuzzy-tester)
-- Make pelias-fuzzy-tester the current directory (`cd pelias-fuzzy-tester`)
+- Clone the repository from [fuzzy-tester](https://github.com/hsldevcom/fuzzy-tester)
+- Make fuzzy-tester the current directory (`cd fuzzy-tester`)
 - Run `npm install`
 - Run `sudo npm link` command to make the local tester module available for other pelias components
 - Make pelias-fuzzy-tests the current directory (`cd ../pelias-fuzzy-tests`)
-- Run `npm link pelias-fuzzy-tests` command to link the tests with the previously installed tester
+- Run `npm link fuzzy-tester` command to link the tests with the previously installed tester
 - In order to use your local pelias setup the way you like, you will need a pelias configuration file.
   You can clone a default configuration from [pelias/config repository](https://github.com/pelias/config).
-  For example `config/default.json is a good starting point. Store the configuration file to a suitable path.
+  For example `config/local.json` serves a starting point. Store the configuration file to a suitable path.
   A good place is in your home directory, `~/pelias.json`, because Pelias searches it from there automatically.
   Then add the test specific section below to the configuration:
 
