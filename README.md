@@ -12,13 +12,20 @@ You will need to have `npm` version `2.0` or higher installed.
 $ npm install
 ```
 
-You will also need the digitransit-specific branch of the Pelias fuzzy tester. 
+You will also need the digitransit-specific branch of the Pelias fuzzy tester.
 
-- Clone the repository from [pelias-fuzzy-tester](https://github.com/hsldevcom/pelias-fuzzy-tester) 
-- run `npm install` in the created directory.
-- run `npm link` command in ?? directory (CLARIFY THIS!)
-- run `npm link xxx` command in ?? directory (CLARIFY THIS!)
-- Create pelias-fuzzy-tester/pelias.json config file as follows:
+- Clone the repository from [pelias-fuzzy-tester](https://github.com/hsldevcom/pelias-fuzzy-tester)
+- Make pelias-fuzzy-tester the current directory (`cd pelias-fuzzy-tester`)
+- Run `npm install`
+- Run `sudo npm link` command to make the local tester module available for other pelias components
+- Make pelias-fuzzy-tests the current directory (`cd ../pelias-fuzzy-tests`)
+- Run `npm link pelias-fuzzy-tests` command to link the tests with the previously installed tester
+- In order to use your local pelias setup the way you like, you will need a pelias configuration file.
+  You can clone a default configuration from [pelias/config repository](https://github.com/pelias/config).
+  For example `config/default.json is a good starting point. Store the configuration file to a suitable path.
+  A good place is in your home directory, `~/pelias.json`, because Pelias searches it from there automatically.
+  Then add the test specific section below to the configuration:
+
 ```javascript
 {
   "acceptance-tests": {
@@ -30,11 +37,12 @@ You will also need the digitransit-specific branch of the Pelias fuzzy tester.
   }
 }
 ```
-- Set environment variable `PELIAS_CONFIG` to the path at which the file can be found. So do something like this, but
-with your path.
+- If you did not store configuration to your home directory but to a custom path, set environment
+  variable `PELIAS_CONFIG` to the path at which the file can be found. So do something like this, but
+  with your path:
 
 ```bash
-$ export PELIAS_CONFIG=/etc/config.json
+$ export PELIAS_CONFIG=/etc/pelias.json
 ```
 
 ## Usage
