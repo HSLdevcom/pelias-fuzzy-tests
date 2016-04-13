@@ -9095,7 +9095,7 @@
       "expected": {
         "properties": [
           {
-            "country_a": "USA",
+            "country_a": "CAN",
             "region": "Ontario"
           }
         ]
@@ -9191,7 +9191,7 @@
       "expected": {
         "properties": [
           {
-            "country_a": "USA",
+            "country_a": "CAN",
             "region": "Ontario"
           }
         ]
