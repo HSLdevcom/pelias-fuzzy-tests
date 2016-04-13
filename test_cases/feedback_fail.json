@@ -18,7 +18,7 @@
             "region_a": "WA",
             "county": "King County",
             "locality": "Seattle",
-            "label": "Seattle, King County, WA"
+            "label": "Seattle, King County, WA, USA"
           }
         ]
       }
@@ -63,7 +63,7 @@
             "localadmin": "Manhattan",
             "locality": "New York",
             "neighbourhood": "Theatre District",
-            "label": "30 Rockefeller Plaza, Manhattan, NY"
+            "label": "30 Rockefeller Plaza, Manhattan, NY, USA"
           }
         ]
       }
@@ -88,7 +88,7 @@
             "county": "Alameda County",
             "locality": "Berkeley",
             "neighbourhood": "North Berkeley Hills",
-            "label": "2511 Hill Court, Berkeley, CA"
+            "label": "2511 Hill Court, Berkeley, CA, USA"
           }
         ]
       }
@@ -113,7 +113,7 @@
             "county": "Santa Clara County",
             "locality": "Mountain View",
             "neighbourhood": "Mountain View South",
-            "label": "1065 Lane Avenida Avenue, Mountain View, CA"
+            "label": "1065 Lane Avenida Avenue, Mountain View, CA, USA"
           }
         ]
       }
@@ -138,7 +138,7 @@
             "county": "New Castle County",
             "locality": "New Castle",
             "neighbourhood": "Dobbinsville",
-            "label": "1 Centerpoint Boulevard, New Castle, DE"
+            "label": "1 Centerpoint Boulevard, New Castle, DE, USA"
           }
         ]
       }
@@ -158,7 +158,7 @@
             "region": "Maryland",
             "region_a": "MD",
             "county": "Anne Arundel County",
-            "label": "Baltimore-Washington International/Thurgood Marshall Airport, Anne Arundel County, MD"
+            "label": "Baltimore-Washington International/Thurgood Marshall Airport, Anne Arundel County, MD, USA"
           }
         ]
       }
@@ -183,7 +183,7 @@
             "county": "Middlesex County",
             "localadmin": "Billerica",
             "neighbourhood": "South Lowell",
-            "label": "15 Call Street, Billerica, MA"
+            "label": "15 Call Street, Billerica, MA, USA"
           }
         ]
       }
@@ -228,7 +228,7 @@
             "region_a": "MA",
             "county": "Norfolk County",
             "localadmin": "Wrentham",
-            "label": "55 Acorn Road, Wrentham, MA"
+            "label": "55 Acorn Road, Wrentham, MA, USA"
           }
         ]
       }
@@ -324,7 +324,7 @@
             "region_a": "CA",
             "county": "Santa Barbara County",
             "locality": "Santa Barbara",
-            "label": "511 Brinkerhoff Avenue, Santa Barbara, CA"
+            "label": "511 Brinkerhoff Avenue, Santa Barbara, CA, USA"
           }
         ]
       }
@@ -344,7 +344,7 @@
             "region": "Virginia",
             "region_a": "VA",
             "county": "Loudoun County",
-            "label": "Washington Dulles International Airport, Loudoun County, VA"
+            "label": "Washington Dulles International Airport, Loudoun County, VA, USA"
           }
         ]
       }
@@ -367,7 +367,7 @@
             "localadmin": "Boston",
             "locality": "Boston",
             "neighbourhood": "East Boston",
-            "label": "Logan International Airport, Boston, MA"
+            "label": "Logan International Airport, Boston, MA, USA"
           }
         ]
       }
@@ -391,7 +391,7 @@
             "localadmin": "Manhattan",
             "locality": "New York",
             "neighbourhood": "Koreatown",
-            "label": "Macy's Herald Square, Manhattan, NY"
+            "label": "Macy's Herald Square, Manhattan, NY, USA"
           }
         ]
       }
@@ -413,7 +413,7 @@
             "county": "New York County",
             "localadmin": "Manhattan",
             "locality": "New York",
-            "label": "Robert F Kennedy Memorial Bridge, Manhattan, NY"
+            "label": "Robert F Kennedy Memorial Bridge, Manhattan, NY, USA"
           }
         ]
       }
@@ -467,7 +467,7 @@
             "county": "Los Angeles County",
             "locality": "Los Angeles",
             "neighbourhood": "Downtown Los Angeles",
-            "label": "1000 South Flower Street, Los Angeles, CA"
+            "label": "1000 South Flower Street, Los Angeles, CA, USA"
           }
         ]
       }
@@ -491,7 +491,7 @@
             "county": "Hartford County",
             "localadmin": "Avon",
             "neighbourhood": "West Avon",
-            "label": "339 West Main Street, Avon, CT"
+            "label": "339 West Main Street, Avon, CT, USA"
           }
         ]
       }
@@ -571,7 +571,7 @@
             "county": "Santa Clara County",
             "locality": "Palo Alto",
             "neighbourhood": "Professorville",
-            "label": "367 Addison Avenue, Palo Alto, CA"
+            "label": "367 Addison Avenue, Palo Alto, CA, USA"
           }
         ]
       }
@@ -605,7 +605,7 @@
             "region_a": "SC",
             "county": "Sumter County",
             "locality": "Sumter",
-            "label": "631 Chickasaw Drive, Sumter, SC"
+            "label": "631 Chickasaw Drive, Sumter, SC, USA"
           }
         ]
       }
@@ -625,7 +625,7 @@
             "region": "Virginia",
             "region_a": "VA",
             "county": "Loudoun County",
-            "label": "Washington Dulles International Airport, Loudoun County, VA"
+            "label": "Washington Dulles International Airport, Loudoun County, VA, USA"
           }
         ]
       }
@@ -681,7 +681,7 @@
             "region_a": "PA",
             "county": "Lebanon County",
             "localadmin": "East Hanover",
-            "label": "10118 Jonestown Road, East Hanover, PA"
+            "label": "10118 Jonestown Road, East Hanover, PA, USA"
           }
         ]
       }
@@ -703,7 +703,7 @@
             "county": "Multnomah County",
             "locality": "Portland",
             "neighbourhood": "NE Portland",
-            "label": "Portland International Airport, Portland, OR"
+            "label": "Portland International Airport, Portland, OR, USA"
           }
         ]
       }
@@ -726,7 +726,7 @@
             "localadmin": "Queens",
             "locality": "New York",
             "neighbourhood": "Brookville",
-            "label": "John F Kennedy International Airport, Queens, NY"
+            "label": "John F Kennedy International Airport, Queens, NY, USA"
           }
         ]
       }
@@ -749,7 +749,7 @@
             "localadmin": "Newark",
             "locality": "Newark",
             "neighbourhood": "Dayton",
-            "label": "Newark Liberty International Airport, Newark, NJ"
+            "label": "Newark Liberty International Airport, Newark, NJ, USA"
           }
         ]
       }
@@ -802,7 +802,7 @@
             "county": "New York County",
             "localadmin": "Manhattan",
             "locality": "New York",
-            "label": "New York City, Manhattan, NY"
+            "label": "New York City, Manhattan, NY, USA"
           }
         ]
       }
@@ -824,7 +824,7 @@
             "county": "New York County",
             "localadmin": "Manhattan",
             "locality": "New York",
-            "label": "New York City, Manhattan, NY"
+            "label": "New York City, Manhattan, NY, USA"
           }
         ]
       }
@@ -850,7 +850,7 @@
             "localadmin": "Manhattan",
             "locality": "New York",
             "neighbourhood": "Midtown",
-            "label": "11 West 53rd Street, Manhattan, NY"
+            "label": "11 West 53rd Street, Manhattan, NY, USA"
           }
         ]
       }
@@ -869,9 +869,9 @@
             "country": "India",
             "region": "Uttar Pradesh",
             "county": "Agra",
-            "locality": "Ägra",
+            "locality": "Agra",
             "neighbourhood": "Nagla Kachhpura",
-            "label": "Taj Mahal, Ägra, India"
+            "label": "Taj Mahal, Agra, India"
           }
         ]
       }
@@ -897,7 +897,7 @@
             "localadmin": "Stamford",
             "locality": "Stamford",
             "neighbourhood": "South End",
-            "label": "Postmark Apartments, Stamford, CT"
+            "label": "Postmark Apartments, Stamford, CT, USA"
           }
         ]
       }
@@ -918,7 +918,7 @@
             "region_a": "CA",
             "county": "San Mateo County",
             "locality": "Daly City",
-            "label": "Daly City, San Mateo County, CA"
+            "label": "Daly City, San Mateo County, CA, USA"
           }
         ]
       }
