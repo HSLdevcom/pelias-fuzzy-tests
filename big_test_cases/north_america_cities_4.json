@@ -1,7 +1,7 @@
 {
   "name": "USA location tests part 4",
   "description": "a list of USA locations",
-  "priorityThresh": 2,
+  "priorityThresh": 5,
   "source": "https://gist.github.com/Caged/6ce6b2a6ecda4579b64f",
   "normalizers": {
     "name": [
@@ -3687,7 +3687,7 @@
       "expected": {
         "properties": [
           {
-            "region": "NA"
+            "country_a": "USA"
           }
         ]
       }
@@ -3702,7 +3702,7 @@
       "expected": {
         "properties": [
           {
-            "region": ""
+            "country_a": "USA"
           }
         ]
       }
@@ -5615,13 +5615,14 @@
       "id": 3350,
       "status": "pass",
       "user": "Julian",
+      "notes": "this one is in Germany, the query is wrong",
       "in": {
         "text": "Viernheim, NA"
       },
       "expected": {
         "properties": [
           {
-            "region": "NA"
+            "country_a": "DEU"
           }
         ]
       }
@@ -7284,7 +7285,8 @@
       "expected": {
         "properties": [
           {
-            "region": "NA"
+            "region": "Quebec",
+            "country_a": "CAN"
           }
         ]
       }
