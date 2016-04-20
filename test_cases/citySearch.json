@@ -1511,9 +1511,11 @@
         "layers": "coarse"
       },
       "expected": {
+        "distanceThresh": 120000,
         "properties": [
           {
-            "name": "Arequipa"
+            "name": "Arequipa",
+            "country": "Peru"
           }
         ],
         "coordinates": [
@@ -1799,7 +1801,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Asuncion"
+            "name": "Asunción",
+            "country_a": "PRY"
           }
         ],
         "coordinates": [
@@ -2043,7 +2046,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Avondale"
+            "name": "Avondale",
+            "region_a": "AZ"
           }
         ],
         "coordinates": [
@@ -5240,7 +5244,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Buenos Aires"
+            "name": "Buenos Aires",
+            "country_a": "ARG"
           }
         ],
         "coordinates": [
@@ -5605,8 +5610,9 @@
     },
     {
       "id": 254,
-      "status": "pass",
+      "status": "fail",
       "user": "Julian",
+      "description": "bad lat/lon?",
       "in": {
         "text": "Callao",
         "layers": "coarse"
@@ -12691,7 +12697,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Goeteborg"
+            "name": "Göteborg",
+            "country_a": "SWE"
           }
         ],
         "coordinates": [
@@ -15547,7 +15554,8 @@
     },
     {
       "id": 705,
-      "status": "pass",
+      "status": "fail",
+      "description": "bad lat/lon?",
       "user": "Julian",
       "in": {
         "text": "Irving",
@@ -17272,7 +17280,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Khmel'nyts'kyy"
+            "name": "Khmel’nyts’ke",
+            "country_a": "UKR"
           }
         ],
         "coordinates": [
@@ -17659,7 +17668,8 @@
     },
     {
       "id": 801,
-      "status": "pass",
+      "status": "fail",
+      "description": "we don't handle expanded umlauts",
       "user": "Julian",
       "in": {
         "text": "Koeln",
@@ -17668,7 +17678,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Koeln"
+            "name": "Köln",
+            "country_a": "DEU"
           }
         ],
         "coordinates": [
@@ -18284,7 +18295,8 @@
       "expected": {
         "properties": [
           {
-            "name": "La Paz"
+            "name": "La Paz",
+            "country_a": "BOL"
           }
         ],
         "coordinates": [
@@ -19905,7 +19917,8 @@
     },
     {
       "id": 903,
-      "status": "pass",
+      "status": "fail",
+      "description": "we don't handle expanded umlauts",
       "user": "Julian",
       "in": {
         "text": "Luebeck",
@@ -19914,7 +19927,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Luebeck"
+            "name": "Lübeck",
+            "country_a": "DEU"
           }
         ],
         "coordinates": [
@@ -20543,7 +20557,8 @@
     },
     {
       "id": 932,
-      "status": "pass",
+      "status": "fail",
+      "description": "we don't seem to handle expanded umlauts",
       "user": "Julian",
       "in": {
         "text": "Malmoe",
@@ -20552,7 +20567,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Malmoe"
+            "name": "Malmö",
+            "country_a": "SWE"
           }
         ],
         "coordinates": [
@@ -21258,7 +21274,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Medellin"
+            "name": "Medellin",
+            "country_a": "COL"
           }
         ],
         "coordinates": [
@@ -21436,7 +21453,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Mendoza"
+            "name": "Mendoza",
+            "country_a": "ARG"
           }
         ],
         "coordinates": [
@@ -22571,7 +22589,8 @@
     },
     {
       "id": 1024,
-      "status": "pass",
+      "status": "fail",
+      "description": "bad lat/lon?",
       "user": "Julian",
       "in": {
         "text": "Mount Pleasant",
@@ -22580,7 +22599,9 @@
       "expected": {
         "properties": [
           {
-            "name": "Mount Pleasant"
+            "name": "Mount Pleasant",
+            "region_a": "SC",
+            "country_a": "USA"
           }
         ],
         "coordinates": [
@@ -22681,7 +22702,8 @@
     },
     {
       "id": 1029,
-      "status": "pass",
+      "status": "fail",
+      "description": "we don't handle expanded umlauts",
       "user": "Julian",
       "in": {
         "text": "Muelheim",
@@ -22690,7 +22712,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Muelheim"
+            "name": "Mülheim",
+            "country_a": "DEU"
           }
         ],
         "coordinates": [
@@ -22703,7 +22726,8 @@
     },
     {
       "id": 1030,
-      "status": "pass",
+      "status": "fail",
+      "description": "we don't seem to handle expanded umlauts",
       "user": "Julian",
       "in": {
         "text": "Muenster",
@@ -22712,7 +22736,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Muenster"
+            "name": "Muenster",
+            "country_a": "DEU"
           }
         ],
         "coordinates": [
@@ -23966,7 +23991,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Nimes"
+            "name": "Nîmes"
           }
         ],
         "coordinates": [
@@ -24296,7 +24321,8 @@
       "expected": {
         "properties": [
           {
-            "name": "North Shore"
+            "name": "North Shore",
+            "country_a": "NZL"
           }
         ],
         "coordinates": [
@@ -25374,7 +25400,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Orleans"
+            "name": "Orléans",
+            "country_a": "FRA"
           }
         ],
         "coordinates": [
@@ -26122,7 +26149,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Patan"
+            "name": "Pātan",
+            "country": "Nepal"
           }
         ],
         "coordinates": [
@@ -26364,7 +26392,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Peristeri"
+            "name": "Peristéri",
+            "country": "Greece"
           }
         ],
         "coordinates": [
@@ -27919,8 +27948,9 @@
     },
     {
       "id": 1267,
-      "status": "pass",
+      "status": "fail",
       "user": "Julian",
+      "description": "bad expected lat/lon?",
       "in": {
         "text": "Quebec",
         "layers": "coarse"
@@ -28273,7 +28303,8 @@
     },
     {
       "id": 1283,
-      "status": "pass",
+      "status": "fail",
+      "description": "bad expected lat/lon?",
       "user": "Julian",
       "in": {
         "text": "Reading, MA",
@@ -29692,7 +29723,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Saint-Etienne"
+            "name": "Saint-Étienne"
           }
         ],
         "coordinates": [
@@ -29802,7 +29833,9 @@
       "expected": {
         "properties": [
           {
-            "name": "Salem"
+            "name": "Salem",
+            "region_a": "OR",
+            "country_a": "USA"
           }
         ],
         "coordinates": [
@@ -30550,7 +30583,9 @@
       "expected": {
         "properties": [
           {
-            "name": "Santa Clara"
+            "name": "Santa Clara",
+            "region_a": "CA",
+            "country_a": "USA"
           }
         ],
         "coordinates": [
@@ -30616,7 +30651,9 @@
       "expected": {
         "properties": [
           {
-            "name": "Santa Fe"
+            "name": "Santa Fe",
+            "region_a": "NM",
+            "country_a": "USA"
           }
         ],
         "coordinates": [
@@ -30682,7 +30719,9 @@
       "expected": {
         "properties": [
           {
-            "name": "Santa Rosa"
+            "name": "Santa Rosa",
+            "region_a": "CA",
+            "country_a": "USA"
           }
         ],
         "coordinates": [
@@ -33459,7 +33498,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Taian"
+            "name": "Taian",
+            "country_a": "KOR"
           }
         ],
         "coordinates": [
@@ -35809,7 +35849,8 @@
     },
     {
       "id": 1625,
-      "status": "pass",
+      "status": "fail",
+      "description": "bad test? there's no upland, CA near this lat/lon",
       "user": "Julian",
       "in": {
         "text": "Upland",
@@ -36018,7 +36059,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Valparaiso"
+            "name": "Valparaíso",
+            "country": "Chile"
           }
         ],
         "coordinates": [
@@ -36889,7 +36931,8 @@
     },
     {
       "id": 1674,
-      "status": "pass",
+      "status": "fail",
+      "description": "We fail at washington dc",
       "user": "Julian",
       "in": {
         "text": "Washington, D.C.",
@@ -36898,7 +36941,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Washington"
+            "name": "Washington, D.C.",
+            "country_a": "USA"
           }
         ],
         "coordinates": [
@@ -37774,8 +37818,9 @@
     },
     {
       "id": 1714,
-      "status": "pass",
+      "status": "fail",
       "user": "Julian",
+      "description": "we don't handle expanded umlauts",
       "in": {
         "text": "Wuerzburg",
         "layers": "coarse"
@@ -37783,7 +37828,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Wuerzburg"
+            "name": "Würzburg",
+            "country_a": "DEU"
           }
         ],
         "coordinates": [
@@ -37915,7 +37961,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Xi'an"
+            "name": "Fuping Xian",
+            "country_a": "CHN"
           }
         ],
         "coordinates": [
@@ -38676,7 +38723,8 @@
     },
     {
       "id": 1755,
-      "status": "pass",
+      "status": "fail",
+      "description": "We don't seem to handle an umlaut expanded in the text like this",
       "user": "Julian",
       "in": {
         "text": "Zuerich",
