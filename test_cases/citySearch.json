@@ -3,7 +3,7 @@
   "description": "The full list of cities from Mapzen city search",
   "priorityThresh": 2,
   "source": "https://raw.githubusercontent.com/mapzen/ui/master/src/components/citysearch/cities.json",
-  "distanceThresh": 50000,
+  "distanceThresh": 100000,
   "tests": [
     {
       "id": 0,
