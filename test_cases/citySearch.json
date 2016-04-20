@@ -27928,7 +27928,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Quebec"
+            "name": "Quebec",
+            "country": "Canada"
           }
         ],
         "coordinates": [
