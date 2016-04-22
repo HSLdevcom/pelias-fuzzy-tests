@@ -537,7 +537,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Brasilia",
+            "name": "Brasília",
             "country": "Brazil",
             "country_a": "BRA"
           }
@@ -807,7 +807,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Yaounde",
+            "name": "Yaoundé",
             "country": "Cameroon",
             "country_a": "CMR"
           }
@@ -861,7 +861,7 @@
       "expected": {
         "properties": [
           {
-            "name": "San Jose",
+            "name": "San José",
             "country": "Costa Rica",
             "country_a": "CRI"
           }
@@ -1905,7 +1905,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Reykjavik",
+            "name": "Reykjavík",
             "country": "Iceland",
             "country_a": "ISL"
           }
@@ -2463,7 +2463,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Chisinau",
+            "name": "Chişinău",
             "country": "Moldova",
             "country_a": "MDA"
           }
@@ -3723,7 +3723,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Sao Tome",
+            "name": "São Tomé",
             "country": "Sao Tome and Principe",
             "country_a": "STP"
           }
@@ -3975,7 +3975,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Nuku'alofa",
+            "name": "Nukuhetulu",
             "country": "Tonga",
             "country_a": "TON"
           }
