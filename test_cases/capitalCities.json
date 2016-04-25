@@ -4274,7 +4274,9 @@
     },
     {
       "id": 237,
-      "status": "pass",
+      "status": "fail",
+      "description": "not in WOF",
+      "issue": "https://github.com/whosonfirst/whosonfirst-data/issues/258",
       "user": "Julian",
       "in": {
         "text": "Port Vila, Vanuatu",
