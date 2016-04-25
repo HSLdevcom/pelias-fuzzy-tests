@@ -513,13 +513,13 @@
       "status": "pass",
       "user": "Julian",
       "in": {
-        "text": "Saint Eustatius and Saba , Bonaire",
+        "text": "Saint Eustatius and Saba, Bonaire",
         "layers": "coarse"
       },
       "expected": {
         "properties": [
           {
-            "name": "Saint Eustatius and Saba ",
+            "name": "Saint Eustatius and Saba",
             "country": "Bonaire",
             "country_a": "BES"
           }
@@ -909,13 +909,13 @@
       "status": "pass",
       "user": "Julian",
       "in": {
-        "text": " Willemstad, Curacao",
+        "text": "Willemstad, Curacao",
         "layers": "coarse"
       },
       "expected": {
         "properties": [
           {
-            "name": " Willemstad",
+            "name": "Willemstad",
             "country": "Curacao",
             "country_a": "CUW"
           }
