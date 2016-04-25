@@ -4433,24 +4433,6 @@
           }
         ]
       }
-    },
-    {
-      "id": 246,
-      "status": "pass",
-      "user": "Julian",
-      "in": {
-        "text": "Willemstad, Netherlands Antilles",
-        "layers": "coarse"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Willemstad",
-            "country": "Netherlands Antilles",
-            "country_a": "ANT"
-          }
-        ]
-      }
     }
   ]
 }
