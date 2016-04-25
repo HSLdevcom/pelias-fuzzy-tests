@@ -8426,7 +8426,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Copenhagen"
+            "name": "Copenhagen",
+            "country_a": "DNK"
           }
         ],
         "coordinates": [
