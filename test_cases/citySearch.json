@@ -1616,7 +1616,8 @@
     },
     {
       "id": 73,
-      "status": "pass",
+      "status": "fail",
+      "description": "bad lat/lon?",
       "user": "Julian",
       "in": {
         "text": "Arlington Heights",
@@ -2037,7 +2038,8 @@
     },
     {
       "id": 92,
-      "status": "pass",
+      "status": "fail",
+      "description": "bad lat/lon?",
       "user": "Julian",
       "in": {
         "text": "Avondale",
@@ -5235,7 +5237,8 @@
     },
     {
       "id": 237,
-      "status": "pass",
+      "status": "fail",
+      "description": "bad lat/lon?",
       "user": "Julian",
       "in": {
         "text": "Buenos Aires",
@@ -12800,7 +12803,8 @@
     },
     {
       "id": 580,
-      "status": "pass",
+      "status": "fail",
+      "description": "bad lat/lon?",
       "user": "Julian",
       "in": {
         "text": "Gorakhpur",
@@ -15509,7 +15513,8 @@
     },
     {
       "id": 703,
-      "status": "pass",
+      "status": "fail",
+      "description": "bad lat/lon?",
       "user": "Julian",
       "in": {
         "text": "Irvine, CA",
@@ -17272,7 +17277,8 @@
     },
     {
       "id": 783,
-      "status": "pass",
+      "status": "fail",
+      "description": "bad lat/lon?",
       "user": "Julian",
       "in": {
         "text": "Khmel'nyts'kyy",
@@ -18287,7 +18293,8 @@
     },
     {
       "id": 829,
-      "status": "pass",
+      "status": "fail",
+      "description": "bad lat/lon?",
       "user": "Julian",
       "in": {
         "text": "La Paz",
@@ -21445,7 +21452,8 @@
     },
     {
       "id": 972,
-      "status": "pass",
+      "status": "fail",
+      "description": "bad lat/lon?",
       "user": "Julian",
       "in": {
         "text": "Mendoza",
