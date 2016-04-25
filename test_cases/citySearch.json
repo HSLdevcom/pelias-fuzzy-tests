@@ -24966,7 +24966,9 @@
     },
     {
       "id": 1131,
-      "status": "pass",
+      "status": "fail",
+      "description": "WOF naming issue",
+      "issue": "https://github.com/whosonfirst/whosonfirst-data/issues/256",
       "user": "Julian",
       "in": {
         "text": "Okanagan",
