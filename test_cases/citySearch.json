@@ -12692,7 +12692,9 @@
     },
     {
       "id": 575,
-      "status": "pass",
+      "status": "fail",
+      "description": "unable to search with expanded diacriticals",
+      "issue": "https://github.com/pelias/pelias/issues/319",
       "user": "Julian",
       "in": {
         "text": "Goeteborg",
@@ -12715,7 +12717,9 @@
     },
     {
       "id": 576,
-      "status": "pass",
+      "status": "fail",
+      "description": "unable to search with expanded diacriticals",
+      "issue": "https://github.com/pelias/pelias/issues/319",
       "user": "Julian",
       "in": {
         "text": "Goettingen",
@@ -24630,7 +24634,9 @@
     },
     {
       "id": 1116,
-      "status": "pass",
+      "status": "fail",
+      "description": "expanded umlauts not handled",
+      "issue": "https://github.com/pelias/pelias/issues/319",
       "user": "Julian",
       "in": {
         "text": "Nuernberg",
