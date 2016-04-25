@@ -13578,7 +13578,8 @@
     },
     {
       "id": 615,
-      "status": "pass",
+      "status": "fail",
+      "description": "our names here seem off",
       "user": "Julian",
       "in": {
         "text": "Halle",
@@ -13587,7 +13588,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Halle"
+            "name": "Halle",
+            "country_a": "DEU"
           }
         ],
         "coordinates": [
@@ -13733,8 +13735,9 @@
     },
     {
       "id": 622,
-      "status": "pass",
+      "status": "fail",
       "user": "Julian",
+      "description": "not ranked high enough. perhaps fixed by mulit_match?",
       "in": {
         "text": "Hamilton, NZ",
         "layers": "coarse"
@@ -15541,7 +15544,8 @@
     },
     {
       "id": 704,
-      "status": "pass",
+      "status": "fail",
+      "description": "Irvine, CA, USA is shown first. Maybe multi_match will help",
       "user": "Julian",
       "in": {
         "text": "Irvine, England",
@@ -29842,7 +29846,8 @@
     },
     {
       "id": 1352,
-      "status": "pass",
+      "status": "fail",
+      "description": "two instances of Salem, India are not deduped",
       "user": "Julian",
       "in": {
         "text": "Salem",
@@ -30460,7 +30465,8 @@
     },
     {
       "id": 1380,
-      "status": "pass",
+      "status": "fail",
+      "description": "bumped down by results for 'sandy hill'. perhaps removal of kstem can fix this",
       "user": "Julian",
       "in": {
         "text": "Sandy Hills",
@@ -30469,7 +30475,9 @@
       "expected": {
         "properties": [
           {
-            "name": "Sandy Hills"
+            "name": "Sandy Hills",
+            "region_a": "UT",
+            "country_a": "USA"
           }
         ],
         "coordinates": [
@@ -37976,7 +37984,8 @@
     },
     {
       "id": 1720,
-      "status": "pass",
+      "status": "fail",
+      "description": "just not high enough in the results. maybe it's ok given the bad query",
       "user": "Julian",
       "in": {
         "text": "Xi'an",
