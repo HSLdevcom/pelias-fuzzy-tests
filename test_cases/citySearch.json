@@ -33506,7 +33506,8 @@
     },
     {
       "id": 1518,
-      "status": "pass",
+      "status": "fail",
+      "description": "we are unable to search alt-names, and all our data sources have only the chinese name",
       "user": "Julian",
       "in": {
         "text": "Tai'an",
@@ -33515,8 +33516,8 @@
       "expected": {
         "properties": [
           {
-            "name": "Taian",
-            "country_a": "KOR"
+            "name": "泰安市",
+            "country_a": "CHN"
           }
         ],
         "coordinates": [
@@ -35599,9 +35600,9 @@
     },
     {
       "id": 1613,
-      "status": "pass",
+      "status": "fail",
       "user": "Julian",
-      "description": "I think this refers to https://en.wikipedia.org/wiki/%C3%9Cr%C3%BCmqi",
+      "description": "we are unable to search altnames, and only the Chinese name is in the data",
       "in": {
         "text": "UEruemqi",
         "layers": "coarse"
