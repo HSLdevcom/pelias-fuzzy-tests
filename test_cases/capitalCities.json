@@ -4020,7 +4020,9 @@
     },
     {
       "id": 223,
-      "status": "pass",
+      "status": "fail",
+      "description": "Tuvalu geometry in WOF is bad",
+      "issue": "https://github.com/whosonfirst/whosonfirst-data/issues/257",
       "user": "Julian",
       "in": {
         "text": "Funafuti, Tuvalu",
