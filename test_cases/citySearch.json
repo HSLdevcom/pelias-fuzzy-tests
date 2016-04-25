@@ -1981,7 +1981,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Aurangabad"
+            "name": "Aurangābād"
           }
         ],
         "coordinates": [
@@ -13341,7 +13341,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Gujranwala"
+            "name": "Gujrānwāla"
           }
         ],
         "coordinates": [
@@ -15126,7 +15126,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Hyderabad"
+            "name": "Hyderābād"
           }
         ],
         "coordinates": [
@@ -24639,7 +24639,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Nuernberg"
+            "name": "Nürnberg"
           }
         ],
         "coordinates": [
@@ -35601,7 +35601,8 @@
       "expected": {
         "properties": [
           {
-            "name": "UEruemqi"
+            "name": "Ürümqi",
+            "country_a": "CHN"
           }
         ],
         "coordinates": [
