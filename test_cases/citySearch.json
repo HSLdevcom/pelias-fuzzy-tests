@@ -37730,6 +37730,7 @@
       "id": 1710,
       "status": "pass",
       "user": "Julian",
+      "priorityThresh": 3,
       "in": {
         "text": "Worcester, England",
         "layers": "coarse"
