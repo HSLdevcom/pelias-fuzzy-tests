@@ -24332,6 +24332,7 @@
         "layers": "coarse"
       },
       "expected": {
+        "priorityThresh": 3,
         "properties": [
           {
             "name": "North Shore",
@@ -30598,6 +30599,7 @@
         "layers": "coarse"
       },
       "expected": {
+        "priorityThresh": 3,
         "properties": [
           {
             "name": "Santa Clara",
@@ -30666,6 +30668,7 @@
         "layers": "coarse"
       },
       "expected": {
+        "priorityThresh": 3,
         "properties": [
           {
             "name": "Santa Fe",
@@ -30734,6 +30737,7 @@
         "layers": "coarse"
       },
       "expected": {
+        "priorityThresh": 5,
         "properties": [
           {
             "name": "Santa Rosa",
@@ -37749,12 +37753,12 @@
       "id": 1710,
       "status": "pass",
       "user": "Julian",
-      "priorityThresh": 3,
       "in": {
         "text": "Worcester, England",
         "layers": "coarse"
       },
       "expected": {
+        "priorityThresh": 3,
         "properties": [
           {
             "name": "Worcester",
