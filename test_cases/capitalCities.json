@@ -4417,24 +4417,6 @@
           }
         ]
       }
-    },
-    {
-      "id": 245,
-      "status": "pass",
-      "user": "Julian",
-      "in": {
-        "text": "Belgrade, Serbia and Montenegro",
-        "layers": "coarse"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Belgrade",
-            "country": "Serbia and Montenegro",
-            "country_a": "SCG"
-          }
-        ]
-      }
     }
   ]
 }
