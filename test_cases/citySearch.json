@@ -3349,7 +3349,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Berlin Schoeneberg"
+            "name": "Berlin Schöneberg"
           }
         ],
         "coordinates": [
@@ -6663,7 +6663,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Charlottenburg Bezirk"
+            "name": "Bezirk Charlottenburg-Wilmersdorf"
           }
         ],
         "coordinates": [
@@ -11955,7 +11955,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Friedrichshain Bezirk"
+            "name": "Bezirk Friedrichshain-Kreuzberg"
           }
         ],
         "coordinates": [
@@ -31148,7 +31148,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Schoneberg Bezirk"
+            "name": "Berlin Schöneberg"
           }
         ],
         "coordinates": [
