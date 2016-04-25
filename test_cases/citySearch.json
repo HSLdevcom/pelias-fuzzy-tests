@@ -3494,7 +3494,8 @@
     },
     {
       "id": 158,
-      "status": "pass",
+      "status": "fail",
+      "description": "Kreuzberg the city elsewhere in Germany comes first",
       "user": "Julian",
       "in": {
         "text": "Bezirk Kreuzberg",
@@ -3503,7 +3504,9 @@
       "expected": {
         "properties": [
           {
-            "name": "Bezirk Kreuzberg"
+            "name": "Kreuzberg",
+            "region": "Berlin",
+            "locality": "Berlin"
           }
         ],
         "coordinates": [
