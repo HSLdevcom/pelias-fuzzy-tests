@@ -556,7 +556,7 @@
         "properties": [
           {
             "name": "Nassau",
-            "country": "Bahamas",
+            "country": "The Bahamas",
             "country_a": "BHS"
           }
         ]
@@ -718,7 +718,7 @@
         "properties": [
           {
             "name": "Brazzaville",
-            "country": "Republic of the Congo",
+            "country": "Republic of Congo",
             "country_a": "COG"
           }
         ]
@@ -1419,7 +1419,7 @@
       "expected": {
         "properties": [
           {
-            "name": "St Peter Port",
+            "name": "Saint Peter Port",
             "country": "Guernsey",
             "country_a": "GGY"
           }
@@ -1636,7 +1636,7 @@
         "properties": [
           {
             "name": "Bissau",
-            "country": "Guinea-Bissau",
+            "country": "Guinea Bissau",
             "country_a": "GNB"
           }
         ]
@@ -1672,7 +1672,7 @@
         "properties": [
           {
             "name": "Hong Kong",
-            "country": "Hong Kong",
+            "country": "Hong Kong S.A.R.",
             "country_a": "HKG"
           }
         ]
@@ -2626,7 +2626,7 @@
         "properties": [
           {
             "name": "Macao",
-            "country": "Macao",
+            "country": "Macao S.A.R",
             "country_a": "MAC"
           }
         ]
@@ -3075,7 +3075,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Panama City",
+            "name": "Panamá",
             "country": "Panama",
             "country_a": "PAN"
           }
@@ -3256,7 +3256,7 @@
         "properties": [
           {
             "name": "East Jerusalem",
-            "country": "Palestinian Territory",
+            "country": "Palestine",
             "country_a": "PSE"
           }
         ]
@@ -3309,7 +3309,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Asuncion",
+            "name": "Asunción",
             "country": "Paraguay",
             "country_a": "PRY"
           }
@@ -3867,7 +3867,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Lome",
+            "name": "Lomé",
             "country": "Togo",
             "country_a": "TGO"
           }
@@ -4066,7 +4066,7 @@
         "properties": [
           {
             "name": "Dodoma",
-            "country": "Tanzania",
+            "country": "United Republic of Tanzania",
             "country_a": "TZA"
           }
         ]
