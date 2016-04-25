@@ -1626,7 +1626,9 @@
       "expected": {
         "properties": [
           {
-            "name": "Arlington Heights"
+            "name": "Arlington Heights",
+            "region_a": "WI",
+            "country_a": "USA"
           }
         ],
         "coordinates": [
