@@ -17,7 +17,7 @@
     "validate": "npm ls"
   },
   "dependencies": {
-    "pelias-fuzzy-tester": "^0.6.1"
+    "pelias-fuzzy-tester": "^0.6.2"
   },
   "devDependencies": {
     "jshint": "^2.6.3",
@@ -36,7 +36,7 @@
     "lint",
     "validate"
   ],
-  "engines" : {
-    "npm" : "~2.0.0"
+  "engines": {
+    "npm": "~2.0.0"
   }
 }
