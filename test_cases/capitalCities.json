@@ -1293,7 +1293,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Torshavn",
+            "name": "Tórshavn",
             "country": "Faroe Islands",
             "country_a": "FRO"
           }
@@ -1617,7 +1617,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Hagatna",
+            "name": "Hagåtña",
             "country": "Guam",
             "country_a": "GUM"
           }
@@ -2859,7 +2859,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Noumea",
+            "name": "Nouméa",
             "country": "New Caledonia",
             "country_a": "NCL"
           }
@@ -3849,7 +3849,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Port-aux-Francais",
+            "name": "Port-aux-Français",
             "country": "French Southern Territories",
             "country_a": "ATF"
           }
