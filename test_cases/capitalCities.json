@@ -4020,8 +4020,7 @@
     },
     {
       "id": 223,
-      "status": "fail",
-      "description": "Tuvalu geometry in WOF is bad",
+      "status": "pass",
       "issue": "https://github.com/whosonfirst/whosonfirst-data/issues/257",
       "user": "Julian",
       "in": {
