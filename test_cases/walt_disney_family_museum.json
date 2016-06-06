@@ -1,0 +1,183 @@
+{
+  "name": "Walt Disney Family Museum",
+  "description": "Test case from https://github.com/pelias/pelias/issues/190",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": "1432771203570:1",
+      "user": "julian",
+      "in": {
+        "text": "Walt Disney Family Museum"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Walt Disney Family Museum",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
+            "locality": "San Francisco",
+            "neighbourhood": "Presidio",
+            "label": "Walt Disney Family Museum, San Francisco, CA, USA"
+          }
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1432771203570:1",
+      "user": "julian",
+      "description": "focus.point is the Transamerica Pyramid",
+      "in": {
+        "text": "Walt Disney Family Museum",
+        "focus.point.lon": -122.402741,
+        "focus.point.lat": 37.795206
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Walt Disney Family Museum",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
+            "locality": "San Francisco",
+            "neighbourhood": "Presidio",
+            "label": "Walt Disney Family Museum, San Francisco, CA, USA"
+          }
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1432771203570:1",
+      "user": "julian",
+      "description": "focus.point is Seacliff, SF, which is slightly closer than the Transamerica Pyramid",
+      "in": {
+        "text": "Walt Disney Family Museum, San Francisco, CA",
+        "focus.point.lon": -122.484728,
+        "focus.point.lat": 37.789163
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Walt Disney Family Museum",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
+            "locality": "San Francisco",
+            "neighbourhood": "Presidio",
+            "label": "Walt Disney Family Museum, San Francisco, CA, USA"
+          }
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1432771203570:1",
+      "user": "julian",
+      "description": "focus.point is that of the museum itself",
+      "in": {
+        "text": "Walt Disney Family Museum",
+        "focus.point.lon": -122.4587,
+        "focus.point.lat": 37.801377
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Walt Disney Family Museum",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
+            "locality": "San Francisco",
+            "neighbourhood": "Presidio",
+            "label": "Walt Disney Family Museum, San Francisco, CA, USA"
+          }
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1432771203570:1",
+      "user": "julian",
+      "description": "focus.point is the NYC office",
+      "in": {
+        "text": "Walt Disney Family Museum, San Francisco, CA",
+        "focus.point.lon": -73.990425,
+        "focus.point.lat": 40.744131
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Walt Disney Family Museum",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
+            "locality": "San Francisco",
+            "neighbourhood": "Presidio",
+            "label": "Walt Disney Family Museum, San Francisco, CA, USA"
+          }
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1432771203570:1",
+      "user": "julian",
+      "description": "focus.point is the Transamerica Pyramid",
+      "in": {
+        "text": "Walt Disney Family Museum, San Francisco, CA",
+        "focus.point.lon": -122.402741,
+        "focus.point.lat": 37.795206
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Walt Disney Family Museum",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
+            "locality": "San Francisco",
+            "neighbourhood": "Presidio",
+            "label": "Walt Disney Family Museum, San Francisco, CA, USA"
+          }
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1432771203570:1",
+      "user": "julian",
+      "in": {
+        "text": "Walt Disney Family Museum, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Walt Disney Family Museum",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
+            "locality": "San Francisco",
+            "neighbourhood": "Presidio",
+            "label": "Walt Disney Family Museum, San Francisco, CA, USA"
+          }
+        ]
+      },
+      "status": "pass"
+    }
+  ]
+}
