@@ -40,19 +40,19 @@ echo "----------------------------------------------------" | tee -a $FILE
 sed -i 's/priorityThresh\": [0-9]\+/priorityThresh\": 1/' test_cases/*
 
 result=$(npm test -- -e $ENV | grep "success rate")
-echo -n "api / all: $result" | tee -a $FILE
+echo "api / all: $result" | tee -a $FILE
 result=$(npm test -- -e $ENV -t national | grep "success rate")
-echo -n "api / national: $result" | tee -a $FILE
+echo "api / national: $result" | tee -a $FILE
 result=$(npm test -- -e $ENV -t hsl | grep "success rate")
-echo -n "api / hsl: $result" | tee -a $FILE
+echo "api / hsl: $result" | tee -a $FILE
 result=$(npm test -- -e $ENV -t address | grep "success rate")
-echo -n "api / hsl address: $result" | tee -a $FILE
+echo "api / hsl address: $result" | tee -a $FILE
 result=$(npm test -- -e $ENV -t streetname | grep "success rate")
-echo -n "api / exact address: $result" | tee -a $FILE
+echo "api / exact address: $result" | tee -a $FILE
 result=$(npm test -- -e $ENV -t poi | grep "success rate")
-echo -n "api / hsl poi: $result" | tee -a $FILE
+echo "api / hsl poi: $result" | tee -a $FILE
 result=$(npm test -- -e $ENV -t localization | grep "success rate")
-echo -n "api / hsl localization: $result" | tee -a $FILE
+echo "api / hsl localization: $result" | tee -a $FILE
 
 echo | tee -a $FILE
 echo | tee -a $FILE
@@ -69,19 +69,19 @@ echo "----------------------------------------------"
 sed -i 's/priorityThresh\": [0-9]\+/priorityThresh\": 10/' test_cases/*
 
 result=$(npm test -- -e $ENV | grep "success rate")
-echo -n "data / all: $result" | tee -a $FILE
+echo "data / all: $result" | tee -a $FILE
 result=$(npm test -- -e $ENV -t national | grep "success rate")
-echo -n "data / national: $result" | tee -a $FILE
+echo "data / national: $result" | tee -a $FILE
 result=$(npm test -- -e $ENV -t hsl | grep "success rate")
-echo -n "data / hsl: $result" | tee -a $FILE
+echo "data / hsl: $result" | tee -a $FILE
 result=$(npm test -- -e $ENV -t address | grep "success rate")
-echo -n "data / hsl address: $result" | tee -a $FILE
+echo "data / hsl address: $result" | tee -a $FILE
 result=$(npm test -- -e $ENV -t streetname | grep "success rate")
-echo -n "api / exact address: $result" | tee -a $FILE
+echo "api / exact address: $result" | tee -a $FILE
 result=$(npm test -- -e $ENV -t poi | grep "success rate")
-echo -n "data / hsl poi: $result" | tee -a $FILE
+echo "data / hsl poi: $result" | tee -a $FILE
 result=$(npm test -- -e $ENV -t localization | grep "success rate")
-echo -n "data / hsl localization: $result" | tee -a $FILE
+echo "data / hsl localization: $result" | tee -a $FILE
 
 echo | tee -a $FILE
 
