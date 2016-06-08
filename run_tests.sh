@@ -90,7 +90,8 @@ echo | tee -a $FILE
 # Regression check
 #=================
 
-if [[ "$FILE" -eq "$BENCHMARK" ]]; then
+
+if [ "$FILE" == "$BENCHMARK" ]; then
     #this was the first test run, nothing to compare with
     exit;
 fi
@@ -128,3 +129,6 @@ echo
 if [ "$PASS" -ne "1" ]; then
    exit 1
 fi
+
+echo "No regressions detected"
+echo
