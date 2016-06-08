@@ -1,7 +1,7 @@
 {
   "name": "HSL poi tests for swedish names",
   "description": "A swedish poi list in Helsingfors region",
-  "priorityThresh": 10,
+  "priorityThresh": 1,
   "source": "digitransit@195.255.176.166/ftproot/rnj/poi.zip",
   "distanceThresh": 300,
   "normalizers": {

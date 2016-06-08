@@ -1,7 +1,7 @@
 {
   "name": "matka.fi geocoding comparison test",
   "description": "Test if random reverse geocoding results from matka.fi API can be found",
-  "priorityThresh": 10,
+  "priorityThresh": 1,
   "distanceThresh": 300,
   "normalizers": {
     "name": [

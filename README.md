@@ -102,5 +102,9 @@ This serves as a data coverage test.
 
 Note: running the test bench takes a long time, 1 hour or so.
 
-Note2: The test bench does not detect individual (=single address) regressions. Only the overall
+Note2: Fuzzy tester prints 'npm ERR! Test failed. ... ' to stderr when success rate is below full 100%.
+Such messages can be ignored.
+
+Note3: The test bench does not detect individual (=single address) regressions. Only the overall
 score counts.
+
