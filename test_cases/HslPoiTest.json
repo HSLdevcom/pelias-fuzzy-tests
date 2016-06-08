@@ -1,7 +1,7 @@
 {
   "name": "HSL poi tests",
   "description": "A poi list in Helsinki region",
-  "priorityThresh": 1,
+  "priorityThresh": 10,
   "source": "digitransit@195.255.176.166/ftproot/rnj/poi.zip",
   "distanceThresh": 300,
   "_endpoint": "autocomplete",

@@ -74,30 +74,31 @@ For a full description of what can go in tests, see the
 [fuzzy-tester](https://github.com/HSLdevcom/fuzzy-tester) documentation
 
 
-## Regression test bench
+## Regression Test Bench
 
 The bash script `run_test.sh` runs an extensive set of tests against a given geocoding endpoint.
 When run first time, it initializes a log file 'benchmark.txt', which contains a summary of test results.
 New run cycles thereafter log to a file called 'latest.txt', and compare the new test results with
-the initial benchmark. To update the benchmark, just erase the file or rename 'latest.txt' as 'benchmark.txt'.
+the initial benchmark. To update the benchmark, just erase the benchmark file before starting the tests,
+or rename 'latest.txt' as 'benchmark.txt' after running the tests.
 
-The tested end point can be selected as a script parameter, the default value being 'local'. For example:
+The tested end point can be set as a command line parameter, the default value being 'local'. For example:
 
 Local:
 ```bash
 $ ./run_tests.sh
 ```
 
-Dev (service address defined in peliasConfig[acceptance-tests][endpoints])
+Dev: (service address defined in pelias.config, see the Setup note above)
 
 ```bash
 $ ./run_tests.sh dev
 ```
 
-Currently the test set includes over 10000 geocoding tests, which are run twice. First test round
-focuses on testing how well api places good matches to the beginning of result list. The second
-round does not care about position of the best match, it is enough that the result is found
-(i.e. it is kind of data coverage test).
+Currently the test set includes over 10000 geocoding tests, which are run twice. The first test round
+focuses on testing how well the Pelias api places good matches to the beginning of the result list.
+The second round does not care about position of the best match - it is enough, that the result is found.
+This serves as a data coverage test.
 
 Note: running the test bench takes a long time, 1 hour or so.
 

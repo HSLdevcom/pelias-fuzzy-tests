@@ -1,7 +1,7 @@
 {
   "name": "HSL address tests",
   "description": "Address list from an old OpenAddresses entry for Helsinki region",
-  "priorityThresh": 1,
+  "priorityThresh": 10,
   "distanceThresh": 300,
   "normalizers": {
     "name": [
