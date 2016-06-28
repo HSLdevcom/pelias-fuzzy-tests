@@ -14,19 +14,11 @@ Install the npm package as usual:
 $ npm install
 ```
 
-You will also need the digitransit-specific branch of the Pelias fuzzy tester.
-
-- Clone the repository from [fuzzy-tester](https://github.com/hsldevcom/fuzzy-tester)
-- Make fuzzy-tester the current directory (`cd fuzzy-tester`)
-- Run `npm install`
-- Run `sudo npm link` command to make the local tester module available for other pelias components
-- Make pelias-fuzzy-tests the current directory (`cd ../pelias-fuzzy-tests`)
-- Run `npm link pelias-fuzzy-tester` command to link the tests with the previously installed tester
-- In order to use your local pelias setup the way you like, you will need a pelias configuration file.
-  You can clone a default configuration from [pelias/config repository](https://github.com/pelias/config).
-  For example `config/local.json` serves a starting point. Store the configuration file to a suitable path.
-  A good place is in your home directory, `~/pelias.json`, because Pelias searches it from there automatically.
-  Then add the test specific section below to the configuration:
+In order to use your local pelias setup the way you like, you will need a pelias configuration file.
+You can clone a default configuration from [pelias/config repository](https://github.com/pelias/config).
+For example `config/local.json` serves a starting point. Store the configuration file to a suitable path.
+A good place is in your home directory, `~/pelias.json`, because Pelias searches it from there automatically.
+Then add the test specific section below to the configuration:
 
 ```javascript
 {
@@ -34,14 +26,14 @@ You will also need the digitransit-specific branch of the Pelias fuzzy tester.
     "endpoints": {
         "local": "http://localhost:3100/v1/",
         "dev": "http://dev.digitransit.fi/pelias/v1/",
-        "prod": "http://dev.digitransit.fi/pelias/v1/"
+        "prod": "http://api.digitransit.fi/geocoding/v1/"
     }
   }
 }
 ```
-- If you did not store configuration to your home directory but to a custom path, set environment
-  variable `PELIAS_CONFIG` to the path at which the file can be found. So do something like this, but
-  with your path:
+If you did not store configuration to your home directory but to a custom path, set environment
+variable `PELIAS_CONFIG` to the path at which the file can be found. So do something like this, but
+with your path:
 
 ```bash
 $ export PELIAS_CONFIG=/etc/pelias.json
@@ -80,3 +72,39 @@ $ npm test -- -e dev -o json
 
 For a full description of what can go in tests, see the
 [fuzzy-tester](https://github.com/HSLdevcom/fuzzy-tester) documentation
+
+
+## Regression Test Bench
+
+The bash script `run_test.sh` runs an extensive set of tests against a given geocoding endpoint.
+When run first time, it initializes a log file 'benchmark.txt', which contains a summary of test results.
+New run cycles thereafter log to a file called 'latest.txt', and compare the new test results with
+the initial benchmark. To update the benchmark, just erase the benchmark file before starting the tests,
+or rename 'latest.txt' as 'benchmark.txt' after running the tests.
+
+The tested end point can be set as a command line parameter, the default value being 'local'. For example:
+
+Local:
+```bash
+$ ./run_tests.sh
+```
+
+Dev: (service address defined in pelias.config, see the Setup note above)
+
+```bash
+$ ./run_tests.sh dev
+```
+
+Currently the test set includes over 10000 geocoding tests, which are run twice. The first test round
+focuses on testing how well the Pelias api places good matches to the beginning of the result list.
+The second round does not care about position of the best match - it is enough, that the result is found.
+This serves as a data coverage test.
+
+Note: running the test bench takes a long time, 1 hour or so.
+
+Note2: Fuzzy tester prints 'npm ERR! Test failed. ... ' to stderr when success rate is below full 100%.
+Such messages can be ignored.
+
+Note3: The test bench does not detect individual (=single address) regressions. Only the overall
+score counts.
+

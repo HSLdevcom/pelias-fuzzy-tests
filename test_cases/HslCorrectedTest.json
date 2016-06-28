@@ -1,7 +1,7 @@
 {
   "name": "Corrected sddresses tests",
   "description": "A list of manually corrected addresses in Helsinki region",
-  "priorityThresh": 10,
+  "priorityThresh": 1,
   "distanceThresh": 300,
   "normalizers": {
     "name": [
