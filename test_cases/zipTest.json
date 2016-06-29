@@ -183,12 +183,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Vahijärvi , 07510 Finland"
+        "text": "Vahijärvi, 07510 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Vahijärvi ",
+            "name": "Vahijärvi",
             "postalcode": "07510"
           }
         ],
@@ -540,12 +540,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Silakanojantie , 07230 Finland"
+        "text": "Silakanojantie, 07230 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Silakanojantie ",
+            "name": "Silakanojantie",
             "postalcode": "07230"
           }
         ],
@@ -1044,12 +1044,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Vehkasaari , 02160 Finland"
+        "text": "Vehkasaari, 02160 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Vehkasaari ",
+            "name": "Vehkasaari",
             "postalcode": "02160"
           }
         ],
@@ -1443,12 +1443,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Tapiolanraitti , 02100 Finland"
+        "text": "Tapiolanraitti, 02100 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Tapiolanraitti ",
+            "name": "Tapiolanraitti",
             "postalcode": "02100"
           }
         ],
@@ -3228,12 +3228,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Svartholmen Soukka , 02360 Finland"
+        "text": "Svartholmen Soukka, 02360 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Svartholmen Soukka ",
+            "name": "Svartholmen Soukka",
             "postalcode": "02360"
           }
         ],
@@ -5097,12 +5097,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Tippavaara , 02970 Finland"
+        "text": "Tippavaara, 02970 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Tippavaara ",
+            "name": "Tippavaara",
             "postalcode": "02970"
           }
         ],
@@ -5265,12 +5265,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Kopplakobben , 02380 Finland"
+        "text": "Kopplakobben, 02380 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Kopplakobben ",
+            "name": "Kopplakobben",
             "postalcode": "02380"
           }
         ],
@@ -7974,12 +7974,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Brändholm , 02230 Finland"
+        "text": "Brändholm, 02230 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Brändholm ",
+            "name": "Brändholm",
             "postalcode": "02230"
           }
         ],
@@ -8835,12 +8835,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Pieni Lehtisaari , 02380 Finland"
+        "text": "Pieni Lehtisaari, 02380 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Pieni Lehtisaari ",
+            "name": "Pieni Lehtisaari",
             "postalcode": "02380"
           }
         ],
@@ -8898,12 +8898,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Iso Lehtisaari , 02380 Finland"
+        "text": "Iso Lehtisaari, 02380 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Iso Lehtisaari ",
+            "name": "Iso Lehtisaari",
             "postalcode": "02380"
           }
         ],
@@ -10368,12 +10368,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Lilla Blindsund , 02230 Finland"
+        "text": "Lilla Blindsund, 02230 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Lilla Blindsund ",
+            "name": "Lilla Blindsund",
             "postalcode": "02230"
           }
         ],
@@ -12615,12 +12615,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Mynttiläntie , 02780 Finland"
+        "text": "Mynttiläntie, 02780 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Mynttiläntie ",
+            "name": "Mynttiläntie",
             "postalcode": "02780"
           }
         ],
@@ -12909,12 +12909,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Träskkopplan , 02380 Finland"
+        "text": "Träskkopplan, 02380 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Träskkopplan ",
+            "name": "Träskkopplan",
             "postalcode": "02380"
           }
         ],
@@ -12930,12 +12930,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Högkopplan , 02380 Finland"
+        "text": "Högkopplan, 02380 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Högkopplan ",
+            "name": "Högkopplan",
             "postalcode": "02380"
           }
         ],
@@ -12972,12 +12972,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Kattilajärventie , 02820 Finland"
+        "text": "Kattilajärventie, 02820 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Kattilajärventie ",
+            "name": "Kattilajärventie",
             "postalcode": "02820"
           }
         ],
@@ -12993,12 +12993,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Stora Herrö , 02380 Finland"
+        "text": "Stora Herrö, 02380 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Stora Herrö ",
+            "name": "Stora Herrö",
             "postalcode": "02380"
           }
         ],
@@ -13077,12 +13077,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Pentala , 02380 Finland"
+        "text": "Pentala, 02380 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Pentala ",
+            "name": "Pentala",
             "postalcode": "02380"
           }
         ],
@@ -15450,12 +15450,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Fundia Wire Oy , 10820 Finland"
+        "text": "Fundia Wire Oy, 10820 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Fundia Wire Oy ",
+            "name": "Fundia Wire Oy",
             "postalcode": "10820"
           }
         ],
@@ -15471,12 +15471,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Sinterilaitos , 10900 Finland"
+        "text": "Sinterilaitos, 10900 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Sinterilaitos ",
+            "name": "Sinterilaitos",
             "postalcode": "10900"
           }
         ],
@@ -15492,12 +15492,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Svanvik , 10900 Finland"
+        "text": "Svanvik, 10900 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Svanvik ",
+            "name": "Svanvik",
             "postalcode": "10900"
           }
         ],
@@ -15534,12 +15534,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Tvärminne , 10900 Finland"
+        "text": "Tvärminne, 10900 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Tvärminne ",
+            "name": "Tvärminne",
             "postalcode": "10900"
           }
         ],
@@ -15576,12 +15576,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Krialskär , 10900 Finland"
+        "text": "Krialskär, 10900 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Krialskär ",
+            "name": "Krialskär",
             "postalcode": "10900"
           }
         ],
@@ -15681,12 +15681,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Söderbonäs , 10820 Finland"
+        "text": "Söderbonäs, 10820 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Söderbonäs ",
+            "name": "Söderbonäs",
             "postalcode": "10820"
           }
         ],
@@ -15702,12 +15702,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Krogars , 10820 Finland"
+        "text": "Krogars, 10820 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Krogars ",
+            "name": "Krogars",
             "postalcode": "10820"
           }
         ],
@@ -15870,12 +15870,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Ekö , 10820 Finland"
+        "text": "Ekö, 10820 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Ekö ",
+            "name": "Ekö",
             "postalcode": "10820"
           }
         ],
@@ -15891,12 +15891,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Sällvik , 10900 Finland"
+        "text": "Sällvik, 10900 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Sällvik ",
+            "name": "Sällvik",
             "postalcode": "10900"
           }
         ],
@@ -15912,12 +15912,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Tulliniemi Luotsiasema , 10900 Finland"
+        "text": "Tulliniemi Luotsiasema, 10900 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Tulliniemi Luotsiasema ",
+            "name": "Tulliniemi Luotsiasema",
             "postalcode": "10900"
           }
         ],
@@ -15933,12 +15933,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Vapaasatama , 10940 Finland"
+        "text": "Vapaasatama, 10940 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Vapaasatama ",
+            "name": "Vapaasatama",
             "postalcode": "10940"
           }
         ],
@@ -16269,12 +16269,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Kiitäjäntienpää , 00750 Finland"
+        "text": "Kiitäjäntienpää, 00750 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Kiitäjäntienpää ",
+            "name": "Kiitäjäntienpää",
             "postalcode": "00750"
           }
         ],
@@ -16437,12 +16437,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Villinki , 00850 Finland"
+        "text": "Villinki, 00850 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Villinki ",
+            "name": "Villinki",
             "postalcode": "00850"
           }
         ],
@@ -16458,12 +16458,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Villinki Nmky , 00850 Finland"
+        "text": "Villinki Nmky, 00850 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Villinki Nmky ",
+            "name": "Villinki Nmky",
             "postalcode": "00850"
           }
         ],
@@ -16521,12 +16521,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Villinki Safa , 00850 Finland"
+        "text": "Villinki Safa, 00850 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Villinki Safa ",
+            "name": "Villinki Safa",
             "postalcode": "00850"
           }
         ],
@@ -16626,12 +16626,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Saunalahti (Laajasalo) , 00850 Finland"
+        "text": "Saunalahti (Laajasalo), 00850 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Saunalahti (Laajasalo) ",
+            "name": "Saunalahti (Laajasalo)",
             "postalcode": "00850"
           }
         ],
@@ -16668,12 +16668,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Vartiosaari Lisebo , 00830 Finland"
+        "text": "Vartiosaari Lisebo, 00830 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Vartiosaari Lisebo ",
+            "name": "Vartiosaari Lisebo",
             "postalcode": "00830"
           }
         ],
@@ -16689,12 +16689,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Vartiosaari , 00830 Finland"
+        "text": "Vartiosaari, 00830 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Vartiosaari ",
+            "name": "Vartiosaari",
             "postalcode": "00830"
           }
         ],
@@ -16731,12 +16731,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Fallkullan kartano rak 1 , 00730 Finland"
+        "text": "Fallkullan kartano rak 1, 00730 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Fallkullan kartano rak 1 ",
+            "name": "Fallkullan kartano rak 1",
             "postalcode": "00730"
           }
         ],
@@ -16815,12 +16815,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Mäntysaari , 00200 Finland"
+        "text": "Mäntysaari, 00200 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Mäntysaari ",
+            "name": "Mäntysaari",
             "postalcode": "00200"
           }
         ],
@@ -16899,12 +16899,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Ulvilantie 29 Rak 7 , 00350 Finland"
+        "text": "Ulvilantie 29 Rak 7, 00350 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Ulvilantie 29 Rak 7 ",
+            "name": "Ulvilantie 29 Rak 7",
             "postalcode": "00350"
           }
         ],
@@ -17067,12 +17067,12 @@
       "user": "hsldevcom",
       "type": "postalcode",
       "in": {
-        "text": "Karhutorpantie , 00890 Finland"
+        "text": "Karhutorpantie, 00890 Finland"
       },
       "expected": {
         "properties": [
           {
-            "name": "Karhutorpantie ",
+            "name": "Karhutorpantie",
             "postalcode": "00890"
           }
         ],
