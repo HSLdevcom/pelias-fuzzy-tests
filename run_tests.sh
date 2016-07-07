@@ -19,6 +19,16 @@ else
     FILE=$BENCHMARK
 fi
 
+# param1: test id
+# param2: printed label for test
+function subtest {
+    result=$(npm test -- -e $ENV -t $1 | grep "success rate")
+    rate=$(echo $result | sed 's/[^0-9]//g')
+    avg="$(($avg+$rate))"
+    testcount="$((testcount+1))"
+    echo "$2: $result" | tee -a $FILE
+}
+
 echo
 echo "Logging test results to " $FILE
 echo
@@ -39,20 +49,19 @@ echo "----------------------------------------------------" | tee -a $FILE
 #set priorityThresh of all tests to 1
 sed -i 's/priorityThresh\": [0-9]\+/priorityThresh\": 1/' test_cases/*
 
-result=$(npm test -- -e $ENV | grep "success rate")
-echo "api / all: $result" | tee -a $FILE
-result=$(npm test -- -e $ENV -t national | grep "success rate")
-echo "api / national: $result" | tee -a $FILE
-result=$(npm test -- -e $ENV -t hsl | grep "success rate")
-echo "api / hsl: $result" | tee -a $FILE
-result=$(npm test -- -e $ENV -t address | grep "success rate")
-echo "api / hsl address: $result" | tee -a $FILE
-result=$(npm test -- -e $ENV -t streetname | grep "success rate")
-echo "api / exact address: $result" | tee -a $FILE
-result=$(npm test -- -e $ENV -t poi | grep "success rate")
-echo "api / hsl poi: $result" | tee -a $FILE
-result=$(npm test -- -e $ENV -t localization | grep "success rate")
-echo "api / hsl localization: $result" | tee -a $FILE
+avg=0 # reset average counting
+testcount=0
+
+subtest national "api / national"
+subtest hsl "api / old reittiopas.fi"
+subtest address "api / hsl address"
+subtest poi "api / hsl poi"
+subtest localization "api / hsl localization"
+subtest postalcode "api / postal code"
+
+echo | tee -a $FILE
+avg="$(($avg/$testcount))"
+echo "api: average success rate $avg%" | tee -a $FILE
 
 echo | tee -a $FILE
 echo | tee -a $FILE
@@ -62,26 +71,25 @@ echo | tee -a $FILE
 # Data coverage tests
 #====================
 
-echo "Data tests. Match does not have to come first."
-echo "----------------------------------------------"
+echo "Data tests. Match does not have to come first." | tee -a $FILE
+echo "----------------------------------------------" | tee -a $FILE
 
 #set priorityThresh of all tests to 10
 sed -i 's/priorityThresh\": [0-9]\+/priorityThresh\": 10/' test_cases/*
 
-result=$(npm test -- -e $ENV | grep "success rate")
-echo "data / all: $result" | tee -a $FILE
-result=$(npm test -- -e $ENV -t national | grep "success rate")
-echo "data / national: $result" | tee -a $FILE
-result=$(npm test -- -e $ENV -t hsl | grep "success rate")
-echo "data / hsl: $result" | tee -a $FILE
-result=$(npm test -- -e $ENV -t address | grep "success rate")
-echo "data / hsl address: $result" | tee -a $FILE
-result=$(npm test -- -e $ENV -t streetname | grep "success rate")
-echo "api / exact address: $result" | tee -a $FILE
-result=$(npm test -- -e $ENV -t poi | grep "success rate")
-echo "data / hsl poi: $result" | tee -a $FILE
-result=$(npm test -- -e $ENV -t localization | grep "success rate")
-echo "data / hsl localization: $result" | tee -a $FILE
+avg=0 # reset avergae counting
+testcount=0
+
+subtest national "data / national"
+subtest hsl "data / old reittiopas.fi"
+subtest address "data / hsl address"
+subtest poi "data / hsl poi"
+subtest localization "data / hsl localization"
+subtest postalcode "data / postal code"
+
+echo | tee -a $FILE
+avg="$(($avg/$testcount))"
+echo "data: average success rate $avg%" | tee -a $FILE
 
 echo | tee -a $FILE
 
