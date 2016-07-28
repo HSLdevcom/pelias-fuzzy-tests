@@ -2,9 +2,6 @@ language: node_js
 before_script:
     - 'echo "{ \"mapzen\": { \"api_key\": { \"pelias.mapzen.com\": \"$API_KEY\" } } }" > ~/pelias.json'
 node_js:
-  - 0.12
-  - 4
-  - 5
   - 6
 sudo: false
 cache:
@@ -12,7 +9,3 @@ cache:
     - node_modules
 before_script:
   - npm prune
-matrix:
-  fast_finish: true
-  allow_failures:
-    - node_js: 6
