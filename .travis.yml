@@ -1,6 +1,6 @@
 language: node_js
-script:
-  - npm test -- -e prod
+before_script:
+    - 'echo "{ \"mapzen\": { \"api_key\": { \"pelias.mapzen.com\": \"$API_KEY\" } } }" > ~/pelias.json'
 node_js:
   - 0.12
   - 4
