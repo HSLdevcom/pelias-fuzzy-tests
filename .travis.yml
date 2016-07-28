@@ -1,5 +1,6 @@
 language: node_js
 before_script:
+    - npm prune
     - 'echo "{ \"mapzen\": { \"api_key\": { \"pelias.mapzen.com\": \"$API_KEY\" } } }" > ~/pelias.json'
 node_js:
   - 6
