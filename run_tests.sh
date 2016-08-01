@@ -114,7 +114,8 @@ count=${#OLD[@]}
 count=$((count-1))
 
 echo  | tee -a $FILE
-echo "Comparing values.."  | tee -a $FILE
+echo "Checking regressions" | tee -a $FILE
+echo "--------------------" | tee -a $FILE
 echo  | tee -a $FILE
 
 for i in $(seq 0 $count)
@@ -134,9 +135,8 @@ done
 
 echo  | tee -a $FILE
 
-if [ "$PASS" -ne "1" ]; then
-    exit 1
+if [ "$PASS" -ne "0" ]; then
+    echo "No regressions detected"  | tee -a $FILE
+    echo  | tee -a $FILE
 fi
 
-echo "No regressions detected"  | tee -a $FILE
-echo  | tee -a $FILE
