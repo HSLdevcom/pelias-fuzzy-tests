@@ -1,0 +1,47 @@
+{
+  "name": "5 digit house number addresses",
+  "priorityThresh": 2,
+  "endpoint": "autocomplete",
+  "tests":[
+    {
+      "id": 1,
+      "user": "alec",
+      "description": "5 digit house number is a valid zip code",
+      "status": "pass",
+      "in": {
+        "text": "54220 29th street"
+      },
+      "expected": {
+        "properties": [
+          {
+            "country_a": "USA",
+            "region_a": "IN",
+            "localadmin": "Clay",
+            "street": "29th Street",
+            "housenumber": "54220"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "user": "alec",
+      "description": "invalid 5 digit zip code as house number",
+      "status": "pass",
+      "in": {
+        "text": "21345 Sawyer Square"
+      },
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "21345",
+            "country_a": "USA",
+            "region_a": "VA",
+            "locality": "Ashburn",
+            "street": "Sawyer Square"
+          }
+        ]
+      }
+    }
+  ]
+}
