@@ -128,7 +128,7 @@ do
     val2=$(echo $test2 | sed 's/[^0-9]//g')
 
     if [ "$val1" -gt "$val2" ]; then
-	echo "Regression: $test2 < $val1%"  | sed 's/success //g') | tee -a $FILE
+	echo "Regression: $test2 < $val1%"  | sed 's/success //g' | tee -a $FILE
 	PASS=0
     fi
 done
