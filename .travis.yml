@@ -1,18 +1,10 @@
 language: node_js
-script:
-  - npm test -- -e prod
+before_script:
+    - npm prune
+    - 'echo "{ \"mapzen\": { \"api_key\": { \"search.mapzen.com\": \"$API_KEY\" } }, \"acceptance-tests\": { \"endpoints\": { \"prod\": \"http://search.mapzen.com/v1\" } } }" > ~/pelias.json'
 node_js:
-  - 0.12
-  - 4
-  - 5
   - 6
 sudo: false
 cache:
   directories:
     - node_modules
-before_script:
-  - npm prune
-matrix:
-  fast_finish: true
-  allow_failures:
-    - node_js: 6
