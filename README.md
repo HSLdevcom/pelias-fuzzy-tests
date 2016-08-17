@@ -95,12 +95,12 @@ Dev: (service address defined in pelias.config, see the Setup note above)
 $ ./run_tests.sh dev
 ```
 
-Currently the test set includes over 10000 geocoding tests, which are run twice. The first test round
+Currently the test set includes about 6000 geocoding tests, which are run twice. The first test round
 focuses on testing how well the Pelias api places good matches to the beginning of the result list.
 The second round does not care about position of the best match - it is enough, that the result is found.
 This serves as a data coverage test.
 
-Note: running the test bench takes a long time, 1 hour or so.
+Note: running the test bench takes a long time, 15 minutes or so.
 
 Note2: Fuzzy tester prints 'npm ERR! Test failed. ... ' to stderr when success rate is below full 100%.
 Such messages can be ignored.

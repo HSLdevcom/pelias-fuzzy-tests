@@ -113,9 +113,10 @@ PASS=1
 count=${#OLD[@]}
 count=$((count-1))
 
-echo
-echo "Comparing values.."
-echo
+echo  | tee -a $FILE
+echo "Checking regressions" | tee -a $FILE
+echo "--------------------" | tee -a $FILE
+echo  | tee -a $FILE
 
 for i in $(seq 0 $count)
 do
@@ -127,16 +128,15 @@ do
     val2=$(echo $test2 | sed 's/[^0-9]//g')
 
     if [ "$val1" -gt "$val2" ]; then
-	echo "Regression: $test2 < $val1%"
+	echo "Regression: $test2 < $val1%"  | sed 's/success //g' | tee -a $FILE
 	PASS=0
     fi
 done
 
-echo
+echo  | tee -a $FILE
 
-if [ "$PASS" -ne "1" ]; then
-   exit 1
+if [ "$PASS" -ne "0" ]; then
+    echo "No regressions detected"  | tee -a $FILE
+    echo  | tee -a $FILE
 fi
 
-echo "No regressions detected"
-echo
