@@ -1,0 +1,405 @@
+{
+  "name": "Region tests",
+  "priorityThresh": 3,
+  "endpoint": "search",
+  "tests": [
+    {
+      "id": 1,
+      "description": "Test finding a region with a common starting word ('new')",
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "New Mexico"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "New Mexico",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "description": "Tests finding a region with no country",
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "Girona"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Girona",
+            "country_a": "ESP"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "description": "Tests finding a region with a country",
+      "status": "fail",
+      "user": "julian",
+      "in": {
+        "text": "Girona Spain"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Girona",
+            "country_a": "ESP"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "description": "Tests finding a region with a country, comma separated",
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "Girona, Spain"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Girona",
+            "country_a": "ESP"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "description": "Tests finding a region with a country ISO-3166 code, comma separated",
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "Girona, ESP"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Girona",
+            "country_a": "ESP"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "description": "Tests finding a region with a state (that doesn't begin with its common abbreviation), comma separated",
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "Clarkston, Georgia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Clarkston",
+            "region_a": "GA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "description": "Tests finding a region with a state (that doesn't begin with its common abbreviation), comma separated",
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "Clarkston, GA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Clarkston",
+            "region_a": "GA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "description": "Tests finding a region with a state (that doesn't begin with its common abbreviation), no comma",
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "Clarkston GA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Clarkston",
+            "region_a": "GA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "description": "Tests finding a region with a state (that doesn't begin with its common abbreviation), no comma",
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "Clarkston Georgia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Clarkston",
+            "region_a": "GA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id":7,
+      "description": "test finding a region that shares a name with a different region",
+      "status": "fail",
+      "user": "alec",
+      "in": {
+        "text": "La Rioja Spain"
+      },
+      "expected" : {
+        "properties": [
+          {
+          "region": "La Rioja",
+          "country_a" : "ESP"
+          }
+        ]
+      }
+    },
+    {
+      "id":8,
+      "description": "test finding a region that shares a name with a different region (with comma)",
+      "status": "pass",
+      "user": "alec",
+      "in": {
+        "text": "La Rioja, Spain"
+      },
+      "expected" : {
+        "properties": [
+          {
+          "region": "La Rioja",
+          "country_a" : "ESP"
+          }
+        ]
+      }
+    },
+    {
+      "id":9,
+      "description": "test finding a region that shares a name with a different region (with comma)",
+      "status": "pass",
+      "user": "alec",
+      "in": {
+        "text": "La Rioja, Argentina"
+      },
+      "expected" : {
+        "properties": [
+          {
+          "region": "La Rioja",
+          "country_a" : "ARG"
+          }
+        ]
+      }
+    },
+    {
+      "id":10,
+      "description": "test finding a region that shares a name with a different region",
+      "status": "pass",
+      "user": "alec",
+      "in": {
+        "text": "La Rioja Argentina"
+      },
+      "expected" : {
+        "properties": [
+          {
+          "region": "La Rioja",
+          "country_a" : "ARG"
+          }
+        ]
+      }
+    },
+    {
+      "id":11,
+      "description": "test finding a region that shares a name with a different region (with focus point)",
+      "status": "pass",
+      "user": "alec",
+      "in": {
+        "text": "La Rioja",
+        "focus.point.lat": "42",
+        "focus.point.lon": "-2"
+      },
+      "expected" : {
+        "properties": [
+          {
+          "region": "La Rioja",
+          "country_a" : "ESP"
+          }
+        ]
+      }
+    },
+    {
+      "id":12,
+      "description": "test finding a region that shares a name with a different region (with focus point)",
+      "status": "pass",
+      "user": "alec",
+      "in": {
+        "text": "La Rioja",
+        "focus.point.lat": "-10",
+        "focus.point.lon": "-70"
+      },
+      "expected" : {
+        "properties": [
+          {
+          "region": "La Rioja",
+          "country_a" : "ARG"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "description": "test searching for a zip code in NY",
+      "status": "fail",
+      "user": "alec",
+      "in": {
+        "text": "10003 new york"
+      },
+      "expected": {
+        "properties":[
+          {
+          "locality": "New York",
+          "borough": "Manhattan",
+          "postalcode": "10003",
+          "country_a" : "USA",
+          "region" : "New York"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties" : [
+          {
+            "layer": "venue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "description": "test searching for a zip code in NY reverse",
+      "status": "fail",
+      "user": "alec",
+      "in": {
+        "text": "new york 10003"
+      },
+      "expected": {
+        "properties":[
+          {
+          "locality": "New York",
+          "borough": "Manhattan",
+          "postalcode": "10003",
+          "country_a" : "USA",
+          "region" : "New York"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties" : [
+          {
+            "layer": "venue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "description": "test searching for a zip code in NY with comma",
+      "status": "fail",
+      "user": "alec",
+      "in": {
+        "text": "10003, new york"
+      },
+      "expected": {
+        "properties":[
+          {
+          "locality": "New York",
+          "borough": "Manhattan",
+          "postalcode": "10003",
+          "country_a" : "USA",
+          "region" : "New York"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties" : [
+          {
+            "layer": "venue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "description": "test searching for a zip code in NY reverse with comma",
+      "status": "fail",
+      "user": "alec",
+      "in": {
+        "text": "new york, 10003"
+      },
+      "expected": {
+        "properties":[
+          {
+          "locality": "New York",
+          "borough": "Manhattan",
+          "postalcode": "10003",
+          "country_a" : "USA",
+          "region" : "New York"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties" : [
+          {
+            "layer": "venue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "description": "only a US zip code",
+      "status": "fail",
+      "user": "alec",
+      "in":{
+        "text": "10533"
+      },
+      "expected" : {
+        "properties": [
+          {
+            "county" : "Westchester",
+            "locality" : "Irvington",
+            "country_a": "USA",
+            "region": "New York",
+            "postalcode": "10533"
+          }
+        ]
+      },
+      "unexpected":{
+        "properties":[
+          {
+          "layer": "venue"
+          }
+        ]
+      }
+    }
+  ]
+}
