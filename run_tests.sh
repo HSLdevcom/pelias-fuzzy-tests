@@ -23,8 +23,8 @@ fi
 # param2: printed label for test
 function subtest {
     result=$(npm test -- -e $ENV -t $1 | grep "success rate")
-    rate=$(echo $result | sed 's/[^0-9]//g')
-    avg="$(($avg+$rate))"
+    rate=$(echo $result | sed 's/[^0-9.]//g')
+    avg=$(echo "$avg + $rate" | bc)
     testcount="$((testcount+1))"
     echo "$2: $result" | tee -a $FILE
 }
@@ -47,20 +47,20 @@ echo "API tests. Match should be first in the result list." | tee -a $FILE
 echo "----------------------------------------------------" | tee -a $FILE
 
 #set priorityThresh of all tests to 1
-sed -i 's/priorityThresh\": [0-9]\+/priorityThresh\": 1/' test_cases/*
+sed -i 's/priorityThresh\": [0-9.]\+/priorityThresh\": 1/' test_cases/*
 
 avg=0 # reset average counting
 testcount=0
 
 subtest national "api / national"
-subtest hsl "api / old reittiopas.fi"
+subtest hsl "api / old reittiopas"
 subtest address "api / hsl address"
 subtest poi "api / hsl poi"
 subtest localization "api / hsl localization"
 subtest postalcode "api / postal code"
 
 echo | tee -a $FILE
-avg="$(($avg/$testcount))"
+avg=$(echo "$avg / $testcount" | bc)
 echo "api: average success rate $avg%" | tee -a $FILE
 
 echo | tee -a $FILE
@@ -75,20 +75,20 @@ echo "Data tests. Match does not have to come first." | tee -a $FILE
 echo "----------------------------------------------" | tee -a $FILE
 
 #set priorityThresh of all tests to 10
-sed -i 's/priorityThresh\": [0-9]\+/priorityThresh\": 10/' test_cases/*
+sed -i 's/priorityThresh\": [0-9.]\+/priorityThresh\": 10/' test_cases/*
 
 avg=0 # reset avergae counting
 testcount=0
 
 subtest national "data / national"
-subtest hsl "data / old reittiopas.fi"
+subtest hsl "data / old reittiopas"
 subtest address "data / hsl address"
 subtest poi "data / hsl poi"
 subtest localization "data / hsl localization"
 subtest postalcode "data / postal code"
 
 echo | tee -a $FILE
-avg="$(($avg/$testcount))"
+avg=$(echo "$avg / $testcount" | bc)
 echo "data: average success rate $avg%" | tee -a $FILE
 
 echo | tee -a $FILE
@@ -123,11 +123,13 @@ do
     test1=${OLD[$i]}
     test2=${NEW[$i]}
 
-    #simple sed use to drop all but percetage value
-    val1=$(echo $test1 | sed 's/[^0-9]//g')
-    val2=$(echo $test2 | sed 's/[^0-9]//g')
+    #simple sed use to drop all but decimal percentage value
+    val1=$(echo $test1 | sed 's/[^0-9.]//g')
+    val2=$(echo $test2 | sed 's/[^0-9.]//g')
 
-    if [ "$val1" -gt "$val2" ]; then
+    regr=$(echo "$val1 > $val2" | bc -l)
+
+    if [ $regr -eq 1 ]; then
 	echo "Regression: $test2 < $val1%"  | sed 's/success //g' | tee -a $FILE
 	PASS=0
     fi
