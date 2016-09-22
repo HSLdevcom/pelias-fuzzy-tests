@@ -9799,6 +9799,104 @@
           ]
         ]
       }
+    },
+    {
+      "id": 479,
+      "status": "pass",
+      "user": "hsldevcom",
+      "type": "acceptance",
+      "in": {
+        "text": "Central railway station, Helsinki"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Central railway station",
+            "localadmin": "Helsinki"
+          }
+        ],
+        "coordinates": [
+          "24.941008656398",
+          "60.171245203365"
+        ]
+      }
+    },
+    {
+      "id": 480,
+      "status": "pass",
+      "user": "hsldevcom",
+      "type": "acceptance",
+      "in": {
+        "text": "Airport, Vantaa"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Airport",
+            "localadmin": "Vantaa"
+          }
+        ]
+      }
+    },
+    {
+      "id": 481,
+      "status": "pass",
+      "user": "hsldevcom",
+      "type": "acceptance",
+      "in": {
+        "text": "Helsinki-Vantaa airport"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Helsinki-Vantaa airport"
+          }
+        ],
+        "coordinates": [
+          "24.968176616303",
+          "60.318758015899"
+        ]
+      }
+    },
+    {
+      "id": 482,
+      "status": "pass",
+      "user": "hsldevcom",
+      "type": "acceptance",
+      "in": {
+        "text": "Rautatientori metro station, Helsinki"
+      },
+      "expected": {
+        "properties": [
+          {
+            "localadmin": "Helsinki"
+          }
+        ],
+        "coordinates": [
+          "24.941127348533",
+          "60.170355734682"
+        ]
+      }
+    },
+    {
+      "id": 483,
+      "status": "pass",
+      "user": "hsldevcom",
+      "type": "acceptance",
+      "in": {
+        "text": "City center, Helsinki"
+      },
+      "expected": {
+        "properties": [
+          {
+            "localadmin": "Helsinki"
+          }
+        ],
+        "coordinates": [
+          "24.941319",
+          "60.168813"
+        ]
+      }
     }
   ]
 }
