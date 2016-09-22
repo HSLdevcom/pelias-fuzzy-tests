@@ -19,7 +19,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kontiolahti"
           }
         ],
         "coordinates": [
@@ -40,7 +39,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -61,7 +59,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vieremä"
           }
         ],
         "coordinates": [
@@ -82,7 +79,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ranua"
           }
         ],
         "coordinates": [
@@ -103,7 +99,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Myrskylä"
           }
         ],
         "coordinates": [
@@ -124,7 +119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sievi"
           }
         ],
         "coordinates": [
@@ -145,7 +139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kaarina"
           }
         ],
         "coordinates": [
@@ -166,7 +159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vieremä"
           }
         ],
         "coordinates": [
@@ -187,7 +179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lohja"
           }
         ],
         "coordinates": [
@@ -208,7 +199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sonkajärvi"
           }
         ],
         "coordinates": [
@@ -229,7 +219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suonenjoki"
           }
         ],
         "coordinates": [
@@ -250,7 +239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -271,7 +259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Soini"
           }
         ],
         "coordinates": [
@@ -292,7 +279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kittilä"
           }
         ],
         "coordinates": [
@@ -313,7 +299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joensuu"
           }
         ],
         "coordinates": [
@@ -334,7 +319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kemijärvi"
           }
         ],
         "coordinates": [
@@ -355,7 +339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Alavus"
           }
         ],
         "coordinates": [
@@ -376,7 +359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -397,7 +379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hirvensalmi"
           }
         ],
         "coordinates": [
@@ -418,7 +399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tammela"
           }
         ],
         "coordinates": [
@@ -439,7 +419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pielavesi"
           }
         ],
         "coordinates": [
@@ -460,7 +439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieksa"
           }
         ],
         "coordinates": [
@@ -481,7 +459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sysmä"
           }
         ],
         "coordinates": [
@@ -502,7 +479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pielavesi"
           }
         ],
         "coordinates": [
@@ -523,7 +499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kontiolahti"
           }
         ],
         "coordinates": [
@@ -544,7 +519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Puolanka"
           }
         ],
         "coordinates": [
@@ -565,7 +539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lapinlahti"
           }
         ],
         "coordinates": [
@@ -586,7 +559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ulvila"
           }
         ],
         "coordinates": [
@@ -607,7 +579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pielavesi"
           }
         ],
         "coordinates": [
@@ -628,7 +599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Isokyrö"
           }
         ],
         "coordinates": [
@@ -649,7 +619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Haapavesi"
           }
         ],
         "coordinates": [
@@ -670,7 +639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sodankylä"
           }
         ],
         "coordinates": [
@@ -691,7 +659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hyvinkää"
           }
         ],
         "coordinates": [
@@ -712,7 +679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Merikarvia"
           }
         ],
         "coordinates": [
@@ -733,7 +699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Saarijärvi"
           }
         ],
         "coordinates": [
@@ -754,7 +719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Humppila"
           }
         ],
         "coordinates": [
@@ -775,7 +739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Puumala"
           }
         ],
         "coordinates": [
@@ -796,7 +759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ranua"
           }
         ],
         "coordinates": [
@@ -817,7 +779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ilomantsi"
           }
         ],
         "coordinates": [
@@ -838,7 +799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ähtäri"
           }
         ],
         "coordinates": [
@@ -859,7 +819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joutsa"
           }
         ],
         "coordinates": [
@@ -880,7 +839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kruunupyy"
           }
         ],
         "coordinates": [
@@ -901,7 +859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tohmajärvi"
           }
         ],
         "coordinates": [
@@ -922,7 +879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kauhava"
           }
         ],
         "coordinates": [
@@ -943,7 +899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Liperi"
           }
         ],
         "coordinates": [
@@ -964,7 +919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -985,7 +939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siikajoki"
           }
         ],
         "coordinates": [
@@ -1006,7 +959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hämeenlinna"
           }
         ],
         "coordinates": [
@@ -1027,7 +979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ranua"
           }
         ],
         "coordinates": [
@@ -1048,7 +999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Seinäjoki"
           }
         ],
         "coordinates": [
@@ -1069,7 +1019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -1090,7 +1039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Seinäjoki"
           }
         ],
         "coordinates": [
@@ -1111,7 +1059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Paltamo"
           }
         ],
         "coordinates": [
@@ -1132,7 +1079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Valtimo"
           }
         ],
         "coordinates": [
@@ -1153,7 +1099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Helsinki"
           }
         ],
         "coordinates": [
@@ -1174,7 +1119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mikkeli"
           }
         ],
         "coordinates": [
@@ -1195,7 +1139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tammela"
           }
         ],
         "coordinates": [
@@ -1216,7 +1159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Heinola"
           }
         ],
         "coordinates": [
@@ -1237,7 +1179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mikkeli"
           }
         ],
         "coordinates": [
@@ -1258,7 +1199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pudasjärvi"
           }
         ],
         "coordinates": [
@@ -1279,7 +1219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Raahe"
           }
         ],
         "coordinates": [
@@ -1300,7 +1239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sotkamo"
           }
         ],
         "coordinates": [
@@ -1321,7 +1259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -1342,7 +1279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pello"
           }
         ],
         "coordinates": [
@@ -1363,7 +1299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Nurmes"
           }
         ],
         "coordinates": [
@@ -1384,7 +1319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Inari"
           }
         ],
         "coordinates": [
@@ -1405,7 +1339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ii"
           }
         ],
         "coordinates": [
@@ -1426,7 +1359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Virolahti"
           }
         ],
         "coordinates": [
@@ -1447,7 +1379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -1468,7 +1399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Heinola"
           }
         ],
         "coordinates": [
@@ -1489,7 +1419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Merikarvia"
           }
         ],
         "coordinates": [
@@ -1510,7 +1439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kalajoki"
           }
         ],
         "coordinates": [
@@ -1531,7 +1459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sulkava"
           }
         ],
         "coordinates": [
@@ -1552,7 +1479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suomussalmi"
           }
         ],
         "coordinates": [
@@ -1573,7 +1499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mikkeli"
           }
         ],
         "coordinates": [
@@ -1594,7 +1519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ypäjä"
           }
         ],
         "coordinates": [
@@ -1615,7 +1539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joensuu"
           }
         ],
         "coordinates": [
@@ -1636,7 +1559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmoinen"
           }
         ],
         "coordinates": [
@@ -1657,7 +1579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Orivesi"
           }
         ],
         "coordinates": [
@@ -1678,7 +1599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Keuruu"
           }
         ],
         "coordinates": [
@@ -1699,7 +1619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jyväskylä"
           }
         ],
         "coordinates": [
@@ -1720,7 +1639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kruunupyy"
           }
         ],
         "coordinates": [
@@ -1741,7 +1659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -1762,7 +1679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Muhos"
           }
         ],
         "coordinates": [
@@ -1783,7 +1699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Konnevesi"
           }
         ],
         "coordinates": [
@@ -1804,7 +1719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sodankylä"
           }
         ],
         "coordinates": [
@@ -1825,7 +1739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kannonkoski"
           }
         ],
         "coordinates": [
@@ -1846,7 +1759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kurikka"
           }
         ],
         "coordinates": [
@@ -1867,7 +1779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Haapajärvi"
           }
         ],
         "coordinates": [
@@ -1888,7 +1799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Haapajärvi"
           }
         ],
         "coordinates": [
@@ -1909,7 +1819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hyvinkää"
           }
         ],
         "coordinates": [
@@ -1930,7 +1839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ranua"
           }
         ],
         "coordinates": [
@@ -1951,7 +1859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kittilä"
           }
         ],
         "coordinates": [
@@ -1972,7 +1879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savonlinna"
           }
         ],
         "coordinates": [
@@ -1993,7 +1899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Keuruu"
           }
         ],
         "coordinates": [
@@ -2014,7 +1919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pieksämäki"
           }
         ],
         "coordinates": [
@@ -2035,7 +1939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pudasjärvi"
           }
         ],
         "coordinates": [
@@ -2056,7 +1959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Puolanka"
           }
         ],
         "coordinates": [
@@ -2077,7 +1979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ikaalinen"
           }
         ],
         "coordinates": [
@@ -2098,7 +1999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pälkäne"
           }
         ],
         "coordinates": [
@@ -2119,7 +2019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kurikka"
           }
         ],
         "coordinates": [
@@ -2140,7 +2039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kontiolahti"
           }
         ],
         "coordinates": [
@@ -2161,7 +2059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hyrynsalmi"
           }
         ],
         "coordinates": [
@@ -2182,7 +2079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Eura"
           }
         ],
         "coordinates": [
@@ -2203,7 +2099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -2224,7 +2119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vesanto"
           }
         ],
         "coordinates": [
@@ -2245,7 +2139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ruokolahti"
           }
         ],
         "coordinates": [
@@ -2266,7 +2159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -2287,7 +2179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suomussalmi"
           }
         ],
         "coordinates": [
@@ -2308,7 +2199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pihtipudas"
           }
         ],
         "coordinates": [
@@ -2329,7 +2219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pelkosenniemi"
           }
         ],
         "coordinates": [
@@ -2350,7 +2239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rautalampi"
           }
         ],
         "coordinates": [
@@ -2371,7 +2259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kristiinankaupunki"
           }
         ],
         "coordinates": [
@@ -2392,7 +2279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Somero"
           }
         ],
         "coordinates": [
@@ -2413,7 +2299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kemijärvi"
           }
         ],
         "coordinates": [
@@ -2434,7 +2319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -2455,7 +2339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sodankylä"
           }
         ],
         "coordinates": [
@@ -2476,7 +2359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Nurmes"
           }
         ],
         "coordinates": [
@@ -2497,7 +2379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sonkajärvi"
           }
         ],
         "coordinates": [
@@ -2518,7 +2399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pieksämäki"
           }
         ],
         "coordinates": [
@@ -2539,7 +2419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sodankylä"
           }
         ],
         "coordinates": [
@@ -2560,7 +2439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -2581,7 +2459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siilinjärvi"
           }
         ],
         "coordinates": [
@@ -2602,7 +2479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Oulu"
           }
         ],
         "coordinates": [
@@ -2623,7 +2499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -2644,7 +2519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kärkölä"
           }
         ],
         "coordinates": [
@@ -2665,7 +2539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kangasniemi"
           }
         ],
         "coordinates": [
@@ -2686,7 +2559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savitaipale"
           }
         ],
         "coordinates": [
@@ -2707,7 +2579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pori"
           }
         ],
         "coordinates": [
@@ -2728,7 +2599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Salla"
           }
         ],
         "coordinates": [
@@ -2749,7 +2619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -2770,7 +2639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Karstula"
           }
         ],
         "coordinates": [
@@ -2791,7 +2659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kihniö"
           }
         ],
         "coordinates": [
@@ -2812,7 +2679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ruokolahti"
           }
         ],
         "coordinates": [
@@ -2833,7 +2699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Oulu"
           }
         ],
         "coordinates": [
@@ -2854,7 +2719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Inari"
           }
         ],
         "coordinates": [
@@ -2875,7 +2739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Posio"
           }
         ],
         "coordinates": [
@@ -2896,7 +2759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joensuu"
           }
         ],
         "coordinates": [
@@ -2917,7 +2779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kittilä"
           }
         ],
         "coordinates": [
@@ -2938,7 +2799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -2959,7 +2819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -2980,7 +2839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kalajoki"
           }
         ],
         "coordinates": [
@@ -3001,7 +2859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pello"
           }
         ],
         "coordinates": [
@@ -3022,7 +2879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kittilä"
           }
         ],
         "coordinates": [
@@ -3043,7 +2899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lapinjärvi"
           }
         ],
         "coordinates": [
@@ -3064,7 +2919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savukoski"
           }
         ],
         "coordinates": [
@@ -3085,7 +2939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lappeenranta"
           }
         ],
         "coordinates": [
@@ -3106,7 +2959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ruokolahti"
           }
         ],
         "coordinates": [
@@ -3127,7 +2979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Utsjoki"
           }
         ],
         "coordinates": [
@@ -3148,7 +2999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jämijärvi"
           }
         ],
         "coordinates": [
@@ -3169,7 +3019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -3190,7 +3039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suomussalmi"
           }
         ],
         "coordinates": [
@@ -3211,7 +3059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jämsä"
           }
         ],
         "coordinates": [
@@ -3232,7 +3079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tammela"
           }
         ],
         "coordinates": [
@@ -3253,7 +3099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jämsä"
           }
         ],
         "coordinates": [
@@ -3274,7 +3119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Seinäjoki"
           }
         ],
         "coordinates": [
@@ -3295,7 +3139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kemijärvi"
           }
         ],
         "coordinates": [
@@ -3316,7 +3159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -3337,7 +3179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kauhajoki"
           }
         ],
         "coordinates": [
@@ -3358,7 +3199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pornainen"
           }
         ],
         "coordinates": [
@@ -3379,7 +3219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jalasjärvi"
           }
         ],
         "coordinates": [
@@ -3400,7 +3239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kolari"
           }
         ],
         "coordinates": [
@@ -3421,7 +3259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Porvoo"
           }
         ],
         "coordinates": [
@@ -3442,7 +3279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tammela"
           }
         ],
         "coordinates": [
@@ -3463,7 +3299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pyhäjärvi"
           }
         ],
         "coordinates": [
@@ -3484,7 +3319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ulvila"
           }
         ],
         "coordinates": [
@@ -3505,7 +3339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ruovesi"
           }
         ],
         "coordinates": [
@@ -3526,7 +3359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Padasjoki"
           }
         ],
         "coordinates": [
@@ -3547,7 +3379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ii"
           }
         ],
         "coordinates": [
@@ -3568,7 +3399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Isokyrö"
           }
         ],
         "coordinates": [
@@ -3589,7 +3419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kemijärvi"
           }
         ],
         "coordinates": [
@@ -3610,7 +3439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sodankylä"
           }
         ],
         "coordinates": [
@@ -3631,7 +3459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -3652,7 +3479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Keminmaa"
           }
         ],
         "coordinates": [
@@ -3673,7 +3499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ilomantsi"
           }
         ],
         "coordinates": [
@@ -3694,7 +3519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -3715,7 +3539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -3736,7 +3559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suonenjoki"
           }
         ],
         "coordinates": [
@@ -3757,7 +3579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ilmajoki"
           }
         ],
         "coordinates": [
@@ -3778,7 +3599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sonkajärvi"
           }
         ],
         "coordinates": [
@@ -3799,7 +3619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vesanto"
           }
         ],
         "coordinates": [
@@ -3820,7 +3639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Muonio"
           }
         ],
         "coordinates": [
@@ -3841,7 +3659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sievi"
           }
         ],
         "coordinates": [
@@ -3862,7 +3679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tervo"
           }
         ],
         "coordinates": [
@@ -3883,7 +3699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Saarijärvi"
           }
         ],
         "coordinates": [
@@ -3904,7 +3719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -3925,7 +3739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tammela"
           }
         ],
         "coordinates": [
@@ -3946,7 +3759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lestijärvi"
           }
         ],
         "coordinates": [
@@ -3967,7 +3779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieksa"
           }
         ],
         "coordinates": [
@@ -3988,7 +3799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mäntyharju"
           }
         ],
         "coordinates": [
@@ -4009,7 +3819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kaustinen"
           }
         ],
         "coordinates": [
@@ -4030,7 +3839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tuusniemi"
           }
         ],
         "coordinates": [
@@ -4051,7 +3859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sodankylä"
           }
         ],
         "coordinates": [
@@ -4072,7 +3879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jalasjärvi"
           }
         ],
         "coordinates": [
@@ -4093,7 +3899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pihtipudas"
           }
         ],
         "coordinates": [
@@ -4114,7 +3919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Iitti"
           }
         ],
         "coordinates": [
@@ -4135,7 +3939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joensuu"
           }
         ],
         "coordinates": [
@@ -4156,7 +3959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ulvila"
           }
         ],
         "coordinates": [
@@ -4177,7 +3979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Alajärvi"
           }
         ],
         "coordinates": [
@@ -4198,7 +3999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siikalatva"
           }
         ],
         "coordinates": [
@@ -4219,7 +4019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ylitornio"
           }
         ],
         "coordinates": [
@@ -4240,7 +4039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Reisjärvi"
           }
         ],
         "coordinates": [
@@ -4261,7 +4059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Parikkala"
           }
         ],
         "coordinates": [
@@ -4282,7 +4079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Raahe"
           }
         ],
         "coordinates": [
@@ -4303,7 +4099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -4324,7 +4119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -4345,7 +4139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pieksämäki"
           }
         ],
         "coordinates": [
@@ -4366,7 +4159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -4387,7 +4179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rusko"
           }
         ],
         "coordinates": [
@@ -4408,7 +4199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ylöjärvi"
           }
         ],
         "coordinates": [
@@ -4429,7 +4219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tervola"
           }
         ],
         "coordinates": [
@@ -4450,7 +4239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joroinen"
           }
         ],
         "coordinates": [
@@ -4471,7 +4259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hattula"
           }
         ],
         "coordinates": [
@@ -4492,7 +4279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Taipalsaari"
           }
         ],
         "coordinates": [
@@ -4513,7 +4299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pudasjärvi"
           }
         ],
         "coordinates": [
@@ -4534,7 +4319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hartola"
           }
         ],
         "coordinates": [
@@ -4555,7 +4339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sastamala"
           }
         ],
         "coordinates": [
@@ -4576,7 +4359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ranua"
           }
         ],
         "coordinates": [
@@ -4597,7 +4379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pyhäjärvi"
           }
         ],
         "coordinates": [
@@ -4618,7 +4399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Inari"
           }
         ],
         "coordinates": [
@@ -4639,7 +4419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jämijärvi"
           }
         ],
         "coordinates": [
@@ -4660,7 +4439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Keuruu"
           }
         ],
         "coordinates": [
@@ -4681,7 +4459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kokkola"
           }
         ],
         "coordinates": [
@@ -4702,7 +4479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sodankylä"
           }
         ],
         "coordinates": [
@@ -4723,7 +4499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -4744,7 +4519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kangasniemi"
           }
         ],
         "coordinates": [
@@ -4765,7 +4539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jämsä"
           }
         ],
         "coordinates": [
@@ -4786,7 +4559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pelkosenniemi"
           }
         ],
         "coordinates": [
@@ -4807,7 +4579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Uusikaupunki"
           }
         ],
         "coordinates": [
@@ -4828,7 +4599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tuusniemi"
           }
         ],
         "coordinates": [
@@ -4849,7 +4619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -4870,7 +4639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pudasjärvi"
           }
         ],
         "coordinates": [
@@ -4891,7 +4659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mikkeli"
           }
         ],
         "coordinates": [
@@ -4912,7 +4679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kolari"
           }
         ],
         "coordinates": [
@@ -4933,7 +4699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kangasala"
           }
         ],
         "coordinates": [
@@ -4954,7 +4719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ruokolahti"
           }
         ],
         "coordinates": [
@@ -4975,7 +4739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pudasjärvi"
           }
         ],
         "coordinates": [
@@ -4996,7 +4759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vöyri"
           }
         ],
         "coordinates": [
@@ -5017,7 +4779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ylivieska"
           }
         ],
         "coordinates": [
@@ -5038,7 +4799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kittilä"
           }
         ],
         "coordinates": [
@@ -5059,7 +4819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Seinäjoki"
           }
         ],
         "coordinates": [
@@ -5080,7 +4839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Muhos"
           }
         ],
         "coordinates": [
@@ -5101,7 +4859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pöytyä"
           }
         ],
         "coordinates": [
@@ -5122,7 +4879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuortane"
           }
         ],
         "coordinates": [
@@ -5143,7 +4899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -5164,7 +4919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -5185,7 +4939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kaarina"
           }
         ],
         "coordinates": [
@@ -5206,7 +4959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pyhäjärvi"
           }
         ],
         "coordinates": [
@@ -5227,7 +4979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pieksämäki"
           }
         ],
         "coordinates": [
@@ -5248,7 +4999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savukoski"
           }
         ],
         "coordinates": [
@@ -5269,7 +5019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savonlinna"
           }
         ],
         "coordinates": [
@@ -5290,7 +5039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Posio"
           }
         ],
         "coordinates": [
@@ -5311,7 +5059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suomussalmi"
           }
         ],
         "coordinates": [
@@ -5332,7 +5079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kemijärvi"
           }
         ],
         "coordinates": [
@@ -5353,7 +5099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sastamala"
           }
         ],
         "coordinates": [
@@ -5374,7 +5119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sysmä"
           }
         ],
         "coordinates": [
@@ -5395,7 +5139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joutsa"
           }
         ],
         "coordinates": [
@@ -5416,7 +5159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Porvoo"
           }
         ],
         "coordinates": [
@@ -5437,7 +5179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ilomantsi"
           }
         ],
         "coordinates": [
@@ -5458,7 +5199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Utajärvi"
           }
         ],
         "coordinates": [
@@ -5479,7 +5219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pihtipudas"
           }
         ],
         "coordinates": [
@@ -5500,7 +5239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Taipalsaari"
           }
         ],
         "coordinates": [
@@ -5521,7 +5259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Oulu"
           }
         ],
         "coordinates": [
@@ -5542,7 +5279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kittilä"
           }
         ],
         "coordinates": [
@@ -5563,7 +5299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Karstula"
           }
         ],
         "coordinates": [
@@ -5584,7 +5319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ranua"
           }
         ],
         "coordinates": [
@@ -5605,7 +5339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Alavieska"
           }
         ],
         "coordinates": [
@@ -5626,7 +5359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -5647,7 +5379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mäntyharju"
           }
         ],
         "coordinates": [
@@ -5668,7 +5399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sotkamo"
           }
         ],
         "coordinates": [
@@ -5689,7 +5419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jämsä"
           }
         ],
         "coordinates": [
@@ -5710,7 +5439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hamina"
           }
         ],
         "coordinates": [
@@ -5731,7 +5459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pori"
           }
         ],
         "coordinates": [
@@ -5752,7 +5479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mikkeli"
           }
         ],
         "coordinates": [
@@ -5773,7 +5499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ranua"
           }
         ],
         "coordinates": [
@@ -5794,7 +5519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pudasjärvi"
           }
         ],
         "coordinates": [
@@ -5815,7 +5539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -5836,7 +5559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Keminmaa"
           }
         ],
         "coordinates": [
@@ -5857,7 +5579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jyväskylä"
           }
         ],
         "coordinates": [
@@ -5878,7 +5599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siuntio"
           }
         ],
         "coordinates": [
@@ -5899,7 +5619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Honkajoki"
           }
         ],
         "coordinates": [
@@ -5920,7 +5639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Loviisa"
           }
         ],
         "coordinates": [
@@ -5941,7 +5659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kolari"
           }
         ],
         "coordinates": [
@@ -5962,7 +5679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Urjala"
           }
         ],
         "coordinates": [
@@ -5983,7 +5699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lapinlahti"
           }
         ],
         "coordinates": [
@@ -6004,7 +5719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sauvo"
           }
         ],
         "coordinates": [
@@ -6025,7 +5739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Inkoo"
           }
         ],
         "coordinates": [
@@ -6046,7 +5759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vaala"
           }
         ],
         "coordinates": [
@@ -6067,7 +5779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Virrat"
           }
         ],
         "coordinates": [
@@ -6088,7 +5799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Inari"
           }
         ],
         "coordinates": [
@@ -6109,7 +5819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Salla"
           }
         ],
         "coordinates": [
@@ -6130,7 +5839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Perho"
           }
         ],
         "coordinates": [
@@ -6151,7 +5859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Karstula"
           }
         ],
         "coordinates": [
@@ -6172,7 +5879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Enontekiö"
           }
         ],
         "coordinates": [
@@ -6193,7 +5899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Polvijärvi"
           }
         ],
         "coordinates": [
@@ -6214,7 +5919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pedersören kunta"
           }
         ],
         "coordinates": [
@@ -6235,7 +5939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pieksämäki"
           }
         ],
         "coordinates": [
@@ -6256,7 +5959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savonlinna"
           }
         ],
         "coordinates": [
@@ -6277,7 +5979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Eura"
           }
         ],
         "coordinates": [
@@ -6298,7 +5999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siikalatva"
           }
         ],
         "coordinates": [
@@ -6319,7 +6019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Oulu"
           }
         ],
         "coordinates": [
@@ -6340,7 +6039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siikajoki"
           }
         ],
         "coordinates": [
@@ -6361,7 +6059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Paltamo"
           }
         ],
         "coordinates": [
@@ -6382,7 +6079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sastamala"
           }
         ],
         "coordinates": [
@@ -6403,7 +6099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tyrnävä"
           }
         ],
         "coordinates": [
@@ -6424,7 +6119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Seinäjoki"
           }
         ],
         "coordinates": [
@@ -6445,7 +6139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Seinäjoki"
           }
         ],
         "coordinates": [
@@ -6466,7 +6159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vieremä"
           }
         ],
         "coordinates": [
@@ -6487,7 +6179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Posio"
           }
         ],
         "coordinates": [
@@ -6508,7 +6199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joensuu"
           }
         ],
         "coordinates": [
@@ -6529,7 +6219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siikalatva"
           }
         ],
         "coordinates": [
@@ -6550,7 +6239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Loppi"
           }
         ],
         "coordinates": [
@@ -6571,7 +6259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Posio"
           }
         ],
         "coordinates": [
@@ -6592,7 +6279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pudasjärvi"
           }
         ],
         "coordinates": [
@@ -6613,7 +6299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Puumala"
           }
         ],
         "coordinates": [
@@ -6634,7 +6319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Paltamo"
           }
         ],
         "coordinates": [
@@ -6655,7 +6339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hattula"
           }
         ],
         "coordinates": [
@@ -6676,7 +6359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Oulu"
           }
         ],
         "coordinates": [
@@ -6697,7 +6379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kurikka"
           }
         ],
         "coordinates": [
@@ -6718,7 +6399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ylivieska"
           }
         ],
         "coordinates": [
@@ -6739,7 +6419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Karvia"
           }
         ],
         "coordinates": [
@@ -6760,7 +6439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lappeenranta"
           }
         ],
         "coordinates": [
@@ -6781,7 +6459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joensuu"
           }
         ],
         "coordinates": [
@@ -6802,7 +6479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Keuruu"
           }
         ],
         "coordinates": [
@@ -6823,7 +6499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -6844,7 +6519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vaala"
           }
         ],
         "coordinates": [
@@ -6865,7 +6539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joensuu"
           }
         ],
         "coordinates": [
@@ -6886,7 +6559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kauhajoki"
           }
         ],
         "coordinates": [
@@ -6907,7 +6579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -6928,7 +6599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Juankoski"
           }
         ],
         "coordinates": [
@@ -6949,7 +6619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -6970,7 +6639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -6991,7 +6659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -7012,7 +6679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Muonio"
           }
         ],
         "coordinates": [
@@ -7033,7 +6699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Askola"
           }
         ],
         "coordinates": [
@@ -7054,7 +6719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -7075,7 +6739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kiuruvesi"
           }
         ],
         "coordinates": [
@@ -7096,7 +6759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Taivalkoski"
           }
         ],
         "coordinates": [
@@ -7117,7 +6779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Inari"
           }
         ],
         "coordinates": [
@@ -7138,7 +6799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Naantali"
           }
         ],
         "coordinates": [
@@ -7159,7 +6819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sodankylä"
           }
         ],
         "coordinates": [
@@ -7180,7 +6839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kittilä"
           }
         ],
         "coordinates": [
@@ -7201,7 +6859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lapinlahti"
           }
         ],
         "coordinates": [
@@ -7222,7 +6879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siikajoki"
           }
         ],
         "coordinates": [
@@ -7243,7 +6899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Toivakka"
           }
         ],
         "coordinates": [
@@ -7264,7 +6919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Juankoski"
           }
         ],
         "coordinates": [
@@ -7285,7 +6939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mustasaari"
           }
         ],
         "coordinates": [
@@ -7306,7 +6959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Keuruu"
           }
         ],
         "coordinates": [
@@ -7327,7 +6979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kittilä"
           }
         ],
         "coordinates": [
@@ -7348,7 +6999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kannonkoski"
           }
         ],
         "coordinates": [
@@ -7369,7 +7019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieto"
           }
         ],
         "coordinates": [
@@ -7390,7 +7039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pälkäne"
           }
         ],
         "coordinates": [
@@ -7411,7 +7059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kaarina"
           }
         ],
         "coordinates": [
@@ -7432,7 +7079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sastamala"
           }
         ],
         "coordinates": [
@@ -7453,7 +7099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sonkajärvi"
           }
         ],
         "coordinates": [
@@ -7474,7 +7119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Urjala"
           }
         ],
         "coordinates": [
@@ -7495,7 +7139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lapua"
           }
         ],
         "coordinates": [
@@ -7516,7 +7159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suomussalmi"
           }
         ],
         "coordinates": [
@@ -7537,7 +7179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kivijärvi"
           }
         ],
         "coordinates": [
@@ -7558,7 +7199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Eurajoki"
           }
         ],
         "coordinates": [
@@ -7579,7 +7219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savukoski"
           }
         ],
         "coordinates": [
@@ -7600,7 +7239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Urjala"
           }
         ],
         "coordinates": [
@@ -7621,7 +7259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kaavi"
           }
         ],
         "coordinates": [
@@ -7642,7 +7279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -7663,7 +7299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -7684,7 +7319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ähtäri"
           }
         ],
         "coordinates": [
@@ -7705,7 +7339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Halsua"
           }
         ],
         "coordinates": [
@@ -7726,7 +7359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Polvijärvi"
           }
         ],
         "coordinates": [
@@ -7747,7 +7379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Haapajärvi"
           }
         ],
         "coordinates": [
@@ -7768,7 +7399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -7789,7 +7419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Seinäjoki"
           }
         ],
         "coordinates": [
@@ -7810,7 +7439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Iitti"
           }
         ],
         "coordinates": [
@@ -7831,7 +7459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siuntio"
           }
         ],
         "coordinates": [
@@ -7852,7 +7479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -7873,7 +7499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kemijärvi"
           }
         ],
         "coordinates": [
@@ -7894,7 +7519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -7915,7 +7539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siikajoki"
           }
         ],
         "coordinates": [
@@ -7936,7 +7559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Virolahti"
           }
         ],
         "coordinates": [
@@ -7957,7 +7579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Posio"
           }
         ],
         "coordinates": [
@@ -7978,7 +7599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Multia"
           }
         ],
         "coordinates": [
@@ -7999,7 +7619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ilomantsi"
           }
         ],
         "coordinates": [
@@ -8020,7 +7639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savukoski"
           }
         ],
         "coordinates": [
@@ -8041,7 +7659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ilomantsi"
           }
         ],
         "coordinates": [
@@ -8062,7 +7679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Viitasaari"
           }
         ],
         "coordinates": [
@@ -8083,7 +7699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Raasepori"
           }
         ],
         "coordinates": [
@@ -8104,7 +7719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kangasniemi"
           }
         ],
         "coordinates": [
@@ -8125,7 +7739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hollola"
           }
         ],
         "coordinates": [
@@ -8146,7 +7759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tornio"
           }
         ],
         "coordinates": [
@@ -8167,7 +7779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Keminmaa"
           }
         ],
         "coordinates": [
@@ -8188,7 +7799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sonkajärvi"
           }
         ],
         "coordinates": [
@@ -8209,7 +7819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Karstula"
           }
         ],
         "coordinates": [
@@ -8230,7 +7839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -8251,7 +7859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pori"
           }
         ],
         "coordinates": [
@@ -8272,7 +7879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sulkava"
           }
         ],
         "coordinates": [
@@ -8293,7 +7899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ristijärvi"
           }
         ],
         "coordinates": [
@@ -8314,7 +7919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Urjala"
           }
         ],
         "coordinates": [
@@ -8335,7 +7939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sodankylä"
           }
         ],
         "coordinates": [
@@ -8356,7 +7959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Utajärvi"
           }
         ],
         "coordinates": [
@@ -8377,7 +7979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Halsua"
           }
         ],
         "coordinates": [
@@ -8398,7 +7999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hyrynsalmi"
           }
         ],
         "coordinates": [
@@ -8419,7 +8019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kittilä"
           }
         ],
         "coordinates": [
@@ -8440,7 +8039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pori"
           }
         ],
         "coordinates": [
@@ -8461,7 +8059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Laihia"
           }
         ],
         "coordinates": [
@@ -8482,7 +8079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieksa"
           }
         ],
         "coordinates": [
@@ -8503,7 +8099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sotkamo"
           }
         ],
         "coordinates": [
@@ -8524,7 +8119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ikaalinen"
           }
         ],
         "coordinates": [
@@ -8545,7 +8139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Viitasaari"
           }
         ],
         "coordinates": [
@@ -8566,7 +8159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mikkeli"
           }
         ],
         "coordinates": [
@@ -8587,7 +8179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jämijärvi"
           }
         ],
         "coordinates": [
@@ -8608,7 +8199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sastamala"
           }
         ],
         "coordinates": [
@@ -8629,7 +8219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ruovesi"
           }
         ],
         "coordinates": [
@@ -8650,7 +8239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Valtimo"
           }
         ],
         "coordinates": [
@@ -8671,7 +8259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Seinäjoki"
           }
         ],
         "coordinates": [
@@ -8692,7 +8279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Inari"
           }
         ],
         "coordinates": [
@@ -8713,7 +8299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siuntio"
           }
         ],
         "coordinates": [
@@ -8734,7 +8319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kiuruvesi"
           }
         ],
         "coordinates": [
@@ -8755,7 +8339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pyhäjärvi"
           }
         ],
         "coordinates": [
@@ -8776,7 +8359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Posio"
           }
         ],
         "coordinates": [
@@ -8797,7 +8379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hamina"
           }
         ],
         "coordinates": [
@@ -8818,7 +8399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hämeenlinna"
           }
         ],
         "coordinates": [
@@ -8839,7 +8419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ranua"
           }
         ],
         "coordinates": [
@@ -8860,7 +8439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ilomantsi"
           }
         ],
         "coordinates": [
@@ -8881,7 +8459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Salo"
           }
         ],
         "coordinates": [
@@ -8902,7 +8479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ilomantsi"
           }
         ],
         "coordinates": [
@@ -8923,7 +8499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sievi"
           }
         ],
         "coordinates": [
@@ -8944,7 +8519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Juuka"
           }
         ],
         "coordinates": [
@@ -8965,7 +8539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ranua"
           }
         ],
         "coordinates": [
@@ -8986,7 +8559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -9007,7 +8579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hämeenkoski"
           }
         ],
         "coordinates": [
@@ -9028,7 +8599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Loviisa"
           }
         ],
         "coordinates": [
@@ -9049,7 +8619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lappeenranta"
           }
         ],
         "coordinates": [
@@ -9070,7 +8639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pihtipudas"
           }
         ],
         "coordinates": [
@@ -9091,7 +8659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -9112,7 +8679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Oulainen"
           }
         ],
         "coordinates": [
@@ -9133,7 +8699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lohja"
           }
         ],
         "coordinates": [
@@ -9154,7 +8719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pomarkku"
           }
         ],
         "coordinates": [
@@ -9175,7 +8739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Alajärvi"
           }
         ],
         "coordinates": [
@@ -9196,7 +8759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -9217,7 +8779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -9238,7 +8799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Virolahti"
           }
         ],
         "coordinates": [
@@ -9259,7 +8819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Janakkala"
           }
         ],
         "coordinates": [
@@ -9280,7 +8839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tervola"
           }
         ],
         "coordinates": [
@@ -9301,7 +8859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kangasniemi"
           }
         ],
         "coordinates": [
@@ -9322,7 +8879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Heinola"
           }
         ],
         "coordinates": [
@@ -9343,7 +8899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pyhäjärvi"
           }
         ],
         "coordinates": [
@@ -9364,7 +8919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siikalatva"
           }
         ],
         "coordinates": [
@@ -9385,7 +8939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Aura"
           }
         ],
         "coordinates": [
@@ -9406,7 +8959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ranua"
           }
         ],
         "coordinates": [
@@ -9427,7 +8979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Puumala"
           }
         ],
         "coordinates": [
@@ -9448,7 +8999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pieksämäki"
           }
         ],
         "coordinates": [
@@ -9469,7 +9019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Teuva"
           }
         ],
         "coordinates": [
@@ -9490,7 +9039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -9511,7 +9059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Keuruu"
           }
         ],
         "coordinates": [
@@ -9532,7 +9079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Keminmaa"
           }
         ],
         "coordinates": [
@@ -9553,7 +9099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Paltamo"
           }
         ],
         "coordinates": [
@@ -9574,7 +9119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kruunupyy"
           }
         ],
         "coordinates": [
@@ -9595,7 +9139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kajaani"
           }
         ],
         "coordinates": [
@@ -9616,7 +9159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pieksämäki"
           }
         ],
         "coordinates": [
@@ -9637,7 +9179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savonlinna"
           }
         ],
         "coordinates": [
@@ -9658,7 +9199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Viitasaari"
           }
         ],
         "coordinates": [
@@ -9679,7 +9219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rautjärvi"
           }
         ],
         "coordinates": [
@@ -9700,7 +9239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -9721,7 +9259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tohmajärvi"
           }
         ],
         "coordinates": [
@@ -9742,7 +9279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ikaalinen"
           }
         ],
         "coordinates": [
@@ -9763,7 +9299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -9784,7 +9319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pihtipudas"
           }
         ],
         "coordinates": [
@@ -9805,7 +9339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Alavieska"
           }
         ],
         "coordinates": [
@@ -9826,7 +9359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Konnevesi"
           }
         ],
         "coordinates": [
@@ -9847,7 +9379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ruokolahti"
           }
         ],
         "coordinates": [
@@ -9868,7 +9399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siikalatva"
           }
         ],
         "coordinates": [
@@ -9889,7 +9419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mikkeli"
           }
         ],
         "coordinates": [
@@ -9910,7 +9439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pudasjärvi"
           }
         ],
         "coordinates": [
@@ -9931,7 +9459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joroinen"
           }
         ],
         "coordinates": [
@@ -9952,7 +9479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -9973,7 +9499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sievi"
           }
         ],
         "coordinates": [
@@ -9994,7 +9519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pielavesi"
           }
         ],
         "coordinates": [
@@ -10015,7 +9539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jämsä"
           }
         ],
         "coordinates": [
@@ -10036,7 +9559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siikainen"
           }
         ],
         "coordinates": [
@@ -10057,7 +9579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Outokumpu"
           }
         ],
         "coordinates": [
@@ -10078,7 +9599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -10099,7 +9619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pelkosenniemi"
           }
         ],
         "coordinates": [
@@ -10120,7 +9639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siikainen"
           }
         ],
         "coordinates": [
@@ -10141,7 +9659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hämeenlinna"
           }
         ],
         "coordinates": [
@@ -10162,7 +9679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Uurainen"
           }
         ],
         "coordinates": [
@@ -10183,7 +9699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pudasjärvi"
           }
         ],
         "coordinates": [
@@ -10204,7 +9719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ilomantsi"
           }
         ],
         "coordinates": [
@@ -10225,7 +9739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Seinäjoki"
           }
         ],
         "coordinates": [
@@ -10246,7 +9759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joensuu"
           }
         ],
         "coordinates": [
@@ -10267,7 +9779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rautalampi"
           }
         ],
         "coordinates": [
@@ -10288,7 +9799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Alajärvi"
           }
         ],
         "coordinates": [
@@ -10309,7 +9819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savonlinna"
           }
         ],
         "coordinates": [
@@ -10330,7 +9839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kangasala"
           }
         ],
         "coordinates": [
@@ -10351,7 +9859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vesanto"
           }
         ],
         "coordinates": [
@@ -10372,7 +9879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pelkosenniemi"
           }
         ],
         "coordinates": [
@@ -10393,7 +9899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ranua"
           }
         ],
         "coordinates": [
@@ -10414,7 +9919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lohja"
           }
         ],
         "coordinates": [
@@ -10435,7 +9939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rauma"
           }
         ],
         "coordinates": [
@@ -10456,7 +9959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sastamala"
           }
         ],
         "coordinates": [
@@ -10477,7 +9979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kaavi"
           }
         ],
         "coordinates": [
@@ -10498,7 +9999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kangasniemi"
           }
         ],
         "coordinates": [
@@ -10519,7 +10019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Somero"
           }
         ],
         "coordinates": [
@@ -10540,7 +10039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Posio"
           }
         ],
         "coordinates": [
@@ -10561,7 +10059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Inkoo"
           }
         ],
         "coordinates": [
@@ -10582,7 +10079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -10603,7 +10099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kauhava"
           }
         ],
         "coordinates": [
@@ -10624,7 +10119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -10645,7 +10139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hämeenlinna"
           }
         ],
         "coordinates": [
@@ -10666,7 +10159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suonenjoki"
           }
         ],
         "coordinates": [
@@ -10687,7 +10179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ilomantsi"
           }
         ],
         "coordinates": [
@@ -10708,7 +10199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Posio"
           }
         ],
         "coordinates": [
@@ -10729,7 +10219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Luvia"
           }
         ],
         "coordinates": [
@@ -10750,7 +10239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kiuruvesi"
           }
         ],
         "coordinates": [
@@ -10771,7 +10259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sotkamo"
           }
         ],
         "coordinates": [
@@ -10792,7 +10279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Posio"
           }
         ],
         "coordinates": [
@@ -10813,7 +10299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pyhäjärvi"
           }
         ],
         "coordinates": [
@@ -10834,7 +10319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Heinävesi"
           }
         ],
         "coordinates": [
@@ -10855,7 +10339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sysmä"
           }
         ],
         "coordinates": [
@@ -10876,7 +10359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Raasepori"
           }
         ],
         "coordinates": [
@@ -10897,7 +10379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -10918,7 +10399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suomussalmi"
           }
         ],
         "coordinates": [
@@ -10939,7 +10419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pöytyä"
           }
         ],
         "coordinates": [
@@ -10960,7 +10439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hämeenlinna"
           }
         ],
         "coordinates": [
@@ -10981,7 +10459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Keuruu"
           }
         ],
         "coordinates": [
@@ -11002,7 +10479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ruovesi"
           }
         ],
         "coordinates": [
@@ -11023,7 +10499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -11044,7 +10519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Leppävirta"
           }
         ],
         "coordinates": [
@@ -11065,7 +10539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ähtäri"
           }
         ],
         "coordinates": [
@@ -11086,7 +10559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Somero"
           }
         ],
         "coordinates": [
@@ -11107,7 +10579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hyrynsalmi"
           }
         ],
         "coordinates": [
@@ -11128,7 +10599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Somero"
           }
         ],
         "coordinates": [
@@ -11149,7 +10619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Toholampi"
           }
         ],
         "coordinates": [
@@ -11170,7 +10639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Raahe"
           }
         ],
         "coordinates": [
@@ -11191,7 +10659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ypäjä"
           }
         ],
         "coordinates": [
@@ -11212,7 +10679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Loimaa"
           }
         ],
         "coordinates": [
@@ -11233,7 +10699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Isokyrö"
           }
         ],
         "coordinates": [
@@ -11254,7 +10719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -11275,7 +10739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Salla"
           }
         ],
         "coordinates": [
@@ -11296,7 +10759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Polvijärvi"
           }
         ],
         "coordinates": [
@@ -11317,7 +10779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ikaalinen"
           }
         ],
         "coordinates": [
@@ -11338,7 +10799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -11359,7 +10819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Parainen"
           }
         ],
         "coordinates": [
@@ -11380,7 +10839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pyhäjärvi"
           }
         ],
         "coordinates": [
@@ -11401,7 +10859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joensuu"
           }
         ],
         "coordinates": [
@@ -11422,7 +10879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suomussalmi"
           }
         ],
         "coordinates": [
@@ -11443,7 +10899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hanko"
           }
         ],
         "coordinates": [
@@ -11464,7 +10919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Salla"
           }
         ],
         "coordinates": [
@@ -11485,7 +10939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sastamala"
           }
         ],
         "coordinates": [
@@ -11506,7 +10959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Karstula"
           }
         ],
         "coordinates": [
@@ -11527,7 +10979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Somero"
           }
         ],
         "coordinates": [
@@ -11548,7 +10999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -11569,7 +11019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sonkajärvi"
           }
         ],
         "coordinates": [
@@ -11590,7 +11039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Uusikaarlepyy"
           }
         ],
         "coordinates": [
@@ -11611,7 +11059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pietarsaari"
           }
         ],
         "coordinates": [
@@ -11632,7 +11079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Multia"
           }
         ],
         "coordinates": [
@@ -11653,7 +11099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hartola"
           }
         ],
         "coordinates": [
@@ -11674,7 +11119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mustasaari"
           }
         ],
         "coordinates": [
@@ -11695,7 +11139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Salla"
           }
         ],
         "coordinates": [
@@ -11716,7 +11159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suomussalmi"
           }
         ],
         "coordinates": [
@@ -11737,7 +11179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Salla"
           }
         ],
         "coordinates": [
@@ -11758,7 +11199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pori"
           }
         ],
         "coordinates": [
@@ -11779,7 +11219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kruunupyy"
           }
         ],
         "coordinates": [
@@ -11800,7 +11239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savonlinna"
           }
         ],
         "coordinates": [
@@ -11821,7 +11259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Parainen"
           }
         ],
         "coordinates": [
@@ -11842,7 +11279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Naantali"
           }
         ],
         "coordinates": [
@@ -11863,7 +11299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kittilä"
           }
         ],
         "coordinates": [
@@ -11884,7 +11319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Puumala"
           }
         ],
         "coordinates": [
@@ -11905,7 +11339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -11926,7 +11359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Juankoski"
           }
         ],
         "coordinates": [
@@ -11947,7 +11379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Akaa"
           }
         ],
         "coordinates": [
@@ -11968,7 +11399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kokkola"
           }
         ],
         "coordinates": [
@@ -11989,7 +11419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieksa"
           }
         ],
         "coordinates": [
@@ -12010,7 +11439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kolari"
           }
         ],
         "coordinates": [
@@ -12031,7 +11459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -12052,7 +11479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Laukaa"
           }
         ],
         "coordinates": [
@@ -12073,7 +11499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -12094,7 +11519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hämeenlinna"
           }
         ],
         "coordinates": [
@@ -12115,7 +11539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Juuka"
           }
         ],
         "coordinates": [
@@ -12136,7 +11559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Toivakka"
           }
         ],
         "coordinates": [
@@ -12157,7 +11579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -12178,7 +11599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lohja"
           }
         ],
         "coordinates": [
@@ -12199,7 +11619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kannus"
           }
         ],
         "coordinates": [
@@ -12220,7 +11639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mynämäki"
           }
         ],
         "coordinates": [
@@ -12241,7 +11659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kemiönsaari"
           }
         ],
         "coordinates": [
@@ -12262,7 +11679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Oulu"
           }
         ],
         "coordinates": [
@@ -12283,7 +11699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vesanto"
           }
         ],
         "coordinates": [
@@ -12304,7 +11719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tampere"
           }
         ],
         "coordinates": [
@@ -12325,7 +11739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mikkeli"
           }
         ],
         "coordinates": [
@@ -12346,7 +11759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pertunmaa"
           }
         ],
         "coordinates": [
@@ -12367,7 +11779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ruovesi"
           }
         ],
         "coordinates": [
@@ -12388,7 +11799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Leppävirta"
           }
         ],
         "coordinates": [
@@ -12409,7 +11819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kristiinankaupunki"
           }
         ],
         "coordinates": [
@@ -12430,7 +11839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suomussalmi"
           }
         ],
         "coordinates": [
@@ -12451,7 +11859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Virrat"
           }
         ],
         "coordinates": [
@@ -12472,7 +11879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -12493,7 +11899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Porvoo"
           }
         ],
         "coordinates": [
@@ -12514,7 +11919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pudasjärvi"
           }
         ],
         "coordinates": [
@@ -12535,7 +11939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jyväskylä"
           }
         ],
         "coordinates": [
@@ -12556,7 +11959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Polvijärvi"
           }
         ],
         "coordinates": [
@@ -12577,7 +11979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sievi"
           }
         ],
         "coordinates": [
@@ -12598,7 +11999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vaala"
           }
         ],
         "coordinates": [
@@ -12619,7 +12019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Salo"
           }
         ],
         "coordinates": [
@@ -12640,7 +12039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kontiolahti"
           }
         ],
         "coordinates": [
@@ -12661,7 +12059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kivijärvi"
           }
         ],
         "coordinates": [
@@ -12682,7 +12079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Polvijärvi"
           }
         ],
         "coordinates": [
@@ -12703,7 +12099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siilinjärvi"
           }
         ],
         "coordinates": [
@@ -12724,7 +12119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kokemäki"
           }
         ],
         "coordinates": [
@@ -12745,7 +12139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pori"
           }
         ],
         "coordinates": [
@@ -12766,7 +12159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kontiolahti"
           }
         ],
         "coordinates": [
@@ -12787,7 +12179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ranua"
           }
         ],
         "coordinates": [
@@ -12808,7 +12199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Inari"
           }
         ],
         "coordinates": [
@@ -12829,7 +12219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kittilä"
           }
         ],
         "coordinates": [
@@ -12850,7 +12239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hartola"
           }
         ],
         "coordinates": [
@@ -12871,7 +12259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -12892,7 +12279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -12913,7 +12299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suomussalmi"
           }
         ],
         "coordinates": [
@@ -12934,7 +12319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Juuka"
           }
         ],
         "coordinates": [
@@ -12955,7 +12339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Nurmijärvi"
           }
         ],
         "coordinates": [
@@ -12976,7 +12359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jalasjärvi"
           }
         ],
         "coordinates": [
@@ -12997,7 +12379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pori"
           }
         ],
         "coordinates": [
@@ -13018,7 +12399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vimpeli"
           }
         ],
         "coordinates": [
@@ -13039,7 +12419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -13060,7 +12439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kauhajoki"
           }
         ],
         "coordinates": [
@@ -13081,7 +12459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pyhäranta"
           }
         ],
         "coordinates": [
@@ -13102,7 +12479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Heinävesi"
           }
         ],
         "coordinates": [
@@ -13123,7 +12499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jyväskylä"
           }
         ],
         "coordinates": [
@@ -13144,7 +12519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pihtipudas"
           }
         ],
         "coordinates": [
@@ -13165,7 +12539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Raahe"
           }
         ],
         "coordinates": [
@@ -13186,7 +12559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Raasepori"
           }
         ],
         "coordinates": [
@@ -13207,7 +12579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Oulu"
           }
         ],
         "coordinates": [
@@ -13228,7 +12599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ranua"
           }
         ],
         "coordinates": [
@@ -13249,7 +12619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rautavaara"
           }
         ],
         "coordinates": [
@@ -13270,7 +12639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Orimattila"
           }
         ],
         "coordinates": [
@@ -13291,7 +12659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joensuu"
           }
         ],
         "coordinates": [
@@ -13312,7 +12679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savukoski"
           }
         ],
         "coordinates": [
@@ -13333,7 +12699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pihtipudas"
           }
         ],
         "coordinates": [
@@ -13354,7 +12719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -13375,7 +12739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -13396,7 +12759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kemijärvi"
           }
         ],
         "coordinates": [
@@ -13417,7 +12779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Inari"
           }
         ],
         "coordinates": [
@@ -13438,7 +12799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Perho"
           }
         ],
         "coordinates": [
@@ -13459,7 +12819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kaarina"
           }
         ],
         "coordinates": [
@@ -13480,7 +12839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kiuruvesi"
           }
         ],
         "coordinates": [
@@ -13501,7 +12859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -13522,7 +12879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Inari"
           }
         ],
         "coordinates": [
@@ -13543,7 +12899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pyhäjoki"
           }
         ],
         "coordinates": [
@@ -13564,7 +12919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hirvensalmi"
           }
         ],
         "coordinates": [
@@ -13585,7 +12939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Marttila"
           }
         ],
         "coordinates": [
@@ -13606,7 +12959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kemijärvi"
           }
         ],
         "coordinates": [
@@ -13627,7 +12979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Eura"
           }
         ],
         "coordinates": [
@@ -13648,7 +12999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suomussalmi"
           }
         ],
         "coordinates": [
@@ -13669,7 +13019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savitaipale"
           }
         ],
         "coordinates": [
@@ -13690,7 +13039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -13711,7 +13059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tervola"
           }
         ],
         "coordinates": [
@@ -13732,7 +13079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pöytyä"
           }
         ],
         "coordinates": [
@@ -13753,7 +13099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savonlinna"
           }
         ],
         "coordinates": [
@@ -13774,7 +13119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suomussalmi"
           }
         ],
         "coordinates": [
@@ -13795,7 +13139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ylitornio"
           }
         ],
         "coordinates": [
@@ -13816,7 +13159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vaala"
           }
         ],
         "coordinates": [
@@ -13837,7 +13179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Muhos"
           }
         ],
         "coordinates": [
@@ -13858,7 +13199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pudasjärvi"
           }
         ],
         "coordinates": [
@@ -13879,7 +13219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieksa"
           }
         ],
         "coordinates": [
@@ -13900,7 +13239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ähtäri"
           }
         ],
         "coordinates": [
@@ -13921,7 +13259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Oulu"
           }
         ],
         "coordinates": [
@@ -13942,7 +13279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -13963,7 +13299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Seinäjoki"
           }
         ],
         "coordinates": [
@@ -13984,7 +13319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pihtipudas"
           }
         ],
         "coordinates": [
@@ -14005,7 +13339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kemiönsaari"
           }
         ],
         "coordinates": [
@@ -14026,7 +13359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pieksämäki"
           }
         ],
         "coordinates": [
@@ -14047,7 +13379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sodankylä"
           }
         ],
         "coordinates": [
@@ -14068,7 +13399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Posio"
           }
         ],
         "coordinates": [
@@ -14089,7 +13419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hämeenkoski"
           }
         ],
         "coordinates": [
@@ -14110,7 +13439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Köyliö"
           }
         ],
         "coordinates": [
@@ -14131,7 +13459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -14152,7 +13479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sodankylä"
           }
         ],
         "coordinates": [
@@ -14173,7 +13499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joensuu"
           }
         ],
         "coordinates": [
@@ -14194,7 +13519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Haapavesi"
           }
         ],
         "coordinates": [
@@ -14215,7 +13539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Karvia"
           }
         ],
         "coordinates": [
@@ -14236,7 +13559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ylitornio"
           }
         ],
         "coordinates": [
@@ -14257,7 +13579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Inkoo"
           }
         ],
         "coordinates": [
@@ -14278,7 +13599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kauhajoki"
           }
         ],
         "coordinates": [
@@ -14299,7 +13619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jyväskylä"
           }
         ],
         "coordinates": [
@@ -14320,7 +13639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Orivesi"
           }
         ],
         "coordinates": [
@@ -14341,7 +13659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sodankylä"
           }
         ],
         "coordinates": [
@@ -14362,7 +13679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -14383,7 +13699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Nurmes"
           }
         ],
         "coordinates": [
@@ -14404,7 +13719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vaala"
           }
         ],
         "coordinates": [
@@ -14425,7 +13739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lapua"
           }
         ],
         "coordinates": [
@@ -14446,7 +13759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sastamala"
           }
         ],
         "coordinates": [
@@ -14467,7 +13779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joutsa"
           }
         ],
         "coordinates": [
@@ -14488,7 +13799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jyväskylä"
           }
         ],
         "coordinates": [
@@ -14509,7 +13819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Nurmes"
           }
         ],
         "coordinates": [
@@ -14530,7 +13839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Köyliö"
           }
         ],
         "coordinates": [
@@ -14551,7 +13859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Liperi"
           }
         ],
         "coordinates": [
@@ -14572,7 +13879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siikalatva"
           }
         ],
         "coordinates": [
@@ -14593,7 +13899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Nurmes"
           }
         ],
         "coordinates": [
@@ -14614,7 +13919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hämeenlinna"
           }
         ],
         "coordinates": [
@@ -14635,7 +13939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Huittinen"
           }
         ],
         "coordinates": [
@@ -14656,7 +13959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -14677,7 +13979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Miehikkälä"
           }
         ],
         "coordinates": [
@@ -14698,7 +13999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Puumala"
           }
         ],
         "coordinates": [
@@ -14719,7 +14019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lestijärvi"
           }
         ],
         "coordinates": [
@@ -14740,7 +14039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kannus"
           }
         ],
         "coordinates": [
@@ -14761,7 +14059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Myrskylä"
           }
         ],
         "coordinates": [
@@ -14782,7 +14079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savonlinna"
           }
         ],
         "coordinates": [
@@ -14803,7 +14099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Loviisa"
           }
         ],
         "coordinates": [
@@ -14824,7 +14119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kyyjärvi"
           }
         ],
         "coordinates": [
@@ -14845,7 +14139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kontiolahti"
           }
         ],
         "coordinates": [
@@ -14866,7 +14159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pori"
           }
         ],
         "coordinates": [
@@ -14887,7 +14179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Inari"
           }
         ],
         "coordinates": [
@@ -14908,7 +14199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Merikarvia"
           }
         ],
         "coordinates": [
@@ -14929,7 +14219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pudasjärvi"
           }
         ],
         "coordinates": [
@@ -14950,7 +14239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pelkosenniemi"
           }
         ],
         "coordinates": [
@@ -14971,7 +14259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -14992,7 +14279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Jämsä"
           }
         ],
         "coordinates": [
@@ -15013,7 +14299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Enontekiö"
           }
         ],
         "coordinates": [
@@ -15034,7 +14319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suomussalmi"
           }
         ],
         "coordinates": [
@@ -15055,7 +14339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hailuoto"
           }
         ],
         "coordinates": [
@@ -15076,7 +14359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Toivakka"
           }
         ],
         "coordinates": [
@@ -15097,7 +14379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sotkamo"
           }
         ],
         "coordinates": [
@@ -15118,7 +14399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pyhäjoki"
           }
         ],
         "coordinates": [
@@ -15139,7 +14419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kolari"
           }
         ],
         "coordinates": [
@@ -15160,7 +14439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Somero"
           }
         ],
         "coordinates": [
@@ -15181,7 +14459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieksa"
           }
         ],
         "coordinates": [
@@ -15202,7 +14479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Reisjärvi"
           }
         ],
         "coordinates": [
@@ -15223,7 +14499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Parikkala"
           }
         ],
         "coordinates": [
@@ -15244,7 +14519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kruunupyy"
           }
         ],
         "coordinates": [
@@ -15265,7 +14539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hartola"
           }
         ],
         "coordinates": [
@@ -15286,7 +14559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lohja"
           }
         ],
         "coordinates": [
@@ -15307,7 +14579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kurikka"
           }
         ],
         "coordinates": [
@@ -15328,7 +14599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kankaanpää"
           }
         ],
         "coordinates": [
@@ -15349,7 +14619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tervo"
           }
         ],
         "coordinates": [
@@ -15370,7 +14639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tervola"
           }
         ],
         "coordinates": [
@@ -15391,7 +14659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siikalatva"
           }
         ],
         "coordinates": [
@@ -15412,7 +14679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieksa"
           }
         ],
         "coordinates": [
@@ -15433,7 +14699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kankaanpää"
           }
         ],
         "coordinates": [
@@ -15454,7 +14719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Taivalkoski"
           }
         ],
         "coordinates": [
@@ -15475,7 +14739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sodankylä"
           }
         ],
         "coordinates": [
@@ -15496,7 +14759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Iitti"
           }
         ],
         "coordinates": [
@@ -15517,7 +14779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pieksämäki"
           }
         ],
         "coordinates": [
@@ -15538,7 +14799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Petäjävesi"
           }
         ],
         "coordinates": [
@@ -15559,7 +14819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kangasala"
           }
         ],
         "coordinates": [
@@ -15580,7 +14839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rantasalmi"
           }
         ],
         "coordinates": [
@@ -15601,7 +14859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Miehikkälä"
           }
         ],
         "coordinates": [
@@ -15622,7 +14879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pudasjärvi"
           }
         ],
         "coordinates": [
@@ -15643,7 +14899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieksa"
           }
         ],
         "coordinates": [
@@ -15664,7 +14919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Salo"
           }
         ],
         "coordinates": [
@@ -15685,7 +14939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Polvijärvi"
           }
         ],
         "coordinates": [
@@ -15706,7 +14959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joensuu"
           }
         ],
         "coordinates": [
@@ -15727,7 +14979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Köyliö"
           }
         ],
         "coordinates": [
@@ -15748,7 +14999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Konnevesi"
           }
         ],
         "coordinates": [
@@ -15769,7 +15019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ilomantsi"
           }
         ],
         "coordinates": [
@@ -15790,7 +15039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mikkeli"
           }
         ],
         "coordinates": [
@@ -15811,7 +15059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lohja"
           }
         ],
         "coordinates": [
@@ -15832,7 +15079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ruovesi"
           }
         ],
         "coordinates": [
@@ -15853,7 +15099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -15874,7 +15119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Karvia"
           }
         ],
         "coordinates": [
@@ -15895,7 +15139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Juva"
           }
         ],
         "coordinates": [
@@ -15916,7 +15159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rautalampi"
           }
         ],
         "coordinates": [
@@ -15937,7 +15179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kinnula"
           }
         ],
         "coordinates": [
@@ -15958,7 +15199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kustavi"
           }
         ],
         "coordinates": [
@@ -15979,7 +15219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Nurmijärvi"
           }
         ],
         "coordinates": [
@@ -16000,7 +15239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hollola"
           }
         ],
         "coordinates": [
@@ -16021,7 +15259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ruokolahti"
           }
         ],
         "coordinates": [
@@ -16042,7 +15279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ylöjärvi"
           }
         ],
         "coordinates": [
@@ -16063,7 +15299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vesilahti"
           }
         ],
         "coordinates": [
@@ -16084,7 +15319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Simo"
           }
         ],
         "coordinates": [
@@ -16105,7 +15339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ii"
           }
         ],
         "coordinates": [
@@ -16126,7 +15359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieksa"
           }
         ],
         "coordinates": [
@@ -16147,7 +15379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kirkkonummi"
           }
         ],
         "coordinates": [
@@ -16168,7 +15399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieksa"
           }
         ],
         "coordinates": [
@@ -16189,7 +15419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savukoski"
           }
         ],
         "coordinates": [
@@ -16210,7 +15439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pälkäne"
           }
         ],
         "coordinates": [
@@ -16231,7 +15459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Posio"
           }
         ],
         "coordinates": [
@@ -16252,7 +15479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kiuruvesi"
           }
         ],
         "coordinates": [
@@ -16273,7 +15499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tohmajärvi"
           }
         ],
         "coordinates": [
@@ -16294,7 +15519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -16315,7 +15539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Muonio"
           }
         ],
         "coordinates": [
@@ -16336,7 +15559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rääkkylä"
           }
         ],
         "coordinates": [
@@ -16357,7 +15579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ilomantsi"
           }
         ],
         "coordinates": [
@@ -16378,7 +15599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hamina"
           }
         ],
         "coordinates": [
@@ -16399,7 +15619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Miehikkälä"
           }
         ],
         "coordinates": [
@@ -16420,7 +15639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savukoski"
           }
         ],
         "coordinates": [
@@ -16441,7 +15659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tohmajärvi"
           }
         ],
         "coordinates": [
@@ -16462,7 +15679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pyhäntä"
           }
         ],
         "coordinates": [
@@ -16483,7 +15699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -16504,7 +15719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suonenjoki"
           }
         ],
         "coordinates": [
@@ -16525,7 +15739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -16546,7 +15759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -16567,7 +15779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Parainen"
           }
         ],
         "coordinates": [
@@ -16588,7 +15799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mikkeli"
           }
         ],
         "coordinates": [
@@ -16609,7 +15819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kolari"
           }
         ],
         "coordinates": [
@@ -16630,7 +15839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suonenjoki"
           }
         ],
         "coordinates": [
@@ -16651,7 +15859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ruokolahti"
           }
         ],
         "coordinates": [
@@ -16672,7 +15879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vesanto"
           }
         ],
         "coordinates": [
@@ -16693,7 +15899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Miehikkälä"
           }
         ],
         "coordinates": [
@@ -16714,7 +15919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kiuruvesi"
           }
         ],
         "coordinates": [
@@ -16735,7 +15939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ilmajoki"
           }
         ],
         "coordinates": [
@@ -16756,7 +15959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Padasjoki"
           }
         ],
         "coordinates": [
@@ -16777,7 +15979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ilomantsi"
           }
         ],
         "coordinates": [
@@ -16798,7 +15999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Parainen"
           }
         ],
         "coordinates": [
@@ -16819,7 +16019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hausjärvi"
           }
         ],
         "coordinates": [
@@ -16840,7 +16039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -16861,7 +16059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kemiönsaari"
           }
         ],
         "coordinates": [
@@ -16882,7 +16079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -16903,7 +16099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Laukaa"
           }
         ],
         "coordinates": [
@@ -16924,7 +16119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mikkeli"
           }
         ],
         "coordinates": [
@@ -16945,7 +16139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Taivalkoski"
           }
         ],
         "coordinates": [
@@ -16966,7 +16159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -16987,7 +16179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pello"
           }
         ],
         "coordinates": [
@@ -17008,7 +16199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Seinäjoki"
           }
         ],
         "coordinates": [
@@ -17029,7 +16219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ii"
           }
         ],
         "coordinates": [
@@ -17050,7 +16239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kitee"
           }
         ],
         "coordinates": [
@@ -17071,7 +16259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sodankylä"
           }
         ],
         "coordinates": [
@@ -17092,7 +16279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pöytyä"
           }
         ],
         "coordinates": [
@@ -17113,7 +16299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Viitasaari"
           }
         ],
         "coordinates": [
@@ -17134,7 +16319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kajaani"
           }
         ],
         "coordinates": [
@@ -17155,7 +16339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Enontekiö"
           }
         ],
         "coordinates": [
@@ -17176,7 +16359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mäntyharju"
           }
         ],
         "coordinates": [
@@ -17197,7 +16379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joroinen"
           }
         ],
         "coordinates": [
@@ -17218,7 +16399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Viitasaari"
           }
         ],
         "coordinates": [
@@ -17239,7 +16419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siikalatva"
           }
         ],
         "coordinates": [
@@ -17260,7 +16439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Nurmes"
           }
         ],
         "coordinates": [
@@ -17281,7 +16459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ruokolahti"
           }
         ],
         "coordinates": [
@@ -17302,7 +16479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Myrskylä"
           }
         ],
         "coordinates": [
@@ -17323,7 +16499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Raasepori"
           }
         ],
         "coordinates": [
@@ -17344,7 +16519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Huittinen"
           }
         ],
         "coordinates": [
@@ -17365,7 +16539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Laukaa"
           }
         ],
         "coordinates": [
@@ -17386,7 +16559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Juankoski"
           }
         ],
         "coordinates": [
@@ -17407,7 +16579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -17428,7 +16599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kurikka"
           }
         ],
         "coordinates": [
@@ -17449,7 +16619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieksa"
           }
         ],
         "coordinates": [
@@ -17470,7 +16639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Iisalmi"
           }
         ],
         "coordinates": [
@@ -17491,7 +16659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pöytyä"
           }
         ],
         "coordinates": [
@@ -17512,7 +16679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hämeenlinna"
           }
         ],
         "coordinates": [
@@ -17533,7 +16699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kannonkoski"
           }
         ],
         "coordinates": [
@@ -17554,7 +16719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mikkeli"
           }
         ],
         "coordinates": [
@@ -17575,7 +16739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -17596,7 +16759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lestijärvi"
           }
         ],
         "coordinates": [
@@ -17617,7 +16779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pielavesi"
           }
         ],
         "coordinates": [
@@ -17638,7 +16799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kaavi"
           }
         ],
         "coordinates": [
@@ -17659,7 +16819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Orivesi"
           }
         ],
         "coordinates": [
@@ -17680,7 +16839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sipoo"
           }
         ],
         "coordinates": [
@@ -17701,7 +16859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Padasjoki"
           }
         ],
         "coordinates": [
@@ -17722,7 +16879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -17743,7 +16899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lapinlahti"
           }
         ],
         "coordinates": [
@@ -17764,7 +16919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Oulu"
           }
         ],
         "coordinates": [
@@ -17785,7 +16939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kolari"
           }
         ],
         "coordinates": [
@@ -17806,7 +16959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -17827,7 +16979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -17848,7 +16999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Enontekiö"
           }
         ],
         "coordinates": [
@@ -17869,7 +17019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sotkamo"
           }
         ],
         "coordinates": [
@@ -17890,7 +17039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tornio"
           }
         ],
         "coordinates": [
@@ -17911,7 +17059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ylöjärvi"
           }
         ],
         "coordinates": [
@@ -17932,7 +17079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Raasepori"
           }
         ],
         "coordinates": [
@@ -17953,7 +17099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ikaalinen"
           }
         ],
         "coordinates": [
@@ -17974,7 +17119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mustasaari"
           }
         ],
         "coordinates": [
@@ -17995,7 +17139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kokkola"
           }
         ],
         "coordinates": [
@@ -18016,7 +17159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Puumala"
           }
         ],
         "coordinates": [
@@ -18037,7 +17179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rautavaara"
           }
         ],
         "coordinates": [
@@ -18058,7 +17199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Keitele"
           }
         ],
         "coordinates": [
@@ -18079,7 +17219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Nurmijärvi"
           }
         ],
         "coordinates": [
@@ -18100,7 +17239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Leppävirta"
           }
         ],
         "coordinates": [
@@ -18121,7 +17259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siikainen"
           }
         ],
         "coordinates": [
@@ -18142,7 +17279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -18163,7 +17299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Enontekiö"
           }
         ],
         "coordinates": [
@@ -18184,7 +17319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Alavus"
           }
         ],
         "coordinates": [
@@ -18205,7 +17339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Inari"
           }
         ],
         "coordinates": [
@@ -18226,7 +17359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ikaalinen"
           }
         ],
         "coordinates": [
@@ -18247,7 +17379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieksa"
           }
         ],
         "coordinates": [
@@ -18268,7 +17399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vaala"
           }
         ],
         "coordinates": [
@@ -18289,7 +17419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ähtäri"
           }
         ],
         "coordinates": [
@@ -18310,7 +17439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Humppila"
           }
         ],
         "coordinates": [
@@ -18331,7 +17459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuopio"
           }
         ],
         "coordinates": [
@@ -18352,7 +17479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -18373,7 +17499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Laukaa"
           }
         ],
         "coordinates": [
@@ -18394,7 +17519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suomussalmi"
           }
         ],
         "coordinates": [
@@ -18415,7 +17539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Miehikkälä"
           }
         ],
         "coordinates": [
@@ -18436,7 +17559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ikaalinen"
           }
         ],
         "coordinates": [
@@ -18457,7 +17579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rantasalmi"
           }
         ],
         "coordinates": [
@@ -18478,7 +17599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Taipalsaari"
           }
         ],
         "coordinates": [
@@ -18499,7 +17619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Valkeakoski"
           }
         ],
         "coordinates": [
@@ -18520,7 +17639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ranua"
           }
         ],
         "coordinates": [
@@ -18541,7 +17659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Puolanka"
           }
         ],
         "coordinates": [
@@ -18562,7 +17679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Siikainen"
           }
         ],
         "coordinates": [
@@ -18583,7 +17699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tohmajärvi"
           }
         ],
         "coordinates": [
@@ -18604,7 +17719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joutsa"
           }
         ],
         "coordinates": [
@@ -18625,7 +17739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pöytyä"
           }
         ],
         "coordinates": [
@@ -18646,7 +17759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Puolanka"
           }
         ],
         "coordinates": [
@@ -18667,7 +17779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Akaa"
           }
         ],
         "coordinates": [
@@ -18688,7 +17799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lohja"
           }
         ],
         "coordinates": [
@@ -18709,7 +17819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lapinlahti"
           }
         ],
         "coordinates": [
@@ -18730,7 +17839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hämeenlinna"
           }
         ],
         "coordinates": [
@@ -18751,7 +17859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pori"
           }
         ],
         "coordinates": [
@@ -18772,7 +17879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sotkamo"
           }
         ],
         "coordinates": [
@@ -18793,7 +17899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tornio"
           }
         ],
         "coordinates": [
@@ -18814,7 +17919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pudasjärvi"
           }
         ],
         "coordinates": [
@@ -18835,7 +17939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieksa"
           }
         ],
         "coordinates": [
@@ -18856,7 +17959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ruokolahti"
           }
         ],
         "coordinates": [
@@ -18877,7 +17979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pielavesi"
           }
         ],
         "coordinates": [
@@ -18898,7 +17999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Juuka"
           }
         ],
         "coordinates": [
@@ -18919,7 +18019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tervola"
           }
         ],
         "coordinates": [
@@ -18940,7 +18039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mäntyharju"
           }
         ],
         "coordinates": [
@@ -18961,7 +18059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sodankylä"
           }
         ],
         "coordinates": [
@@ -18982,7 +18079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sastamala"
           }
         ],
         "coordinates": [
@@ -19003,7 +18099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kangasniemi"
           }
         ],
         "coordinates": [
@@ -19024,7 +18119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pelkosenniemi"
           }
         ],
         "coordinates": [
@@ -19045,7 +18139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Karkkila"
           }
         ],
         "coordinates": [
@@ -19066,7 +18159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sonkajärvi"
           }
         ],
         "coordinates": [
@@ -19087,7 +18179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuhmo"
           }
         ],
         "coordinates": [
@@ -19108,7 +18199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Orivesi"
           }
         ],
         "coordinates": [
@@ -19129,7 +18219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ylitornio"
           }
         ],
         "coordinates": [
@@ -19150,7 +18239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tervola"
           }
         ],
         "coordinates": [
@@ -19171,7 +18259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kivijärvi"
           }
         ],
         "coordinates": [
@@ -19192,7 +18279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Asikkala"
           }
         ],
         "coordinates": [
@@ -19213,7 +18299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Keuruu"
           }
         ],
         "coordinates": [
@@ -19234,7 +18319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -19255,7 +18339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pori"
           }
         ],
         "coordinates": [
@@ -19276,7 +18359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Juva"
           }
         ],
         "coordinates": [
@@ -19297,7 +18379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Urjala"
           }
         ],
         "coordinates": [
@@ -19318,7 +18399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ruovesi"
           }
         ],
         "coordinates": [
@@ -19339,7 +18419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Liminka"
           }
         ],
         "coordinates": [
@@ -19360,7 +18439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tuusniemi"
           }
         ],
         "coordinates": [
@@ -19381,7 +18459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sotkamo"
           }
         ],
         "coordinates": [
@@ -19402,7 +18479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Muhos"
           }
         ],
         "coordinates": [
@@ -19423,7 +18499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hankasalmi"
           }
         ],
         "coordinates": [
@@ -19444,7 +18519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Parikkala"
           }
         ],
         "coordinates": [
@@ -19465,7 +18539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Vantaa"
           }
         ],
         "coordinates": [
@@ -19486,7 +18559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Inari"
           }
         ],
         "coordinates": [
@@ -19507,7 +18579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Nousiainen"
           }
         ],
         "coordinates": [
@@ -19528,7 +18599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Reisjärvi"
           }
         ],
         "coordinates": [
@@ -19549,7 +18619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieksa"
           }
         ],
         "coordinates": [
@@ -19570,7 +18639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Uusikaupunki"
           }
         ],
         "coordinates": [
@@ -19591,7 +18659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -19612,7 +18679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Raahe"
           }
         ],
         "coordinates": [
@@ -19633,7 +18699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Perho"
           }
         ],
         "coordinates": [
@@ -19654,7 +18719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Juankoski"
           }
         ],
         "coordinates": [
@@ -19675,7 +18739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ruovesi"
           }
         ],
         "coordinates": [
@@ -19696,7 +18759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savonlinna"
           }
         ],
         "coordinates": [
@@ -19717,7 +18779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suomussalmi"
           }
         ],
         "coordinates": [
@@ -19738,7 +18799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rautavaara"
           }
         ],
         "coordinates": [
@@ -19759,7 +18819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hollola"
           }
         ],
         "coordinates": [
@@ -19780,7 +18839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Nivala"
           }
         ],
         "coordinates": [
@@ -19801,7 +18859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kouvola"
           }
         ],
         "coordinates": [
@@ -19822,7 +18879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Salla"
           }
         ],
         "coordinates": [
@@ -19843,7 +18899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Paltamo"
           }
         ],
         "coordinates": [
@@ -19864,7 +18919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Salo"
           }
         ],
         "coordinates": [
@@ -19885,7 +18939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Taivalkoski"
           }
         ],
         "coordinates": [
@@ -19906,7 +18959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rautavaara"
           }
         ],
         "coordinates": [
@@ -19927,7 +18979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieksa"
           }
         ],
         "coordinates": [
@@ -19948,7 +18999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pöytyä"
           }
         ],
         "coordinates": [
@@ -19969,7 +19019,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kajaani"
           }
         ],
         "coordinates": [
@@ -19990,7 +19039,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pyhäjärvi"
           }
         ],
         "coordinates": [
@@ -20011,7 +19059,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Lieksa"
           }
         ],
         "coordinates": [
@@ -20032,7 +19079,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sauvo"
           }
         ],
         "coordinates": [
@@ -20053,7 +19099,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mäntyharju"
           }
         ],
         "coordinates": [
@@ -20074,7 +19119,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tervola"
           }
         ],
         "coordinates": [
@@ -20095,7 +19139,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sodankylä"
           }
         ],
         "coordinates": [
@@ -20116,7 +19159,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Valtimo"
           }
         ],
         "coordinates": [
@@ -20137,7 +19179,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Oulu"
           }
         ],
         "coordinates": [
@@ -20158,7 +19199,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Keuruu"
           }
         ],
         "coordinates": [
@@ -20179,7 +19219,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sotkamo"
           }
         ],
         "coordinates": [
@@ -20200,7 +19239,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pälkäne"
           }
         ],
         "coordinates": [
@@ -20221,7 +19259,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Perho"
           }
         ],
         "coordinates": [
@@ -20242,7 +19279,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Laukaa"
           }
         ],
         "coordinates": [
@@ -20263,7 +19299,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Porvoo"
           }
         ],
         "coordinates": [
@@ -20284,7 +19319,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pöytyä"
           }
         ],
         "coordinates": [
@@ -20305,7 +19339,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Nurmes"
           }
         ],
         "coordinates": [
@@ -20326,7 +19359,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pudasjärvi"
           }
         ],
         "coordinates": [
@@ -20347,7 +19379,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tuusniemi"
           }
         ],
         "coordinates": [
@@ -20368,7 +19399,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kangasniemi"
           }
         ],
         "coordinates": [
@@ -20389,7 +19419,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Äänekoski"
           }
         ],
         "coordinates": [
@@ -20410,7 +19439,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Tornio"
           }
         ],
         "coordinates": [
@@ -20431,7 +19459,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mäntyharju"
           }
         ],
         "coordinates": [
@@ -20452,7 +19479,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Savukoski"
           }
         ],
         "coordinates": [
@@ -20473,7 +19499,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Utajärvi"
           }
         ],
         "coordinates": [
@@ -20494,7 +19519,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Liperi"
           }
         ],
         "coordinates": [
@@ -20515,7 +19539,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Hämeenlinna"
           }
         ],
         "coordinates": [
@@ -20536,7 +19559,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Utsjoki"
           }
         ],
         "coordinates": [
@@ -20557,7 +19579,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rautalampi"
           }
         ],
         "coordinates": [
@@ -20578,7 +19599,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Oulu"
           }
         ],
         "coordinates": [
@@ -20599,7 +19619,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mikkeli"
           }
         ],
         "coordinates": [
@@ -20620,7 +19639,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Isojoki"
           }
         ],
         "coordinates": [
@@ -20641,7 +19659,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mäntyharju"
           }
         ],
         "coordinates": [
@@ -20662,7 +19679,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Joensuu"
           }
         ],
         "coordinates": [
@@ -20683,7 +19699,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -20704,7 +19719,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ilomantsi"
           }
         ],
         "coordinates": [
@@ -20725,7 +19739,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kemijärvi"
           }
         ],
         "coordinates": [
@@ -20746,7 +19759,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Ii"
           }
         ],
         "coordinates": [
@@ -20767,7 +19779,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Juva"
           }
         ],
         "coordinates": [
@@ -20788,7 +19799,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Loppi"
           }
         ],
         "coordinates": [
@@ -20809,7 +19819,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rääkkylä"
           }
         ],
         "coordinates": [
@@ -20830,7 +19839,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Säkylä"
           }
         ],
         "coordinates": [
@@ -20851,7 +19859,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Rovaniemi"
           }
         ],
         "coordinates": [
@@ -20872,7 +19879,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Mäntyharju"
           }
         ],
         "coordinates": [
@@ -20893,7 +19899,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Teuva"
           }
         ],
         "coordinates": [
@@ -20914,7 +19919,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Sysmä"
           }
         ],
         "coordinates": [
@@ -20935,7 +19939,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Suomussalmi"
           }
         ],
         "coordinates": [
@@ -20956,7 +19959,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Punkalaidun"
           }
         ],
         "coordinates": [
@@ -20977,7 +19979,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Kuusamo"
           }
         ],
         "coordinates": [
@@ -20998,7 +19999,6 @@
       "expected": {
         "properties": [
           {
-            "localadmin": "Pudasjärvi"
           }
         ],
         "coordinates": [
