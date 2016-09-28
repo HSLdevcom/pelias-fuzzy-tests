@@ -20,7 +20,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tammikuja 11",
             "postalcode": "07580"
           }
         ],
@@ -41,7 +40,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Palosuontie 205",
             "postalcode": "07530"
           }
         ],
@@ -62,7 +60,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hiidenkirnujentie 302",
             "postalcode": "07530"
           }
         ],
@@ -83,7 +80,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Makkelintie 39",
             "postalcode": "07590"
           }
         ],
@@ -104,7 +100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Myrskyläntie 506",
             "postalcode": "07590"
           }
         ],
@@ -125,7 +120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sorvasuontie 568b",
             "postalcode": "07590"
           }
         ],
@@ -146,7 +140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Oikotie 157",
             "postalcode": "07590"
           }
         ],
@@ -167,7 +160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kydöntie 71",
             "postalcode": "07510"
           }
         ],
@@ -188,7 +180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vahijärvi",
             "postalcode": "07510"
           }
         ],
@@ -209,7 +200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Suokujantie 90",
             "postalcode": "07510"
           }
         ],
@@ -230,7 +220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mäntytie 9",
             "postalcode": "07500"
           }
         ],
@@ -251,7 +240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Askolantie 57",
             "postalcode": "07510"
           }
         ],
@@ -272,7 +260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Niemenpellontie 10",
             "postalcode": "07510"
           }
         ],
@@ -293,7 +280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tamminiementie 79a",
             "postalcode": "07590"
           }
         ],
@@ -314,7 +300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Myrskyläntie 804",
             "postalcode": "07590"
           }
         ],
@@ -335,7 +320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Karhuntie 75",
             "postalcode": "07590"
           }
         ],
@@ -356,7 +340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Peltokuja 4",
             "postalcode": "07230"
           }
         ],
@@ -377,7 +360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Silakanojantie 306k",
             "postalcode": "07230"
           }
         ],
@@ -398,7 +380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pornaistentie 185",
             "postalcode": "07230"
           }
         ],
@@ -419,7 +400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rentukkakuja 36",
             "postalcode": "07590"
           }
         ],
@@ -440,7 +420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Juornaankyläntie 229b",
             "postalcode": "07680"
           }
         ],
@@ -461,7 +440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Peräläntie 80",
             "postalcode": "07590"
           }
         ],
@@ -482,7 +460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mäntsäläntie 174",
             "postalcode": "07230"
           }
         ],
@@ -503,7 +480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Monsalankaari 9",
             "postalcode": "07230"
           }
         ],
@@ -524,7 +500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Uljaantie 4",
             "postalcode": "07230"
           }
         ],
@@ -545,7 +520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Silakanojantie",
             "postalcode": "07230"
           }
         ],
@@ -566,7 +540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mustanlähteentie 39b",
             "postalcode": "07230"
           }
         ],
@@ -587,7 +560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pusantie 84a",
             "postalcode": "07680"
           }
         ],
@@ -608,7 +580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Porvoontie 67b",
             "postalcode": "07230"
           }
         ],
@@ -629,7 +600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kalliotie 1",
             "postalcode": "07230"
           }
         ],
@@ -650,7 +620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kuoppatie 1",
             "postalcode": "07230"
           }
         ],
@@ -671,7 +640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tuomitie 4",
             "postalcode": "07230"
           }
         ],
@@ -692,7 +660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mäntyrinteentie 7a",
             "postalcode": "07500"
           }
         ],
@@ -713,7 +680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Suokujantie 285",
             "postalcode": "07510"
           }
         ],
@@ -734,7 +700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Emännänpiha 6",
             "postalcode": "02940"
           }
         ],
@@ -755,7 +720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Fallåker 11",
             "postalcode": "02740"
           }
         ],
@@ -776,7 +740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Muurahaisenkuja 4",
             "postalcode": "02770"
           }
         ],
@@ -797,7 +760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sysimaa 7",
             "postalcode": "02740"
           }
         ],
@@ -818,7 +780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vesirattaanmäki 6",
             "postalcode": "02740"
           }
         ],
@@ -839,7 +800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Aitovieri 2",
             "postalcode": "02940"
           }
         ],
@@ -860,7 +820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Läntinen teollisuuskatu 3",
             "postalcode": "02920"
           }
         ],
@@ -881,7 +840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Juvansyrjä 15",
             "postalcode": "02920"
           }
         ],
@@ -902,7 +860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Purolaakso 9",
             "postalcode": "02920"
           }
         ],
@@ -923,7 +880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Purometsä 9",
             "postalcode": "02920"
           }
         ],
@@ -944,7 +900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nikunkuja 6",
             "postalcode": "02920"
           }
         ],
@@ -965,7 +920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sipulipolku 2",
             "postalcode": "02920"
           }
         ],
@@ -986,7 +940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hevostilantie 4",
             "postalcode": "02920"
           }
         ],
@@ -1007,7 +960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nikunpellontanner 2",
             "postalcode": "02920"
           }
         ],
@@ -1028,7 +980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Karhuniityntie 22",
             "postalcode": "02810"
           }
         ],
@@ -1049,7 +1000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vehkasaari",
             "postalcode": "02160"
           }
         ],
@@ -1070,7 +1020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rautiaisentie 21",
             "postalcode": "02660"
           }
         ],
@@ -1091,7 +1040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hiiralankaari 10",
             "postalcode": "02160"
           }
         ],
@@ -1112,7 +1060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tinapuisto 3",
             "postalcode": "02750"
           }
         ],
@@ -1133,7 +1080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nallenpolku 4",
             "postalcode": "02110"
           }
         ],
@@ -1154,7 +1100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Aarnivalkeantie 10",
             "postalcode": "02100"
           }
         ],
@@ -1175,7 +1120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pronssitie 1a",
             "postalcode": "02750"
           }
         ],
@@ -1196,7 +1140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kromitie 13a",
             "postalcode": "02750"
           }
         ],
@@ -1217,7 +1160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lyijypolku 4",
             "postalcode": "02750"
           }
         ],
@@ -1238,7 +1180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lyijypolku 4",
             "postalcode": "02750"
           }
         ],
@@ -1259,7 +1200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pakastiaisentie 3",
             "postalcode": "02660"
           }
         ],
@@ -1280,7 +1220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Länsitie 20",
             "postalcode": "02160"
           }
         ],
@@ -1301,7 +1240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Iltaruskontie 2",
             "postalcode": "02120"
           }
         ],
@@ -1322,7 +1260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Harjuviita 6",
             "postalcode": "02110"
           }
         ],
@@ -1343,7 +1280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kontionkuja 5",
             "postalcode": "02110"
           }
         ],
@@ -1364,7 +1300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kuurinniityntie 16c",
             "postalcode": "02750"
           }
         ],
@@ -1385,7 +1320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Piilipuuntie 18",
             "postalcode": "02250"
           }
         ],
@@ -1406,7 +1340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Suvikummunrinne 4",
             "postalcode": "02120"
           }
         ],
@@ -1427,7 +1360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Harjuviita 2",
             "postalcode": "02110"
           }
         ],
@@ -1448,7 +1380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tapiolanraitti",
             "postalcode": "02100"
           }
         ],
@@ -1469,7 +1400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kromitie 19",
             "postalcode": "02750"
           }
         ],
@@ -1490,7 +1420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Päivänkaari 9",
             "postalcode": "02210"
           }
         ],
@@ -1511,7 +1440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pikkulinnunreitti 19",
             "postalcode": "02660"
           }
         ],
@@ -1532,7 +1460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hempontie 6b",
             "postalcode": "02660"
           }
         ],
@@ -1553,7 +1480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tuurinmäentie 12",
             "postalcode": "02250"
           }
         ],
@@ -1574,7 +1500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tikaskallio 4",
             "postalcode": "02250"
           }
         ],
@@ -1595,7 +1520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tuurinniityntie 8",
             "postalcode": "02250"
           }
         ],
@@ -1616,7 +1540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kuutamokatu 6",
             "postalcode": "02210"
           }
         ],
@@ -1637,7 +1560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sulka 4",
             "postalcode": "02660"
           }
         ],
@@ -1658,7 +1580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kuunkierros 3",
             "postalcode": "02210"
           }
         ],
@@ -1679,7 +1600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ellipsipolku 4",
             "postalcode": "02210"
           }
         ],
@@ -1700,7 +1620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pohjoinen Lintuvaarantie 30",
             "postalcode": "02600"
           }
         ],
@@ -1721,7 +1640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pajusirkuntie 5",
             "postalcode": "02660"
           }
         ],
@@ -1742,7 +1660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Suvelantie 16",
             "postalcode": "02760"
           }
         ],
@@ -1763,7 +1680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pulmusentie 1",
             "postalcode": "02660"
           }
         ],
@@ -1784,7 +1700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Upseerinkatu 1",
             "postalcode": "02600"
           }
         ],
@@ -1805,7 +1720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vallikallionkuja 2",
             "postalcode": "02650"
           }
         ],
@@ -1826,7 +1740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Porarinkatu 7",
             "postalcode": "02650"
           }
         ],
@@ -1847,7 +1760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lahnuksentie 31",
             "postalcode": "02970"
           }
         ],
@@ -1868,7 +1780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Jalavakuja 1",
             "postalcode": "02760"
           }
         ],
@@ -1889,7 +1800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sunantie 19",
             "postalcode": "02760"
           }
         ],
@@ -1910,7 +1820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ajurinkatu 4",
             "postalcode": "02650"
           }
         ],
@@ -1931,7 +1840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Yläkalliontie 3",
             "postalcode": "02760"
           }
         ],
@@ -1952,7 +1860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Yläniityntie 3",
             "postalcode": "02760"
           }
         ],
@@ -1973,7 +1880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Postipuuntie 10",
             "postalcode": "02650"
           }
         ],
@@ -1994,7 +1900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vermonkuja 6",
             "postalcode": "00370"
           }
         ],
@@ -2015,7 +1920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vermonpolku 3",
             "postalcode": "00370"
           }
         ],
@@ -2036,7 +1940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lahnuksentie 19-21",
             "postalcode": "02970"
           }
         ],
@@ -2057,7 +1960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Huhtamäentie 12",
             "postalcode": "02970"
           }
         ],
@@ -2078,7 +1980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sunankalliontie 33",
             "postalcode": "02760"
           }
         ],
@@ -2099,7 +2000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Eriksbergintie 4",
             "postalcode": "02970"
           }
         ],
@@ -2120,7 +2020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tammilaaksontie 3b",
             "postalcode": "02330"
           }
         ],
@@ -2141,7 +2040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Alakalliontie 2",
             "postalcode": "02760"
           }
         ],
@@ -2162,7 +2060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Veräjäpellonkatu 17",
             "postalcode": "02650"
           }
         ],
@@ -2183,7 +2080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mäkkylänmutka 5",
             "postalcode": "02650"
           }
         ],
@@ -2204,7 +2100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kukkaromäki 2",
             "postalcode": "02770"
           }
         ],
@@ -2225,7 +2120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Liittokuja 2",
             "postalcode": "02770"
           }
         ],
@@ -2246,7 +2140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vahtirinne 6",
             "postalcode": "00370"
           }
         ],
@@ -2267,7 +2160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sokerilinnantie 2",
             "postalcode": "02600"
           }
         ],
@@ -2288,7 +2180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kiiltokalliontie 8",
             "postalcode": "02180"
           }
         ],
@@ -2309,7 +2200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kaksoiskiventie 45",
             "postalcode": "02760"
           }
         ],
@@ -2330,7 +2220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kiiltokalliontie 13",
             "postalcode": "02180"
           }
         ],
@@ -2351,7 +2240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kaksoiskiventie 7-9",
             "postalcode": "02760"
           }
         ],
@@ -2372,7 +2260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sepelkyyhkyntie 1",
             "postalcode": "02660"
           }
         ],
@@ -2393,7 +2280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Luhtatie 22",
             "postalcode": "02760"
           }
         ],
@@ -2414,7 +2300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pitkännotkontie 7",
             "postalcode": "02760"
           }
         ],
@@ -2435,7 +2320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sotaviskaalintie 1",
             "postalcode": "00370"
           }
         ],
@@ -2456,7 +2340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kalliorinne 5",
             "postalcode": "02770"
           }
         ],
@@ -2477,7 +2360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Talkoorinne 6",
             "postalcode": "02760"
           }
         ],
@@ -2498,7 +2380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Heinäväenkuja 5",
             "postalcode": "02760"
           }
         ],
@@ -2519,7 +2400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Talkookuja 5",
             "postalcode": "02760"
           }
         ],
@@ -2540,7 +2420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Puistotie 12a",
             "postalcode": "02760"
           }
         ],
@@ -2561,7 +2440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kaksoiskiventie 49",
             "postalcode": "02760"
           }
         ],
@@ -2582,7 +2460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nuotiotie 17",
             "postalcode": "02600"
           }
         ],
@@ -2603,7 +2480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ratavallintie 5",
             "postalcode": "02760"
           }
         ],
@@ -2624,7 +2500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kyyhkysmäki 18",
             "postalcode": "02650"
           }
         ],
@@ -2645,7 +2520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rannikontie 8",
             "postalcode": "02780"
           }
         ],
@@ -2666,7 +2540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rannikontie 11",
             "postalcode": "02780"
           }
         ],
@@ -2687,7 +2560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Keskitie 7",
             "postalcode": "02330"
           }
         ],
@@ -2708,7 +2580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vuoriharjuntie 47",
             "postalcode": "02330"
           }
         ],
@@ -2729,7 +2600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kiltaraitti 3",
             "postalcode": "02770"
           }
         ],
@@ -2750,7 +2620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hösmärintie 3",
             "postalcode": "02770"
           }
         ],
@@ -2771,7 +2640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Löylytie 6",
             "postalcode": "02770"
           }
         ],
@@ -2792,7 +2660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nikunmäki 16",
             "postalcode": "02920"
           }
         ],
@@ -2813,7 +2680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Minttupelto 11",
             "postalcode": "02920"
           }
         ],
@@ -2834,7 +2700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Metsäkukantie 2",
             "postalcode": "02330"
           }
         ],
@@ -2855,7 +2720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Metsäkukantie 4",
             "postalcode": "02330"
           }
         ],
@@ -2876,7 +2740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kiuaskuja 3b",
             "postalcode": "02770"
           }
         ],
@@ -2897,7 +2760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vuoripirtintie 2",
             "postalcode": "02330"
           }
         ],
@@ -2918,7 +2780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Saunamäentie 31",
             "postalcode": "02770"
           }
         ],
@@ -2939,7 +2800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Penkkikuja 4",
             "postalcode": "02770"
           }
         ],
@@ -2960,7 +2820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Penkkikuja 6",
             "postalcode": "02770"
           }
         ],
@@ -2981,7 +2840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Perusmäentie 23b",
             "postalcode": "02920"
           }
         ],
@@ -3002,7 +2860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kivipylvääntie 16a",
             "postalcode": "02940"
           }
         ],
@@ -3023,7 +2880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Staffanintie 17",
             "postalcode": "02360"
           }
         ],
@@ -3044,7 +2900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Soukanniemi 10",
             "postalcode": "02360"
           }
         ],
@@ -3065,7 +2920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Peringintie 1a",
             "postalcode": "02780"
           }
         ],
@@ -3086,7 +2940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Savitiilenkuja 2",
             "postalcode": "02330"
           }
         ],
@@ -3107,7 +2960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rakentajaintie 24c",
             "postalcode": "02330"
           }
         ],
@@ -3128,7 +2980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kihokkiniitty 13",
             "postalcode": "02970"
           }
         ],
@@ -3149,7 +3000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Laidunkuja 2",
             "postalcode": "02330"
           }
         ],
@@ -3170,7 +3020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rakentajainkuja 12",
             "postalcode": "02330"
           }
         ],
@@ -3191,7 +3040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Porrastie 5",
             "postalcode": "02330"
           }
         ],
@@ -3212,7 +3060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Staffanintie 10",
             "postalcode": "02360"
           }
         ],
@@ -3233,7 +3080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Svartholmen Soukka",
             "postalcode": "02360"
           }
         ],
@@ -3254,7 +3100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Latvatie 18",
             "postalcode": "02710"
           }
         ],
@@ -3275,7 +3120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tähdenlennontie 5",
             "postalcode": "02240"
           }
         ],
@@ -3296,7 +3140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Friisinniityntie 2",
             "postalcode": "02240"
           }
         ],
@@ -3317,7 +3160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Friisinniityntie 17",
             "postalcode": "02240"
           }
         ],
@@ -3338,7 +3180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tähdenlennontie 57",
             "postalcode": "02240"
           }
         ],
@@ -3359,7 +3200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Friisiläntie 30",
             "postalcode": "02240"
           }
         ],
@@ -3380,7 +3220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tapiontie 8a",
             "postalcode": "02720"
           }
         ],
@@ -3401,7 +3240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hirsitie 12",
             "postalcode": "02720"
           }
         ],
@@ -3422,7 +3260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hirsitie 31",
             "postalcode": "02720"
           }
         ],
@@ -3443,7 +3280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hirsitie 35",
             "postalcode": "02720"
           }
         ],
@@ -3464,7 +3300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Isonmäenkuja 4",
             "postalcode": "02970"
           }
         ],
@@ -3485,7 +3320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Etelätie 24",
             "postalcode": "02710"
           }
         ],
@@ -3506,7 +3340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Karpintie 16",
             "postalcode": "02260"
           }
         ],
@@ -3527,7 +3360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sammenpolku 3",
             "postalcode": "02260"
           }
         ],
@@ -3548,7 +3380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mariannantie 22",
             "postalcode": "02970"
           }
         ],
@@ -3569,7 +3400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mariannantie 24",
             "postalcode": "02970"
           }
         ],
@@ -3590,7 +3420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Jupperintie 2",
             "postalcode": "02730"
           }
         ],
@@ -3611,7 +3440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Jupperinmetsä 10",
             "postalcode": "02730"
           }
         ],
@@ -3632,7 +3460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kuudes järvikuja 3",
             "postalcode": "02730"
           }
         ],
@@ -3653,7 +3480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lehtitie 30",
             "postalcode": "02730"
           }
         ],
@@ -3674,7 +3500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Laaksolahdentie 90",
             "postalcode": "02730"
           }
         ],
@@ -3695,7 +3520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rinnetie 9",
             "postalcode": "02730"
           }
         ],
@@ -3716,7 +3540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vahverokuja 6",
             "postalcode": "02730"
           }
         ],
@@ -3737,7 +3560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Korpilaakso 8",
             "postalcode": "02970"
           }
         ],
@@ -3758,7 +3580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Metsämaantie 19a",
             "postalcode": "02970"
           }
         ],
@@ -3779,7 +3600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Örkkiniityntie 54",
             "postalcode": "02970"
           }
         ],
@@ -3800,7 +3620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tammipääntie 9",
             "postalcode": "02730"
           }
         ],
@@ -3821,7 +3640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Palomäentie 12",
             "postalcode": "02730"
           }
         ],
@@ -3842,7 +3660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vahverotie 8",
             "postalcode": "02730"
           }
         ],
@@ -3863,7 +3680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Stenbackantie 8",
             "postalcode": "02780"
           }
         ],
@@ -3884,7 +3700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mulbyntie 7",
             "postalcode": "02780"
           }
         ],
@@ -3905,7 +3720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mäkituvantie 4",
             "postalcode": "02780"
           }
         ],
@@ -3926,7 +3740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Saunaniementie 11",
             "postalcode": "02780"
           }
         ],
@@ -3947,7 +3760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Parsitie 5",
             "postalcode": "02620"
           }
         ],
@@ -3968,7 +3780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Riihiuunintie 2a",
             "postalcode": "02620"
           }
         ],
@@ -3989,7 +3800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Äraportti 3",
             "postalcode": "02620"
           }
         ],
@@ -4010,7 +3820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Keskitie 16",
             "postalcode": "02330"
           }
         ],
@@ -4031,7 +3840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vanha Rastaalantie 29",
             "postalcode": "02620"
           }
         ],
@@ -4052,7 +3860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Veininmäki 10",
             "postalcode": "02620"
           }
         ],
@@ -4073,7 +3880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rastaalanrinne 6",
             "postalcode": "02620"
           }
         ],
@@ -4094,7 +3900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Martinmetsä 2",
             "postalcode": "02300"
           }
         ],
@@ -4115,7 +3920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Olkiniitty 4",
             "postalcode": "02620"
           }
         ],
@@ -4136,7 +3940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Törmäniityntie 5",
             "postalcode": "02710"
           }
         ],
@@ -4157,7 +3960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Törmänsilmänkuja 12",
             "postalcode": "02710"
           }
         ],
@@ -4178,7 +3980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lukionahde 1",
             "postalcode": "02710"
           }
         ],
@@ -4199,7 +4000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nuuniitynkuja 2",
             "postalcode": "02710"
           }
         ],
@@ -4220,7 +4020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Suokalliontie 22c",
             "postalcode": "02860"
           }
         ],
@@ -4241,7 +4040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Herastuomarintie 9",
             "postalcode": "02770"
           }
         ],
@@ -4262,7 +4060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tikasniitynkuja 14",
             "postalcode": "02250"
           }
         ],
@@ -4283,7 +4080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Svartholmantie 3",
             "postalcode": "02380"
           }
         ],
@@ -4304,7 +4100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Örkkiniitynkuja 8",
             "postalcode": "02970"
           }
         ],
@@ -4325,7 +4120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Korpilammentie 10e",
             "postalcode": "02970"
           }
         ],
@@ -4346,7 +4140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Viiripelto 5",
             "postalcode": "02970"
           }
         ],
@@ -4367,7 +4160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Storgårdintie 3",
             "postalcode": "02970"
           }
         ],
@@ -4388,7 +4180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Aapontie 12",
             "postalcode": "02180"
           }
         ],
@@ -4409,7 +4200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sorvalammentie 14",
             "postalcode": "02740"
           }
         ],
@@ -4430,7 +4220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sorvarinne 3",
             "postalcode": "02740"
           }
         ],
@@ -4451,7 +4240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Keltonkuja 4",
             "postalcode": "02180"
           }
         ],
@@ -4472,7 +4260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sorvalammentie 12",
             "postalcode": "02740"
           }
         ],
@@ -4493,7 +4280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sorvalammenkuja 2",
             "postalcode": "02740"
           }
         ],
@@ -4514,7 +4300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vähäntorpankuja 7",
             "postalcode": "02180"
           }
         ],
@@ -4535,7 +4320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vehkaniityntie 3",
             "postalcode": "02180"
           }
         ],
@@ -4556,7 +4340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vehkarinne 4a",
             "postalcode": "02180"
           }
         ],
@@ -4577,7 +4360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tollinrinne 10",
             "postalcode": "02740"
           }
         ],
@@ -4598,7 +4380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vehkamäentie 1b",
             "postalcode": "02180"
           }
         ],
@@ -4619,7 +4400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kruununkuja 4",
             "postalcode": "02180"
           }
         ],
@@ -4640,7 +4420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Bellinrinne 4",
             "postalcode": "02740"
           }
         ],
@@ -4661,7 +4440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kunnarlantie 52",
             "postalcode": "02740"
           }
         ],
@@ -4682,7 +4460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lukkarinojantie 14",
             "postalcode": "02740"
           }
         ],
@@ -4703,7 +4480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Piispanpiha 5",
             "postalcode": "02200"
           }
         ],
@@ -4724,7 +4500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Porttitie 25",
             "postalcode": "02180"
           }
         ],
@@ -4745,7 +4520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Porttiniityntie 8",
             "postalcode": "02180"
           }
         ],
@@ -4766,7 +4540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Puuhkalakintie 26",
             "postalcode": "02780"
           }
         ],
@@ -4787,7 +4560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kavallinmäki 7",
             "postalcode": "02710"
           }
         ],
@@ -4808,7 +4580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kalmarintie 5a",
             "postalcode": "02740"
           }
         ],
@@ -4829,7 +4600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kunnarlantie 94",
             "postalcode": "02740"
           }
         ],
@@ -4850,7 +4620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Bodominkuja 4",
             "postalcode": "02940"
           }
         ],
@@ -4871,7 +4640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hiidenkiukaantie 5",
             "postalcode": "02280"
           }
         ],
@@ -4892,7 +4660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Liljapolku 6",
             "postalcode": "02210"
           }
         ],
@@ -4913,7 +4680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Syreenipolku 8",
             "postalcode": "02210"
           }
         ],
@@ -4934,7 +4700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tervaspiha 6",
             "postalcode": "02210"
           }
         ],
@@ -4955,7 +4720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sakkolantie 16",
             "postalcode": "02140"
           }
         ],
@@ -4976,7 +4740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Turuntie 150",
             "postalcode": "02740"
           }
         ],
@@ -4997,7 +4760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kuninkaankartanontie 10",
             "postalcode": "02780"
           }
         ],
@@ -5018,7 +4780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Luuvanmetsä 6",
             "postalcode": "02620"
           }
         ],
@@ -5039,7 +4800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kalajärvenranta 11",
             "postalcode": "02970"
           }
         ],
@@ -5060,7 +4820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Röyläntie 38",
             "postalcode": "02940"
           }
         ],
@@ -5081,7 +4840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lahnuksentie 49",
             "postalcode": "02970"
           }
         ],
@@ -5102,7 +4860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tippavaara",
             "postalcode": "02970"
           }
         ],
@@ -5123,7 +4880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vanha Nemlahdentie 3",
             "postalcode": "02970"
           }
         ],
@@ -5144,7 +4900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vuoriharjuntie 51",
             "postalcode": "02330"
           }
         ],
@@ -5165,7 +4920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Metsätorpantie 8b",
             "postalcode": "02940"
           }
         ],
@@ -5186,7 +4940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lakeanmäentie 1",
             "postalcode": "02750"
           }
         ],
@@ -5207,7 +4960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vasaramäki 8",
             "postalcode": "02750"
           }
         ],
@@ -5228,7 +4980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Luukintie 4",
             "postalcode": "02940"
           }
         ],
@@ -5249,7 +5000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ramsiontie 7",
             "postalcode": "02380"
           }
         ],
@@ -5270,7 +5020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kopplakobben",
             "postalcode": "02380"
           }
         ],
@@ -5291,7 +5040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vuoriharjuntie 16",
             "postalcode": "02330"
           }
         ],
@@ -5312,7 +5060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hyljelahdentie 19",
             "postalcode": "02260"
           }
         ],
@@ -5333,7 +5080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hyljeveneentie 1",
             "postalcode": "02260"
           }
         ],
@@ -5354,7 +5100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kavallinkuja 1",
             "postalcode": "02710"
           }
         ],
@@ -5375,7 +5120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Helsingintie 57",
             "postalcode": "02710"
           }
         ],
@@ -5396,7 +5140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Järvitorppa 6",
             "postalcode": "02360"
           }
         ],
@@ -5417,7 +5160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ylärinne 13",
             "postalcode": "02360"
           }
         ],
@@ -5438,7 +5180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Åminnenranta 4",
             "postalcode": "02780"
           }
         ],
@@ -5459,7 +5200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mäkirinne 5",
             "postalcode": "02360"
           }
         ],
@@ -5480,7 +5220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kaitaankulma 6",
             "postalcode": "02360"
           }
         ],
@@ -5501,7 +5240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kaitaanportti 4",
             "postalcode": "02360"
           }
         ],
@@ -5522,7 +5260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Heiniemenpolku 8b",
             "postalcode": "02940"
           }
         ],
@@ -5543,7 +5280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vilniementie 1",
             "postalcode": "02940"
           }
         ],
@@ -5564,7 +5300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hannusjärventie 3",
             "postalcode": "02360"
           }
         ],
@@ -5585,7 +5320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hannusjärventie 3",
             "postalcode": "02360"
           }
         ],
@@ -5606,7 +5340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hannusranta 8",
             "postalcode": "02260"
           }
         ],
@@ -5627,7 +5360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Viputie 14-16",
             "postalcode": "02940"
           }
         ],
@@ -5648,7 +5380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kielotie 4",
             "postalcode": "02260"
           }
         ],
@@ -5669,7 +5400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hannuksenrinne 1",
             "postalcode": "02270"
           }
         ],
@@ -5690,7 +5420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kahakuja 6",
             "postalcode": "02940"
           }
         ],
@@ -5711,7 +5440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kolkerannantie 8",
             "postalcode": "02940"
           }
         ],
@@ -5732,7 +5460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Linnustajantie 6",
             "postalcode": "02940"
           }
         ],
@@ -5753,7 +5480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Linnustajantie 11",
             "postalcode": "02940"
           }
         ],
@@ -5774,7 +5500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vesiniityntie 6",
             "postalcode": "02360"
           }
         ],
@@ -5795,7 +5520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rysäkuja 10",
             "postalcode": "02260"
           }
         ],
@@ -5816,7 +5540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lippajärventie 44",
             "postalcode": "02940"
           }
         ],
@@ -5837,7 +5560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ajokoirantie 9b",
             "postalcode": "02940"
           }
         ],
@@ -5858,7 +5580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pitkäjärvenranta 29",
             "postalcode": "02730"
           }
         ],
@@ -5879,7 +5600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nummitie 25",
             "postalcode": "02730"
           }
         ],
@@ -5900,7 +5620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Soukankaari 13",
             "postalcode": "02360"
           }
         ],
@@ -5921,7 +5640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Soukan rantatie 6",
             "postalcode": "02360"
           }
         ],
@@ -5942,7 +5660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Soukan rantatie 8",
             "postalcode": "02360"
           }
         ],
@@ -5963,7 +5680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kauklahdentie 1",
             "postalcode": "02780"
           }
         ],
@@ -5984,7 +5700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kauklahdentie 1",
             "postalcode": "02780"
           }
         ],
@@ -6005,7 +5720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Soukan rantatie 14",
             "postalcode": "02360"
           }
         ],
@@ -6026,7 +5740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Soukanlahdentie 5",
             "postalcode": "02360"
           }
         ],
@@ -6047,7 +5760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Riihikuja 11",
             "postalcode": "02620"
           }
         ],
@@ -6068,7 +5780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Purometsä 14",
             "postalcode": "02920"
           }
         ],
@@ -6089,7 +5800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Perusmäentie 12a",
             "postalcode": "02920"
           }
         ],
@@ -6110,7 +5820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nikunpellontörmä 6",
             "postalcode": "02920"
           }
         ],
@@ -6131,7 +5840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Soukansalmentie 14d",
             "postalcode": "02360"
           }
         ],
@@ -6152,7 +5860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Salmensuu 2",
             "postalcode": "02360"
           }
         ],
@@ -6173,7 +5880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Odilammentie 21",
             "postalcode": "02970"
           }
         ],
@@ -6194,7 +5900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Odilammentie 13",
             "postalcode": "02970"
           }
         ],
@@ -6215,7 +5920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Soukansalmenkuja 3d",
             "postalcode": "02360"
           }
         ],
@@ -6236,7 +5940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Salmenpolku 4",
             "postalcode": "02360"
           }
         ],
@@ -6257,7 +5960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ampujanmäki 5",
             "postalcode": "02360"
           }
         ],
@@ -6278,7 +5980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nuorisontie 8",
             "postalcode": "02920"
           }
         ],
@@ -6299,7 +6000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Merivalkama 7",
             "postalcode": "02320"
           }
         ],
@@ -6320,7 +6020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ståhlentie 13",
             "postalcode": "02920"
           }
         ],
@@ -6341,7 +6040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tyrskykuja 2",
             "postalcode": "02320"
           }
         ],
@@ -6362,7 +6060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Aallonkohina 2",
             "postalcode": "02320"
           }
         ],
@@ -6383,7 +6080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Näkinkaari 2",
             "postalcode": "02320"
           }
         ],
@@ -6404,7 +6100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Valssitie 13",
             "postalcode": "02920"
           }
         ],
@@ -6425,7 +6120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Valssitie 16",
             "postalcode": "02920"
           }
         ],
@@ -6446,7 +6140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Laurinlahdentie 21",
             "postalcode": "02320"
           }
         ],
@@ -6467,7 +6160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Näkki 3",
             "postalcode": "02320"
           }
         ],
@@ -6488,7 +6180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Krattikuja 4",
             "postalcode": "02320"
           }
         ],
@@ -6509,7 +6200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Laurinlahdenkuja 4",
             "postalcode": "02320"
           }
         ],
@@ -6530,7 +6220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Laurinlahdenkuja 16",
             "postalcode": "02320"
           }
         ],
@@ -6551,7 +6240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Viiskorvenmäki 5",
             "postalcode": "02920"
           }
         ],
@@ -6572,7 +6260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Suonlaita 3",
             "postalcode": "02970"
           }
         ],
@@ -6593,7 +6280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Perusmäen puistotie 25",
             "postalcode": "02920"
           }
         ],
@@ -6614,7 +6300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Laurinlahdenkuja 7",
             "postalcode": "02320"
           }
         ],
@@ -6635,7 +6320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ristiniementie 26",
             "postalcode": "02320"
           }
         ],
@@ -6656,7 +6340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ahotie 11",
             "postalcode": "02940"
           }
         ],
@@ -6677,7 +6360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ohrakuja 4",
             "postalcode": "02920"
           }
         ],
@@ -6698,7 +6380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Viiskorvenmäki 8",
             "postalcode": "02920"
           }
         ],
@@ -6719,7 +6400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Viiskorvenmäki 8",
             "postalcode": "02920"
           }
         ],
@@ -6740,7 +6420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ristiniementie 32",
             "postalcode": "02320"
           }
         ],
@@ -6761,7 +6440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ristiniementie 36",
             "postalcode": "02320"
           }
         ],
@@ -6782,7 +6460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Manninpellontie 25",
             "postalcode": "02970"
           }
         ],
@@ -6803,7 +6480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kortesrinne 8",
             "postalcode": "02970"
           }
         ],
@@ -6824,7 +6500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vanhankartanontie 32",
             "postalcode": "02920"
           }
         ],
@@ -6845,7 +6520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ruorikuja 4",
             "postalcode": "02320"
           }
         ],
@@ -6866,7 +6540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Karantie 2",
             "postalcode": "02630"
           }
         ],
@@ -6887,7 +6560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nihtisalontie 17",
             "postalcode": "02630"
           }
         ],
@@ -6908,7 +6580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nihtikuja 5",
             "postalcode": "02630"
           }
         ],
@@ -6929,7 +6600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vitikka 1",
             "postalcode": "02630"
           }
         ],
@@ -6950,7 +6620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kelkkamäki 12",
             "postalcode": "02610"
           }
         ],
@@ -6971,7 +6640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kilontie 16",
             "postalcode": "02610"
           }
         ],
@@ -6992,7 +6660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kilontie 16",
             "postalcode": "02610"
           }
         ],
@@ -7013,7 +6680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kiviharjuntie 2",
             "postalcode": "02330"
           }
         ],
@@ -7034,7 +6700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Herttuantie 1",
             "postalcode": "02610"
           }
         ],
@@ -7055,7 +6720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kuninkaistentie 7",
             "postalcode": "02610"
           }
         ],
@@ -7076,7 +6740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kilontie 8",
             "postalcode": "02610"
           }
         ],
@@ -7097,7 +6760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lansanportti 6b",
             "postalcode": "02630"
           }
         ],
@@ -7118,7 +6780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ruotutorppa 6",
             "postalcode": "02610"
           }
         ],
@@ -7139,7 +6800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kilpitie 15",
             "postalcode": "02610"
           }
         ],
@@ -7160,7 +6820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kilpitie 11",
             "postalcode": "02610"
           }
         ],
@@ -7181,7 +6840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kypäräkuja 3",
             "postalcode": "02610"
           }
         ],
@@ -7202,7 +6860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Linkomäki 2",
             "postalcode": "02630"
           }
         ],
@@ -7223,7 +6880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Siuntionkuja 7",
             "postalcode": "02600"
           }
         ],
@@ -7244,7 +6900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Degerbyntie 21",
             "postalcode": "02600"
           }
         ],
@@ -7265,7 +6920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Degerbyntie 23",
             "postalcode": "02600"
           }
         ],
@@ -7286,7 +6940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Stensinmäki 4",
             "postalcode": "02750"
           }
         ],
@@ -7307,7 +6960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hakarinne 6",
             "postalcode": "02120"
           }
         ],
@@ -7328,7 +6980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sateenkuja 7",
             "postalcode": "02100"
           }
         ],
@@ -7349,7 +7000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Peuramäentie 2",
             "postalcode": "02750"
           }
         ],
@@ -7370,7 +7020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vuoripirtintie 11",
             "postalcode": "02330"
           }
         ],
@@ -7391,7 +7040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kalevanvainio 8",
             "postalcode": "02100"
           }
         ],
@@ -7412,7 +7060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pihkapolku 1",
             "postalcode": "02110"
           }
         ],
@@ -7433,7 +7080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ymmerstanmäki 16",
             "postalcode": "02750"
           }
         ],
@@ -7454,7 +7100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ristihaantie 9",
             "postalcode": "02750"
           }
         ],
@@ -7475,7 +7120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kaupinkalliontie 4",
             "postalcode": "02100"
           }
         ],
@@ -7496,7 +7140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Koivuhovintie 8",
             "postalcode": "02750"
           }
         ],
@@ -7517,7 +7160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kauppalanportti 1",
             "postalcode": "02750"
           }
         ],
@@ -7538,7 +7180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kotkatie 6",
             "postalcode": "02620"
           }
         ],
@@ -7559,7 +7200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lyökkiniemi 20",
             "postalcode": "02160"
           }
         ],
@@ -7580,7 +7220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hiiralantie 1",
             "postalcode": "02160"
           }
         ],
@@ -7601,7 +7240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hiiralankaari 13",
             "postalcode": "02160"
           }
         ],
@@ -7622,7 +7260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Varpushaukankuja 8",
             "postalcode": "02620"
           }
         ],
@@ -7643,7 +7280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pääskyskuja 8",
             "postalcode": "02620"
           }
         ],
@@ -7664,7 +7300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mäensyrjä 2",
             "postalcode": "02160"
           }
         ],
@@ -7685,7 +7320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hallavantorpantie 5",
             "postalcode": "02820"
           }
         ],
@@ -7706,7 +7340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Westendintie 93",
             "postalcode": "02160"
           }
         ],
@@ -7727,7 +7360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Munkkiluodonkuja 2",
             "postalcode": "02160"
           }
         ],
@@ -7748,7 +7380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Telakuja 1",
             "postalcode": "02170"
           }
         ],
@@ -7769,7 +7400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kurkihirrentie 8",
             "postalcode": "02330"
           }
         ],
@@ -7790,7 +7420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Keltarousku 5",
             "postalcode": "02730"
           }
         ],
@@ -7811,7 +7440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Itäviitta 3",
             "postalcode": "02330"
           }
         ],
@@ -7832,7 +7460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Paasikuja 6b",
             "postalcode": "02330"
           }
         ],
@@ -7853,7 +7480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Länsimetsä 9",
             "postalcode": "02300"
           }
         ],
@@ -7874,7 +7500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Välimetsä 9",
             "postalcode": "02300"
           }
         ],
@@ -7895,7 +7520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kolmas huvilatie 10",
             "postalcode": "02730"
           }
         ],
@@ -7916,7 +7540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Martinmetsä 17",
             "postalcode": "02300"
           }
         ],
@@ -7937,7 +7560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kuudes huvilatie 5",
             "postalcode": "02730"
           }
         ],
@@ -7958,7 +7580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Laaksolahdentie 92",
             "postalcode": "02730"
           }
         ],
@@ -7979,7 +7600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Brändholm",
             "postalcode": "02230"
           }
         ],
@@ -8000,7 +7620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ylänkörinne 7",
             "postalcode": "02730"
           }
         ],
@@ -8021,7 +7640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pitkäjärventie 31b",
             "postalcode": "02730"
           }
         ],
@@ -8042,7 +7660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Päivänkajontie 9",
             "postalcode": "02210"
           }
         ],
@@ -8063,7 +7680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Iivisniemenkatu 4",
             "postalcode": "02260"
           }
         ],
@@ -8084,7 +7700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ensimmäinen huvilatie 5b",
             "postalcode": "02730"
           }
         ],
@@ -8105,7 +7720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Laaksolahdentie 30a",
             "postalcode": "02720"
           }
         ],
@@ -8126,7 +7740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Etelätie 33",
             "postalcode": "02710"
           }
         ],
@@ -8147,7 +7760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Taavinharju 8",
             "postalcode": "02180"
           }
         ],
@@ -8168,7 +7780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kurutie 22",
             "postalcode": "02810"
           }
         ],
@@ -8189,7 +7800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kolmperänkuja 4",
             "postalcode": "02820"
           }
         ],
@@ -8210,7 +7820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kolmperänkuja 9",
             "postalcode": "02820"
           }
         ],
@@ -8231,7 +7840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Karhusuonkuja 15",
             "postalcode": "02810"
           }
         ],
@@ -8252,7 +7860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rintinrinne 6",
             "postalcode": "02820"
           }
         ],
@@ -8273,7 +7880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mustanpurontie 23",
             "postalcode": "02820"
           }
         ],
@@ -8294,7 +7900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Brobackantie 29",
             "postalcode": "02820"
           }
         ],
@@ -8315,7 +7920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Haukkalammentie 9",
             "postalcode": "02820"
           }
         ],
@@ -8336,7 +7940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pertuskatie 11",
             "postalcode": "02630"
           }
         ],
@@ -8357,7 +7960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Toivalankuja 4",
             "postalcode": "02820"
           }
         ],
@@ -8378,7 +7980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nupurintie 33",
             "postalcode": "02820"
           }
         ],
@@ -8399,7 +8000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nuuksiontie 44",
             "postalcode": "02820"
           }
         ],
@@ -8420,7 +8020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Suopursunkuja 11",
             "postalcode": "02860"
           }
         ],
@@ -8441,7 +8040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hansatie 24",
             "postalcode": "02780"
           }
         ],
@@ -8462,7 +8060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kauristie 22",
             "postalcode": "02860"
           }
         ],
@@ -8483,7 +8080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kauristie 12",
             "postalcode": "02860"
           }
         ],
@@ -8504,7 +8100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kauristie 5",
             "postalcode": "02860"
           }
         ],
@@ -8525,7 +8120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Siikajärvenranta 30",
             "postalcode": "02860"
           }
         ],
@@ -8546,7 +8140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kolmirannantie 25",
             "postalcode": "02820"
           }
         ],
@@ -8567,7 +8160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vuohikallio 8",
             "postalcode": "02860"
           }
         ],
@@ -8588,7 +8180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Fickenkuja 4",
             "postalcode": "02780"
           }
         ],
@@ -8609,7 +8200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Perusmäentie 11",
             "postalcode": "02920"
           }
         ],
@@ -8630,7 +8220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kotimäenrinne 6",
             "postalcode": "02860"
           }
         ],
@@ -8651,7 +8240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Heinäslammentie 13",
             "postalcode": "02860"
           }
         ],
@@ -8672,7 +8260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vuohikallio 11",
             "postalcode": "02860"
           }
         ],
@@ -8693,7 +8280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kotimäentie 17",
             "postalcode": "02860"
           }
         ],
@@ -8714,7 +8300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mustanpurontie 11b",
             "postalcode": "02820"
           }
         ],
@@ -8735,7 +8320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Maulantie 12",
             "postalcode": "02820"
           }
         ],
@@ -8756,7 +8340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ykköstie 18",
             "postalcode": "02820"
           }
         ],
@@ -8777,7 +8360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Veikkaustie 32",
             "postalcode": "02820"
           }
         ],
@@ -8798,7 +8380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nupurinrinne 9",
             "postalcode": "02820"
           }
         ],
@@ -8819,7 +8400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kakkostie 12b",
             "postalcode": "02820"
           }
         ],
@@ -8840,7 +8420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pieni Lehtisaari",
             "postalcode": "02380"
           }
         ],
@@ -8861,7 +8440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Fallåkerinrinne 2",
             "postalcode": "02740"
           }
         ],
@@ -8882,7 +8460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kilpitie 13",
             "postalcode": "02610"
           }
         ],
@@ -8903,7 +8480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Iso Lehtisaari",
             "postalcode": "02380"
           }
         ],
@@ -8924,7 +8500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Veistokuja 2a",
             "postalcode": "02330"
           }
         ],
@@ -8945,7 +8520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lähderannantie 18",
             "postalcode": "02720"
           }
         ],
@@ -8966,7 +8540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Asgård 3",
             "postalcode": "02780"
           }
         ],
@@ -8987,7 +8560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Forsbackantie 18-20",
             "postalcode": "02780"
           }
         ],
@@ -9008,7 +8580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Perustajantie 1",
             "postalcode": "02920"
           }
         ],
@@ -9029,7 +8600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Peltoportti 3",
             "postalcode": "02920"
           }
         ],
@@ -9050,7 +8620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kuninkaansatama 4",
             "postalcode": "02160"
           }
         ],
@@ -9071,7 +8640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nuottaniementie 3",
             "postalcode": "02230"
           }
         ],
@@ -9092,7 +8660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lohitie 3",
             "postalcode": "02170"
           }
         ],
@@ -9113,7 +8680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kaskilaaksontie 1",
             "postalcode": "02360"
           }
         ],
@@ -9134,7 +8700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Madetie 10",
             "postalcode": "02170"
           }
         ],
@@ -9155,7 +8720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Särkitie 7",
             "postalcode": "02170"
           }
         ],
@@ -9176,7 +8740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tuhkurilammentie 42",
             "postalcode": "02980"
           }
         ],
@@ -9197,7 +8760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tuhkurinranta 10",
             "postalcode": "02980"
           }
         ],
@@ -9218,7 +8780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Salakkatie 9",
             "postalcode": "02170"
           }
         ],
@@ -9239,7 +8800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Haukilahdenkatu 6",
             "postalcode": "02170"
           }
         ],
@@ -9260,7 +8820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Loojärventie 13",
             "postalcode": "02780"
           }
         ],
@@ -9281,7 +8840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Toppelundinkuja 2",
             "postalcode": "02170"
           }
         ],
@@ -9302,7 +8860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tontunmäentie 34",
             "postalcode": "02200"
           }
         ],
@@ -9323,7 +8880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tontunmäentie 22",
             "postalcode": "02200"
           }
         ],
@@ -9344,7 +8900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Halujärventie 49",
             "postalcode": "02780"
           }
         ],
@@ -9365,7 +8920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Jakoniityntie 9",
             "postalcode": "02780"
           }
         ],
@@ -9386,7 +8940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lyhdekuja 3",
             "postalcode": "02200"
           }
         ],
@@ -9407,7 +8960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tontunmäentie 16",
             "postalcode": "02200"
           }
         ],
@@ -9428,7 +8980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tallimestarintie 23",
             "postalcode": "02940"
           }
         ],
@@ -9449,7 +9000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sisäkönkuja 3",
             "postalcode": "02940"
           }
         ],
@@ -9470,7 +9020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Riihitontuntie 12",
             "postalcode": "02200"
           }
         ],
@@ -9491,7 +9040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vääräjärventie 12",
             "postalcode": "02820"
           }
         ],
@@ -9512,7 +9060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vääräjärventie 12",
             "postalcode": "02820"
           }
         ],
@@ -9533,7 +9080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Koivuviidantie 20b",
             "postalcode": "02130"
           }
         ],
@@ -9554,7 +9100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Visakoivunkuja 6",
             "postalcode": "02130"
           }
         ],
@@ -9575,7 +9120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pitkäniitynlaita 9",
             "postalcode": "02810"
           }
         ],
@@ -9596,7 +9140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rauduntie 31",
             "postalcode": "02130"
           }
         ],
@@ -9617,7 +9160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sepontie 1",
             "postalcode": "02130"
           }
         ],
@@ -9638,7 +9180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Koivunrunko 8",
             "postalcode": "02130"
           }
         ],
@@ -9659,7 +9200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ukonvaaja 1",
             "postalcode": "02130"
           }
         ],
@@ -9680,7 +9220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Uudenkirkontie 4b",
             "postalcode": "02130"
           }
         ],
@@ -9701,7 +9240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Suotorpantie 14",
             "postalcode": "02130"
           }
         ],
@@ -9722,7 +9260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kivennavankuja 11",
             "postalcode": "02130"
           }
         ],
@@ -9743,7 +9280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lumivaarantie 6",
             "postalcode": "02140"
           }
         ],
@@ -9764,7 +9300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kaukolantie 3",
             "postalcode": "02140"
           }
         ],
@@ -9785,7 +9320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kirvuntie 29",
             "postalcode": "02140"
           }
         ],
@@ -9806,7 +9340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Alaportti 1",
             "postalcode": "02210"
           }
         ],
@@ -9827,7 +9360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rajamäentie 12",
             "postalcode": "02780"
           }
         ],
@@ -9848,7 +9380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Jaakkimantie 9",
             "postalcode": "02140"
           }
         ],
@@ -9869,7 +9400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kaukolantie 34",
             "postalcode": "02140"
           }
         ],
@@ -9890,7 +9420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Päivänkajontie 7",
             "postalcode": "02210"
           }
         ],
@@ -9911,7 +9440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Krenatöörintie 31",
             "postalcode": "02680"
           }
         ],
@@ -9932,7 +9460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Koukkuniementie 17",
             "postalcode": "02230"
           }
         ],
@@ -9953,7 +9480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Koukkuniemenkuja 1",
             "postalcode": "02230"
           }
         ],
@@ -9974,7 +9500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Selkänuotankuja 8",
             "postalcode": "02230"
           }
         ],
@@ -9995,7 +9520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nokkalankulma 7",
             "postalcode": "02230"
           }
         ],
@@ -10016,7 +9540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Seilikaari 5",
             "postalcode": "02180"
           }
         ],
@@ -10037,7 +9560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Seilikaari 8",
             "postalcode": "02180"
           }
         ],
@@ -10058,7 +9580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nokkalankulma 5",
             "postalcode": "02230"
           }
         ],
@@ -10079,7 +9600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lapionpisto 2",
             "postalcode": "02920"
           }
         ],
@@ -10100,7 +9620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Paulakuja 5",
             "postalcode": "02230"
           }
         ],
@@ -10121,7 +9640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kluuvintie 4",
             "postalcode": "02180"
           }
         ],
@@ -10142,7 +9660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Katiskatie 1",
             "postalcode": "02230"
           }
         ],
@@ -10163,7 +9680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Parolantie 3",
             "postalcode": "02200"
           }
         ],
@@ -10184,7 +9700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Parolanrinne 8",
             "postalcode": "02200"
           }
         ],
@@ -10205,7 +9720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nuottalahdentie 32",
             "postalcode": "02230"
           }
         ],
@@ -10226,7 +9740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Puntaritie 2",
             "postalcode": "02230"
           }
         ],
@@ -10247,7 +9760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nelikkokuja 6",
             "postalcode": "02230"
           }
         ],
@@ -10268,7 +9780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Matinkallio 7",
             "postalcode": "02230"
           }
         ],
@@ -10289,7 +9800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nelikkotie 12",
             "postalcode": "02230"
           }
         ],
@@ -10310,7 +9820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mankkaanpuro 25",
             "postalcode": "02180"
           }
         ],
@@ -10331,7 +9840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mankkaanpuro 11",
             "postalcode": "02180"
           }
         ],
@@ -10352,7 +9860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vanhan-Mankkaan tie 17",
             "postalcode": "02180"
           }
         ],
@@ -10373,7 +9880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lilla Blindsund",
             "postalcode": "02230"
           }
         ],
@@ -10394,7 +9900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Uudenkylänmäki 23",
             "postalcode": "02750"
           }
         ],
@@ -10415,7 +9920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Taavinharju 6",
             "postalcode": "02180"
           }
         ],
@@ -10436,7 +9940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kruununrinne 1b",
             "postalcode": "02180"
           }
         ],
@@ -10457,7 +9960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Taavinsuo 7",
             "postalcode": "02180"
           }
         ],
@@ -10478,7 +9980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Klovinmäki 3",
             "postalcode": "02180"
           }
         ],
@@ -10499,7 +10000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Taavinsuo 11",
             "postalcode": "02180"
           }
         ],
@@ -10520,7 +10020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Suomalaistentie 4",
             "postalcode": "02270"
           }
         ],
@@ -10541,7 +10040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Martinniitty 4",
             "postalcode": "02270"
           }
         ],
@@ -10562,7 +10060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Martintie 12",
             "postalcode": "02270"
           }
         ],
@@ -10583,7 +10080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Martintie 12",
             "postalcode": "02270"
           }
         ],
@@ -10604,7 +10100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kattilalaaksonkatu 17",
             "postalcode": "02330"
           }
         ],
@@ -10625,7 +10120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Eestiläistentie 16",
             "postalcode": "02270"
           }
         ],
@@ -10646,7 +10140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pihlajamäentie 21",
             "postalcode": "02330"
           }
         ],
@@ -10667,7 +10160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Myötätuulenmäki 10",
             "postalcode": "02330"
           }
         ],
@@ -10688,7 +10180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vanha Saunalahdentie 9",
             "postalcode": "02330"
           }
         ],
@@ -10709,7 +10200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Suomalaistentie 8",
             "postalcode": "02270"
           }
         ],
@@ -10730,7 +10220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Eteläviitta 9",
             "postalcode": "02330"
           }
         ],
@@ -10751,7 +10240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nissinmäentie 1",
             "postalcode": "02780"
           }
         ],
@@ -10772,7 +10260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nissinmäentie 5a",
             "postalcode": "02780"
           }
         ],
@@ -10793,7 +10280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Oxfotintie 3",
             "postalcode": "02330"
           }
         ],
@@ -10814,7 +10300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nissinpuisto 5",
             "postalcode": "02780"
           }
         ],
@@ -10835,7 +10320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nissintie 9a",
             "postalcode": "02780"
           }
         ],
@@ -10856,7 +10340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Paimenenportti 1",
             "postalcode": "02330"
           }
         ],
@@ -10877,7 +10360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Paimenenportti 5",
             "postalcode": "02330"
           }
         ],
@@ -10898,7 +10380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vasikkakuja 8",
             "postalcode": "02330"
           }
         ],
@@ -10919,7 +10400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Satulamaakarintie 3",
             "postalcode": "02780"
           }
         ],
@@ -10940,7 +10420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Peltomiehenkuja 2b",
             "postalcode": "02780"
           }
         ],
@@ -10961,7 +10440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pakarituvantie 3",
             "postalcode": "02780"
           }
         ],
@@ -10982,7 +10460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Paimenenkallio 16",
             "postalcode": "02300"
           }
         ],
@@ -11003,7 +10480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Peltomiehentie 7",
             "postalcode": "02780"
           }
         ],
@@ -11024,7 +10500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Purotanhua 8",
             "postalcode": "02270"
           }
         ],
@@ -11045,7 +10520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tanhuanpää 12",
             "postalcode": "02270"
           }
         ],
@@ -11066,7 +10540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mäntykallio 4",
             "postalcode": "02270"
           }
         ],
@@ -11087,7 +10560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mesimäki 19",
             "postalcode": "02780"
           }
         ],
@@ -11108,7 +10580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hunajaportti 11",
             "postalcode": "02780"
           }
         ],
@@ -11129,7 +10600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hansakallio 4",
             "postalcode": "02780"
           }
         ],
@@ -11150,7 +10620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hansakallionkuja 3",
             "postalcode": "02780"
           }
         ],
@@ -11171,7 +10640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Purotie 7",
             "postalcode": "02300"
           }
         ],
@@ -11192,7 +10660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Korpikallio 15",
             "postalcode": "02300"
           }
         ],
@@ -11213,7 +10680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Retkikuja 1",
             "postalcode": "02300"
           }
         ],
@@ -11234,7 +10700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sisämaantie 2a",
             "postalcode": "02780"
           }
         ],
@@ -11255,7 +10720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Korpisola 7",
             "postalcode": "02300"
           }
         ],
@@ -11276,7 +10740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vaahteramäki 6",
             "postalcode": "02270"
           }
         ],
@@ -11297,7 +10760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ramsaynkuja 8",
             "postalcode": "02780"
           }
         ],
@@ -11318,7 +10780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nöykkiönpuro 5b",
             "postalcode": "02300"
           }
         ],
@@ -11339,7 +10800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Finnoontie 12",
             "postalcode": "02280"
           }
         ],
@@ -11360,7 +10820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Palttinapolku 6",
             "postalcode": "02780"
           }
         ],
@@ -11381,7 +10840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Eestinkallio 7",
             "postalcode": "02280"
           }
         ],
@@ -11402,7 +10860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Finnoontie 22",
             "postalcode": "02280"
           }
         ],
@@ -11423,7 +10880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lasilaakso 5",
             "postalcode": "02780"
           }
         ],
@@ -11444,7 +10900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kristallitie 11",
             "postalcode": "02780"
           }
         ],
@@ -11465,7 +10920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mickelsinkuja 5",
             "postalcode": "02770"
           }
         ],
@@ -11486,7 +10940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Muuralanpiha 2",
             "postalcode": "02770"
           }
         ],
@@ -11507,7 +10960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Koulumestarinkuja 15",
             "postalcode": "02770"
           }
         ],
@@ -11528,7 +10980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Koulumestarinkuja 4a",
             "postalcode": "02770"
           }
         ],
@@ -11549,7 +11000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Arvelanniitty 5",
             "postalcode": "02770"
           }
         ],
@@ -11570,7 +11020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kokkohongantie 12",
             "postalcode": "02340"
           }
         ],
@@ -11591,7 +11040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ruiskaski 6",
             "postalcode": "02340"
           }
         ],
@@ -11612,7 +11060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kaskihakkio 2",
             "postalcode": "02340"
           }
         ],
@@ -11633,7 +11080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nupurinjärventie 4",
             "postalcode": "02820"
           }
         ],
@@ -11654,7 +11100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Savikuja 1",
             "postalcode": "02770"
           }
         ],
@@ -11675,7 +11120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ruukkukuja 2",
             "postalcode": "02770"
           }
         ],
@@ -11696,7 +11140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pellavakaski 28",
             "postalcode": "02340"
           }
         ],
@@ -11717,7 +11160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kukkaromäki 3",
             "postalcode": "02770"
           }
         ],
@@ -11738,7 +11180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Riksikuja 7",
             "postalcode": "02770"
           }
         ],
@@ -11759,7 +11200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nauriskaski 11",
             "postalcode": "02340"
           }
         ],
@@ -11780,7 +11220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ohrakaskensyrjä 6-8",
             "postalcode": "02340"
           }
         ],
@@ -11801,7 +11240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Riksikuja 15",
             "postalcode": "02770"
           }
         ],
@@ -11822,7 +11260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kulkurinmäki 6",
             "postalcode": "02770"
           }
         ],
@@ -11843,7 +11280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mustarinne 6",
             "postalcode": "02770"
           }
         ],
@@ -11864,7 +11300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kantokaski 13a",
             "postalcode": "02340"
           }
         ],
@@ -11885,7 +11320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lehtikaskentie 22",
             "postalcode": "02340"
           }
         ],
@@ -11906,7 +11340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Puolarkuja 6",
             "postalcode": "02280"
           }
         ],
@@ -11927,7 +11360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Peltokumpu 4",
             "postalcode": "02280"
           }
         ],
@@ -11948,7 +11380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Malminhaka 8",
             "postalcode": "02280"
           }
         ],
@@ -11969,7 +11400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kukkumäenkuja 12",
             "postalcode": "02280"
           }
         ],
@@ -11990,7 +11420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kukkumäenrinne 8",
             "postalcode": "02280"
           }
         ],
@@ -12011,7 +11440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kukkumäenrinne 16",
             "postalcode": "02280"
           }
         ],
@@ -12032,7 +11460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Malminmäentie 2",
             "postalcode": "02280"
           }
         ],
@@ -12053,7 +11480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Malminmäentie 1",
             "postalcode": "02280"
           }
         ],
@@ -12074,7 +11500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Espoontie 16",
             "postalcode": "02770"
           }
         ],
@@ -12095,7 +11520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Espoontie 16",
             "postalcode": "02770"
           }
         ],
@@ -12116,7 +11540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Espoontie 12",
             "postalcode": "02770"
           }
         ],
@@ -12137,7 +11560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Muuralanportti 10",
             "postalcode": "02770"
           }
         ],
@@ -12158,7 +11580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Muuralankumpu 2",
             "postalcode": "02770"
           }
         ],
@@ -12179,7 +11600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nimismiehenmäki 3",
             "postalcode": "02770"
           }
         ],
@@ -12200,7 +11620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lakitie 4",
             "postalcode": "02770"
           }
         ],
@@ -12221,7 +11640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kappalaisenkuja 1",
             "postalcode": "02940"
           }
         ],
@@ -12242,7 +11660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Raitakuja 3",
             "postalcode": "02940"
           }
         ],
@@ -12263,7 +11680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pihlajatertuntie 2",
             "postalcode": "02940"
           }
         ],
@@ -12284,7 +11700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pihlajatertuntie 6c",
             "postalcode": "02940"
           }
         ],
@@ -12305,7 +11720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pihlajapuuntie 6",
             "postalcode": "02940"
           }
         ],
@@ -12326,7 +11740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pihlajamarjantie 16",
             "postalcode": "02940"
           }
         ],
@@ -12347,7 +11760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Auroranmäki 2",
             "postalcode": "02940"
           }
         ],
@@ -12368,7 +11780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Aurorankuja 3",
             "postalcode": "02940"
           }
         ],
@@ -12389,7 +11800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Soihtukuja 11",
             "postalcode": "02940"
           }
         ],
@@ -12410,7 +11820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Soihtukaari 26",
             "postalcode": "02940"
           }
         ],
@@ -12431,7 +11840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kavaljeerinkuja 12",
             "postalcode": "02940"
           }
         ],
@@ -12452,7 +11860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Porrastie 5",
             "postalcode": "02330"
           }
         ],
@@ -12473,7 +11880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Maakirjantie 16",
             "postalcode": "02250"
           }
         ],
@@ -12494,7 +11900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Välimetsä 6",
             "postalcode": "02300"
           }
         ],
@@ -12515,7 +11920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Heimolantie 9",
             "postalcode": "02330"
           }
         ],
@@ -12536,7 +11940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Heimolantie 22",
             "postalcode": "02330"
           }
         ],
@@ -12557,7 +11960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Saunarinne 1",
             "postalcode": "02330"
           }
         ],
@@ -12578,7 +11980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vähän-Myntin tie 4",
             "postalcode": "02780"
           }
         ],
@@ -12599,7 +12000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Myntinmäki 1",
             "postalcode": "02780"
           }
         ],
@@ -12620,7 +12020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mynttiläntie",
             "postalcode": "02780"
           }
         ],
@@ -12641,7 +12040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hylkeenpyytäjäntie 5",
             "postalcode": "02270"
           }
         ],
@@ -12662,7 +12060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Neljäskuja 2",
             "postalcode": "02620"
           }
         ],
@@ -12683,7 +12080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Varaväentie 9",
             "postalcode": "02680"
           }
         ],
@@ -12704,7 +12100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Veteraaninkuja 3",
             "postalcode": "02680"
           }
         ],
@@ -12725,7 +12120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sotilastorpantie 7",
             "postalcode": "02680"
           }
         ],
@@ -12746,7 +12140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Muskettitie 34",
             "postalcode": "02680"
           }
         ],
@@ -12767,7 +12160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Muskettitie 25",
             "postalcode": "02680"
           }
         ],
@@ -12788,7 +12180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Koukkuniemenportti 1",
             "postalcode": "02230"
           }
         ],
@@ -12809,7 +12200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sotaleskentie 10",
             "postalcode": "02650"
           }
         ],
@@ -12830,7 +12220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Loojärventie 38",
             "postalcode": "02780"
           }
         ],
@@ -12851,7 +12240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Matkalaisenkuja 3",
             "postalcode": "02940"
           }
         ],
@@ -12872,7 +12260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Solvikintie 40",
             "postalcode": "02820"
           }
         ],
@@ -12893,7 +12280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Aamukuja 5b",
             "postalcode": "02200"
           }
         ],
@@ -12914,7 +12300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Träskkopplan",
             "postalcode": "02380"
           }
         ],
@@ -12935,7 +12320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Högkopplan",
             "postalcode": "02380"
           }
         ],
@@ -12956,7 +12340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hauklammenranta 12",
             "postalcode": "02820"
           }
         ],
@@ -12977,7 +12360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kattilajärventie",
             "postalcode": "02820"
           }
         ],
@@ -12998,7 +12380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Stora Herrö",
             "postalcode": "02380"
           }
         ],
@@ -13019,7 +12400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mankholmantie 3",
             "postalcode": "02380"
           }
         ],
@@ -13040,7 +12420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rauhamäenkuja 12",
             "postalcode": "02820"
           }
         ],
@@ -13061,7 +12440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Uudenpellonkuja 11",
             "postalcode": "02860"
           }
         ],
@@ -13082,7 +12460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pentala",
             "postalcode": "02380"
           }
         ],
@@ -13103,7 +12480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nuuksiontie 20",
             "postalcode": "02820"
           }
         ],
@@ -13124,7 +12500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Suvisaarentie 12",
             "postalcode": "02380"
           }
         ],
@@ -13145,7 +12520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Felsundintie 4",
             "postalcode": "02380"
           }
         ],
@@ -13166,7 +12540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vaahteratie 8b",
             "postalcode": "02270"
           }
         ],
@@ -13187,7 +12560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mellilänkuja 7",
             "postalcode": "02380"
           }
         ],
@@ -13208,7 +12580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tallholmantie 8",
             "postalcode": "02380"
           }
         ],
@@ -13229,7 +12600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tyskaksentie 10",
             "postalcode": "02330"
           }
         ],
@@ -13250,7 +12620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tyskaksentie 10",
             "postalcode": "02330"
           }
         ],
@@ -13271,7 +12640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kattilarinne 11",
             "postalcode": "02330"
           }
         ],
@@ -13292,7 +12660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ruisrääkäntie 1",
             "postalcode": "02660"
           }
         ],
@@ -13313,7 +12680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ruisrääkäntie 21",
             "postalcode": "02660"
           }
         ],
@@ -13334,7 +12700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lintumetsäntie 9",
             "postalcode": "02660"
           }
         ],
@@ -13355,7 +12720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lintumetsäntie 9",
             "postalcode": "02660"
           }
         ],
@@ -13376,7 +12740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lintuparvenkuja 3",
             "postalcode": "02660"
           }
         ],
@@ -13397,7 +12760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Päivälinnuntie 4",
             "postalcode": "02660"
           }
         ],
@@ -13418,7 +12780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lintukorpi 10",
             "postalcode": "02660"
           }
         ],
@@ -13439,7 +12800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Joel Rundtin tie 3",
             "postalcode": "02600"
           }
         ],
@@ -13460,7 +12820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hämeenkyläntie 58",
             "postalcode": "02660"
           }
         ],
@@ -13481,7 +12840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Jääskeläntie 35",
             "postalcode": "02660"
           }
         ],
@@ -13502,7 +12860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ruukinrannantie 5",
             "postalcode": "02600"
           }
         ],
@@ -13523,7 +12880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Salakkatie 12",
             "postalcode": "02170"
           }
         ],
@@ -13544,7 +12900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Degerbyntie 8",
             "postalcode": "02600"
           }
         ],
@@ -13565,7 +12920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rautiaisentie 4b",
             "postalcode": "02660"
           }
         ],
@@ -13586,7 +12940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Väli-Henttaan tie 18",
             "postalcode": "02250"
           }
         ],
@@ -13607,7 +12960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nupurinjärventie 2",
             "postalcode": "02820"
           }
         ],
@@ -13628,7 +12980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kanneljärventie 15",
             "postalcode": "02130"
           }
         ],
@@ -13649,7 +13000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Invalidintie 12",
             "postalcode": "02650"
           }
         ],
@@ -13670,7 +13020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kuitinkuja 4",
             "postalcode": "02210"
           }
         ],
@@ -13691,7 +13040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Keskiyöntie 9",
             "postalcode": "02210"
           }
         ],
@@ -13712,7 +13060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Aamuyöntie 13",
             "postalcode": "02210"
           }
         ],
@@ -13733,7 +13080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Iltapäiväntie 12",
             "postalcode": "02210"
           }
         ],
@@ -13754,7 +13100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Aamupäivänkuja 2",
             "postalcode": "02210"
           }
         ],
@@ -13775,7 +13120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Isoistenkuja 6",
             "postalcode": "02200"
           }
         ],
@@ -13796,7 +13140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kalenteritie 18-20",
             "postalcode": "02200"
           }
         ],
@@ -13817,7 +13160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Viikkokuja 3",
             "postalcode": "02200"
           }
         ],
@@ -13838,7 +13180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hanikka 45",
             "postalcode": "02360"
           }
         ],
@@ -13859,7 +13200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Friisinniitty 5b",
             "postalcode": "02240"
           }
         ],
@@ -13880,7 +13220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Piispanmäenkuja 2",
             "postalcode": "02240"
           }
         ],
@@ -13901,7 +13240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kivitie 22b",
             "postalcode": "02240"
           }
         ],
@@ -13922,7 +13260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Friisiläntie 37",
             "postalcode": "02240"
           }
         ],
@@ -13943,7 +13280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Holmanmäki 10",
             "postalcode": "02240"
           }
         ],
@@ -13964,7 +13300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Holmanpää 5",
             "postalcode": "02240"
           }
         ],
@@ -13985,7 +13320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sinkkitie 11",
             "postalcode": "02750"
           }
         ],
@@ -14006,7 +13340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tähdenlennontie 12b",
             "postalcode": "02240"
           }
         ],
@@ -14027,7 +13360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Turuntie 150",
             "postalcode": "02740"
           }
         ],
@@ -14048,7 +13380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tiistinniityntie 1",
             "postalcode": "02230"
           }
         ],
@@ -14069,7 +13400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pitkäniitynlaita 2",
             "postalcode": "02810"
           }
         ],
@@ -14090,7 +13420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kalastajankuja 5",
             "postalcode": "02230"
           }
         ],
@@ -14111,7 +13440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tiistinkallio 6",
             "postalcode": "02230"
           }
         ],
@@ -14132,7 +13460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Verkkokuja 1b",
             "postalcode": "02230"
           }
         ],
@@ -14153,7 +13480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Iirislahdentie 41b",
             "postalcode": "02230"
           }
         ],
@@ -14174,7 +13500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lugnetinniitty 5b",
             "postalcode": "02770"
           }
         ],
@@ -14195,7 +13520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Marinsatamantie 3",
             "postalcode": "02320"
           }
         ],
@@ -14216,7 +13540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Matkalaisenkuja 1",
             "postalcode": "02940"
           }
         ],
@@ -14237,7 +13560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kirkkoharju 7",
             "postalcode": "02330"
           }
         ],
@@ -14258,7 +13580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kuninkaankartanontie 46a",
             "postalcode": "02780"
           }
         ],
@@ -14279,7 +13600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rajanummi 9",
             "postalcode": "02940"
           }
         ],
@@ -14300,7 +13620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nöykkiönlaaksontie 42",
             "postalcode": "02330"
           }
         ],
@@ -14321,7 +13640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pitkännotkontie 43a",
             "postalcode": "02750"
           }
         ],
@@ -14342,7 +13660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nahkasuutarintie 7",
             "postalcode": "02780"
           }
         ],
@@ -14363,7 +13680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Bosmedsinkuja 6",
             "postalcode": "02940"
           }
         ],
@@ -14384,7 +13700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pihkametsä 2",
             "postalcode": "02740"
           }
         ],
@@ -14405,7 +13720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kattilavuorentie 16",
             "postalcode": "02330"
           }
         ],
@@ -14426,7 +13740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Merituulentie 11",
             "postalcode": "02100"
           }
         ],
@@ -14447,7 +13760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Finnoontie 32",
             "postalcode": "02280"
           }
         ],
@@ -14468,7 +13780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tervamäki 4",
             "postalcode": "02810"
           }
         ],
@@ -14489,7 +13800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Purolaakso 26b",
             "postalcode": "02920"
           }
         ],
@@ -14510,7 +13820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Heikunantie 4",
             "postalcode": "02680"
           }
         ],
@@ -14531,7 +13840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kelkkamäki 1",
             "postalcode": "02610"
           }
         ],
@@ -14552,7 +13860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tuurinniityntie 9",
             "postalcode": "02250"
           }
         ],
@@ -14573,7 +13880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kuurinmäki 1",
             "postalcode": "02750"
           }
         ],
@@ -14594,7 +13900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kangaskatu 2",
             "postalcode": "02780"
           }
         ],
@@ -14615,7 +13920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Laaksolahdentie 106",
             "postalcode": "02730"
           }
         ],
@@ -14636,7 +13940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rantakatu 7",
             "postalcode": "10900"
           }
         ],
@@ -14657,7 +13960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Merikatu 1",
             "postalcode": "10900"
           }
         ],
@@ -14678,7 +13980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ratakatu 12-14",
             "postalcode": "10900"
           }
         ],
@@ -14699,7 +14000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Perämiehenkatu 26",
             "postalcode": "10900"
           }
         ],
@@ -14720,7 +14020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Käsityöläiskatu 20",
             "postalcode": "10960"
           }
         ],
@@ -14741,7 +14040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Santalantie 15",
             "postalcode": "10960"
           }
         ],
@@ -14762,7 +14060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Jarrumiehenkatu 24",
             "postalcode": "10960"
           }
         ],
@@ -14783,7 +14080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kappelisatamantie 160",
             "postalcode": "10960"
           }
         ],
@@ -14804,7 +14100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nosturintie 1-3",
             "postalcode": "10960"
           }
         ],
@@ -14825,7 +14120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Veturinkuljettajankatu 28",
             "postalcode": "10900"
           }
         ],
@@ -14846,7 +14140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Täktomintie 252",
             "postalcode": "10900"
           }
         ],
@@ -14867,7 +14160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lasitehtaankatu 4-6",
             "postalcode": "10960"
           }
         ],
@@ -14888,7 +14180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Veturinkuljettajankatu 25",
             "postalcode": "10960"
           }
         ],
@@ -14909,7 +14200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rauhankatu 13",
             "postalcode": "10900"
           }
         ],
@@ -14930,7 +14220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Asemakatu 14",
             "postalcode": "10900"
           }
         ],
@@ -14951,7 +14240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Narvikinkatu 13",
             "postalcode": "10900"
           }
         ],
@@ -14972,7 +14260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Raatimiehenkatu 6",
             "postalcode": "10900"
           }
         ],
@@ -14993,7 +14280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Linjakatu 10",
             "postalcode": "10900"
           }
         ],
@@ -15014,7 +14300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Linjakatu 20",
             "postalcode": "10900"
           }
         ],
@@ -15035,7 +14320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kivenhakkaajankatu 11",
             "postalcode": "10900"
           }
         ],
@@ -15056,7 +14340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tiilitehtaantie 2",
             "postalcode": "10900"
           }
         ],
@@ -15077,7 +14360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Norrgårdinkatu 23",
             "postalcode": "10940"
           }
         ],
@@ -15098,7 +14380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tiilitehtaantie 9",
             "postalcode": "10900"
           }
         ],
@@ -15119,7 +14400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tulliniementie 4",
             "postalcode": "10940"
           }
         ],
@@ -15140,7 +14420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tulliniementie 9",
             "postalcode": "10940"
           }
         ],
@@ -15161,7 +14440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Gunnarsinkatu 2",
             "postalcode": "10940"
           }
         ],
@@ -15182,7 +14460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kappelisatamantie 10",
             "postalcode": "10940"
           }
         ],
@@ -15203,7 +14480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Varisniemi 6",
             "postalcode": "10900"
           }
         ],
@@ -15224,7 +14500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Laivurinkatu 39",
             "postalcode": "10940"
           }
         ],
@@ -15245,7 +14520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Länsiseläntie 11a",
             "postalcode": "10940"
           }
         ],
@@ -15266,7 +14540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Metsäkannaksentie 36",
             "postalcode": "10940"
           }
         ],
@@ -15287,7 +14560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Metsäkannaksentie 19",
             "postalcode": "10940"
           }
         ],
@@ -15308,7 +14580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Haukikuja 7",
             "postalcode": "10900"
           }
         ],
@@ -15329,7 +14600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nummitie 18",
             "postalcode": "10960"
           }
         ],
@@ -15350,7 +14620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Teollisuuskatu 1",
             "postalcode": "10960"
           }
         ],
@@ -15371,7 +14640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Riskiläntie 6",
             "postalcode": "10960"
           }
         ],
@@ -15392,7 +14660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ruusukuja 4",
             "postalcode": "10900"
           }
         ],
@@ -15413,7 +14680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Emelienpolku 3",
             "postalcode": "10960"
           }
         ],
@@ -15434,7 +14700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Bergenheimintie 5",
             "postalcode": "10960"
           }
         ],
@@ -15455,7 +14720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Fundia Wire Oy",
             "postalcode": "10820"
           }
         ],
@@ -15476,7 +14740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sinterilaitos",
             "postalcode": "10900"
           }
         ],
@@ -15497,7 +14760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Svanvik",
             "postalcode": "10900"
           }
         ],
@@ -15518,7 +14780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Venny Soldanin tie 1",
             "postalcode": "10900"
           }
         ],
@@ -15539,7 +14800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tvärminne",
             "postalcode": "10900"
           }
         ],
@@ -15560,7 +14820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Topeliuksentie 1",
             "postalcode": "10900"
           }
         ],
@@ -15581,7 +14840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Krialskär",
             "postalcode": "10900"
           }
         ],
@@ -15602,7 +14860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Täktomintie 737",
             "postalcode": "10900"
           }
         ],
@@ -15623,7 +14880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Täktomintie 530",
             "postalcode": "10900"
           }
         ],
@@ -15644,7 +14900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Koivukaari 25",
             "postalcode": "10960"
           }
         ],
@@ -15665,7 +14920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Långörintie 24",
             "postalcode": "10900"
           }
         ],
@@ -15686,7 +14940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Söderbonäs",
             "postalcode": "10820"
           }
         ],
@@ -15707,7 +14960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Krogars",
             "postalcode": "10820"
           }
         ],
@@ -15728,7 +14980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lappvikin Kartanontie 127",
             "postalcode": "10820"
           }
         ],
@@ -15749,7 +15000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pihlajakuja 3",
             "postalcode": "10820"
           }
         ],
@@ -15770,7 +15020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pihlajakuja 1",
             "postalcode": "10820"
           }
         ],
@@ -15791,7 +15040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Satamatie 34",
             "postalcode": "10820"
           }
         ],
@@ -15812,7 +15060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lasitehtaankatu 5",
             "postalcode": "10960"
           }
         ],
@@ -15833,7 +15080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tennbergintie 21",
             "postalcode": "10820"
           }
         ],
@@ -15854,7 +15100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kävelykuja 8",
             "postalcode": "10820"
           }
         ],
@@ -15875,7 +15120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ekö",
             "postalcode": "10820"
           }
         ],
@@ -15896,7 +15140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sällvik",
             "postalcode": "10900"
           }
         ],
@@ -15917,7 +15160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tulliniemi Luotsiasema",
             "postalcode": "10900"
           }
         ],
@@ -15938,7 +15180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vapaasatama",
             "postalcode": "10940"
           }
         ],
@@ -15959,7 +15200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sibeliuksentie 27 b",
             "postalcode": "10900"
           }
         ],
@@ -15980,7 +15220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Halkaisijantie 6",
             "postalcode": "00980"
           }
         ],
@@ -16001,7 +15240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vuotie 19",
             "postalcode": "00980"
           }
         ],
@@ -16022,7 +15260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Meri-Rastilan tie 21",
             "postalcode": "00980"
           }
         ],
@@ -16043,7 +15280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Meri-Rastilan tie 15",
             "postalcode": "00980"
           }
         ],
@@ -16064,7 +15300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Verkkotie 10",
             "postalcode": "00980"
           }
         ],
@@ -16085,7 +15320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Verkkopolku 4",
             "postalcode": "00980"
           }
         ],
@@ -16106,7 +15340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Marielundin puistotie 6",
             "postalcode": "00960"
           }
         ],
@@ -16127,7 +15360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vanhankallionkuja 1",
             "postalcode": "00990"
           }
         ],
@@ -16148,7 +15380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Gustav Pauligin katu 15",
             "postalcode": "00990"
           }
         ],
@@ -16169,7 +15400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vanhankallionkuja 2",
             "postalcode": "00990"
           }
         ],
@@ -16190,7 +15420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nukkeruusunkuja 4",
             "postalcode": "00990"
           }
         ],
@@ -16211,7 +15440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Käärmeniementie 11",
             "postalcode": "00990"
           }
         ],
@@ -16232,7 +15460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Korsnäsintie 12",
             "postalcode": "00890"
           }
         ],
@@ -16253,7 +15480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mielikinpolku 1b",
             "postalcode": "00750"
           }
         ],
@@ -16274,7 +15500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kiitäjäntienpää",
             "postalcode": "00750"
           }
         ],
@@ -16295,7 +15520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vannetie 39",
             "postalcode": "00430"
           }
         ],
@@ -16316,7 +15540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pannipolku 8",
             "postalcode": "00430"
           }
         ],
@@ -16337,7 +15560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vakkatie 16",
             "postalcode": "00430"
           }
         ],
@@ -16358,7 +15580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Arhipanpolku 6b",
             "postalcode": "00420"
           }
         ],
@@ -16379,7 +15600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vanha Hämeenkyläntie 29",
             "postalcode": "00390"
           }
         ],
@@ -16400,7 +15620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vähäniityntie 11",
             "postalcode": "00570"
           }
         ],
@@ -16421,7 +15640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ratapihantie 6",
             "postalcode": "00520"
           }
         ],
@@ -16442,7 +15660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Villinki",
             "postalcode": "00850"
           }
         ],
@@ -16463,7 +15680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Villinki Nmky",
             "postalcode": "00850"
           }
         ],
@@ -16484,7 +15700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Keulakuvantie 18",
             "postalcode": "00840"
           }
         ],
@@ -16505,7 +15720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kuvuntie 2",
             "postalcode": "00860"
           }
         ],
@@ -16526,7 +15740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Villinki Safa",
             "postalcode": "00850"
           }
         ],
@@ -16547,7 +15760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Fregattitie 5",
             "postalcode": "00850"
           }
         ],
@@ -16568,7 +15780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Fregattitie 10",
             "postalcode": "00850"
           }
         ],
@@ -16589,7 +15800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Laitamyötäisentie 2b",
             "postalcode": "00850"
           }
         ],
@@ -16610,7 +15820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Purjetuulenkuja 9",
             "postalcode": "00850"
           }
         ],
@@ -16631,7 +15840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Saunalahti (Laajasalo)",
             "postalcode": "00850"
           }
         ],
@@ -16652,7 +15860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hapero 8",
             "postalcode": "00760"
           }
         ],
@@ -16673,7 +15880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vartiosaari Lisebo",
             "postalcode": "00830"
           }
         ],
@@ -16694,7 +15900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vartiosaari",
             "postalcode": "00830"
           }
         ],
@@ -16715,7 +15920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Linnanrakentajantie 14",
             "postalcode": "00810"
           }
         ],
@@ -16736,7 +15940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Fallkullan kartano rak 1",
             "postalcode": "00730"
           }
         ],
@@ -16757,7 +15960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Askartie 16",
             "postalcode": "00700"
           }
         ],
@@ -16778,7 +15980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mesipuu 1b",
             "postalcode": "00750"
           }
         ],
@@ -16799,7 +16000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Otavantie 3",
             "postalcode": "00200"
           }
         ],
@@ -16820,7 +16020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mäntysaari",
             "postalcode": "00200"
           }
         ],
@@ -16841,7 +16040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Alppikylänkuja 7",
             "postalcode": "00770"
           }
         ],
@@ -16862,7 +16060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Myllyväenkatu 9",
             "postalcode": "00920"
           }
         ],
@@ -16883,7 +16080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hiidenmaankatu 6e",
             "postalcode": "00980"
           }
         ],
@@ -16904,7 +16100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ulvilantie 29 Rak 7",
             "postalcode": "00350"
           }
         ],
@@ -16925,7 +16120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ulvilantie 26",
             "postalcode": "00350"
           }
         ],
@@ -16946,7 +16140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Taiteentekijäntie 7",
             "postalcode": "00350"
           }
         ],
@@ -16967,7 +16160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mesenaatintie 6",
             "postalcode": "00350"
           }
         ],
@@ -16988,7 +16180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rödje-Fantsin tie 19",
             "postalcode": "00890"
           }
         ],
@@ -17009,7 +16200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rödje-Fantsin tie 19",
             "postalcode": "00890"
           }
         ],
@@ -17030,7 +16220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Koillisväylä 15",
             "postalcode": "00200"
           }
         ],
@@ -17051,7 +16240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Korsnäsintie 17",
             "postalcode": "00890"
           }
         ],
@@ -17072,7 +16260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Karhutorpantie",
             "postalcode": "00890"
           }
         ],
@@ -17093,7 +16280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Luotsinkuja 2",
             "postalcode": "00890"
           }
         ],
@@ -17114,7 +16300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Merikapteenintie 13",
             "postalcode": "00890"
           }
         ],
@@ -17135,7 +16320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Myllykalliontie 3",
             "postalcode": "00200"
           }
         ],
@@ -17156,7 +16340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Karhurannankuja 2",
             "postalcode": "00890"
           }
         ],
@@ -17177,7 +16360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kapteenintie 16",
             "postalcode": "00890"
           }
         ],
@@ -17198,7 +16380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vattuniemenkuja 3",
             "postalcode": "00210"
           }
         ],
@@ -17219,7 +16400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Isonniityntie 22",
             "postalcode": "00890"
           }
         ],
@@ -17240,7 +16420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Melkonkuja 4",
             "postalcode": "00210"
           }
         ],
@@ -17261,7 +16440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Veneentekijänkaari 9",
             "postalcode": "00210"
           }
         ],
@@ -17282,7 +16460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kaskisaarentie 9",
             "postalcode": "00340"
           }
         ],
@@ -17303,7 +16480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kaskiauranpolku 7",
             "postalcode": "00340"
           }
         ],
@@ -17324,7 +16500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Karhunevantie 14",
             "postalcode": "00890"
           }
         ],
@@ -17345,7 +16520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Karhunevanpolku 2",
             "postalcode": "00890"
           }
         ],
@@ -17366,7 +16540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kyntäjäntie 18c",
             "postalcode": "00390"
           }
         ],
@@ -17387,7 +16560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kappelintie 33",
             "postalcode": "00890"
           }
         ],
@@ -17408,7 +16580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sänkikuja 1",
             "postalcode": "00390"
           }
         ],
@@ -17429,7 +16600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hilatie 21",
             "postalcode": "00390"
           }
         ],
@@ -17450,7 +16620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Riukutie 3",
             "postalcode": "00390"
           }
         ],
@@ -17471,7 +16640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vitsastie 7",
             "postalcode": "00390"
           }
         ],
@@ -17492,7 +16660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lehtovuorenkatu 9",
             "postalcode": "00390"
           }
         ],
@@ -17513,7 +16680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kaarelankuja 3a",
             "postalcode": "00430"
           }
         ],
@@ -17534,7 +16700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kaarelantie 20a",
             "postalcode": "00430"
           }
         ],
@@ -17555,7 +16720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Maavallintie 7b",
             "postalcode": "00430"
           }
         ],
@@ -17576,7 +16740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lavettitie 16",
             "postalcode": "00430"
           }
         ],
@@ -17597,7 +16760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vuorilinnakkeenpolku 3",
             "postalcode": "00430"
           }
         ],
@@ -17618,7 +16780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Maununnevantie 11a",
             "postalcode": "00430"
           }
         ],
@@ -17639,7 +16800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Juoksuhaudantie 10",
             "postalcode": "00430"
           }
         ],
@@ -17660,7 +16820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Juoksuhaudantie 12a",
             "postalcode": "00430"
           }
         ],
@@ -17681,7 +16840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Maljatie 3",
             "postalcode": "00430"
           }
         ],
@@ -17702,7 +16860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Liikkalantie 10",
             "postalcode": "00950"
           }
         ],
@@ -17723,7 +16880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vannetie 57a",
             "postalcode": "00430"
           }
         ],
@@ -17744,7 +16900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Posetiivarinkuja 10",
             "postalcode": "00420"
           }
         ],
@@ -17765,7 +16920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Runonlaulajantie 58b",
             "postalcode": "00420"
           }
         ],
@@ -17786,7 +16940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Arhipanpolku 8a",
             "postalcode": "00420"
           }
         ],
@@ -17807,7 +16960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Arhipanpolku 3",
             "postalcode": "00420"
           }
         ],
@@ -17828,7 +16980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Runonlaulajantie 68a",
             "postalcode": "00420"
           }
         ],
@@ -17849,7 +17000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kanuunatie 13",
             "postalcode": "00430"
           }
         ],
@@ -17870,7 +17020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Paimenhuilunpolku 12",
             "postalcode": "00420"
           }
         ],
@@ -17891,7 +17040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Raitamaantie 11",
             "postalcode": "00420"
           }
         ],
@@ -17912,7 +17060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Laulukuja 6",
             "postalcode": "00420"
           }
         ],
@@ -17933,7 +17080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Viulutie 7",
             "postalcode": "00420"
           }
         ],
@@ -17954,7 +17100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kartanonvoudintie 7",
             "postalcode": "00410"
           }
         ],
@@ -17975,7 +17120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Koskustie 2",
             "postalcode": "00410"
           }
         ],
@@ -17996,7 +17140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Koskustie 5",
             "postalcode": "00410"
           }
         ],
@@ -18017,7 +17160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Naava-Aukio 4",
             "postalcode": "00410"
           }
         ],
@@ -18038,7 +17180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Urputie 10",
             "postalcode": "00410"
           }
         ],
@@ -18059,7 +17200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rukkilantie 3",
             "postalcode": "00410"
           }
         ],
@@ -18080,7 +17220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rukkilanrinne 1",
             "postalcode": "00410"
           }
         ],
@@ -18101,7 +17240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kehruutie 3",
             "postalcode": "00410"
           }
         ],
@@ -18122,7 +17260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Perhekunnantie 4",
             "postalcode": "00430"
           }
         ],
@@ -18143,7 +17280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Perhekunnantie 4",
             "postalcode": "00430"
           }
         ],
@@ -18164,7 +17300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Perhekunnantie 14-20",
             "postalcode": "00430"
           }
         ],
@@ -18185,7 +17320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Serkustentie 1",
             "postalcode": "00430"
           }
         ],
@@ -18206,7 +17340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Serkustentie 18",
             "postalcode": "00430"
           }
         ],
@@ -18227,7 +17360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vanhempientie 5",
             "postalcode": "00430"
           }
         ],
@@ -18248,7 +17380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kaarelantie 6a",
             "postalcode": "00430"
           }
         ],
@@ -18269,7 +17400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kotipellontie 9",
             "postalcode": "00680"
           }
         ],
@@ -18290,7 +17420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Henrik Lättiläisen katu 11",
             "postalcode": "00710"
           }
         ],
@@ -18311,7 +17440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Taulutie 12",
             "postalcode": "00680"
           }
         ],
@@ -18332,7 +17460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Klaukkalankuja 1",
             "postalcode": "00680"
           }
         ],
@@ -18353,7 +17480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Urkurintie 3",
             "postalcode": "00680"
           }
         ],
@@ -18374,7 +17500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Piikinkuja 5",
             "postalcode": "00680"
           }
         ],
@@ -18395,7 +17520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Opettajankuja 4",
             "postalcode": "00680"
           }
         ],
@@ -18416,7 +17540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Spelttitie 4",
             "postalcode": "00680"
           }
         ],
@@ -18437,7 +17560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Jakokunnantie 8",
             "postalcode": "00660"
           }
         ],
@@ -18458,7 +17580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ervastinkuja 8",
             "postalcode": "00660"
           }
         ],
@@ -18479,7 +17600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Päivänsalontie 3",
             "postalcode": "00660"
           }
         ],
@@ -18500,7 +17620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Alkutie 65",
             "postalcode": "00660"
           }
         ],
@@ -18521,7 +17640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Suezinkatu 1",
             "postalcode": "00220"
           }
         ],
@@ -18542,7 +17660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Suezinkatu 3",
             "postalcode": "00220"
           }
         ],
@@ -18563,7 +17680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Valssiparinkuja 5",
             "postalcode": "00920"
           }
         ],
@@ -18584,7 +17700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Asteritie 6",
             "postalcode": "00720"
           }
         ],
@@ -18605,7 +17720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kehäkukantie 7",
             "postalcode": "00720"
           }
         ],
@@ -18626,7 +17740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vuohikuja 2",
             "postalcode": "00780"
           }
         ],
@@ -18647,7 +17760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vanha Puroniitynpolku 6",
             "postalcode": "00720"
           }
         ],
@@ -18668,7 +17780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vanha Puroniitynpolku 2",
             "postalcode": "00720"
           }
         ],
@@ -18689,7 +17800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vuolukiventie 1a",
             "postalcode": "00710"
           }
         ],
@@ -18710,7 +17820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Graniittitie 1",
             "postalcode": "00710"
           }
         ],
@@ -18731,7 +17840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rapakivenkuja 1",
             "postalcode": "00710"
           }
         ],
@@ -18752,7 +17860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Latokartanontie 37",
             "postalcode": "00710"
           }
         ],
@@ -18773,7 +17880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pekanraitti 22",
             "postalcode": "00700"
           }
         ],
@@ -18794,7 +17900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pekanraitti 22",
             "postalcode": "00700"
           }
         ],
@@ -18815,7 +17920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ormusrinne 2",
             "postalcode": "00700"
           }
         ],
@@ -18836,7 +17940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Malminkaari 27a",
             "postalcode": "00700"
           }
         ],
@@ -18857,7 +17960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vattuniemenkatu 17",
             "postalcode": "00210"
           }
         ],
@@ -18878,7 +17980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kaupparaitti 13",
             "postalcode": "00700"
           }
         ],
@@ -18899,7 +18000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kotinummentie 8",
             "postalcode": "00700"
           }
         ],
@@ -18920,7 +18020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tukkisillantie 1",
             "postalcode": "00700"
           }
         ],
@@ -18941,7 +18040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Laidunkuja 5",
             "postalcode": "00700"
           }
         ],
@@ -18962,7 +18060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vainiotie 20b",
             "postalcode": "00700"
           }
         ],
@@ -18983,7 +18080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pilvitie 6a",
             "postalcode": "00700"
           }
         ],
@@ -19004,7 +18100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tuulitie 4",
             "postalcode": "00700"
           }
         ],
@@ -19025,7 +18120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tuulitie 3",
             "postalcode": "00700"
           }
         ],
@@ -19046,7 +18140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Raekuja 3",
             "postalcode": "00700"
           }
         ],
@@ -19067,7 +18160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tullivuorentie 4d",
             "postalcode": "00700"
           }
         ],
@@ -19088,7 +18180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Nallenmäenkuja 3",
             "postalcode": "00700"
           }
         ],
@@ -19109,7 +18200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kankiraudantie 6",
             "postalcode": "00700"
           }
         ],
@@ -19130,7 +18220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kankiraudantie 2a",
             "postalcode": "00700"
           }
         ],
@@ -19151,7 +18240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Fastbölentie 9b",
             "postalcode": "00750"
           }
         ],
@@ -19172,7 +18260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Simonkatu 7",
             "postalcode": "00100"
           }
         ],
@@ -19193,7 +18280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vehkalahdentie 3",
             "postalcode": "00950"
           }
         ],
@@ -19214,7 +18300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Karhulantie 7",
             "postalcode": "00950"
           }
         ],
@@ -19235,7 +18320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vehkalahdentie 36",
             "postalcode": "00950"
           }
         ],
@@ -19256,7 +18340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Linnalahdenkuja 15",
             "postalcode": "00950"
           }
         ],
@@ -19277,7 +18360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ilotulitustie 11",
             "postalcode": "00930"
           }
         ],
@@ -19298,7 +18380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Marjaniementie 60",
             "postalcode": "00930"
           }
         ],
@@ -19319,7 +18400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Stockmannintie 2",
             "postalcode": "00380"
           }
         ],
@@ -19340,7 +18420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pitäjänmäentie 22",
             "postalcode": "00380"
           }
         ],
@@ -19361,7 +18440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hiomotie 6",
             "postalcode": "00380"
           }
         ],
@@ -19382,7 +18460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Hiomotie 17",
             "postalcode": "00380"
           }
         ],
@@ -19403,7 +18480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Takkatie 4",
             "postalcode": "00370"
           }
         ],
@@ -19424,7 +18500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Takkatie 3-5",
             "postalcode": "00370"
           }
         ],
@@ -19445,7 +18520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Takkatie 17",
             "postalcode": "00370"
           }
         ],
@@ -19466,7 +18540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Atomipolku 2",
             "postalcode": "00370"
           }
         ],
@@ -19487,7 +18560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Viestitie 2",
             "postalcode": "00370"
           }
         ],
@@ -19508,7 +18580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Korsutie 38",
             "postalcode": "00370"
           }
         ],
@@ -19529,7 +18600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lauritsantie 1b",
             "postalcode": "00370"
           }
         ],
@@ -19550,7 +18620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sylvesterintie 3",
             "postalcode": "00370"
           }
         ],
@@ -19571,7 +18640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Konalantie 6",
             "postalcode": "00370"
           }
         ],
@@ -19592,7 +18660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Markunkuja 5",
             "postalcode": "00370"
           }
         ],
@@ -19613,7 +18680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Markunkuja 4",
             "postalcode": "00370"
           }
         ],
@@ -19634,7 +18700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Suntionpolku 3",
             "postalcode": "00370"
           }
         ],
@@ -19655,7 +18720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lauritsantie 5",
             "postalcode": "00370"
           }
         ],
@@ -19676,7 +18740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ketokiventie 2a",
             "postalcode": "00710"
           }
         ],
@@ -19697,7 +18760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Suovaniityntie 12",
             "postalcode": "00760"
           }
         ],
@@ -19718,7 +18780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kotinummentie 16",
             "postalcode": "00700"
           }
         ],
@@ -19739,7 +18800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kurkiaispolku 1",
             "postalcode": "00940"
           }
         ],
@@ -19760,7 +18820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Karpalokuja 6",
             "postalcode": "00940"
           }
         ],
@@ -19781,7 +18840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Köyliöntie 1",
             "postalcode": "00940"
           }
         ],
@@ -19802,7 +18860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kekomäentie 28",
             "postalcode": "00940"
           }
         ],
@@ -19823,7 +18880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Leväluhdantie 11b",
             "postalcode": "00940"
           }
         ],
@@ -19844,7 +18900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Jäämäentie 10",
             "postalcode": "00970"
           }
         ],
@@ -19865,7 +18920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lupajantie 3",
             "postalcode": "00970"
           }
         ],
@@ -19886,7 +18940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ohralankuja 6",
             "postalcode": "00970"
           }
         ],
@@ -19907,7 +18960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tuhkanummentie 6",
             "postalcode": "00970"
           }
         ],
@@ -19928,7 +18980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Valtavaarankuja 4a",
             "postalcode": "00970"
           }
         ],
@@ -19949,7 +19000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kultakummuntie 4",
             "postalcode": "00940"
           }
         ],
@@ -19970,7 +19020,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mäkikurpankuja 3",
             "postalcode": "00940"
           }
         ],
@@ -19991,7 +19040,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kurkimäentie 9",
             "postalcode": "00940"
           }
         ],
@@ -20012,7 +19060,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Veteraanikuja 6",
             "postalcode": "00940"
           }
         ],
@@ -20033,7 +19080,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Veteraanikuja 6",
             "postalcode": "00940"
           }
         ],
@@ -20054,7 +19100,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mustikkarinne 3",
             "postalcode": "00940"
           }
         ],
@@ -20075,7 +19120,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rautapaidantie 4a",
             "postalcode": "00920"
           }
         ],
@@ -20096,7 +19140,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pikipolku 5",
             "postalcode": "00670"
           }
         ],
@@ -20117,7 +19160,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Häklinkuja 6",
             "postalcode": "00920"
           }
         ],
@@ -20138,7 +19180,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Saariselänkuja 6",
             "postalcode": "00970"
           }
         ],
@@ -20159,7 +19200,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Yllästunturintie 1",
             "postalcode": "00970"
           }
         ],
@@ -20180,7 +19220,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Savitaipaleentie 41b",
             "postalcode": "00950"
           }
         ],
@@ -20201,7 +19240,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Naulakallionkuja 7",
             "postalcode": "00970"
           }
         ],
@@ -20222,7 +19260,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Naulakalliontie 19",
             "postalcode": "00970"
           }
         ],
@@ -20243,7 +19280,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Fallpakankuja 5",
             "postalcode": "00970"
           }
         ],
@@ -20264,7 +19300,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Fallpakankuja 10",
             "postalcode": "00970"
           }
         ],
@@ -20285,7 +19320,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Fallpakankuja 10",
             "postalcode": "00970"
           }
         ],
@@ -20306,7 +19340,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Päätie 28a",
             "postalcode": "00590"
           }
         ],
@@ -20327,7 +19360,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Roihuvuorentie 1",
             "postalcode": "00820"
           }
         ],
@@ -20348,7 +19380,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Keijukaistenpolku 11",
             "postalcode": "00820"
           }
         ],
@@ -20369,7 +19400,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tulisuontie 1",
             "postalcode": "00820"
           }
         ],
@@ -20390,7 +19420,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Roihuvuorentie 17",
             "postalcode": "00820"
           }
         ],
@@ -20411,7 +19440,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Strömsinlahdenpolku 7",
             "postalcode": "00820"
           }
         ],
@@ -20432,7 +19460,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rouvienpolku 5",
             "postalcode": "00810"
           }
         ],
@@ -20453,7 +19480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tiiliruukintie 2",
             "postalcode": "00830"
           }
         ],
@@ -20474,7 +19500,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kummeltie 9",
             "postalcode": "00830"
           }
         ],
@@ -20495,7 +19520,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tammisalontie 17a",
             "postalcode": "00830"
           }
         ],
@@ -20516,7 +19540,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Kinkeripolku 8a",
             "postalcode": "00640"
           }
         ],
@@ -20537,7 +19560,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Airotie 3",
             "postalcode": "00830"
           }
         ],
@@ -20558,7 +19580,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Marjalahdentie 3",
             "postalcode": "00930"
           }
         ],
@@ -20579,7 +19600,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vanamotie 13",
             "postalcode": "00930"
           }
         ],
@@ -20600,7 +19620,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Marjaniementie 42",
             "postalcode": "00930"
           }
         ],
@@ -20621,7 +19640,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Valkovuokonpolku 7",
             "postalcode": "00930"
           }
         ],
@@ -20642,7 +19660,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Marjaniementie 21",
             "postalcode": "00930"
           }
         ],
@@ -20663,7 +19680,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Marjaniementie 22",
             "postalcode": "00930"
           }
         ],
@@ -20684,7 +19700,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tattariharjuntie 4",
             "postalcode": "00700"
           }
         ],
@@ -20705,7 +19720,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Elovalkeantie 24",
             "postalcode": "00700"
           }
         ],
@@ -20726,7 +19740,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Voikukantie 5",
             "postalcode": "00930"
           }
         ],
@@ -20747,7 +19760,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Mustikkasuontie 5",
             "postalcode": "00940"
           }
         ],
@@ -20768,7 +19780,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Harakkamyllyntie 17",
             "postalcode": "00920"
           }
         ],
@@ -20789,7 +19800,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Aarteenetsijäntie 7",
             "postalcode": "00970"
           }
         ],
@@ -20810,7 +19820,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Uussillantie 21",
             "postalcode": "00950"
           }
         ],
@@ -20831,7 +19840,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Alakiventie 1",
             "postalcode": "00920"
           }
         ],
@@ -20852,7 +19860,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Vesalantie 66",
             "postalcode": "00940"
           }
         ],
@@ -20873,7 +19880,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Tinasepäntie 53",
             "postalcode": "00620"
           }
         ],
@@ -20894,7 +19900,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pulttitie 1",
             "postalcode": "00880"
           }
         ],
@@ -20915,7 +19920,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Pulttitie 15",
             "postalcode": "00880"
           }
         ],
@@ -20936,7 +19940,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Klaavuntie 15",
             "postalcode": "00910"
           }
         ],
@@ -20957,7 +19960,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Piennar 5",
             "postalcode": "00680"
           }
         ],
@@ -20978,7 +19980,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rusthollarintie 8",
             "postalcode": "00910"
           }
         ],
@@ -20999,7 +20000,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rantakartanontie 11",
             "postalcode": "00910"
           }
         ],
