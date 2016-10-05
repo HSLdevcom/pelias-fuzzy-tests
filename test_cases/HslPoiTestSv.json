@@ -443,6 +443,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             24.884282810273575,
@@ -603,6 +604,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 600,
         "coordinates": [
           [
             24.999344441328088,
@@ -643,6 +645,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             25.000976729500035,
@@ -723,6 +726,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 800,
         "coordinates": [
           [
             25.02344610767229,
@@ -783,6 +787,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 1700,
         "coordinates": [
           [
             25.032053696743873,
@@ -983,6 +988,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             25.142606418618648,
@@ -1003,6 +1009,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             25.099391161443926,
@@ -1243,6 +1250,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             24.96696801108247,
@@ -1263,6 +1271,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 700,
         "coordinates": [
           [
             24.93659494619498,
@@ -1283,6 +1292,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 600,
         "coordinates": [
           [
             24.919686430957587,
@@ -1503,6 +1513,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             24.913021074398234,
@@ -1563,6 +1574,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 600,
         "coordinates": [
           [
             24.920264538463496,
@@ -2303,6 +2315,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             24.87142164259721,
@@ -2823,6 +2836,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 1700,
         "coordinates": [
           [
             24.638616367263136,
@@ -2843,6 +2857,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 800,
         "coordinates": [
           [
             24.59445537897024,
@@ -2863,6 +2878,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 800,
         "coordinates": [
           [
             24.570706152027398,
@@ -3063,6 +3079,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 800,
         "coordinates": [
           [
             24.651272738298445,
@@ -3163,6 +3180,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 900,
         "coordinates": [
           [
             24.80815531302633,
@@ -3243,6 +3261,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 600,
         "coordinates": [
           [
             24.906024282933785,
@@ -3403,6 +3422,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             25.144578554379255,
@@ -6143,6 +6163,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 700,
         "coordinates": [
           [
             24.956566857045335,
@@ -13063,6 +13084,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 1100,
         "coordinates": [
           [
             24.47935395744945,
@@ -13103,6 +13125,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 800,
         "coordinates": [
           [
             24.39281943450865,
@@ -14323,6 +14346,7 @@
         "properties": [
           {}
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             24.954092235089895,

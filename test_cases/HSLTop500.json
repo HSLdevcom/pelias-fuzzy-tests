@@ -2481,9 +2481,10 @@
             "localadmin": "Helsinki"
           }
         ],
+        "distanceThresh": 400,
         "coordinates": [
-          "24.924040242474",
-          "60.202762516666"
+          "24.924744",
+          "60.202837"
         ]
       }
     },
@@ -6224,7 +6225,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Musiikkitalo",
             "localadmin": "Helsinki"
           }
         ],
@@ -9852,6 +9852,7 @@
             "name": "Helsinki-Vantaa airport"
           }
         ],
+        "distanceThresh": 400,
         "coordinates": [
           "24.968176616303",
           "60.318758015899"
