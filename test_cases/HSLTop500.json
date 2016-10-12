@@ -1,7 +1,7 @@
 {
   "name": "reittiopas top 500 test",
   "description": "Test if most frequent reittiopas searches can be found",
-  "priorityThresh": 3,
+  "priorityThresh": 1,
   "distanceThresh": 300,
   "normalizers": {
     "name": [
@@ -808,6 +808,7 @@
             "localadmin": "Vantaa"
           }
         ],
+        "distanceThresh": 700,
         "coordinates": [
           "25.077326229122",
           "60.350842571464"
@@ -2481,7 +2482,7 @@
             "localadmin": "Helsinki"
           }
         ],
-        "distanceThresh": 400,
+        "distanceThresh": 500,
         "coordinates": [
           "24.924744",
           "60.202837"
@@ -3502,7 +3503,7 @@
       "user": "hsldevcom",
       "type": "acceptance",
       "in": {
-        "text": "Kaari, Helsinki"
+        "text": "Kauppakeskus Kaari, Helsinki"
       },
       "expected": {
         "properties": [
@@ -3988,6 +3989,7 @@
             "localadmin": "Vantaa"
           }
         ],
+        "distanceThresh": 400,
         "coordinates": [
           "24.958843190755",
           "60.295443502894"
@@ -6270,6 +6272,7 @@
             "localadmin": "Espoo"
           }
         ],
+        "distanceThresh": 500,
         "coordinates": [
           "24.735862182577",
           "60.166106676043"
@@ -6372,6 +6375,7 @@
             "name": "Hyvinkää"
           }
         ],
+        "distanceThresh": 800,
         "coordinates": [
           "24.857741898872",
           "60.631325462747"
@@ -7400,6 +7404,7 @@
             "localadmin": "Espoo"
           }
         ],
+        "distanceThresh": 500,
         "coordinates": [
           "24.736943425393",
           "60.244162690883"
@@ -7499,6 +7504,7 @@
             "localadmin": "Helsinki"
           }
         ],
+        "distanceThresh": 600,
         "coordinates": [
           "24.884041760853",
           "60.230178140365"
@@ -7541,6 +7547,7 @@
             "localadmin": "Sipoo"
           }
         ],
+        "distanceThresh": 700,
         "coordinates": [
           "25.268521648693",
           "60.376705468475"
@@ -7667,6 +7674,7 @@
             "localadmin": "Helsinki"
           }
         ],
+        "distanceThresh": 400,
         "coordinates": [
           "24.901893856752",
           "60.202681528695"
