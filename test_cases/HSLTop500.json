@@ -1,7 +1,7 @@
 {
   "name": "reittiopas top 500 test",
   "description": "Test if most frequent reittiopas searches can be found",
-  "priorityThresh": 1,
+  "priorityThresh": 3,
   "distanceThresh": 300,
   "normalizers": {
     "name": [
@@ -2581,6 +2581,7 @@
             "localadmin": "Vantaa"
           }
         ],
+        "distanceThresh": 1200,
         "coordinates": [
           "24.968176616303",
           "60.318758015899"
@@ -4582,12 +4583,12 @@
       "user": "hsldevcom",
       "type": "acceptance",
       "in": {
-        "text": "Finlands nationalmuseum, Helsingfors"
+        "text": "Nationalmuseet, Helsingfors"
       },
       "expected": {
         "properties": [
           {
-            "name": "Finlands nationalmuseum",
+            "name": "Nationalmuseet",
             "localadmin": "Helsingfors"
           }
         ],
@@ -4792,6 +4793,7 @@
             "localadmin": "Espoo"
           }
         ],
+        "distanceThresh": 400,
         "coordinates": [
           "24.655163362075",
           "60.177650849175"
@@ -5262,7 +5264,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Biomedicum",
             "localadmin": "Helsinki"
           }
         ],
@@ -7320,6 +7321,7 @@
             "localadmin": "Helsinki"
           }
         ],
+        "distanceThresh": 600,
         "coordinates": [
           "25.120485295225",
           "60.20574595931"
@@ -7674,7 +7676,7 @@
             "localadmin": "Helsinki"
           }
         ],
-        "distanceThresh": 400,
+        "distanceThresh": 500,
         "coordinates": [
           "24.901893856752",
           "60.202681528695"
@@ -8338,6 +8340,7 @@
             "localadmin": "Espoo"
           }
         ],
+        "distanceThresh": 500,
         "coordinates": [
           "24.63751387534",
           "60.152039421538"
