@@ -559,7 +559,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Suomenoja",
             "localadmin": "Espoo"
           }
         ],
@@ -2128,7 +2127,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Juhana Herttuan tie 3",
             "localadmin": "Helsinki"
           }
         ],
@@ -3890,6 +3888,7 @@
             "localadmin": "Espoo"
           }
         ],
+        "distanceThresh": 500,
         "coordinates": [
           "24.83984365141",
           "60.221731615615"
@@ -4658,6 +4657,7 @@
             "localadmin": "Helsinki"
           }
         ],
+        "distanceThresh": 400,
         "coordinates": [
           "24.892014360912",
           "60.215395372693"
@@ -6186,7 +6186,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Sello",
             "localadmin": "Espoo"
           }
         ],
@@ -6394,7 +6393,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Arcada",
             "localadmin": "Helsinki"
           }
         ],
@@ -6964,7 +6962,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Barona Areena",
             "localadmin": "Espoo"
           }
         ],
@@ -7506,7 +7503,7 @@
             "localadmin": "Helsinki"
           }
         ],
-        "distanceThresh": 600,
+        "distanceThresh": 700,
         "coordinates": [
           "24.884041760853",
           "60.230178140365"
@@ -8007,7 +8004,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Iso Omena",
             "localadmin": "Espoo"
           }
         ],
@@ -9469,7 +9465,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Helsingfors-Vanda flygstation",
             "localadmin": "Vanda"
           }
         ]
