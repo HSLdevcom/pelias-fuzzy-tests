@@ -615,26 +615,6 @@
       "user": "hsldevcom",
       "type": "acceptance",
       "in": {
-        "text": "City center, Helsinki"
-      },
-      "expected": {
-        "properties": [
-          {
-            "localadmin": "Helsinki"
-          }
-        ],
-        "coordinates": [
-          "24.941319",
-          "60.168813"
-        ]
-      }
-    },
-    {
-      "id": 29,
-      "status": "pass",
-      "user": "hsldevcom",
-      "type": "acceptance",
-      "in": {
         "text": "Isonnevantie 8, Helsinki"
       },
       "expected": {
@@ -9902,6 +9882,26 @@
         "coordinates": [
           "24.941127348533",
           "60.170355734682"
+        ]
+      }
+    },
+    {
+      "id": 483,
+      "status": "pass",
+      "user": "hsldevcom",
+      "type": "acceptance",
+      "in": {
+        "text": "City center, Helsinki"
+      },
+      "expected": {
+        "properties": [
+          {
+            "localadmin": "Helsinki"
+          }
+        ],
+        "coordinates": [
+          "24.941319",
+          "60.168813"
         ]
       }
     }
