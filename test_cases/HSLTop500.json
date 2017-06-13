@@ -1130,7 +1130,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Koskelan sairaala",
             "localadmin": "Helsinki"
           }
         ],
@@ -3652,7 +3651,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lommila",
             "localadmin": "Espoo"
           }
         ],
@@ -5943,7 +5941,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Naistenklinikka",
             "localadmin": "Helsinki"
           }
         ],
@@ -9854,7 +9851,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Helsinki-Vantaa airport"
+            "localadmin": "Vantaa"
           }
         ],
         "distanceThresh": 400,
