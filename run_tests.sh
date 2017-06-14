@@ -58,6 +58,7 @@ subtest address "api / hsl address"
 subtest poi "api / hsl poi"
 subtest localization "api / hsl localization"
 subtest postalcode "api / postal code"
+subtest acceptance "api / acceptance"
 
 echo | tee -a $FILE
 avg=$(echo "$avg / $testcount" | bc)
@@ -86,6 +87,7 @@ subtest address "data / hsl address"
 subtest poi "data / hsl poi"
 subtest localization "data / hsl localization"
 subtest postalcode "data / postal code"
+subtest acceptance "data / acceptance"
 
 echo | tee -a $FILE
 avg=$(echo "$avg / $testcount" | bc)

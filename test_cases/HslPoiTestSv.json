@@ -4363,7 +4363,7 @@
       "user": "hsldevcom",
       "type": "localization",
       "in": {
-        "name": "Dalsvik fotbolhall, Esbo"
+        "text": "Dalsvik fotbolhall, Esbo"
       },
       "expected": {
         "properties": [
