@@ -1,7 +1,7 @@
 {
   "name": "reittiopas top 500 test",
   "description": "Test if most frequent reittiopas searches can be found",
-  "priorityThresh": 3,
+  "priorityThresh": 10,
   "distanceThresh": 300,
   "normalizers": {
     "name": [

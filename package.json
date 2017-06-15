@@ -32,8 +32,7 @@
     "url": "https://github.com/HSLdevcom/pelias-fuzzy-tests/issues"
   },
   "pre-commit": [
-    "lint",
-    "validate"
+    "lint"
   ],
   "homepage": "https://github.com/HSLdevcom/fuzzy-tests",
   "engines" : {
