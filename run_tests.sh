@@ -44,7 +44,7 @@ echo "Logging test results to " $FILE
 echo
 
 #start logged output
-echo -e "Testing " $ENV "\n\n"| tee $FILE
+log "Testing " $ENV "\n\n"
 
 
 #==========
