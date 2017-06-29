@@ -23,6 +23,7 @@
           {
           }
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             24.96817637071159,
@@ -191,6 +192,7 @@
           {
           }
         ],
+        "distanceThresh": 1300,
         "coordinates": [
           [
             24.88308709627726,
@@ -359,6 +361,7 @@
           {
           }
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             25.01835280978306,
@@ -464,6 +467,7 @@
           {
           }
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             25.032053696743873,
@@ -485,6 +489,7 @@
           {
           }
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             25.061409930468844,
@@ -863,6 +868,7 @@
           {
           }
         ],
+        "distanceThresh": 700,
         "coordinates": [
           [
             25.089793798839658,
@@ -905,6 +911,7 @@
           {
           }
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             25.100686593207676,
@@ -1955,6 +1962,7 @@
           {
           }
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             24.87142164259721,
@@ -2375,6 +2383,7 @@
           {
           }
         ],
+        "distanceThresh": 600,
         "coordinates": [
           [
             24.69080835411942,
@@ -2543,6 +2552,7 @@
           {
           }
         ],
+        "distanceThresh": 700,
         "coordinates": [
           [
             24.638616367263136,
@@ -2585,6 +2595,7 @@
           {
           }
         ],
+        "distanceThresh": 700,
         "coordinates": [
           [
             24.570706152027398,
@@ -2732,6 +2743,7 @@
           {
           }
         ],
+        "distanceThresh": 800,
         "coordinates": [
           [
             24.651272738298445,
@@ -2774,6 +2786,7 @@
           {
           }
         ],
+        "distanceThresh": 1200,
         "coordinates": [
           [
             24.95249864780963,
@@ -2816,6 +2829,7 @@
           {
           }
         ],
+        "distanceThresh": 600,
         "coordinates": [
           [
             24.906024282933785,
@@ -2879,6 +2893,7 @@
           {
           }
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             25.144578554379255,
@@ -9368,6 +9383,7 @@
           {
           }
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             24.517616599081634,
@@ -9515,6 +9531,7 @@
           {
           }
         ],
+        "distanceThresh": 500,
         "coordinates": [
           [
             25.041067978148522,
@@ -15059,6 +15076,7 @@
           {
           }
         ],
+        "distanceThresh": 900,
         "coordinates": [
           [
             24.826545835467563,
