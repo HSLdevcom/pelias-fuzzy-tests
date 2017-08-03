@@ -44,7 +44,7 @@ echo "Logging test results to " $FILE
 echo
 
 #start logged output
-log "Testing " $ENV "\n\n"
+log "Testing " $ENV " with regresssion threshold $THRESHOLD\n\n"
 
 
 #==========
