@@ -44,7 +44,7 @@ echo "Logging test results to " $FILE
 echo
 
 #start logged output
-log "Testing " $ENV " with regression threshold $THRESHOLD\n\n"
+log "Testing $ENV with regression threshold $THRESHOLD\n\n"
 
 
 #==========
@@ -148,7 +148,7 @@ fi
 
 
 if [ "$FAIL" -ne "0" ]; then
-    log "\nRegression threshold exceeded, test failed\n"
+    log "\nRegression threshold $THRESHOLD exceeded, test failed\n"
     exit 1
 fi
 
