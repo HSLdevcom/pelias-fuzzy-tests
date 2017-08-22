@@ -35,7 +35,7 @@
     "lint"
   ],
   "homepage": "https://github.com/HSLdevcom/fuzzy-tests",
-  "engines" : {
-    "npm" : "~2.0.0"
+  "engines": {
+    "npm": "~2.0.0"
   }
 }
