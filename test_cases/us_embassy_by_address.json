@@ -1,0 +1,1295 @@
+{
+  "name": "US Embassies",
+  "description": "US Embassies in AUS, BRA, DEU, ESP, FRA, ITA, CAN, IND, MEX, and RUS",
+  "priorityThresh": 3,
+  "distanceThresh": 500,
+  "normalizers": {
+    "name": [
+      "toUpperCase"
+    ]
+  },
+  "tests": [
+    {
+      "id": 0,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "Moonah Place 2600 Yarralumla",
+        "boundary.country": "AUS"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Moonah Place",
+            "locality": "Yarralumla",
+            "country_a": "AUS"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "553 St. Kilda Road Melbourne 3004",
+        "boundary.country": "AUS"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "553 St Kilda Road",
+            "locality": "Melbourne",
+            "country_a": "AUS"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "16 St. George’s Terrace Perth 6000",
+        "boundary.country": "AUS"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "16 St Georges Terrace",
+            "locality": "Perth",
+            "country_a": "AUS"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "Level 10 MLC Centre 19-29 Martin Place Sydney 2000",
+        "boundary.country": "AUS"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "19-29 Martin Place",
+            "locality": "Sydney",
+            "country_a": "AUS"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Brazilian addresses fail because they are composed of street intersections"
+      ],
+      "in": {
+        "text": "SES Av. das Nações Quadra 801 Lote 03 70403-900 Brasília",
+        "boundary.country": "BRA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "SES Av. das Nações Quadra 801 Lote 03",
+            "locality": "Brasília",
+            "country_a": "BRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Brazilian addresses fail because they are composed of street intersections"
+      ],
+      "in": {
+        "text": "Rua Gonçalves Maia 163 – Boa Vista 50070-060 Recife",
+        "boundary.country": "BRA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Rua Gonçalves Maia 163 – Boa Vista",
+            "locality": "Recife",
+            "country_a": "BRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Brazilian addresses fail because they are composed of street intersections",
+        "this particular one also fails because of contraction of \"avenida\""
+      ],
+      "in": {
+        "text": "Av. Presidente Wilson 147 – Castelo 20030-020 Rio de Janeiro",
+        "boundary.country": "BRA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Av. Presidente Wilson 147 – Castelo",
+            "locality": "Rio de Janeiro",
+            "country_a": "BRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "the neighborhood confuses the geocoder"
+      ],
+      "in": {
+        "text": "Rua Henri Dunant 500 Chácara Santo Antônio 04709-110 São Paulo",
+        "boundary.country": "BRA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Rua Henri Dunant 500",
+            "locality": "São Paulo",
+            "country_a": "BRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "Clayallee 170 14191 Berlin",
+        "boundary.country": "DEU"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Clayallee 170",
+            "locality": "Berlin",
+            "country_a": "DEU"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "Willi-Becker-Allee 10 40227 Düsseldorf",
+        "boundary.country": "DEU"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Willi-Becker-Allee 10",
+            "locality": "Düsseldorf",
+            "country_a": "DEU"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "Gießener Straße 30 60435 Frankfurt am Main",
+        "boundary.country": "DEU"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Gießener Straße 30",
+            "locality": "Frankfurt am Main",
+            "country_a": "DEU"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "Alsterufer 27/28 20354 Hamburg",
+        "boundary.country": "DEU"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Alsterufer 27-28",
+            "locality": "Hamburg",
+            "country_a": "DEU"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "Wilhelm-Seyfferth-Straße 4 04107 Leipzig",
+        "boundary.country": "DEU"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Wilhelm-Seyfferth-Straße 4",
+            "locality": "Leipzig",
+            "country_a": "DEU"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "Königinstraße 5 80539 München",
+        "boundary.country": "DEU"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Königinstraße 5",
+            "locality": "München",
+            "country_a": "DEU"
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "Calle de Serrano 75 28006 Madrid",
+        "boundary.country": "ESP"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "75 Calle de Serrano",
+            "locality": "Madrid",
+            "country_a": "ESP"
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "status": "pass",
+      "user": "lily",
+      "description": [
+        "added stop words \"de la\""
+      ],
+      "in": {
+        "text": "Passeig de la Reina Elisenda de Montcada 23 08034 Barcelona",
+        "boundary.country": "ESP"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "23 Passeig de la Reina Elisenda de Montcada",
+            "locality": "Barcelona",
+            "country_a": "ESP"
+          }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "missing stop words \"de la\"",
+        "falls back to locality, Barcelona"
+      ],
+      "in": {
+        "text": "Passeig Reina Elisenda de Montcada 23 08034 Barcelona",
+        "boundary.country": "ESP"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "23 Passeig de la Reina Elisenda de Montcada",
+            "locality": "Barcelona",
+            "country_a": "ESP"
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Barcelona street written in Spanish fails because the street name is in Catalan",
+        "Falls back to locality Barcelona"
+      ],
+      "in": {
+        "text": "Paseo de la Reina Elisenda de Montcada 23 08034 Barcelona",
+        "boundary.country": "ESP"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "23 Passeig de la Reina Elisenda de Montcada",
+            "locality": "Barcelona",
+            "country_a": "ESP"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "2 avenue Gabriel 75008 Paris",
+        "boundary.country": "FRA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "2 avenue Gabriel",
+            "locality": "Paris",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "89 Quai des Chartrons 33300 Bordeaux",
+        "boundary.country": "FRA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "89 Quai des Chartrons",
+            "locality": "Bordeaux",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "1 quai Jules Courmont 69002 Lyon",
+        "boundary.country": "FRA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "1 quai Jules Courmont",
+            "locality": "Lyon",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "status": "pass",
+      "user": "lily",
+      "description": [
+        "the name of the consulate is \"Place Varian Fry\" after an American Journalist"
+      ],
+      "in": {
+        "text": "12 Boulevard Paul Peytral 13006 Marseille",
+        "boundary.country": "FRA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "12 Boulevard Paul Peytral",
+            "locality": "Marseille",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "status": "pass",
+      "user": "lily",
+      "description": [
+        "Removed the hyphen between duguay and trouin",
+        "also removed the \"P\" before the housenumber"
+      ],
+      "in": {
+        "text": "30 Quai Duguay Trouin 35000 Rennes",
+        "boundary.country": "FRA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "30 Quai Duguay Trouin",
+            "locality": "Rennes",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "15 Avenue d'Alsace 67082 Strasbourg",
+        "boundary.country": "FRA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "15 Avenue d'Alsace",
+            "locality": "Strasbourg",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "25 allées Jean Jaurès 31000 Toulouse",
+        "boundary.country": "FRA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "25 allées Jean Jaurès",
+            "locality": "Toulouse",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "via Vittorio Veneto 121 00187 Roma",
+        "boundary.country": "ITA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "121 via Vittorio Veneto",
+            "locality": "Roma",
+            "country_a": "ITA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "Lungarno Amerigo Vespucci 38 50123 Firenze",
+        "boundary.country": "ITA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "38 R Lungarno Amerigo Vespucci",
+            "locality": "Firenze",
+            "country_a": "ITA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Adddress has a slash. The building next to it has housenumber 2"
+      ],
+      "in": {
+        "text": "via Principe Amedeo 2/10 20121 MILANO",
+        "boundary.country": "ITA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "via Principe Amedeo 2/10",
+            "locality": "Milano",
+            "country_a": "ITA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "Piazza della Repubblica 80122 NAPOLI",
+        "boundary.country": "ITA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Piazza della Repubblica",
+            "locality": "Napoli",
+            "country_a": "ITA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "490 Sussex Drive Ottawa K1N 1G8",
+        "boundary.country": "CAN"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "490 Sussex Drive",
+            "locality": "Ottawa",
+            "country_a": "CAN"
+          }
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "prod missing locality data. passes on prodbuild"
+      ],
+      "in": {
+        "text": "615 MacLeod Trail S.E. 10th Floor Calgary T2G 4T8",
+        "boundary.country": "CAN"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "615 MacLeod Trail",
+            "locality": "Calgary",
+            "country_a": "CAN"
+          }
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "status": "pass",
+      "user": "lily",
+      "description": [
+        "no locality in results for upper water street. halifax is a locality in Nova Scotia, CAN"
+      ],
+      "in": {
+        "text": "1969 Upper Water Street Suite 904 Purdy’s Wharf Tower II Halifax B3J 3R7",
+        "boundary.country": "CAN"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "1969 Upper Water St",
+            "region": "Nova Scotia",
+            "country_a": "CAN"
+          }
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "315 Place d'Youville Suite 500 Montreal H2Y 0A4",
+        "boundary.country": "CAN"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "315 Place d'Youville",
+            "locality": "Montreal",
+            "country_a": "CAN"
+          }
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "2 rue de la Terrasse-Dufferin Quebec G1R 4T9",
+        "boundary.country": "CAN"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "2 rue de la Terrasse-Dufferin",
+            "locality": "Québec",
+            "country_a": "CAN"
+          }
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "360 University Avenue Toronto M5G 1S4",
+        "boundary.country": "CAN"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "360 University Avenue",
+            "locality": "Toronto",
+            "country_a": "CAN"
+          }
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "1075 West Pender Street Vancouver V6E 2M6",
+        "boundary.country": "CAN"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "1075 West Pender Street",
+            "locality": "Vancouver",
+            "country_a": "CAN"
+          }
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "201 Portage Avenue Suite 860 Winnipeg R3B 3K6",
+        "boundary.country": "CAN"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "201 Portage Avenue",
+            "locality": "Winnipeg",
+            "country_a": "CAN"
+          }
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "24 Grosvenor Square London W1K 6AH",
+        "boundary.country": "GBR"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "24 Grosvenor Square",
+            "locality": "London",
+            "country_a": "GBR"
+          }
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "Danesfort House 223 Stranmillis Road Belfast BT9 5GR",
+        "boundary.country": "GBR"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Danesfort House",
+            "locality": "Belfast",
+            "country_a": "GBR"
+          }
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "3 Regent Terrace Edinburgh EH7 5BW",
+        "boundary.country": "GBR"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "3 Regent Terrace",
+            "locality": "Edinburgh",
+            "country_a": "GBR"
+          }
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "status": "fail",
+      "user": "lily",
+      "in": {
+        "text": "Shantipath Chanakyapuri New Delhi 110021",
+        "boundary.country": "IND"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Shantipath",
+            "locality": "New Delhi",
+            "country_a": "IND"
+          }
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Gemini Circle is an alt-name for Gemini Flyover, which is an alt-name for Anna Flyover (polyline).",
+        "This area under the flyover has shopping centers and business. In the neighborhood of Santhome"
+      ],
+      "in": {
+        "text": "Gemini Circle Chennai 600 006",
+        "boundary.country": "IND"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Gemini Circle",
+            "locality": "Chennai",
+            "country_a": "IND"
+          }
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "missing road name in OSM"
+      ],
+      "in": {
+        "text": "Paigah Palace 1-8-323 Chiran Fort Lane Begumpet Secunderabad 500 003",
+        "boundary.country": "IND"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "1-8-323 Chiran Fort Lane Begumpet",
+            "locality": "Secunderabad",
+            "country_a": "IND"
+          }
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Original address was shortened to 38A, J.L.Nehru Road",
+        "falls back to street name"
+      ],
+      "in": {
+        "text": "38A Jawaharlal Nehru Rd Road Kolkata West Bengal 700 071",
+        "boundary.country": "IND"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "38A Jawaharlal Nehru Road",
+            "locality": "Kolkata",
+            "country_a": "IND"
+          }
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Bandra Kurla Complex (BKC)(geonames:locality:8199405) is a business district"
+      ],
+      "in": {
+        "text": "C-49 G-Block Bandra Kurla Complex Bandra East Mumbai 400051",
+        "boundary.country": "IND"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Bandra Kurla Complex",
+            "locality": "Mumbai",
+            "country_a": "IND"
+          }
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Eliminate abbreviation in search text. Gets neighborhood instead of a venue"
+      ],
+      "in": {
+        "text": "Bandra Kurla Complex Mumbai 400051",
+        "boundary.country": "IND"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Bandra Kurla Complex (BKC)",
+            "locality": "Mumbai",
+            "country_a": "IND"
+          }
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "status": "pass",
+      "user": "lily",
+      "description": [
+        "Include abbreviation in search text"
+      ],
+      "in": {
+        "text": "Bandra Kurla Complex (BKC) Mumbai 400051",
+        "boundary.country": "IND"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Bandra Kurla Complex (BKC)",
+            "locality": "Mumbai",
+            "country_a": "IND"
+          }
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Returns addresss with different house number."
+      ],
+      "in": {
+        "text": "Paseo de la Reforma 305 Colonia Cuauhtemoc Mexico D.F. 06500",
+        "boundary.country": "MEX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Paseo de la Reforma 305",
+            "locality": "Mexico D.F.",
+            "country_a": "MEX"
+          }
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Street exists in OSM data but results return address instead of street. Unless also restrict layers to street"
+      ],
+      "in": {
+        "text": "Paseo de la Reforma Colonia Cuauhtemoc Mexico D.F. 06500",
+        "boundary.country": "MEX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Paseo de la Reforma",
+            "locality": "Mexico City",
+            "country_a": "MEX"
+          }
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Av. Reforma runs parallel to Paseo de la Reforma.",
+        "Returns addresses along Paseo de la Reforma"
+      ],
+      "in": {
+        "text": "Av. Reforma Mexico D. F. 06500",
+        "boundary.country": "MEX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Av. Reforma ",
+            "locality": "Mexico City",
+            "country_a": "MEX"
+          }
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "status": "fail",
+      "user": "lily",
+      "in": {
+        "text": "Paseo de la Victoria #3650 Fracc. Partido Senecú Ciudad Juárez 32543",
+        "boundary.country": "MEX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Paseo de la Victoria #3650",
+            "locality": "Ciudad Juárez",
+            "country_a": "MEX"
+          }
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "returns address instead of street",
+        "Misspelling in openaddresses results? Victor v. Victoria"
+      ],
+      "in": {
+        "text": "Paseo de la Victoria Ciudad Juárez 32543",
+        "boundary.country": "MEX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Paseo de la Victoria",
+            "locality": "Ciudad Juárez",
+            "country_a": "MEX"
+          }
+        ]
+      }
+    },
+    {
+      "id": 52,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Including the neighborhood, Col. Americana, causes falling back to the locaity"
+      ],
+      "in": {
+        "text": "Progreso 175 Col. Americana Guadalajara 44160",
+        "boundary.country": "MEX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "175 Progreso",
+            "locality": "Guadalajara",
+            "country_a": "MEX"
+          }
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "status": "pass",
+      "user": "lily",
+      "description": [
+        "Omit the neighborhood and the right address is found"
+      ],
+      "in": {
+        "text": "Progreso 175 Guadalajara 44160",
+        "boundary.country": "MEX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "175 Progreso",
+            "locality": "Guadalajara",
+            "country_a": "MEX"
+          }
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "status": "fail",
+      "user": "lily",
+      "in": {
+        "text": "141 Monterey Street Col. Esqueda Hermosillo 83000",
+        "boundary.country": "MEX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "141 Monterey Street",
+            "locality": "Hermosillo",
+            "country_a": "MEX"
+          }
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Returns address with different house number",
+        "missing polyline street data?",
+        "note that open addresses records omits the calle"
+      ],
+      "in": {
+        "text": "Calle Primera #2002 Colonia Jardín Matamoros 87330",
+        "boundary.country": "MEX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "2002 Primera",
+            "locality": "Matamoros",
+            "country_a": "MEX"
+          }
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Too complicated. On Calle 60 between Calle 29 and Calle 31. House number 338-K"
+      ],
+      "in": {
+        "text": "Calle 60 No. 338-K x 29 y 31 Col. Alcala Martin Merida Yucatan 97050",
+        "boundary.country": "MEX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Calle 60 No. 338-K x 29 y 31",
+            "locality": "Yucatan",
+            "country_a": "MEX"
+          }
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "returns 338I, 338, 3380, 338F, etc but not 338K"
+      ],
+      "in": {
+        "text": "Calle 60 No. 338-K Merida Yucatan 97050",
+        "boundary.country": "MEX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "338K Calle 60",
+            "locality": "Yucatan",
+            "country_a": "MEX"
+          }
+        ]
+      }
+    },
+    {
+      "id": 58,
+      "status": "pass",
+      "user": "lily",
+      "in": {
+        "text": "Prolongación Ave. Alfonso Reyes #150 Col. Valle del Poniente Santa Catarina 66196",
+        "boundary.country": "MEX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "150 Prolongacion Avenida Alfonso Reyes",
+            "locality": "Ciudad Santa Catarina",
+            "country_a": "MEX"
+          }
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "s/n means sin numero - no number for the address",
+        "missing street data"
+      ],
+      "in": {
+        "text": "Calle San José s/n Fraccionamiento los Alamos Nogales 84065",
+        "boundary.country": "MEX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Calle San José s/n Fraccionamiento los Alamos",
+            "locality": "Nogales",
+            "country_a": "MEX"
+          }
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "s/n means sin numero - no number for the address",
+        "missing street data",
+        "falls back to matching as many tokens as possible"
+      ],
+      "in": {
+        "text": "Paseo de las Culturas s/n Mesa de Otay Delegación Centenario Tijuana 22425",
+        "boundary.country": "MEX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Paseo de las Culturas s/n",
+            "locality": "Tijuana",
+            "country_a": "MEX"
+          }
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Russian street name does not exist in English"
+      ],
+      "in": {
+        "text": "Bolshoy Deviatinsky Pereulok No. 8 Moscow 121099",
+        "boundary.country": "RUS"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Bolshoy Deviatinsky Pereulok No. 8",
+            "locality": "Moscow",
+            "country_a": "RUS"
+          }
+        ]
+      }
+    },
+    {
+      "id": 62,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Russin street name does not exist in English"
+      ],
+      "in": {
+        "text": "15 Furshtatskaya St. St. Petersburg 191028",
+        "boundary.country": "RUS"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "15 Furshtatskaya St.",
+            "locality": "Saint Petersburg",
+            "country_a": "RUS"
+          }
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Russin street name does not exist in English"
+      ],
+      "in": {
+        "text": "32 Pushkinskaya St. Vladivostok 690001",
+        "boundary.country": "RUS"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "32 Pushkinskaya St.",
+            "locality": "Vladivostok",
+            "country_a": "RUS"
+          }
+        ]
+      }
+    },
+    {
+      "id": 64,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "Russin street name does not exist in English"
+      ],
+      "in": {
+        "text": "15 Gogol Street Yekaterinburg 620151",
+        "boundary.country": "RUS"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "15 Gogol Street",
+            "locality": "Yekaterinburg",
+            "country_a": "RUS"
+          }
+        ]
+      }
+    }
+  ]
+}
