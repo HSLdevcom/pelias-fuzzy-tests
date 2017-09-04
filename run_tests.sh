@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 ENV=$1
 
@@ -32,7 +33,9 @@ function log {
 # param1: test id
 # param2: printed label for test
 function subtest {
+    set +e
     result=$(npm test -- -e $ENV -t $1 | grep "success rate")
+    set -e
     rate=$(echo $result | sed 's/[^0-9.]//g')
     avg=$(echo "$avg + $rate" | bc)
     testcount="$((testcount+1))"
@@ -141,6 +144,8 @@ do
     fi
 
 done
+
+set +e
 
 if [ "$REGR" -eq "0" ]; then
     log "No regressions detected\n"
