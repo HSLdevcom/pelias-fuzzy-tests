@@ -145,6 +145,8 @@ do
 
 done
 
+set +e
+
 if [ "$REGR" -eq "0" ]; then
     log "No regressions detected\n"
 fi
