@@ -3771,12 +3771,12 @@
       "user": "hsldevcom",
       "type": "acceptance",
       "in": {
-        "text": "Paavalin kirkko, Helsinki"
+        "text": "Paavalinkirkko, Helsinki"
       },
       "expected": {
         "properties": [
           {
-            "name": "Paavalin kirkko",
+            "name": "Paavalinkirkko",
             "localadmin": "Helsinki"
           }
         ],
@@ -5151,12 +5151,12 @@
       "user": "hsldevcom",
       "type": "acceptance",
       "in": {
-        "text": "Keilalahdentie 2, Espoo"
+        "text": "Keilalahdentie 2-4, Espoo"
       },
       "expected": {
         "properties": [
           {
-            "name": "Keilalahdentie 2",
+            "name": "Keilalahdentie 2-4",
             "localadmin": "Espoo"
           }
         ],
@@ -7075,7 +7075,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Lintukorventie 2",
             "localadmin": "Espoo"
           }
         ],
@@ -8686,18 +8685,18 @@
       "user": "hsldevcom",
       "type": "acceptance",
       "in": {
-        "text": "Lippulaiva, Espoo"
+        "text": "Pikkulaiva, Espoo"
       },
       "expected": {
         "properties": [
           {
-            "name": "Lippulaiva",
+            "name": "Pikkulaiva",
             "localadmin": "Espoo"
           }
         ],
         "coordinates": [
-          "24.655502129666",
-          "60.149420539912"
+          "24.653929",
+          "60.152564"
         ]
       }
     },
