@@ -6708,17 +6708,17 @@
       "user": "hsldevcom",
       "type": "acceptance",
       "in": {
-        "text": "Alvar Aallon puisto, Espoo"
+        "text": "Allas Sea Pool, Helsinki"
       },
       "expected": {
         "properties": [
           {
-            "localadmin": "Espoo"
+            "localadmin": "Helsinki"
           }
         ],
         "coordinates": [
-          "24.829051452026",
-          "60.183732905676"
+          "24.958031",
+          "60.167041"
         ]
       }
     },
