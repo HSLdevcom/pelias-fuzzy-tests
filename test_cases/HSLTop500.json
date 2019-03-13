@@ -562,6 +562,7 @@
             "localadmin": "Espoo"
           }
         ],
+        "distanceThresh": 2000,
         "coordinates": [
           "24.706886527939",
           "60.15883237461"
@@ -1904,6 +1905,7 @@
             "name": "Riihimäki"
           }
         ],
+        "distanceThresh": 500,
         "coordinates": [
           "24.78167022417",
           "60.735140078721"
@@ -2967,6 +2969,7 @@
             "localadmin": "Helsinki"
           }
         ],
+        "distanceThresh": 500,
         "coordinates": [
           "24.974392933664",
           "60.206585107011"
@@ -3128,7 +3131,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Helsingin päärautatieasema",
             "localadmin": "Helsinki"
           }
         ],
@@ -3797,7 +3799,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Westendinasema",
             "localadmin": "Espoo"
           }
         ],
@@ -4032,27 +4033,6 @@
         "coordinates": [
           "24.767550848626",
           "60.170962464378"
-        ]
-      }
-    },
-    {
-      "id": 195,
-      "status": "pass",
-      "user": "hsldevcom",
-      "type": "acceptance",
-      "in": {
-        "text": "Kauppakeskus Kaari, Helsinki"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Kauppakeskus Kaari",
-            "localadmin": "Helsinki"
-          }
-        ],
-        "coordinates": [
-          "24.890480837655",
-          "60.236687495706"
         ]
       }
     },
@@ -5500,7 +5480,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Töölön Tulli",
             "localadmin": "Helsinki"
           }
         ],
@@ -5562,7 +5541,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Espoon asema",
             "localadmin": "Espoo"
           }
         ],
@@ -6413,6 +6391,7 @@
             "localadmin": "Helsinki"
           }
         ],
+        "distanceThresh": 500,
         "coordinates": [
           "25.078240923773",
           "60.255554499819"
@@ -7356,6 +7335,7 @@
             "localadmin": "Helsinki"
           }
         ],
+        "distanceThresh": 600,
         "coordinates": [
           "24.971648146487",
           "60.167415836485"
@@ -8061,7 +8041,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ikea Espoo",
             "localadmin": "Espoo"
           }
         ],
@@ -8077,7 +8056,7 @@
       "user": "hsldevcom",
       "type": "acceptance",
       "in": {
-        "text": "Kaisaniemi metroasema, Helsinki"
+        "text": "Helsingin yliopiston metroasema, Helsinki"
       },
       "expected": {
         "properties": [
@@ -8331,7 +8310,7 @@
             "localadmin": "Espoo"
           }
         ],
-        "distanceThresh": 500,
+        "distanceThresh": 1200,
         "coordinates": [
           "24.63751387534",
           "60.152039421538"
@@ -8436,6 +8415,7 @@
             "localadmin": "Espoo"
           }
         ],
+        "distanceThresh": 400,
         "coordinates": [
           "24.68457788451",
           "60.204043464521"
@@ -8518,6 +8498,7 @@
             "localadmin": "Helsinki"
           }
         ],
+        "distanceThresh": 800,
         "coordinates": [
           "24.976040692608",
           "60.20862850512"
@@ -8673,6 +8654,7 @@
             "localadmin": "Espoo"
           }
         ],
+        "distanceThresh": 400,
         "coordinates": [
           "24.686588366609",
           "60.220871456985"
@@ -9812,7 +9794,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Central railway station",
             "localadmin": "Helsinki"
           }
         ],
