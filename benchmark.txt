@@ -1,28 +1,28 @@
-Testing  local
+Testing dev with regression threshold 100
 
 
 API tests. Match should be first in the result list.
 ----------------------------------------------------
-api / national: Test success rate 41.8%
-api / old reittiopas: Test success rate 79.74%
-api / hsl address: Test success rate 79%
-api / hsl poi: Test success rate 66.6%
-api / hsl localization: Test success rate 58.22%
+api / national: Test success rate 42.6%
+api / old reittiopas: Test success rate 80.24%
+api / hsl address: Test success rate 79.1%
+api / hsl poi: Test success rate 68.4%
+api / hsl localization: Test success rate 61.8%
 api / postal code: Test success rate 95.6%
-api / acceptance: Test success rate 97.93%
+api / acceptance: Test success rate 99.59%
+api / regression: Test success rate 100%
 
-api: average success rate 74%
+api: average success rate 78%
 
 
 Data tests. Match does not have to come first.
 ----------------------------------------------
-data / national: Test success rate 50%
-data / old reittiopas: Test success rate 90.67%
-data / hsl address: Test success rate 80%
-data / hsl poi: Test success rate 81.8%
-data / hsl localization: Test success rate 74.97%
+data / national: Test success rate 51.4%
+data / old reittiopas: Test success rate 91.37%
+data / hsl address: Test success rate 80.1%
+data / hsl poi: Test success rate 82.4%
+data / hsl localization: Test success rate 77.43%
 data / postal code: Test success rate 96.7%
-data / acceptance: Test success rate 99.59%
+data / acceptance: Test success rate 100%
 
-data: average success rate 81%
-
+data: average success rate 82%

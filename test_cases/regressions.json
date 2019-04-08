@@ -1,0 +1,30 @@
+{
+  "name": "Regression tests",
+  "description": "Test cases to test detected regression errors",
+  "priorityThresh": 1,
+  "distanceThresh": 300,
+  "normalizers": {
+    "name": [
+      "toUpperCase",
+      "removeNumbers"
+    ]
+  },
+  "tests": [
+    {
+      "id": 0,
+      "status": "pass",
+      "user": "hsldevcom",
+      "info": "openstreetmap data should overrule openaddresses",
+      "type": "regression",
+      "in": {
+        "text": "Stenbäckinkatu 9, Helsinki"
+      },
+      "expected": {
+        "properties": [
+          { "source": "openstreetmap"
+          }
+        ]
+      }
+    }
+  ]
+}
