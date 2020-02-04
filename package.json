@@ -17,7 +17,7 @@
     "validate": "npm ls"
   },
   "dependencies": {
-    "pelias-fuzzy-tester": "0.9.10"
+    "pelias-fuzzy-tester": "github:hsldevcom/fuzzy-tester"
   },
   "devDependencies": {
     "jshint": "^2.9.4",
@@ -34,7 +34,7 @@
   "pre-commit": [
     "lint"
   ],
-  "homepage": "https://github.com/HSLdevcom/fuzzy-tests",
+  "homepage": "https://github.com/HSLdevcom/pelias-fuzzy-tests",
   "engines": {
     "npm": "~2.0.0"
   }
