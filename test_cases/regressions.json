@@ -1,7 +1,7 @@
 {
   "name": "Regression tests",
   "description": "Test cases to test detected regression errors",
-  "priorityThresh": 1,
+  "priorityThresh": 10,
   "distanceThresh": 300,
   "normalizers": {
     "name": [

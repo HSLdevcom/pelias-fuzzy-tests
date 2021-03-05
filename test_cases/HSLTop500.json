@@ -1167,18 +1167,17 @@
       "user": "hsldevcom",
       "type": "acceptance",
       "in": {
-        "text": "Kauppakorkeakoulut, Helsinki"
+        "text": "Central railway station, Helsinki"
       },
       "expected": {
         "properties": [
           {
-            "name": "Kauppakorkeakoulut",
             "localadmin": "Helsinki"
           }
         ],
         "coordinates": [
-          "24.924870084422",
-          "60.170721458641"
+          "24.941008656398",
+          "60.171245203365"
         ]
       }
     },
@@ -2451,17 +2450,17 @@
       "user": "hsldevcom",
       "type": "acceptance",
       "in": {
-        "text": "Otaniementie 19, Espoo"
+        "text": "Rautatientori metro station, Helsinki"
       },
       "expected": {
         "properties": [
           {
-            "localadmin": "Espoo"
+            "localadmin": "Helsinki"
           }
         ],
         "coordinates": [
-          "24.818010986968",
-          "60.186916076127"
+          "24.941127348533",
+          "60.170355734682"
         ]
       }
     },
@@ -3941,18 +3940,18 @@
       "user": "hsldevcom",
       "type": "acceptance",
       "in": {
-        "text": "Jokiniementie 31, Vantaa"
+        "text": "Helsinki-Vantaa airport"
       },
       "expected": {
         "properties": [
           {
-            "name": "Jokiniementie 31",
             "localadmin": "Vantaa"
           }
         ],
+        "distanceThresh": 400,
         "coordinates": [
-          "25.074073910713",
-          "60.283844956267"
+          "24.968176616303",
+          "60.318758015899"
         ]
       }
     },
@@ -7049,17 +7048,14 @@
       "user": "hsldevcom",
       "type": "acceptance",
       "in": {
-        "text": "Lintukorventie 2, Espoo"
+        "text": "Airport, Vantaa"
       },
       "expected": {
         "properties": [
           {
-            "localadmin": "Espoo"
+            "name": "Airport",
+            "localadmin": "Vantaa"
           }
-        ],
-        "coordinates": [
-          "24.820980211773",
-          "60.237270045657"
         ]
       }
     },
@@ -8995,7 +8991,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Dipoli",
             "localadmin": "Espoo"
           }
         ],
@@ -9744,19 +9739,17 @@
       "user": "hsldevcom",
       "type": "acceptance",
       "in": {
-        "text": "Torvmossen, Esbo"
+        "text": "City center, Helsinki"
       },
       "expected": {
         "properties": [
           {
-            "name":"Torvmossen"
+            "localadmin": "Helsinki"
           }
         ],
         "coordinates": [
-          [
-            24.781819580287326,
-            60.19755512327322
-          ]
+          "24.941319",
+          "60.168813"
         ]
       }
     },
@@ -9780,104 +9773,6 @@
             24.771819646486556,
             60.17555114981213
           ]
-        ]
-      }
-    },
-    {
-      "id": 479,
-      "status": "pass",
-      "user": "hsldevcom",
-      "type": "acceptance",
-      "in": {
-        "text": "Central railway station, Helsinki"
-      },
-      "expected": {
-        "properties": [
-          {
-            "localadmin": "Helsinki"
-          }
-        ],
-        "coordinates": [
-          "24.941008656398",
-          "60.171245203365"
-        ]
-      }
-    },
-    {
-      "id": 480,
-      "status": "pass",
-      "user": "hsldevcom",
-      "type": "acceptance",
-      "in": {
-        "text": "Airport, Vantaa"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Airport",
-            "localadmin": "Vantaa"
-          }
-        ]
-      }
-    },
-    {
-      "id": 481,
-      "status": "pass",
-      "user": "hsldevcom",
-      "type": "acceptance",
-      "in": {
-        "text": "Helsinki-Vantaa airport"
-      },
-      "expected": {
-        "properties": [
-          {
-            "localadmin": "Vantaa"
-          }
-        ],
-        "distanceThresh": 400,
-        "coordinates": [
-          "24.968176616303",
-          "60.318758015899"
-        ]
-      }
-    },
-    {
-      "id": 482,
-      "status": "pass",
-      "user": "hsldevcom",
-      "type": "acceptance",
-      "in": {
-        "text": "Rautatientori metro station, Helsinki"
-      },
-      "expected": {
-        "properties": [
-          {
-            "localadmin": "Helsinki"
-          }
-        ],
-        "coordinates": [
-          "24.941127348533",
-          "60.170355734682"
-        ]
-      }
-    },
-    {
-      "id": 483,
-      "status": "pass",
-      "user": "hsldevcom",
-      "type": "acceptance",
-      "in": {
-        "text": "City center, Helsinki"
-      },
-      "expected": {
-        "properties": [
-          {
-            "localadmin": "Helsinki"
-          }
-        ],
-        "coordinates": [
-          "24.941319",
-          "60.168813"
         ]
       }
     }
