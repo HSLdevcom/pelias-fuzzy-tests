@@ -496,7 +496,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Urheilutalo",
             "localadmin": "Helsinki"
           }
         ],
@@ -846,7 +845,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Rautatieasema",
             "localadmin": "Helsinki"
           }
         ],
@@ -1296,10 +1294,10 @@
       "expected": {
         "properties": [
           {
-            "name": "Helsinki-Vantaa lentoasema T1",
             "localadmin": "Vantaa"
           }
         ],
+	"distanceThresh": 400,
         "coordinates": [
           "24.97081970311",
           "60.315740808542"
@@ -1981,7 +1979,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Ylioppilastalo",
             "localadmin": "Helsinki"
           }
         ],
@@ -4846,7 +4843,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Messukeskus",
             "localadmin": "Helsinki"
           }
         ],
@@ -7331,7 +7327,7 @@
             "localadmin": "Helsinki"
           }
         ],
-        "distanceThresh": 600,
+        "distanceThresh": 800,
         "coordinates": [
           "24.971648146487",
           "60.167415836485"
@@ -9027,17 +9023,20 @@
       "user": "hsldevcom",
       "type": "acceptance",
       "in": {
-        "text": "Kamppi terminal, Helsinki"
+        "text": "Tomtekulla, Esbo"
       },
       "expected": {
         "properties": [
           {
-            "localadmin": "Helsinki"
+            "name": "Tomtekulla",
+            "localadmin":"Esbo"
           }
         ],
         "coordinates": [
-          "24.932044205947",
-          "60.168956804947"
+          [
+            24.771819646486556,
+            60.17555114981213
+          ]
         ]
       }
     },
@@ -9357,6 +9356,7 @@
             "localadmin": "Helsinki"
           }
         ],
+	"distanceThresh": 400,
         "coordinates": [
           "24.963436367497",
           "60.205650825369"
@@ -9750,29 +9750,6 @@
         "coordinates": [
           "24.941319",
           "60.168813"
-        ]
-      }
-    },
-    {
-      "id": 478,
-      "status": "pass",
-      "user": "hsldevcom",
-      "type": "acceptance",
-      "in": {
-        "text": "Tomtekulla, Esbo"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Tomtekulla",
-            "localadmin":"Esbo"
-          }
-        ],
-        "coordinates": [
-          [
-            24.771819646486556,
-            60.17555114981213
-          ]
         ]
       }
     }
