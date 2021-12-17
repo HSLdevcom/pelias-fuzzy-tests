@@ -2354,7 +2354,7 @@
       "status": "pass",
       "type": "hsl",
       "in": {
-        "text": "City Car Club - Vuosaari, Helsinki"
+        "text": "Rastaanpesä 6, Espoo"
       },
       "expected": {
         "properties": [
@@ -2362,8 +2362,8 @@
           }
         ],
         "coordinates": [
-          "25.143406474609",
-          "60.209338385159"
+          "24.762144455713",
+          "60.23622056123"
         ]
       }
     },
@@ -3625,24 +3625,6 @@
         "coordinates": [
           "25.04379631642",
           "60.207861477944"
-        ]
-      }
-    },
-    {
-      "id": 201,
-      "status": "pass",
-      "type": "hsl",
-      "in": {
-        "text": "Europcar Ilmala, Helsinki"
-      },
-      "expected": {
-        "properties": [
-          {
-          }
-        ],
-        "coordinates": [
-          "24.916428445775",
-          "60.211100105342"
         ]
       }
     },
@@ -4961,24 +4943,6 @@
       }
     },
     {
-      "id": 275,
-      "status": "pass",
-      "type": "hsl",
-      "in": {
-        "text": "City Car Club - Otaniemi, Biologinkuja, Espoo"
-      },
-      "expected": {
-        "properties": [
-          {
-          }
-        ],
-        "coordinates": [
-          "24.82535388766",
-          "60.185048490259"
-        ]
-      }
-    },
-    {
       "id": 276,
       "status": "pass",
       "type": "hsl",
@@ -5821,24 +5785,6 @@
         "coordinates": [
           "24.519806541646",
           "60.155739515109"
-        ]
-      }
-    },
-    {
-      "id": 323,
-      "status": "pass",
-      "type": "hsl",
-      "in": {
-        "text": "City Car Club - Linnainen, Vantaa"
-      },
-      "expected": {
-        "properties": [
-          {
-          }
-        ],
-        "coordinates": [
-          "24.781761333749",
-          "60.253474564814"
         ]
       }
     },
@@ -7496,24 +7442,6 @@
         "coordinates": [
           "25.086889601547",
           "60.297967827205"
-        ]
-      }
-    },
-    {
-      "id": 416,
-      "status": "pass",
-      "type": "hsl",
-      "in": {
-        "text": "City Car Club - Pähkinärinne, Vantaa"
-      },
-      "expected": {
-        "properties": [
-          {
-          }
-        ],
-        "coordinates": [
-          "24.805459042586",
-          "60.262407456922"
         ]
       }
     },
@@ -16717,24 +16645,6 @@
       }
     },
     {
-      "id": 928,
-      "status": "pass",
-      "type": "hsl",
-      "in": {
-        "text": "Europcar Ilmala, Helsinki"
-      },
-      "expected": {
-        "properties": [
-          {
-          }
-        ],
-        "coordinates": [
-          "24.916428445775",
-          "60.211100105342"
-        ]
-      }
-    },
-    {
       "id": 929,
       "status": "pass",
       "type": "hsl",
@@ -16969,24 +16879,6 @@
       }
     },
     {
-      "id": 942,
-      "status": "pass",
-      "type": "hsl",
-      "in": {
-        "text": "City Car Club - Pähkinärinne, Vantaa"
-      },
-      "expected": {
-        "properties": [
-          {
-          }
-        ],
-        "coordinates": [
-          "24.805459042586",
-          "60.262407456922"
-        ]
-      }
-    },
-    {
       "id": 943,
       "status": "pass",
       "type": "hsl",
@@ -17037,24 +16929,6 @@
         "coordinates": [
           "24.919361",
           "60.303324"
-        ]
-      }
-    },
-    {
-      "id": 946,
-      "status": "pass",
-      "type": "hsl",
-      "in": {
-        "text": "City Car Club - Sundsberg, Nymaninkuja, Kirkkonummi"
-      },
-      "expected": {
-        "properties": [
-          {
-          }
-        ],
-        "coordinates": [
-          "24.548078245395",
-          "60.155859036355"
         ]
       }
     },
@@ -17938,24 +17812,6 @@
         "coordinates": [
           "25.023446353316",
           "60.291048285575"
-        ]
-      }
-    },
-    {
-      "id": 996,
-      "status": "pass",
-      "type": "hsl",
-      "in": {
-        "text": "Rastaanpesä 6, Espoo"
-      },
-      "expected": {
-        "properties": [
-          {
-          }
-        ],
-        "coordinates": [
-          "24.762144455713",
-          "60.23622056123"
         ]
       }
     }

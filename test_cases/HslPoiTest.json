@@ -19811,69 +19811,6 @@
       }
     },
     {
-      "id": 966,
-      "status": "pass",
-      "user": "hsldevcom",
-      "type": "poi",
-      "in": {
-        "text": "Europcar, Veromies, Vantaa"
-      },
-      "expected": {
-        "properties": [
-          {
-          }
-        ],
-        "coordinates": [
-          [
-            24.968357352917256,
-            60.29857882062231
-          ]
-        ]
-      }
-    },
-    {
-      "id": 967,
-      "status": "pass",
-      "user": "hsldevcom",
-      "type": "poi",
-      "in": {
-        "text": "Europcar, Kiitoradantie, Vantaa"
-      },
-      "expected": {
-        "properties": [
-          {
-          }
-        ],
-        "coordinates": [
-          [
-            24.98167616940989,
-            60.296425653404654
-          ]
-        ]
-      }
-    },
-    {
-      "id": 968,
-      "status": "pass",
-      "user": "hsldevcom",
-      "type": "poi",
-      "in": {
-        "text": "Europcar Helsinki-Vantaan lentoasema, Vantaa"
-      },
-      "expected": {
-        "properties": [
-          {
-          }
-        ],
-        "coordinates": [
-          [
-            24.966537937642418,
-            60.31842874309887
-          ]
-        ]
-      }
-    },
-    {
       "id": 969,
       "status": "pass",
       "user": "hsldevcom",
