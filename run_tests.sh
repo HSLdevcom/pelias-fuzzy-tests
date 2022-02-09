@@ -70,6 +70,7 @@ subtest poi "api / hsl poi"
 subtest localization "api / hsl localization"
 subtest postalcode "api / postal code"
 subtest acceptance "api / acceptance"
+subtest fuzzy "api / fuzzy"
 subtest regression "api / regression"
 
 avg=$(echo "$avg / $testcount" | bc)
