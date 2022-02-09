@@ -25,6 +25,24 @@
           }
         ]
       }
+    },
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "hsldevcom",
+      "info": "Name includinga a city but located to another city is found",
+      "type": "regression",
+      "in": {
+        "text": "Kuopion lentoasema"
+      },
+      "expected": {
+        "properties": [
+          { "name": "Kuopion lentoasema",
+	    "localadmin": "Siilinjärvi"
+          }
+        ]
+      }
     }
+
   ]
 }
