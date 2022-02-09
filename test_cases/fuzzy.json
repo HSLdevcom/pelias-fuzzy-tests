@@ -1,0 +1,207 @@
+{
+  "name": "Mixed tests",
+  "description": "Test cases to test all types of searches, including fuzzy matches",
+  "priorityThresh": 1,
+  "distanceThresh": 300,
+  "normalizers": {
+    "name": [
+      "toUpperCase",
+      "removeNumbers"
+    ]
+  },
+  "tests": [
+    {
+      "id": 0,
+      "status": "pass",
+      "user": "hsldevcom",
+      "info": "POI search",
+      "type": "fuzzy",
+      "in": {
+        "text": "Eduskuntatalo, Helsinki"
+      },
+      "expected": {
+        "properties": [
+          { "name": "Eduskuntatalo"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "hsldevcom",
+      "info": "address search",
+      "type": "fuzzy",
+      "in": {
+        "text": "Ruoholahdenkatu 8, Helsinki"
+       },
+       "expected": {
+        "properties": [
+          { "name": "Ruoholahdenkatu 8"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "hsldevcom",
+      "info": "POI search",
+      "type": "fuzzy",
+      "in": {
+        "text": "Pikku Huopalahti"
+       },
+       "expected": {
+        "properties": [
+          { "name": "Pikku Huopalahti"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "hsldevcom",
+      "info": "Adress with house number mismatch",
+      "type": "fuzzy",
+      "in": {
+        "text": "Wallininkuja 12"
+       },
+       "expected": {
+        "properties": [
+          { "street": "Wallininkuja"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "hsldevcom",
+      "info": "Fuzzy street search",
+      "type": "fuzzy",
+      "in": {
+        "text": "Manerheimintie"
+       },
+       "expected": {
+        "properties": [
+          { "name": "Mannerheimintie"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "hsldevcom",
+      "info": "Fuzzy address search",
+      "type": "fuzzy",
+      "in": {
+        "text": "Appikatu 3, Helsinki"
+       },
+       "expected": {
+        "properties": [
+          { "name": "Alppikatu 3",
+	    "localadmin": "Helsinki"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "status": "pass",
+      "user": "hsldevcom",
+      "info": "Really hard fuzzy POI search",
+      "type": "fuzzy",
+      "in": {
+        "text": "Turtolan Citymarket, Tampere"
+       },
+       "expected": {
+        "properties": [
+          { "name": "K‑Citymarket Tampere Turtola"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "user": "hsldevcom",
+      "info": "Easy fuzzy POI search",
+      "type": "fuzzy",
+      "in": {
+        "text": "Porin tori, Pori"
+       },
+       "expected": {
+        "properties": [
+          { "name": "Tori"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "status": "pass",
+      "user": "hsldevcom",
+      "info": "Another hard fuzzy POI search",
+      "type": "fuzzy",
+      "in": {
+        "text": "Porin tori"
+       },
+       "expected": {
+        "properties": [
+          { "name": "Tori"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "status": "pass",
+      "user": "hsldevcom",
+      "info": "Fuzzy address search",
+      "type": "fuzzy",
+      "in": {
+        "text": "Polvkatu 3"
+       },
+       "expected": {
+        "properties": [
+          { "name": "Polvikatu 3"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "status": "pass",
+      "user": "hsldevcom",
+      "info": "Easier fuzzy address search",
+      "type": "fuzzy",
+      "in": {
+        "text": "Polvkatu 3, tampere"
+       },
+       "expected": {
+        "properties": [
+          { "name": "Polvikatu 3"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "status": "pass",
+      "user": "hsldevcom",
+      "info": "Fuzzy typo POI search",
+      "type": "fuzzy",
+      "in": {
+        "text": "Linnanmiki"
+       },
+       "expected": {
+        "properties": [
+          { "name": "Linnanmäki"
+          }
+        ]
+      }
+    }
+  ]
+}
