@@ -42,7 +42,22 @@
           }
         ]
       }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "hsldevcom",
+      "info": "old_name:fi osm tag is not primary name",
+      "type": "regression",
+      "in": {
+        "text": "snellmaninkatu, helsinki"
+      },
+      "expected": {
+        "properties": [
+          { "name": "snellmaninkatu"
+          }
+        ]
+      }
     }
-
   ]
 }
