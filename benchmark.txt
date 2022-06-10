@@ -29,11 +29,3 @@ data / postal code: Test success rate 98.1%
 data / acceptance: Test success rate 98.95%
 
 data: average success rate 84%
-
-
-
-Checking regressions
---------------------
-
-Regression: api / national: Test success rate 44% < 44.2%
-Regression: data / hsl address: Test success rate 80.5% < 80.6%
