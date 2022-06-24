@@ -59,22 +59,6 @@
       }
     },
     {
-      "id": 3,
-      "status": "pass",
-      "user": "hsldevcom",
-      "info": "Adress with house number mismatch",
-      "type": "fuzzy",
-      "in": {
-        "text": "Wallininkuja 12"
-       },
-       "expected": {
-        "properties": [
-          { "street": "Wallininkuja"
-          }
-        ]
-      }
-    },
-    {
       "id": 4,
       "status": "pass",
       "user": "hsldevcom",
