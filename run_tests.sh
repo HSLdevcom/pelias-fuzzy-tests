@@ -70,7 +70,6 @@ subtest poi "api / hsl poi"
 subtest localization "api / hsl localization"
 subtest postalcode "api / postal code"
 subtest acceptance "api / acceptance"
-subtest fuzzy "api / fuzzy"
 subtest regression "api / regression"
 
 avg=$(echo "$avg / $testcount" | bc)
@@ -97,6 +96,7 @@ subtest poi "data / hsl poi"
 subtest localization "data / hsl localization"
 subtest postalcode "data / postal code"
 subtest acceptance "data / acceptance"
+subtest fuzzy "data / fuzzy"
 
 avg=$(echo "$avg / $testcount" | bc)
 log "\ndata: average success rate $avg%\n\n\n"

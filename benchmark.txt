@@ -11,7 +11,6 @@ api / hsl poi: Test success rate 72.25%
 api / hsl localization: Test success rate 70.44%
 api / postal code: Test success rate 97.4%
 api / acceptance: Test success rate 96.02%
-api / fuzzy: Test success rate 100%
 api / regression: Test success rate 100%
 
 api: average success rate 82%
@@ -27,5 +26,6 @@ data / hsl poi: Test success rate 85.71%
 data / hsl localization: Test success rate 82.2%
 data / postal code: Test success rate 98.1%
 data / acceptance: Test success rate 98.95%
+data / fuzzy: Test success rate 100%
 
 data: average success rate 84%
