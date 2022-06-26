@@ -108,22 +108,6 @@
       }
     },
     {
-      "id": 6,
-      "status": "pass",
-      "user": "hsldevcom",
-      "info": "Really hard fuzzy POI search",
-      "type": "fuzzy",
-      "in": {
-        "text": "Turtolan Citymarket, Tampere"
-       },
-       "expected": {
-        "properties": [
-          { "name": "K‑Citymarket Tampere Turtola"
-          }
-        ]
-      }
-    },
-    {
       "id": 7,
       "status": "pass",
       "user": "hsldevcom",
