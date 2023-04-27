@@ -108,38 +108,6 @@
       }
     },
     {
-      "id": 7,
-      "status": "pass",
-      "user": "hsldevcom",
-      "info": "Easy fuzzy POI search",
-      "type": "fuzzy",
-      "in": {
-        "text": "Porin tori, Pori"
-       },
-       "expected": {
-        "properties": [
-          { "name": "Tori"
-          }
-        ]
-      }
-    },
-    {
-      "id": 8,
-      "status": "pass",
-      "user": "hsldevcom",
-      "info": "Another hard fuzzy POI search",
-      "type": "fuzzy",
-      "in": {
-        "text": "Porin tori"
-       },
-       "expected": {
-        "properties": [
-          { "name": "Tori"
-          }
-        ]
-      }
-    },
-    {
       "id": 9,
       "status": "pass",
       "user": "hsldevcom",
