@@ -57,8 +57,8 @@ log "Testing $ENV with regression threshold $THRESHOLD\n\n"
 log "API tests. Match should be first in the result list."
 log "----------------------------------------------------\n"
 
-#set priorityThresh of all tests to 1
-sed -i 's/priorityThresh\": [0-9.]\+/priorityThresh\": 1/' test_cases/*
+#set priorityThresh of all tests to 3
+sed -i 's/priorityThresh\": [0-9.]\+/priorityThresh\": 3/' test_cases/*
 
 avg=0 # reset average counting
 testcount=0

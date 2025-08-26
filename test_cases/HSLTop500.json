@@ -9562,25 +9562,22 @@
       }
     },
     {
-      "id": 469,
+      "id": 477,
       "status": "pass",
       "user": "hsldevcom",
       "type": "acceptance",
       "in": {
-        "text": "Kånala, Helsingfors"
+        "text": "City center, Helsinki"
       },
       "expected": {
         "properties": [
           {
-            "name":"Kånala",
-            "localadmin":"Helsingfors"
+            "localadmin": "Helsinki"
           }
         ],
         "coordinates": [
-          [
-            24.84706244991863,
-            60.23789598313317
-          ]
+          "24.941319",
+          "60.168813"
         ]
       }
     },
@@ -9730,26 +9727,6 @@
             24.850395954868105,
             60.17840959489061
           ]
-        ]
-      }
-    },
-    {
-      "id": 477,
-      "status": "pass",
-      "user": "hsldevcom",
-      "type": "acceptance",
-      "in": {
-        "text": "City center, Helsinki"
-      },
-      "expected": {
-        "properties": [
-          {
-            "localadmin": "Helsinki"
-          }
-        ],
-        "coordinates": [
-          "24.941319",
-          "60.168813"
         ]
       }
     }
